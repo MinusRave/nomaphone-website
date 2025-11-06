@@ -8,36 +8,49 @@ import {
 
 const faqs = [
   {
-    question: "How is this different from WhatsApp or Skype?",
-    answer: "WhatsApp and similar apps only work when both people have the app and internet. NomaPhone lets you call ANY phone number in the world - including landlines, businesses, and people without smartphones. Plus, no app installation required.",
+    question: "How does the credit system work?",
+    answer:
+      'Simple: 1 credit for eBooks up to 5 chapters, 2 credits for up to 10 chapters, 3 credits for up to 20 chapters. You only pay when you generate the final eBook — creating ideas and proposals is completely free.',
   },
   {
-    question: "Do I need to verify my phone number?",
-    answer: "Nope! Unlike services like Google Voice, there's no verification needed. Just add credits and start calling immediately. Perfect for digital nomads who change numbers frequently.",
+    question: "Can I edit and customize the generated content?",
+    answer:
+      "Absolutely! Unlike most AI tools that only give you PDFs, we provide fully editable DOCX and Markdown formats. Open in Microsoft Word, Google Docs, Notion, or any text editor. Add your branding, tweak sections, combine with your content — full ownership and control.",
   },
   {
-    question: "What countries can I call?",
-    answer: "You can call 150+ countries worldwide, including mobile phones, landlines, and toll-free numbers. Major destinations like US, UK, EU, India, Mexico start from just $0.01/min.",
+    question: "Can I try different eBook structures before paying?",
+    answer:
+      'Yes! Create unlimited eBook ideas and get 3 AI-generated proposals for each — all free. You only use credits when you choose a proposal and click "Generate eBook". Experiment as much as you want.',
   },
   {
-    question: "Do my credits expire?",
-    answer: "Never. Your credits stay in your account forever. No time pressure, no monthly fees. Use them whenever you need.",
+    question: "What formats can I download?",
+    answer:
+      "Every eBook can be downloaded in three formats: Markdown (instant, perfect for Notion/web), DOCX (fully editable in Word/Google Docs), and PDF (professional, print-ready). All formats include your metadata like author name, copyright, and subtitle.",
   },
   {
-    question: "Can I receive calls and SMS?",
-    answer: "Yes! You can purchase virtual numbers in 50+ countries to receive calls and SMS. Great for 2FA verification and staying reachable. Virtual numbers start at $2.99/month.",
+    question: "Is this for fiction books or novels?",
+    answer:
+      "No. Bookify is specifically designed for business and educational content: lead magnets, info products you can sell, course workbooks, training manuals, guides, and how-to eBooks. Not for creative fiction or novels.",
   },
   {
-    question: "Is the call quality good?",
-    answer: "We use HD voice technology with automatic quality adjustment based on your connection. If you experience a poor quality call, we'll refund those minutes - guaranteed.",
+    question: "How long does generation take?",
+    answer:
+      "About 2 minutes per chapter. A 5-chapter eBook takes ~10 minutes, a 10-chapter eBook ~20 minutes. You can leave the page — generation continues in the background and you get notified when done.",
   },
   {
-    question: "How do you handle my data and privacy?",
-    answer: "All calls are end-to-end encrypted. We don't sell your data, and we're not an ad company. Your conversations are private. We're GDPR compliant and take security seriously.",
+    question: "What if I run out of credits?",
+    answer:
+      "You can purchase more credits anytime from the pricing page. New users start with 1 free credit to try the platform. Credits never expire and can be used whenever you need them.",
   },
   {
-    question: "Can I use this for my business?",
-    answer: "Absolutely! We offer team accounts with shared wallets, analytics, call recording, and CRM integrations. Much more affordable than traditional business VoIP systems.",
+    question: "What languages are supported?",
+    answer:
+      "Currently 10+ languages: English, Italian, Spanish, French, German, Portuguese, Dutch, Russian, Chinese (Simplified), and Japanese. The AI adapts writing style and content appropriately for each language.",
+  },
+  {
+    question: "Can I sell the eBooks I create?",
+    answer:
+      "Yes! You have full commercial rights to all content generated. Use it as lead magnets, sell on Gumroad/Amazon, include in courses, or distribute to clients. The content is yours to use however you want.",
   },
 ];
 
@@ -51,8 +64,11 @@ export function FAQSection() {
             Frequently asked questions
           </h2>
           <p className="text-lg text-muted-foreground md:text-xl">
-            Everything you need to know. Can't find your answer?{" "}
-            <a href="/contact" className="text-blue-600 underline hover:no-underline">
+            Everything you need to know. Can’t find your answer?{" "}
+            <a
+              href="/contact"
+              className="text-[hsl(var(--secondary))] underline hover:no-underline"
+            >
               Contact us
             </a>
           </p>

@@ -7,20 +7,20 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ModeToggle";
-import { Globe, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 
 interface HeaderProps {
   currentPath?: string;
 }
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "#features", label: "Features" },
-  { href: "#pricing", label: "Pricing" },
+  { href: "/dashboard/create", label: "Create eBook" },
+  { href: "/pricing", label: "Pricing" },
+  { href: "/getting-started/how-it-works/", label: "How it works" },
   { href: "/blog", label: "Blog" },
 ];
 
-export default function NomaPhoneHeader({ currentPath = "/" }: HeaderProps) {
+export default function BookifyHeader({ currentPath = "/" }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   const isActive = (href: string) =>
@@ -30,12 +30,17 @@ export default function NomaPhoneHeader({ currentPath = "/" }: HeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
-        <a 
-          href="/" 
-          className="flex items-center gap-2 font-bold text-xl tracking-tight hover:opacity-90 transition"
+        <a
+          href="/"
+          className="flex items-center gap-3 text-xl font-bold tracking-tight transition hover:opacity-90"
+          aria-label="Bookify — Home"
         >
-          <Globe className="h-6 w-6 text-blue-600" />
-          <span>NomaPhone</span>
+          <img
+            src="/logo-bookify.svg"
+            alt="Bookify"
+            className="h-7 w-auto"
+          />
+          <span>Bookify</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -46,9 +51,9 @@ export default function NomaPhoneHeader({ currentPath = "/" }: HeaderProps) {
                 <NavigationMenuLink asChild>
                   <a
                     href={link.href}
-                    className={`px-3 py-2 text-sm font-medium transition-colors hover:text-blue-600 ${
-                      isActive(link.href) 
-                        ? "text-blue-600" 
+                    className={`px-3 py-2 text-sm font-medium transition-colors hover:text-[hsl(var(--secondary))] ${
+                      isActive(link.href)
+                        ? "text-[hsl(var(--secondary))]"
                         : "text-muted-foreground"
                     }`}
                     aria-current={isActive(link.href) ? "page" : undefined}
@@ -64,22 +69,27 @@ export default function NomaPhoneHeader({ currentPath = "/" }: HeaderProps) {
         {/* Right side actions */}
         <div className="flex items-center gap-2">
           <ModeToggle />
-          
-          <Button 
-            variant="ghost" 
+
+          <Button
+            variant="ghost"
             size="sm"
             className="hidden md:inline-flex"
             asChild
           >
             <a href="/login">Log in</a>
           </Button>
-          
-          <Button 
+
+          <Button
             size="sm"
-            className="hidden md:inline-flex bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700"
+            className="hidden md:inline-flex group"
             asChild
           >
-            <a href="/signup">Get started</a>
+            <a href="/dashboard" className="inline-flex items-center">
+              <span className="mr-2">Start here</span>
+              <span className="rounded-full border px-2 py-0.5 text-xs font-semibold text-[hsl(var(--secondary))] group-hover:bg-[hsl(var(--secondary)/0.08)]">
+                1 free credit
+              </span>
+            </a>
           </Button>
 
           {/* Mobile menu button */}
@@ -105,7 +115,7 @@ export default function NomaPhoneHeader({ currentPath = "/" }: HeaderProps) {
                 href={link.href}
                 className={`block rounded-lg px-3 py-2 text-base font-medium transition-colors hover:bg-muted ${
                   isActive(link.href)
-                    ? "bg-blue-50 text-blue-600 dark:bg-blue-950"
+                    ? "bg-[hsl(var(--secondary)/0.15)] text-[hsl(var(--secondary))]"
                     : "text-foreground"
                 }`}
                 onClick={() => setMobileMenuOpen(false)}
@@ -113,13 +123,18 @@ export default function NomaPhoneHeader({ currentPath = "/" }: HeaderProps) {
                 {link.label}
               </a>
             ))}
-            
-            <div className="border-t pt-4 mt-4 space-y-2">
+
+            <div className="mt-4 space-y-2 border-t pt-4">
               <Button variant="ghost" className="w-full justify-start" asChild>
                 <a href="/login">Log in</a>
               </Button>
-              <Button className="w-full bg-gradient-to-r from-blue-600 to-cyan-600" asChild>
-                <a href="/signup">Get started</a>
+              <Button className="w-full" asChild>
+                <a href="/dashboard" className="inline-flex items-center justify-center gap-2">
+                  Start here
+                  <span className="rounded-full border px-2 py-0.5 text-xs font-semibold text-[hsl(var(--secondary))]">
+                    1 free credit
+                  </span>
+                </a>
               </Button>
             </div>
           </div>

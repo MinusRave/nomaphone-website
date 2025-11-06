@@ -1,136 +1,175 @@
 import * as React from "react";
-import { Globe } from "lucide-react";
 
-const footerLinks = {
-  Product: [
-    { label: "Features", href: "#features" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "How it works", href: "#how-it-works" },
-    { label: "Coverage", href: "/coverage" },
-    { label: "API", href: "/api" },
+const footerNavigation = {
+  product: [
+    { name: "Create eBook", href: "/dashboard/create" },
+    { name: "Pricing & Credits", href: "/pricing" },
+    { name: "How Bookify Works", href: "/getting-started/how-it-works/" },
+    { name: "Quick Start Guide", href: "/getting-started/quick-start/" },
   ],
-  Company: [
-    { label: "About", href: "/about" },
-    { label: "Blog", href: "/blog" },
-    { label: "Careers", href: "/careers" },
-    { label: "Press Kit", href: "/press" },
+  useCases: [
+    { name: "Lead Magnet Creator", href: "/use-cases/lead-magnet-creator/" },
+    { name: "Digital Product Creator", href: "/use-cases/digital-product-creator/" },
+    { name: "Course Workbook Creator", href: "/use-cases/course-workbook-creator/" },
+    { name: "Flexible Ebook Creator", href: "/use-cases/flexible-book-creator/" },
   ],
-  Resources: [
-    { label: "Help Center", href: "/help" },
-    { label: "Community", href: "/community" },
-    { label: "Guides", href: "/guides" },
-    { label: "Status", href: "/status" },
+  resources: [
+    { name: "Blog", href: "/blog" }, // ✅ added
+    { name: "What is Bookify?", href: "/getting-started" },
+    { name: "Create a Lead Magnet", href: "/guides/how-to-create-lead-magnet/" },
+    { name: "Create Course Workbook", href: "/guides/create-course-workbook/" },
+    { name: "Write an Info Product", href: "/guides/write-info-product/" },
   ],
-  Legal: [
-    { label: "Privacy", href: "/privacy" },
-    { label: "Terms", href: "/terms" },
-    { label: "Security", href: "/security" },
-    { label: "GDPR", href: "/gdpr" },
+  support: [
+    { name: "FAQ", href: "/help/faq/" },
+    { name: "Contact Support", href: "/help/contact/" },
+    { name: "Email Us", href: "mailto:support@bookify.it" },
+    // { name: "Privacy Policy", href: "/privacy" },
+    // { name: "Terms of Service", href: "/terms" },
   ],
-};
-
-const socialLinks = [
-  {
-    name: "Twitter",
-    href: "https://twitter.com/nomaphone",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-      </svg>
-    ),
-  },
-  {
-    name: "GitHub",
-    href: "https://github.com/nomaphone",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-        <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-      </svg>
-    ),
-  },
-  {
-    name: "LinkedIn",
-    href: "https://linkedin.com/company/nomaphone",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-      </svg>
-    ),
-  },
-];
+} as const;
 
 export default function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto px-4 py-12 md:py-16">
-        {/* Top section */}
+        {/* CTA strip */}
+        <div className="mb-10 overflow-hidden rounded-2xl border bg-[hsl(var(--muted))] p-4 sm:p-5">
+          <div className="flex flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
+            <div className="text-sm sm:text-base">
+              <span className="mr-2 inline-flex items-center rounded-full bg-[hsl(var(--secondary)/0.18)] px-2.5 py-1 text-xs font-semibold text-[hsl(var(--secondary))]">
+                1 free credit
+              </span>
+              Get started with a free proposal — pay only when you generate the manuscript.
+            </div>
+            <a
+              href="/dashboard/create"
+              className="inline-flex items-center rounded-lg border px-3 py-2 text-sm font-medium transition-colors hover:bg-[hsl(var(--secondary)/0.08)]"
+            >
+              Create eBook
+              <svg
+                viewBox="0 0 24 24"
+                className="ml-2 h-4 w-4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        {/* Top section — 5 columns on one row at lg+ */}
         <div className="grid gap-8 lg:grid-cols-5">
-          {/* Brand column */}
-          <div className="lg:col-span-2">
-            <a href="/" className="mb-4 inline-flex items-center gap-2 text-xl font-bold">
-              <Globe className="h-6 w-6 text-blue-600" />
-              NomaPhone
+          {/* Brand column (no col-span to keep everything on a single row) */}
+          <div>
+            <a href="/" className="mb-4 inline-flex items-center gap-3 text-xl font-bold">
+              <img
+                src="/logo-bookify.svg"
+                alt="Bookify"
+                className="h-7 w-auto"
+              />
+              <span>Bookify</span>
             </a>
             <p className="mb-6 text-sm text-muted-foreground">
-              International calls from your browser.
+              Create non-fiction ebooks for digital business — lead magnets, info products, and course workbooks.
               <br />
-              No app required. Pay per use.
-              <br />
-              Built for digital nomads.
+              Free proposals. Pay per manuscript. Real editing with DOCX & Markdown.
             </p>
-            
-            {/* Social links */}
-            <div className="flex gap-3">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background text-muted-foreground transition-colors hover:border-blue-600 hover:text-blue-600"
-                  aria-label={social.name}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div>
           </div>
 
-          {/* Links columns */}
-          {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="mb-4 text-sm font-semibold">{category}</h3>
-              <ul className="space-y-3">
-                {links.map((link) => (
-                  <li key={link.href}>
-                    <a
-                      href={link.href}
-                      className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {/* Product */}
+          <div>
+            <h3 className="mb-4 text-sm font-semibold">Product</h3>
+            <ul className="space-y-3">
+              {footerNavigation.product.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Use cases */}
+          <div>
+            <h3 className="mb-4 text-sm font-semibold">Use cases</h3>
+            <ul className="space-y-3">
+              {footerNavigation.useCases.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Resources (includes Blog) */}
+          <div>
+            <h3 className="mb-4 text-sm font-semibold">Resources</h3>
+            <ul className="space-y-3">
+              {footerNavigation.resources.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Support */}
+          <div>
+            <h3 className="mb-4 text-sm font-semibold">Support</h3>
+            <ul className="space-y-3">
+              {footerNavigation.support.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         {/* Bottom section */}
         <div className="mt-12 border-t pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} NomaPhone. All rights reserved.
+              © {new Date().getFullYear()} Bookify. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
-              <a href="/privacy" className="hover:text-foreground">
-                Privacy
+              {/* Uncomment when pages are available */}
+              {/* <a href="/privacy" className="hover:text-foreground">Privacy Policy</a>
+              <a href="/terms" className="hover:text-foreground">Terms of Service</a> */}
+              <a href="/help/faq/" className="hover:text-foreground">
+                FAQ
               </a>
-              <a href="/terms" className="hover:text-foreground">
-                Terms
+              <a href="/help/contact/" className="hover:text-foreground">
+                Contact
               </a>
-              <a href="/cookies" className="hover:text-foreground">
-                Cookies
+              <a href="/blog" className="hover:text-foreground">
+                Blog
+              </a>
+              <a href="mailto:support@bookify.it" className="hover:text-foreground">
+                support@bookify.it
               </a>
             </div>
           </div>

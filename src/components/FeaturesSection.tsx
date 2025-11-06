@@ -1,99 +1,188 @@
 import * as React from "react";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { 
-  Globe2, 
-  CreditCard, 
-  Smartphone, 
-  Lock, 
-  TrendingDown,
-  Clock,
-  MessageSquare,
-  Headphones
+import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
+import {
+  Tabs,
+  TabsList,
+  TabsTrigger,
+  TabsContent,
+} from "@/components/ui/tabs";
+import {
+  Sparkles,
+  BriefcaseBusiness,
+  Lightbulb,
+  FileEdit,
+  Files,
+  BookOpenText,
+  CreditCard,
+  BarChart3,
+  Languages,
+  ClipboardList,
 } from "lucide-react";
 
-const features = [
-  {
-    icon: Globe2,
-    title: "No app required",
-    description: "Works directly in your browser. No downloads, updates, or storage needed.",
-  },
-  {
-    icon: CreditCard,
-    title: "Pay per use",
-    description: "Only pay for what you use. No subscriptions, no monthly fees, credits never expire.",
-  },
-  {
-    icon: TrendingDown,
-    title: "Unbeatable rates",
-    description: "From $0.01/min to major destinations. Up to 90% cheaper than traditional carriers.",
-  },
-  {
-    icon: Clock,
-    title: "Instant setup",
-    description: "Start calling in under 30 seconds. No verification, no paperwork, just dial.",
-  },
-  {
-    icon: Lock,
-    title: "Secure & private",
-    description: "End-to-end encrypted calls. Your conversations stay between you and who you call.",
-  },
-  {
-    icon: Smartphone,
-    title: "Works everywhere",
-    description: "Call any phone number worldwide - mobile, landline, even toll-free numbers.",
-  },
-  {
-    icon: MessageSquare,
-    title: "SMS & 2FA",
-    description: "Send texts and receive verification codes. Perfect for banking and authentication.",
-  },
-  {
-    icon: Headphones,
-    title: "Crystal clear quality",
-    description: "HD voice with automatic quality adjustment. Bad call? Get your minutes back.",
-  },
-];
+type Feature = {
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  title: string;
+  description: string;
+};
+
+const FEATURES = {
+  create: [
+    {
+      icon: Sparkles,
+      title: "AI-crafted long-form",
+      description:
+        "Built on top of Claude, ensures structure, clarity, and consistency across every chapter.",
+    },
+    {
+      icon: Lightbulb,
+      title: "Smart proposals (free)",
+      description:
+        "Get three alternative outlines and refine titles, chapters, and depth before writing.",
+    },
+    {
+      icon: Languages,
+      title: "Multi-language",
+      description:
+        "Create in 10+ languages, including English, Italian, Spanish, French, and German.",
+    },
+  ] as Feature[],
+  control: [
+    {
+      icon: BookOpenText,
+      title: "Chapter-by-chapter engine",
+      description:
+        "Each section is written with full context from the previous ones—no generic filler.",
+    },
+    {
+      icon: BarChart3,
+      title: "Live writing progress",
+      description:
+        "See the manuscript unfold in real time, from outline to polished chapters.",
+    },
+    {
+      icon: ClipboardList,
+      title: "Professional metadata",
+      description:
+        "Author, subtitle, and copyright for clean publishing on your site or marketplaces.",
+    },
+  ] as Feature[],
+  deliver: [
+    {
+      icon: FileEdit,
+      title: "Fully editable exports",
+      description:
+        "Download DOCX and Markdown for real editing and branding in Word, Google Docs, or Notion.",
+    },
+    {
+      icon: Files,
+      title: "Distribution-ready PDF",
+      description:
+        "Share or sell a polished PDF version. Editable formats are DOCX & Markdown (no ePub).",
+    },
+    {
+      icon: CreditCard,
+      title: "Credit-based pricing",
+      description:
+        "1–3 credits per ebook depending on chapter count. No subscriptions, clear and fair.",
+    },
+  ] as Feature[],
+};
+
+function FeatureTile({ icon: Icon, title, description }: Feature) {
+  return (
+    <div className="group relative rounded-2xl border bg-background/60 p-5 transition-all hover:shadow-md">
+      <div className="absolute inset-0 -z-10 opacity-0 transition-opacity group-hover:opacity-100 bg-[radial-gradient(80%_60%_at_50%_0%,hsl(var(--secondary)/0.12),transparent_60%)]" />
+      <div className="mb-3 inline-flex rounded-xl bg-[hsl(var(--secondary)/0.12)] p-2.5 text-[hsl(var(--secondary))]">
+        <Icon className="h-5 w-5" />
+      </div>
+      <h3 className="mb-1.5 text-lg font-semibold">{title}</h3>
+      <p className="text-sm text-muted-foreground">{description}</p>
+    </div>
+  );
+}
 
 export function FeaturesSection() {
   return (
     <section className="py-20 md:py-32">
       <div className="container mx-auto px-4">
-        {/* Section header */}
-        <div className="mx-auto mb-16 max-w-3xl text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Everything you need,{" "}
-            <span className="text-blue-600">nothing you don't</span>
+        {/* Section header (no hero repetition) */}
+        <div className="mx-auto mb-10 max-w-3xl text-center">
+          <Badge variant="secondary" className="mb-4">
+            Built for digital entrepreneurs
+          </Badge>
+          <h2 className="mb-3 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+            Tools that turn ideas into assets
           </h2>
           <p className="text-lg text-muted-foreground md:text-xl">
-            Built for digital nomads, remote workers, and anyone who needs to stay connected globally.
+            From lead magnets to full course workbooks—create, control, and
+            deliver with a workflow that respects your brand and your time.
           </p>
         </div>
 
-        {/* Features grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {features.map((feature, index) => {
-            const Icon = feature.icon;
-            return (
-              <Card 
-                key={index}
-                className="group relative overflow-hidden border-2 transition-all hover:border-blue-200 hover:shadow-lg dark:hover:border-blue-800"
-              >
-                <CardHeader>
-                  <div className="mb-4 inline-flex rounded-lg bg-blue-100 p-3 text-blue-600 dark:bg-blue-950 dark:text-blue-400">
-                    <Icon className="h-6 w-6" />
-                  </div>
-                  <CardTitle className="text-xl">{feature.title}</CardTitle>
-                  <CardDescription className="text-base">
-                    {feature.description}
-                  </CardDescription>
-                </CardHeader>
-                
-                {/* Hover effect */}
-                <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-50 to-cyan-50 opacity-0 transition-opacity group-hover:opacity-100 dark:from-blue-950/50 dark:to-cyan-950/50" />
-              </Card>
-            );
-          })}
+        {/* Two highlight stripes */}
+        <div className="mb-8 grid gap-4 md:grid-cols-2">
+          <div className="relative overflow-hidden rounded-2xl border p-5">
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(120deg,transparent,transparent,rgba(0,0,0,0.03))]" />
+            <div className="mb-2 flex items-center gap-2">
+              <div className="inline-flex rounded-lg bg-[hsl(var(--secondary)/0.15)] p-2 text-[hsl(var(--secondary))]">
+                <BriefcaseBusiness className="h-5 w-5" />
+              </div>
+              <span className="text-sm font-medium">Business focus</span>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Designed for lead magnets, info products, and course workbooks—non-fiction that sells, not novels.
+            </p>
+          </div>
+
+          <div className="relative overflow-hidden rounded-2xl border p-5">
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(120deg,transparent,transparent,rgba(0,0,0,0.03))]" />
+            <div className="mb-2 flex items-center gap-2">
+              <div className="inline-flex rounded-lg bg-[hsl(var(--secondary)/0.15)] p-2 text[--var(--secondary)] text-[hsl(var(--secondary))]">
+                <CreditCard className="h-5 w-5" />
+              </div>
+              <span className="text-sm font-medium">Simple pricing</span>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Free proposals forever. Pay only when you generate the manuscript—1–3 credits per ebook.
+            </p>
+          </div>
         </div>
+
+        <Separator className="mb-10" />
+
+        {/* Tabs: Create / Control / Deliver */}
+        <Tabs defaultValue="create" className="mx-auto max-w-5xl">
+          <TabsList className="grid w-full grid-cols-3">
+            <TabsTrigger value="create">Create</TabsTrigger>
+            <TabsTrigger value="control">Control</TabsTrigger>
+            <TabsTrigger value="deliver">Deliver</TabsTrigger>
+          </TabsList>
+
+          <TabsContent value="create" className="mt-8">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {FEATURES.create.map((f, i) => (
+                <FeatureTile key={`c-${i}`} {...f} />
+              ))}
+            </div>
+          </TabsContent>
+
+          <TabsContent value="control" className="mt-8">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {FEATURES.control.map((f, i) => (
+                <FeatureTile key={`k-${i}`} {...f} />
+              ))}
+            </div>
+          </TabsContent>
+
+          <TabsContent value="deliver" className="mt-8">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {FEATURES.deliver.map((f, i) => (
+                <FeatureTile key={`d-${i}`} {...f} />
+              ))}
+            </div>
+          </TabsContent>
+        </Tabs>
       </div>
     </section>
   );
