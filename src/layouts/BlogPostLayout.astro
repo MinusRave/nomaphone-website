@@ -1,0 +1,265 @@
+---
+/**
+ * Blog Post Layout - NomaPhone Design
+ * 
+ * Usa questo layout per i singoli post del blog.
+ * 
+ * Usage in your [...slug].astro:
+ * ---
+ * import BlogPostLayout from '@/layouts/BlogPostLayout.astro';
+ * const { entry } = Astro.props;
+ * ---
+ * <BlogPostLayout post={entry}>
+ *   <Content />
+ * </BlogPostLayout>
+ */
+
+import { Image } from "astro:assets";
+import BaseHead from "@/components/BaseHead.astro";
+import NomaPhoneHeader from "@/components/NomaPhoneHeader";
+import Footer from "@/components/Footer";
+import FormattedDate from "@/components/FormattedDate.astro";
+import { Badge } from "@/components/ui/badge";
+import { Calendar, Clock, ArrowLeft } from "lucide-react";
+import "@/styles/global.css";
+
+interface Props {
+  post: {
+    data: {
+      title: string;
+      description?: string;
+      pubDate: Date;
+      updatedDate?: Date;
+      heroImage?: any;
+      tags?: string[];
+      author?: string;
+      readingTime?: string;
+    };
+  };
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, author, readingTime } = post.data;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead 
+      title={title} 
+      description={description || title}
+    />
+    <script is:inline>
+      const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+          return localStorage.getItem('theme');
+        }
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return 'dark';
+        }
+        return 'light';
+      })();
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+  
+  <body>
+    <NomaPhoneHeader client:load currentPath="/blog" />
+    
+    <main class="min-h-screen bg-background">
+      {/* Back button */}
+      <div class="border-b bg-muted/30">
+        <div class="container mx-auto px-4 py-4">
+          <a 
+            href="/blog" 
+            class="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to blog
+          </a>
+        </div>
+      </div>
+
+      {/* Article Header */}
+      <article class="container mx-auto px-4 py-12 md:py-16">
+        <header class="mx-auto max-w-3xl">
+          {/* Meta */}
+          <div class="mb-6 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+            <div class="flex items-center gap-2">
+              <Calendar className="h-4 w-4" />
+              <FormattedDate date={pubDate} />
+            </div>
+            {updatedDate && (
+              <div class="flex items-center gap-2">
+                <Clock className="h-4 w-4" />
+                <span>Updated</span>
+                <FormattedDate date={updatedDate} />
+              </div>
+            )}
+            {readingTime && (
+              <div class="flex items-center gap-2">
+                <Clock className="h-4 w-4" />
+                <span>{readingTime}</span>
+              </div>
+            )}
+          </div>
+
+          {/* Title */}
+          <h1 class="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+            {title}
+          </h1>
+
+          {/* Description */}
+          {description && (
+            <p class="mb-6 text-xl text-muted-foreground">
+              {description}
+            </p>
+          )}
+
+          {/* Author & Tags */}
+          <div class="mb-8 flex flex-wrap items-center gap-4">
+            {author && (
+              <div class="text-sm">
+                <span class="text-muted-foreground">By</span>{" "}
+                <span class="font-medium">{author}</span>
+              </div>
+            )}
+            {tags && tags.length > 0 && (
+              <div class="flex flex-wrap gap-2">
+                {tags.map((tag) => (
+                  <Badge variant="secondary">{tag}</Badge>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Hero Image */}
+          {heroImage && (
+            <div class="mb-12 overflow-hidden rounded-2xl border bg-muted">
+              {typeof heroImage === "object" ? (
+                <Image 
+                  src={heroImage} 
+                  width={1200} 
+                  height={630} 
+                  alt={title}
+                  class="h-auto w-full"
+                />
+              ) : (
+                <img 
+                  src={heroImage} 
+                  alt={title}
+                  class="h-auto w-full"
+                />
+              )}
+            </div>
+          )}
+        </header>
+
+        {/* Article Content */}
+        <div class="prose prose-lg dark:prose-invert mx-auto max-w-3xl">
+          <slot />
+        </div>
+
+        {/* Article Footer */}
+        <footer class="mx-auto mt-16 max-w-3xl border-t pt-8">
+          <div class="flex items-center justify-between">
+            <a 
+              href="/blog" 
+              class="inline-flex items-center gap-2 text-sm font-medium text-blue-600 transition-colors hover:text-blue-700"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              Back to all posts
+            </a>
+            
+            {/* Share buttons placeholder */}
+            <div class="flex gap-2">
+              <span class="text-sm text-muted-foreground">Share:</span>
+              {/* Add share buttons here */}
+            </div>
+          </div>
+        </footer>
+      </article>
+    </main>
+
+    <Footer client:load />
+  </body>
+</html>
+
+<style is:global>
+    @reference "@/styles/global.css";
+  /* Prose styling for blog content */
+  .prose {
+    @apply text-foreground;
+  }
+  
+  .prose h2 {
+    @apply mt-12 mb-4 text-3xl font-bold tracking-tight;
+  }
+  
+  .prose h3 {
+    @apply mt-8 mb-3 text-2xl font-bold tracking-tight;
+  }
+  
+  .prose h4 {
+    @apply mt-6 mb-2 text-xl font-bold tracking-tight;
+  }
+  
+  .prose p {
+    @apply mb-6 leading-relaxed;
+  }
+  
+  .prose a {
+    @apply text-blue-600 underline decoration-blue-600/30 underline-offset-4 transition-colors hover:decoration-blue-600;
+  }
+  
+  .prose strong {
+    @apply font-semibold text-foreground;
+  }
+  
+  .prose code {
+    @apply rounded bg-muted px-1.5 py-0.5 text-sm font-mono;
+  }
+  
+  .prose pre {
+    @apply my-6 overflow-x-auto rounded-lg border bg-muted p-4;
+  }
+  
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+  
+  .prose ul,
+  .prose ol {
+    @apply my-6 space-y-2 pl-6;
+  }
+  
+  .prose li {
+    @apply leading-relaxed;
+  }
+  
+  .prose blockquote {
+    @apply my-6 border-l-4 border-blue-600 pl-6 italic text-muted-foreground;
+  }
+  
+  .prose img {
+    @apply my-8 rounded-lg;
+  }
+  
+  .prose hr {
+    @apply my-12 border-border;
+  }
+  
+  .prose table {
+    @apply my-6 w-full border-collapse;
+  }
+  
+  .prose th {
+    @apply border border-border bg-muted px-4 py-2 text-left font-semibold;
+  }
+  
+  .prose td {
+    @apply border border-border px-4 py-2;
+  }
+</style>

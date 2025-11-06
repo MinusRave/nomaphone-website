@@ -1,0 +1,24 @@
+---
+import { Badge } from "../components/ui/badge";
+
+
+interface Props {
+date: Date;
+}
+
+
+const { date } = Astro.props as Props;
+---
+
+
+<Badge variant="secondary" class="whitespace-nowrap" client:load>
+<time datetime={date.toISOString()}>
+{
+date.toLocaleDateString('en-us', {
+year: 'numeric',
+month: 'short',
+day: 'numeric',
+})
+}
+</time>
+</Badge>

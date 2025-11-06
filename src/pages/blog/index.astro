@@ -1,0 +1,214 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+import BaseHead from "@/components/BaseHead.astro";
+import NomaPhoneHeader from "@/components/NomaPhoneHeader";
+import Footer from "@/components/Footer";
+import FormattedDate from "@/components/FormattedDate.astro";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Calendar, Clock } from "lucide-react";
+import "@/styles/global.css";
+
+import { isPublished } from "@/lib/filterPublishedPosts";
+
+const entries = await getCollection("blog", ({ data }) => {
+  return isPublished(data.pubDate);
+});
+
+// Helper: ricava uno slug sicuro (fallback su id basename)
+const toSlug = (e: any) => {
+  if (e.slug) return e.slug;                            // es. "my-post"
+  if (typeof e.id === "string") {
+    const base = e.id.split("/").pop();                 // es. "my-post.mdx"
+    return (base ?? "").replace(/\.(md|mdx|markdown)$/, "");
+  }
+  return ""; // ultimo fallback: stringa vuota
+};
+
+const posts = entries
+  .map((e) => ({
+    slug: toSlug(e),                                    // <-- slug sempre valorizzato
+    title: e.data.title,
+    description: e.data.description ?? "",
+    pubDate: e.data.pubDate,
+    updatedDate: e.data.updatedDate ?? null,
+    tags: Array.isArray(e.data.tags) ? e.data.tags : [],
+    // supporta sia ImageMetadata che URL string
+    hero: e.data.heroImage ?? null,
+  }))
+  .sort((a, b) => {
+    const da = a.pubDate?.getTime?.() ?? 0;
+    const db = b.pubDate?.getTime?.() ?? 0;
+    return db - da;
+  });
+
+const pageTitle = "Blog";
+const pageDescription = "Insights, guides, and updates on international calling for digital nomads";
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <BaseHead title={pageTitle} description={pageDescription} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Dark mode initialization -->
+    <script is:inline>
+      const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+          return localStorage.getItem('theme');
+        }
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return 'dark';
+        }
+        return 'light';
+      })();
+      
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <NomaPhoneHeader client:load currentPath="/blog" />
+    
+    <!-- Main Content -->
+    <main class="min-h-screen bg-background">
+      <!-- Hero Section -->
+      <section class="border-b bg-gradient-to-b from-blue-50/50 to-background dark:from-blue-950/20 dark:to-background">
+        <div class="container mx-auto px-4 py-16 md:py-24">
+          <div class="mx-auto max-w-3xl text-center">
+            <Badge variant="secondary" className="mb-4">
+              📝 Blog
+            </Badge>
+            <h1 class="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+              <span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                {pageTitle}
+              </span>
+            </h1>
+            <p class="text-lg text-muted-foreground md:text-xl">
+              {pageDescription}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Posts Grid -->
+      <section class="container mx-auto px-4 py-12 md:py-20">
+        <div class="mx-auto max-w-5xl">
+          {posts.length === 0 ? (
+            <div class="text-center py-20">
+              <p class="text-muted-foreground text-lg">No posts yet. Check back soon!</p>
+            </div>
+          ) : (
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+              {posts.map((post) => (
+                <a 
+                  href={`/blog/${post.slug}/`}
+                  class="group block h-full"
+                  aria-label={`Read: ${post.title}`}
+                >
+                  <Card className="h-full overflow-hidden border-2 transition-all hover:border-blue-200 hover:shadow-xl dark:hover:border-blue-800">
+                    {/* Hero Image */}
+                    {post.hero && (
+                      <div class="relative aspect-video overflow-hidden bg-muted">
+                        {typeof post.hero === "object" ? (
+                          <Image 
+                            src={post.hero} 
+                            width={800} 
+                            height={450} 
+                            alt={post.title}
+                            class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          />
+                        ) : (
+                          <img 
+                            src={post.hero} 
+                            alt={post.title}
+                            class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                            loading="lazy"
+                          />
+                        )}
+                        {/* Gradient overlay */}
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+                      </div>
+                    )}
+
+                    <CardHeader>
+                      {/* Date */}
+                      <div class="mb-2 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                        <div class="flex items-center gap-1.5">
+                          <Calendar className="h-4 w-4" />
+                          <FormattedDate date={post.pubDate} />
+                        </div>
+                        {post.updatedDate && (
+                          <div class="flex items-center gap-1.5">
+                            <Clock className="h-4 w-4" />
+                            <span>Updated</span>
+                            <FormattedDate date={post.updatedDate} />
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Title */}
+                      <CardTitle className="text-xl group-hover:text-blue-600 transition-colors">
+                        {post.title}
+                      </CardTitle>
+
+                      {/* Description */}
+                      {post.description && (
+                        <CardDescription className="line-clamp-3">
+                          {post.description}
+                        </CardDescription>
+                      )}
+                    </CardHeader>
+
+                    {/* Tags */}
+                    {post.tags && post.tags.length > 0 && (
+                      <CardContent className="pt-0">
+                        <div class="flex flex-wrap gap-2">
+                          {post.tags.slice(0, 3).map((tag) => (
+                            <Badge variant="secondary" className="text-xs">
+                              {tag}
+                            </Badge>
+                          ))}
+                          {post.tags.length > 3 && (
+                            <Badge variant="secondary" className="text-xs">
+                              +{post.tags.length - 3}
+                            </Badge>
+                          )}
+                        </div>
+                      </CardContent>
+                    )}
+
+                    {/* Read more indicator */}
+                    <CardContent className="pt-2">
+                      <div class="flex items-center gap-2 text-sm font-medium text-blue-600 group-hover:gap-3 transition-all">
+                        <span>Read article</span>
+                        <span class="transition-transform group-hover:translate-x-1">→</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <Footer client:load />
+  </body>
+</html>
+
+<style>
+	@reference "@/styles/global.css";
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+</style>

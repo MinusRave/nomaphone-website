@@ -1,0 +1,5 @@
+---
+import Header from "@/components/Header";
+const current = Astro.url.pathname.replace(import.meta.env.BASE_URL, "");
+---
+<Header client:load currentPath={current} />
