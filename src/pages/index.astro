@@ -7,7 +7,7 @@
  */
 
 import BaseHead from '@/components/BaseHead.astro';
-import NomaPhoneHeader from '@/components/NomaPhoneHeader.tsx';
+import Header from '@/components/Header';
 import LandingPage from '@/components/LandingPage.tsx';
 import Footer from '@/components/Footer.tsx';
 
@@ -40,7 +40,7 @@ const description = "Call anyone, anywhere, right from your browser. No app requ
   
   <body>
     <!-- Header with navigation -->
-    <NomaPhoneHeader client:load currentPath="/" />
+    <Header client:load currentPath="/" />
     
     <!-- Main landing page content -->
     <LandingPage client:load />

@@ -1,0 +1,238 @@
+---
+/**
+ * StaticPageLayout.astro — Bookify
+ * Layout per pagine statiche (Guides, Use Cases, Getting Started, Help, ecc.).
+ * - Hero minimale allineato a sinistra (breadcrumb → badge → H1 → descrizione)
+ * - Corpo centrato: articolo max-w-3xl + TOC opzionale sticky a destra
+ * - Nessun "last updated"
+ * - TOC con indentazione per H2/H3/H4 e evidenziazione sezione attiva
+ *
+ * Props:
+ *  - title:        string
+ *  - description?: string
+ *  - badge?:       string
+ *  - breadcrumbs?: {label: string; href?: string}[]
+ *  - toc?:         {label: string; href: string; depth?: number}[]   // depth: 2 | 3 | 4
+ *  - currentPath?: string
+ */
+
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header"; // Usa il tuo header Bookify
+import Footer from "@/components/Footer";
+import "@/styles/global.css";
+import { Badge } from "@/components/ui/badge";
+
+interface Crumb { label: string; href?: string; }
+interface TocItem { label: string; href: string; depth?: number; }
+
+interface Props {
+  title: string;
+  description?: string;
+  badge?: string;
+  breadcrumbs?: Crumb[];
+  toc?: TocItem[];
+  currentPath?: string;
+}
+
+const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <BaseHead title={title} description={description ?? title} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script is:inline>
+      const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) return localStorage.getItem('theme');
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+        return 'light';
+      })();
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script>
+  </head>
+
+  <body>
+    <Header client:load currentPath={currentPath} />
+
+    <main class="min-h-screen bg-background">
+      <!-- HERO: semplice, allineato alla colonna dell'articolo -->
+      <section class="border-b">
+        <div class="container mx-auto px-4 py-10 md:py-14">
+          <div class="mx-auto max-w-3xl">
+            {breadcrumbs.length > 0 && (
+              <nav aria-label="Breadcrumb" class="mb-3 text-sm text-muted-foreground">
+                <ol class="flex flex-wrap items-center gap-1">
+                  <li><a href="/" class="hover:underline">Home</a></li>
+                  {breadcrumbs.map((c) => (
+                    <>
+                      <li class="mx-1 opacity-60">/</li>
+                      <li>
+                        {c.href ? (
+                          <a href={c.href} class="hover:underline">{c.label}</a>
+                        ) : (
+                          <span>{c.label}</span>
+                        )}
+                      </li>
+                    </>
+                  ))}
+                </ol>
+              </nav>
+            )}
+
+            {badge && <Badge variant="secondary" class="mb-2">{badge}</Badge>}
+
+            <h1 class="mb-3 text-4xl font-bold tracking-tight sm:text-5xl">
+              <span class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
+                {title}
+              </span>
+            </h1>
+
+            {description && (
+              <p class="text-lg text-muted-foreground">
+                {description}
+              </p>
+            )}
+          </div>
+        </div>
+      </section>
+
+      <!-- BODY: articolo + TOC opzionale a destra (sticky) -->
+      <section class="container mx-auto px-4 py-10 md:py-14">
+        <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[minmax(0,1fr)_260px]">
+          <!-- Articolo -->
+          <article class="mx-auto w-full max-w-3xl">
+            <div class="prose prose-lg dark:prose-invert max-w-none">
+              <slot />
+            </div>
+          </article>
+
+          <!-- Sidebar TOC (desktop) -->
+          {toc.length > 0 && (
+            <aside class="top-28 hidden h-max lg:sticky lg:block">
+              <div class="space-y-3">
+                <h2 class="text-sm font-semibold tracking-wide text-muted-foreground">On this page</h2>
+                <ul id="toc-list" class="space-y-1.5">
+                  {toc.map((item) => (
+                    <li>
+                      <a
+                        href={item.href}
+                        data-toc-href={item.href}
+                        class={`block rounded-md px-2 py-1 text-sm transition-colors
+                          ${item.depth === 2 ? "pl-0" : item.depth === 3 ? "pl-4" : "pl-8"}
+                          text-muted-foreground hover:bg-muted hover:text-foreground`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </aside>
+          )}
+        </div>
+
+        <!-- TOC mobile (collapsable) -->
+        {toc.length > 0 && (
+          <div class="mx-auto mt-10 w-full max-w-3xl lg:hidden">
+            <details class="rounded-lg border">
+              <summary class="cursor-pointer list-none px-4 py-3 text-sm font-semibold">
+                On this page
+              </summary>
+              <ul class="border-t p-3">
+                {toc.map((item) => (
+                  <li>
+                    <a
+                      href={item.href}
+                      class={`block rounded-md px-2 py-1 text-sm transition-colors
+                        ${item.depth === 2 ? "pl-0" : item.depth === 3 ? "pl-4" : "pl-8"}
+                        text-muted-foreground hover:bg-muted hover:text-foreground`}
+                    >
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </div>
+        )}
+      </section>
+    </main>
+
+    <Footer client:load />
+
+    <!-- Scroll spy: evidenzia la sezione attiva nel TOC desktop -->
+    {toc.length > 0 && (
+      <script is:inline>
+        const links = Array.from(document.querySelectorAll('[data-toc-href]'));
+        if (links.length) {
+          const getById = (href) => {
+            try { return document.getElementById(href.replace('#', '')); } catch { return null; }
+          };
+
+          const targets = links
+            .map((a) => ({ a, el: getById(a.getAttribute('data-toc-href')) }))
+            .filter((t) => t.el);
+
+          const activeClasses = ['text-foreground','font-semibold','bg-muted/60'];
+          const clearActive = () => links.forEach((l) => l.classList.remove(...activeClasses));
+
+          const io = new IntersectionObserver((entries) => {
+            const visible = entries
+              .filter((e) => e.isIntersecting)
+              .sort((a, b) => a.target.getBoundingClientRect().top - b.target.getBoundingClientRect().top)[0];
+
+            if (!visible) return;
+            const id = '#' + visible.target.id;
+            clearActive();
+            const current = links.find((l) => l.getAttribute('data-toc-href') === id);
+            if (current) current.classList.add(...activeClasses);
+          }, { rootMargin: '0px 0px -70% 0px', threshold: [0, 1] });
+
+          targets.forEach(({ el }) => io.observe(el));
+
+          // Stato iniziale
+          requestAnimationFrame(() => {
+            const first = targets[0];
+            const currentHash = window.location.hash || (first ? ('#' + first.el.id) : '');
+            clearActive();
+            const current = links.find((l) => l.getAttribute('data-toc-href') === currentHash);
+            if (current) current.classList.add(...activeClasses);
+          });
+        }
+      </script>
+    )}
+  </body>
+</html>
+
+<style is:global>
+  @reference "@/styles/global.css";
+
+  /* Prose pulita per MD standard */
+  .prose { @apply text-foreground; }
+  .prose h2 { @apply mt-10 mb-4 text-3xl font-bold tracking-tight; }
+  .prose h3 { @apply mt-8 mb-3 text-2xl font-semibold tracking-tight; }
+  .prose h4 { @apply mt-6 mb-2 text-xl font-semibold tracking-tight; }
+  .prose p  { @apply mb-6 leading-relaxed; }
+
+  .prose a {
+    color: hsl(var(--secondary));
+    text-decoration: underline;
+    text-decoration-color: hsl(var(--secondary) / 0.3);
+    text-underline-offset: 4px;
+    transition: opacity .2s ease;
+  }
+  .prose a:hover { text-decoration-color: hsl(var(--secondary)); opacity: .9; }
+
+  .prose blockquote {
+    border-left: 4px solid hsl(var(--secondary));
+    @apply my-6 pl-6 italic text-muted-foreground;
+  }
+
+  .prose code { @apply rounded bg-muted px-1.5 py-0.5 text-sm font-mono; }
+  .prose pre  { @apply my-6 overflow-x-auto rounded-lg border bg-muted p-4; }
+  .prose hr   { @apply my-12 border-border; }
+
+  .prose ul, .prose ol { @apply my-6 space-y-2 pl-6; }
+  .prose li { @apply leading-relaxed; }
+</style>

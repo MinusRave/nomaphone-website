@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 
 import BaseHead from "@/components/BaseHead.astro";
-import NomaPhoneHeader from "@/components/NomaPhoneHeader";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FormattedDate from "@/components/FormattedDate.astro";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
@@ -45,7 +45,7 @@ const posts = entries
   });
 
 const pageTitle = "Blog";
-const pageDescription = "Insights, guides, and updates on international calling for digital nomads";
+const pageDescription = "Insights and how-tos on lead magnets, info products, and course workbooks — all about business-ready eBooks.";
 ---
 
 <!doctype html>
@@ -53,7 +53,7 @@ const pageDescription = "Insights, guides, and updates on international calling 
   <head>
     <BaseHead title={pageTitle} description={pageDescription} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Dark mode initialization -->
     <script is:inline>
       const theme = (() => {
@@ -65,28 +65,25 @@ const pageDescription = "Insights, guides, and updates on international calling 
         }
         return 'light';
       })();
-      
       if (theme === 'dark') {
         document.documentElement.classList.add('dark');
       }
     </script>
   </head>
-  
+
   <body>
     <!-- Header -->
-    <NomaPhoneHeader client:load currentPath="/blog" />
-    
+    <Header client:load currentPath="/blog" />
+
     <!-- Main Content -->
     <main class="min-h-screen bg-background">
       <!-- Hero Section -->
-      <section class="border-b bg-gradient-to-b from-blue-50/50 to-background dark:from-blue-950/20 dark:to-background">
+      <section class="border-b bg-gradient-to-b from-[hsl(var(--muted))] to-background">
         <div class="container mx-auto px-4 py-16 md:py-24">
           <div class="mx-auto max-w-3xl text-center">
-            <Badge variant="secondary" className="mb-4">
-              📝 Blog
-            </Badge>
+            <Badge variant="secondary" class="mb-4">📝 Blog</Badge>
             <h1 class="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              <span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+              <span class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
                 {pageTitle}
               </span>
             </h1>
@@ -101,39 +98,39 @@ const pageDescription = "Insights, guides, and updates on international calling 
       <section class="container mx-auto px-4 py-12 md:py-20">
         <div class="mx-auto max-w-5xl">
           {posts.length === 0 ? (
-            <div class="text-center py-20">
-              <p class="text-muted-foreground text-lg">No posts yet. Check back soon!</p>
+            <div class="py-20 text-center">
+              <p class="text-lg text-muted-foreground">No posts yet. Check back soon!</p>
             </div>
           ) : (
             <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
               {posts.map((post) => (
-                <a 
+                <a
                   href={`/blog/${post.slug}/`}
                   class="group block h-full"
                   aria-label={`Read: ${post.title}`}
                 >
-                  <Card className="h-full overflow-hidden border-2 transition-all hover:border-blue-200 hover:shadow-xl dark:hover:border-blue-800">
+                  <Card className="h-full overflow-hidden border-2 transition-all hover:border-[hsl(var(--secondary)/0.35)] hover:shadow-xl">
                     {/* Hero Image */}
                     {post.hero && (
                       <div class="relative aspect-video overflow-hidden bg-muted">
                         {typeof post.hero === "object" ? (
-                          <Image 
-                            src={post.hero} 
-                            width={800} 
-                            height={450} 
+                          <Image
+                            src={post.hero}
+                            width={800}
+                            height={450}
                             alt={post.title}
                             class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                           />
                         ) : (
-                          <img 
-                            src={post.hero} 
+                          <img
+                            src={post.hero}
                             alt={post.title}
                             class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                             loading="lazy"
                           />
                         )}
-                        {/* Gradient overlay */}
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+                        <!-- Gradient overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
                       </div>
                     )}
 
@@ -154,7 +151,7 @@ const pageDescription = "Insights, guides, and updates on international calling 
                       </div>
 
                       {/* Title */}
-                      <CardTitle className="text-xl group-hover:text-blue-600 transition-colors">
+                      <CardTitle className="text-xl transition-colors group-hover:text-[hsl(var(--secondary))]">
                         {post.title}
                       </CardTitle>
 
@@ -171,7 +168,7 @@ const pageDescription = "Insights, guides, and updates on international calling 
                       <CardContent className="pt-0">
                         <div class="flex flex-wrap gap-2">
                           {post.tags.slice(0, 3).map((tag) => (
-                            <Badge variant="secondary" className="text-xs">
+                            <Badge variant="secondary" className="text-xs" key={tag}>
                               {tag}
                             </Badge>
                           ))}
@@ -186,7 +183,7 @@ const pageDescription = "Insights, guides, and updates on international calling 
 
                     {/* Read more indicator */}
                     <CardContent className="pt-2">
-                      <div class="flex items-center gap-2 text-sm font-medium text-blue-600 group-hover:gap-3 transition-all">
+                      <div class="flex items-center gap-2 text-sm font-medium text-[hsl(var(--secondary))] transition-all group-hover:gap-3">
                         <span>Read article</span>
                         <span class="transition-transform group-hover:translate-x-1">→</span>
                       </div>
@@ -206,9 +203,7 @@ const pageDescription = "Insights, guides, and updates on international calling 
 </html>
 
 <style>
-	@reference "@/styles/global.css";
+  @reference "@/styles/global.css";
   /* Smooth scrolling */
-  html {
-    scroll-behavior: smooth;
-  }
+  html { scroll-behavior: smooth; }
 </style>

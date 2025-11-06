@@ -1,0 +1,44 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import StaticPageLayout from "@/layouts/StaticPageLayout.astro";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("static");
+  return entries.map((page) => ({
+    params: { slug: page.id },
+    props: page,
+  }));
+}
+
+type Props = CollectionEntry<"static">;
+
+const page = Astro.props as Props;
+
+// IMPORTANTE: usiamo headings da render()
+const { Content, headings = [] } = await render(page);
+
+// Se c'è un TOC nel frontmatter lo usiamo, altrimenti lo creiamo dai titoli
+const frontToc = Array.isArray(page.data.toc) ? page.data.toc : [];
+const autoToc = frontToc.length
+  ? frontToc
+  : headings
+      .filter((h) => h.depth >= 2 && h.depth <= 4 && h.slug) // solo H2–H4 con id valido
+      .map((h) => ({
+        label: h.text,
+        href: `#${h.slug}`,
+        depth: h.depth, // 2 | 3 | 4
+      }));
+
+const currentPath = `/${page.id.replace(/\/?index$/i, "")}`;
+---
+
+<StaticPageLayout
+  title={page.data.title ?? "Untitled Page"}
+  description={page.data.description}
+  badge={page.data.badge}
+  breadcrumbs={page.data.breadcrumbs ?? []}
+  toc={autoToc}
+  currentPath={currentPath}
+>
+  <Content />
+</StaticPageLayout>

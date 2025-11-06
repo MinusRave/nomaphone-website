@@ -1,9 +1,7 @@
 ---
 /**
- * Blog Post Layout - NomaPhone Design
- * 
- * Usa questo layout per i singoli post del blog.
- * 
+ * Blog Post Layout - Bookify Design
+ *
  * Usage in your [...slug].astro:
  * ---
  * import BlogPostLayout from '@/layouts/BlogPostLayout.astro';
@@ -16,7 +14,7 @@
 
 import { Image } from "astro:assets";
 import BaseHead from "@/components/BaseHead.astro";
-import NomaPhoneHeader from "@/components/NomaPhoneHeader";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FormattedDate from "@/components/FormattedDate.astro";
 import { Badge } from "@/components/ui/badge";
@@ -45,35 +43,26 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author, readi
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead 
-      title={title} 
-      description={description || title}
-    />
+    <BaseHead title={title} description={description || title} />
     <script is:inline>
       const theme = (() => {
-        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
-          return localStorage.getItem('theme');
-        }
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          return 'dark';
-        }
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) return localStorage.getItem('theme');
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
         return 'light';
       })();
-      if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
-      }
+      if (theme === 'dark') document.documentElement.classList.add('dark');
     </script>
   </head>
-  
+
   <body>
-    <NomaPhoneHeader client:load currentPath="/blog" />
-    
+    <Header client:load currentPath="/blog" />
+
     <main class="min-h-screen bg-background">
       {/* Back button */}
       <div class="border-b bg-muted/30">
         <div class="container mx-auto px-4 py-4">
-          <a 
-            href="/blog" 
+          <a
+            href="/blog"
             class="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             <ArrowLeft className="h-4 w-4" />
@@ -108,7 +97,9 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author, readi
 
           {/* Title */}
           <h1 class="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-            {title}
+            <span class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
+              {title}
+            </span>
           </h1>
 
           {/* Description */}
@@ -139,16 +130,16 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author, readi
           {heroImage && (
             <div class="mb-12 overflow-hidden rounded-2xl border bg-muted">
               {typeof heroImage === "object" ? (
-                <Image 
-                  src={heroImage} 
-                  width={1200} 
-                  height={630} 
+                <Image
+                  src={heroImage}
+                  width={1200}
+                  height={630}
                   alt={title}
                   class="h-auto w-full"
                 />
               ) : (
-                <img 
-                  src={heroImage} 
+                <img
+                  src={heroImage}
                   alt={title}
                   class="h-auto w-full"
                 />
@@ -165,14 +156,14 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author, readi
         {/* Article Footer */}
         <footer class="mx-auto mt-16 max-w-3xl border-t pt-8">
           <div class="flex items-center justify-between">
-            <a 
-              href="/blog" 
-              class="inline-flex items-center gap-2 text-sm font-medium text-blue-600 transition-colors hover:text-blue-700"
+            <a
+              href="/blog"
+              class="inline-flex items-center gap-2 text-sm font-medium text-[hsl(var(--secondary))] transition-colors hover:opacity-90"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to all posts
             </a>
-            
+
             {/* Share buttons placeholder */}
             <div class="flex gap-2">
               <span class="text-sm text-muted-foreground">Share:</span>
@@ -188,78 +179,45 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author, readi
 </html>
 
 <style is:global>
-    @reference "@/styles/global.css";
-  /* Prose styling for blog content */
-  .prose {
-    @apply text-foreground;
-  }
-  
-  .prose h2 {
-    @apply mt-12 mb-4 text-3xl font-bold tracking-tight;
-  }
-  
-  .prose h3 {
-    @apply mt-8 mb-3 text-2xl font-bold tracking-tight;
-  }
-  
-  .prose h4 {
-    @apply mt-6 mb-2 text-xl font-bold tracking-tight;
-  }
-  
-  .prose p {
-    @apply mb-6 leading-relaxed;
-  }
-  
+  @reference "@/styles/global.css";
+
+  /* Prose styling for blog content (Bookify palette) */
+  .prose { @apply text-foreground; }
+
+  .prose h2 { @apply mt-12 mb-4 text-3xl font-bold tracking-tight; }
+  .prose h3 { @apply mt-8 mb-3 text-2xl font-bold tracking-tight; }
+  .prose h4 { @apply mt-6 mb-2 text-xl font-bold tracking-tight; }
+
+  .prose p { @apply mb-6 leading-relaxed; }
+
   .prose a {
-    @apply text-blue-600 underline decoration-blue-600/30 underline-offset-4 transition-colors hover:decoration-blue-600;
+    color: hsl(var(--secondary));
+    text-decoration: underline;
+    text-decoration-color: hsl(var(--secondary) / 0.3);
+    text-underline-offset: 4px;
+    transition: opacity .2s ease;
   }
-  
-  .prose strong {
-    @apply font-semibold text-foreground;
-  }
-  
-  .prose code {
-    @apply rounded bg-muted px-1.5 py-0.5 text-sm font-mono;
-  }
-  
-  .prose pre {
-    @apply my-6 overflow-x-auto rounded-lg border bg-muted p-4;
-  }
-  
-  .prose pre code {
-    @apply bg-transparent p-0;
-  }
-  
-  .prose ul,
-  .prose ol {
-    @apply my-6 space-y-2 pl-6;
-  }
-  
-  .prose li {
-    @apply leading-relaxed;
-  }
-  
+  .prose a:hover { text-decoration-color: hsl(var(--secondary)); opacity: .9; }
+
+  .prose strong { @apply font-semibold text-foreground; }
+
+  .prose code { @apply rounded bg-muted px-1.5 py-0.5 text-sm font-mono; }
+
+  .prose pre { @apply my-6 overflow-x-auto rounded-lg border bg-muted p-4; }
+  .prose pre code { @apply bg-transparent p-0; }
+
+  .prose ul, .prose ol { @apply my-6 space-y-2 pl-6; }
+  .prose li { @apply leading-relaxed; }
+
   .prose blockquote {
-    @apply my-6 border-l-4 border-blue-600 pl-6 italic text-muted-foreground;
+    border-left: 4px solid hsl(var(--secondary));
+    @apply my-6 pl-6 italic text-muted-foreground;
   }
-  
-  .prose img {
-    @apply my-8 rounded-lg;
-  }
-  
-  .prose hr {
-    @apply my-12 border-border;
-  }
-  
-  .prose table {
-    @apply my-6 w-full border-collapse;
-  }
-  
-  .prose th {
-    @apply border border-border bg-muted px-4 py-2 text-left font-semibold;
-  }
-  
-  .prose td {
-    @apply border border-border px-4 py-2;
-  }
+
+  .prose img { @apply my-8 rounded-lg; }
+  .prose hr { @apply my-12 border-border; }
+
+  .prose table { @apply my-6 w-full border-collapse; }
+  .prose th { @apply border border-border bg-muted px-4 py-2 text-left font-semibold; }
+  .prose td { @apply border border-border px-4 py-2; }
 </style>
