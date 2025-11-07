@@ -15,7 +15,6 @@ const footerNavigation = {
   ],
   resources: [
     { name: "Blog", href: "/blog" }, // ✅ added
-    { name: "What is Bookify?", href: "/getting-started" },
     { name: "Create a Lead Magnet", href: "/guides/how-to-create-lead-magnet/" },
     { name: "Create Course Workbook", href: "/guides/create-course-workbook/" },
     { name: "Write an Info Product", href: "/guides/write-info-product/" },

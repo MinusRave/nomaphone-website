@@ -1,11 +1,14 @@
 ---
 /**
- * StaticPageLayout.astro — Bookify
+ * StaticPageLayout.astro — Bookify (Enhanced)
  * Layout per pagine statiche (Guides, Use Cases, Getting Started, Help, ecc.).
- * - Hero minimale allineato a sinistra (breadcrumb → badge → H1 → descrizione)
- * - Corpo centrato: articolo max-w-3xl + TOC opzionale sticky a destra
- * - Nessun "last updated"
- * - TOC con indentazione per H2/H3/H4 e evidenziazione sezione attiva
+ *
+ * Migliorie:
+ * - Hero più immersivo (gradient soft, più respiro, gerarchia chiara).
+ * - Reading progress bar in alto.
+ * - TOC desktop più moderno: bullet, highlight, card, microinterazioni.
+ * - TOC mobile migliorato.
+ * - Prose più leggibile (spacing, comfort reading).
  *
  * Props:
  *  - title:        string
@@ -17,7 +20,7 @@
  */
 
 import BaseHead from "@/components/BaseHead.astro";
-import Header from "@/components/Header"; // Usa il tuo header Bookify
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "@/styles/global.css";
 import { Badge } from "@/components/ui/badge";
@@ -34,7 +37,14 @@ interface Props {
   currentPath?: string;
 }
 
-const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" } = Astro.props;
+const {
+  title,
+  description,
+  badge,
+  breadcrumbs = [],
+  toc = [],
+  currentPath = ""
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -42,36 +52,56 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
   <head>
     <BaseHead title={title} description={description ?? title} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script is:inline>
+      // Tema precoce per evitare flash
       const theme = (() => {
-        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) return localStorage.getItem('theme');
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+        try {
+          const saved = typeof localStorage !== 'undefined' && localStorage.getItem('theme');
+          if (saved) return saved;
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+        } catch (e) {}
         return 'light';
       })();
       if (theme === 'dark') document.documentElement.classList.add('dark');
     </script>
   </head>
 
-  <body>
+  <body class="bg-background text-foreground antialiased">
+    <!-- Reading progress (sotto l'header) -->
+    <div
+      id="reading-progress"
+      class="fixed left-0 top-0 z-40 h-0.5 w-0 bg-[hsl(var(--secondary))] transition-[width] duration-150 ease-out"
+    ></div>
+
     <Header client:load currentPath={currentPath} />
 
-    <main class="min-h-screen bg-background">
-      <!-- HERO: semplice, allineato alla colonna dell'articolo -->
-      <section class="border-b">
-        <div class="container mx-auto px-4 py-10 md:py-14">
+    <main class="min-h-screen">
+      <!-- HERO migliorato -->
+      <section class="relative border-b bg-gradient-to-b from-muted/40 via-background to-background/0">
+        <div class="container mx-auto px-4 pt-10 pb-12 md:pt-14 md:pb-16">
           <div class="mx-auto max-w-3xl">
             {breadcrumbs.length > 0 && (
-              <nav aria-label="Breadcrumb" class="mb-3 text-sm text-muted-foreground">
+              <nav aria-label="Breadcrumb" class="mb-4 text-sm text-muted-foreground/80">
                 <ol class="flex flex-wrap items-center gap-1">
-                  <li><a href="/" class="hover:underline">Home</a></li>
+                  <li>
+                    <a href="/" class="transition-colors hover:text-foreground hover:underline">
+                      Home
+                    </a>
+                  </li>
                   {breadcrumbs.map((c) => (
                     <>
-                      <li class="mx-1 opacity-60">/</li>
+                      <li class="mx-1 opacity-40">/</li>
                       <li>
                         {c.href ? (
-                          <a href={c.href} class="hover:underline">{c.label}</a>
+                          <a
+                            href={c.href}
+                            class="transition-colors hover:text-foreground hover:underline"
+                          >
+                            {c.label}
+                          </a>
                         ) : (
-                          <span>{c.label}</span>
+                          <span class="text-foreground">{c.label}</span>
                         )}
                       </li>
                     </>
@@ -80,16 +110,23 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
               </nav>
             )}
 
-            {badge && <Badge variant="secondary" class="mb-2">{badge}</Badge>}
+            {badge && (
+              <Badge
+                variant="secondary"
+                class="mb-3 inline-flex items-center gap-2 rounded-full border border-border/60 px-3 py-1 text-xs font-medium tracking-wide uppercase"
+              >
+                {badge}
+              </Badge>
+            )}
 
-            <h1 class="mb-3 text-4xl font-bold tracking-tight sm:text-5xl">
+            <h1 class="mb-4 text-4xl font-semibold tracking-tight sm:text-5xl md:text-5xl">
               <span class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
                 {title}
               </span>
             </h1>
 
             {description && (
-              <p class="text-lg text-muted-foreground">
+              <p class="max-w-2xl text-base md:text-lg text-muted-foreground leading-relaxed">
                 {description}
               </p>
             )}
@@ -97,7 +134,7 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
         </div>
       </section>
 
-      <!-- BODY: articolo + TOC opzionale a destra (sticky) -->
+      <!-- BODY: articolo + TOC -->
       <section class="container mx-auto px-4 py-10 md:py-14">
         <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[minmax(0,1fr)_260px]">
           <!-- Articolo -->
@@ -110,19 +147,35 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
           <!-- Sidebar TOC (desktop) -->
           {toc.length > 0 && (
             <aside class="top-28 hidden h-max lg:sticky lg:block">
-              <div class="space-y-3">
-                <h2 class="text-sm font-semibold tracking-wide text-muted-foreground">On this page</h2>
-                <ul id="toc-list" class="space-y-1.5">
+              <div class="rounded-2xl border bg-muted/40 px-3 py-4 shadow-sm backdrop-blur">
+                <h2 class="mb-2 text-xs font-semibold tracking-[0.16em] text-muted-foreground/80 uppercase">
+                  On this page
+                </h2>
+                <ul id="toc-list" class="space-y-1.5 text-sm">
                   {toc.map((item) => (
                     <li>
                       <a
                         href={item.href}
                         data-toc-href={item.href}
-                        class={`block rounded-md px-2 py-1 text-sm transition-colors
-                          ${item.depth === 2 ? "pl-0" : item.depth === 3 ? "pl-4" : "pl-8"}
-                          text-muted-foreground hover:bg-muted hover:text-foreground`}
+                        data-depth={item.depth || 2}
+                        class={`toc-link group relative flex items-start gap-2 rounded-md px-2 py-1.5 text-muted-foreground/90
+                          transition-all duration-150
+                          hover:bg-muted/90 hover:text-foreground
+                          ${
+                            item.depth === 2
+                              ? "pl-1"
+                              : item.depth === 3
+                              ? "pl-5 text-xs"
+                              : "pl-9 text-xs"
+                          }`}
                       >
-                        {item.label}
+                        <span
+                          class={`mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[hsl(var(--secondary-muted))] opacity-40
+                            group-hover:opacity-90`}
+                        ></span>
+                        <span class="leading-snug">
+                          {item.label}
+                        </span>
                       </a>
                     </li>
                   ))}
@@ -132,26 +185,44 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
           )}
         </div>
 
-        <!-- TOC mobile (collapsable) -->
+        <!-- TOC mobile (collassabile) -->
         {toc.length > 0 && (
           <div class="mx-auto mt-10 w-full max-w-3xl lg:hidden">
-            <details class="rounded-lg border">
-              <summary class="cursor-pointer list-none px-4 py-3 text-sm font-semibold">
-                On this page
+            <details class="group rounded-2xl border bg-muted/30 shadow-sm">
+              <summary class="flex cursor-pointer items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-muted-foreground">
+                <span>On this page</span>
+                <span class="text-[10px] opacity-60 group-open:rotate-180 transition-transform">
+                  ▾
+                </span>
               </summary>
-              <ul class="border-t p-3">
+              <ul class="border-t border-border/60 p-3 space-y-1.5">
                 {toc.map((item) => (
                   <li>
                     <a
                       href={item.href}
-                      class={`block rounded-md px-2 py-1 text-sm transition-colors
-                        ${item.depth === 2 ? "pl-0" : item.depth === 3 ? "pl-4" : "pl-8"}
-                        text-muted-foreground hover:bg-muted hover:text-foreground`}
+                      class={`block rounded-md px-2 py-1.5 text-sm text-muted-foreground/90
+                        transition-all hover:bg-muted/90 hover:text-foreground
+                        ${
+                          item.depth === 2
+                            ? "pl-0"
+                            : item.depth === 3
+                            ? "pl-4 text-xs"
+                            : "pl-8 text-xs"
+                        }`}
                     >
                       {item.label}
                     </a>
                   </li>
                 ))}
+                <li class="pt-1">
+                  <button
+                    type="button"
+                    onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+                    class="text-[11px] text-muted-foreground/80 hover:text-foreground underline underline-offset-2"
+                  >
+                    Back to top
+                  </button>
+                </li>
               </ul>
             </details>
           </div>
@@ -161,21 +232,36 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
 
     <Footer client:load />
 
-    <!-- Scroll spy: evidenzia la sezione attiva nel TOC desktop -->
+    <!-- Scroll spy + reading progress -->
     {toc.length > 0 && (
       <script is:inline>
-        const links = Array.from(document.querySelectorAll('[data-toc-href]'));
-        if (links.length) {
-          const getById = (href) => {
-            try { return document.getElementById(href.replace('#', '')); } catch { return null; }
+        (() => {
+          const links = Array.from(document.querySelectorAll('[data-toc-href]'));
+          if (!links.length) return;
+
+          const getTarget = (href) => {
+            try {
+              const id = href.replace('#', '');
+              return document.getElementById(id);
+            } catch (e) { return null; }
           };
 
           const targets = links
-            .map((a) => ({ a, el: getById(a.getAttribute('data-toc-href')) }))
+            .map((a) => ({ a, el: getTarget(a.getAttribute('data-toc-href')) }))
             .filter((t) => t.el);
 
-          const activeClasses = ['text-foreground','font-semibold','bg-muted/60'];
-          const clearActive = () => links.forEach((l) => l.classList.remove(...activeClasses));
+          if (!targets.length) return;
+
+          const activeClasses = [
+            'bg-muted/90',
+            'text-foreground',
+            'font-semibold',
+            'shadow-[0_0_0_1px_rgba(148,163,253,0.18)]'
+          ];
+
+          const clearActive = () => {
+            links.forEach((l) => l.classList.remove(...activeClasses));
+          };
 
           const io = new IntersectionObserver((entries) => {
             const visible = entries
@@ -187,19 +273,44 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
             clearActive();
             const current = links.find((l) => l.getAttribute('data-toc-href') === id);
             if (current) current.classList.add(...activeClasses);
-          }, { rootMargin: '0px 0px -70% 0px', threshold: [0, 1] });
+          }, {
+            rootMargin: '0px 0px -65% 0px',
+            threshold: [0, 0.2, 1]
+          });
 
           targets.forEach(({ el }) => io.observe(el));
 
           // Stato iniziale
           requestAnimationFrame(() => {
-            const first = targets[0];
-            const currentHash = window.location.hash || (first ? ('#' + first.el.id) : '');
+            const currentHash = window.location.hash;
             clearActive();
-            const current = links.find((l) => l.getAttribute('data-toc-href') === currentHash);
-            if (current) current.classList.add(...activeClasses);
+            if (currentHash) {
+              const match = links.find((l) => l.getAttribute('data-toc-href') === currentHash);
+              if (match) {
+                match.classList.add(...activeClasses);
+                return;
+              }
+            }
+            const first = links[0];
+            if (first) first.classList.add(...activeClasses);
           });
-        }
+
+          // Reading progress bar
+          const progressBar = document.getElementById('reading-progress');
+          const updateProgress = () => {
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            if (docHeight <= 0) {
+              progressBar.style.width = '0%';
+              return;
+            }
+            const progress = (window.scrollY / docHeight) * 100;
+            progressBar.style.width = progress + '%';
+          };
+
+          window.addEventListener('scroll', updateProgress, { passive: true });
+          window.addEventListener('resize', updateProgress);
+          updateProgress();
+        })();
       </script>
     )}
   </body>
@@ -208,31 +319,75 @@ const { title, description, badge, breadcrumbs = [], toc = [], currentPath = "" 
 <style is:global>
   @reference "@/styles/global.css";
 
-  /* Prose pulita per MD standard */
-  .prose { @apply text-foreground; }
-  .prose h2 { @apply mt-10 mb-4 text-3xl font-bold tracking-tight; }
-  .prose h3 { @apply mt-8 mb-3 text-2xl font-semibold tracking-tight; }
-  .prose h4 { @apply mt-6 mb-2 text-xl font-semibold tracking-tight; }
-  .prose p  { @apply mb-6 leading-relaxed; }
+  html {
+    scroll-padding-top: 96px; /* per TOC anchor e back-to-top */
+  }
+
+  .prose {
+    @apply text-foreground;
+  }
+
+  .prose h2 {
+    @apply mt-10 mb-4 text-3xl font-semibold tracking-tight;
+  }
+
+  .prose h3 {
+    @apply mt-8 mb-3 text-2xl font-semibold tracking-tight;
+  }
+
+  .prose h4 {
+    @apply mt-6 mb-2 text-xl font-semibold tracking-tight;
+  }
+
+  .prose p {
+    @apply mb-5 leading-relaxed text-[0.97rem] md:text-base;
+  }
 
   .prose a {
     color: hsl(var(--secondary));
     text-decoration: underline;
-    text-decoration-color: hsl(var(--secondary) / 0.3);
-    text-underline-offset: 4px;
-    transition: opacity .2s ease;
+    text-decoration-color: hsl(var(--secondary) / 0.35);
+    text-underline-offset: 3px;
+    transition: opacity .18s ease, text-decoration-color .18s ease, color .18s ease;
   }
-  .prose a:hover { text-decoration-color: hsl(var(--secondary)); opacity: .9; }
+
+  .prose a:hover {
+    text-decoration-color: hsl(var(--secondary));
+    opacity: .95;
+  }
 
   .prose blockquote {
     border-left: 4px solid hsl(var(--secondary));
-    @apply my-6 pl-6 italic text-muted-foreground;
+    @apply my-6 pl-5 italic text-muted-foreground bg-muted/20 rounded-r-xl;
   }
 
-  .prose code { @apply rounded bg-muted px-1.5 py-0.5 text-sm font-mono; }
-  .prose pre  { @apply my-6 overflow-x-auto rounded-lg border bg-muted p-4; }
-  .prose hr   { @apply my-12 border-border; }
+  .prose code {
+    @apply rounded bg-muted px-1.5 py-0.5 text-[0.78rem] font-mono;
+  }
 
-  .prose ul, .prose ol { @apply my-6 space-y-2 pl-6; }
-  .prose li { @apply leading-relaxed; }
+  .prose pre {
+    @apply my-6 overflow-x-auto rounded-xl border bg-muted/80 p-4 text-sm;
+  }
+
+  .prose hr {
+    @apply my-10 border-border/70;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply my-5 space-y-2 pl-5;
+  }
+
+  .prose li {
+    @apply leading-relaxed;
+  }
+
+  /* Callout helper (usabile nel contenuto) */
+  .prose .callout {
+    @apply my-6 rounded-2xl border border-secondary/40 bg-muted/40 p-4 text-sm flex gap-3;
+  }
+  .prose .callout::before {
+    content: "★";
+    @apply mt-0.5 text-[hsl(var(--secondary))];
+  }
 </style>
