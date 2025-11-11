@@ -63,7 +63,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel Code 
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -79,4 +79,4 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1389740385881899&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
+ End Meta Pixel Code -->
