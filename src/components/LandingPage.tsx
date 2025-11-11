@@ -33,7 +33,7 @@ export default function LandingPage() {
       <HeroSection />
       <FeaturesSection />
       <HowItWorksSection />
-      {/* <PricingSection /> */}
+      <PricingSection />
       <TestimonialsSection />
       <FAQSection />
       <CTASection />

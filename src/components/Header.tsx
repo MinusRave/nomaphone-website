@@ -15,7 +15,7 @@ interface HeaderProps {
 
 const links = [
   { href: "/dashboard/create", label: "Create eBook" },
-  { href: "/pricing", label: "Pricing" },
+  { href: "#pricing", label: "Pricing" },
   { href: "/getting-started/how-it-works/", label: "How it works" },
   { href: "/blog", label: "Blog" },
 ];
@@ -76,21 +76,10 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
             className="hidden md:inline-flex"
             asChild
           >
-            <a href="/login">Log in</a>
+            <a href="https://dash.bookify.it/login">Log in / Sign up</a>
           </Button>
 
-          <Button
-            size="sm"
-            className="hidden md:inline-flex group"
-            asChild
-          >
-            <a href="/dashboard" className="inline-flex items-center">
-              <span className="mr-2">Start here</span>
-              <span className="rounded-full border px-2 py-0.5 text-xs font-semibold text-[hsl(var(--secondary))] group-hover:bg-[hsl(var(--secondary)/0.08)]">
-                1 free credit
-              </span>
-            </a>
-          </Button>
+          
 
           {/* Mobile menu button */}
           <Button

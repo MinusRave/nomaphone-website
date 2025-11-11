@@ -3,7 +3,7 @@ import * as React from "react";
 const footerNavigation = {
   product: [
     { name: "Create eBook", href: "/dashboard/create" },
-    { name: "Pricing & Credits", href: "/pricing" },
+    { name: "Pricing & Credits", href: "#pricing" },
     { name: "How Bookify Works", href: "/getting-started/how-it-works/" },
     { name: "Quick Start Guide", href: "/getting-started/quick-start/" },
   ],
