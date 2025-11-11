@@ -1,0 +1,37 @@
+name: Daily Cloudflare Pages Build
+
+on:
+  schedule:
+    # Esegue ogni giorno alle 9:00 UTC (10:00 CET / 11:00 CEST)
+    # Modifica l'orario secondo le tue necessità
+    # Formato: minuti ore * * * (es: '0 9' = 9:00 UTC)
+    - cron: '0 9 * * *'
+  
+  # Permette anche l'esecuzione manuale dalla UI di GitHub
+  workflow_dispatch:
+
+jobs:
+  trigger-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Trigger Cloudflare Pages Deploy
+        run: |
+          curl -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/${{ secrets.CLOUDFLARE_PROJECT_NAME }}/deployments" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            --data '{
+              "branch": "main"
+            }'
+      
+      - name: Notify Success
+        if: success()
+        run: echo "✅ Build triggered successfully on Cloudflare Pages"
+      
+      - name: Notify Failure
+        if: failure()
+        run: echo "❌ Failed to trigger build on Cloudflare Pages"
