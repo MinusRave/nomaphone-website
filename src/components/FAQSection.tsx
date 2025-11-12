@@ -6,83 +6,83 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const faqs = [
-  {
-    question: "How does the credit system work?",
-    answer:
-      'Simple: 1 credit for eBooks up to 5 chapters, 2 credits for up to 10 chapters, 3 credits for up to 20 chapters. You only pay when you generate the final eBook — creating ideas and proposals is completely free.',
-  },
-  {
-    question: "Can I edit and customize the generated content?",
-    answer:
-      "Absolutely! Unlike most AI tools that only give you PDFs, we provide fully editable DOCX and Markdown formats. Open in Microsoft Word, Google Docs, Notion, or any text editor. Add your branding, tweak sections, combine with your content — full ownership and control.",
-  },
-  {
-    question: "Can I try different eBook structures before paying?",
-    answer:
-      'Yes! Create unlimited eBook ideas and get 3 AI-generated proposals for each — all free. You only use credits when you choose a proposal and click "Generate eBook". Experiment as much as you want.',
-  },
-  {
-    question: "What formats can I download?",
-    answer:
-      "Every eBook can be downloaded in three formats: Markdown (instant, perfect for Notion/web), DOCX (fully editable in Word/Google Docs), and PDF (professional, print-ready). All formats include your metadata like author name, copyright, and subtitle.",
-  },
-  {
-    question: "Is this for fiction books or novels?",
-    answer:
-      "No. Bookify is specifically designed for business and educational content: lead magnets, info products you can sell, course workbooks, training manuals, guides, and how-to eBooks. Not for creative fiction or novels.",
-  },
-  {
-    question: "How long does generation take?",
-    answer:
-      "About 2 minutes per chapter. A 5-chapter eBook takes ~10 minutes, a 10-chapter eBook ~20 minutes. You can leave the page — generation continues in the background and you get notified when done.",
-  },
-  {
-    question: "What if I run out of credits?",
-    answer:
-      "You can purchase more credits anytime from the pricing page. New users start with 1 free credit to try the platform. Credits never expire and can be used whenever you need them.",
-  },
-  {
-    question: "What languages are supported?",
-    answer:
-      "Currently 10+ languages: English, Italian, Spanish, French, German, Portuguese, Dutch, Russian, Chinese (Simplified), and Japanese. The AI adapts writing style and content appropriately for each language.",
-  },
-  {
-    question: "Can I sell the eBooks I create?",
-    answer:
-      "Yes! You have full commercial rights to all content generated. Use it as lead magnets, sell on Gumroad/Amazon, include in courses, or distribute to clients. The content is yours to use however you want.",
-  },
-];
-
 export function FAQSection() {
+  const faqs = [
+    {
+      question: "Can I call landlines and mobile numbers?",
+      answer:
+        "Yes. NomaPhone calls any traditional phone number - landlines, mobile phones, office numbers, toll-free numbers. If it has a phone number, you can call it. Works in 210+ countries.",
+    },
+    {
+      question: "Do I need to install an app?",
+      answer:
+        "No. NomaPhone works directly in your browser - Chrome, Safari, Firefox, Edge. Any device with a browser and internet works. No downloads, no updates, no installation required.",
+    },
+    {
+      question: "Can I call USA numbers from Thailand?",
+      answer:
+        "Absolutely. NomaPhone works anywhere you have internet. Call USA from Thailand, UK from Bali, India from Portugal - any combination. No geo-restrictions, no verification hoops.",
+    },
+    {
+      question: "How much does it cost to call [country]?",
+      answer:
+        "USA/Canada: $0.03/min. UK landline: $0.03/min. India: $0.08-0.09/min. Mexico: $0.03/min. Thailand: $0.19/min. See full rates for 210+ countries after signup. Credits never expire.",
+    },
+    {
+      question: "Do credits expire?",
+      answer:
+        "Never. Buy credits once, use them whenever you want - next week or next year. No expiration, no monthly fees, no pressure. Your money, your timeline.",
+    },
+    {
+      question: "What's better than Google Voice for non-US residents?",
+      answer:
+        "Google Voice only works for US residents with US phone numbers. NomaPhone works for anyone, anywhere. No verification, no proof of address, no geo-restrictions. Digital nomad in Bali? You're in.",
+    },
+    {
+      question: "Can I receive calls and SMS?",
+      answer:
+        "Yes, with a virtual number. Purchase a USA, UK, or other local number ($1.90-4.09/month) and receive calls and SMS - perfect for banking 2FA, client callbacks, or keeping a home number while traveling.",
+    },
+    {
+      question: "Is this cheaper than roaming?",
+      answer:
+        "Much cheaper. International roaming typically costs $2-5/minute plus $10-15/month add-ons. NomaPhone has no monthly fees, and rates start at $0.03/minute. A 20-minute call to USA costs you $0.60 instead of $40-100 in roaming charges.",
+    },
+    {
+      question: "Can my team share credits?",
+      answer:
+        "Yes. Create a team account with shared wallet, team contacts, and detailed call logs. Everyone calls from the company budget. Perfect for remote teams spread across countries. Export CSV for accounting.",
+    },
+    {
+      question: "When does NomaPhone launch?",
+      answer:
+        "Q1 2026. Join the waitlist now to secure early access and bonus credits. First 50 signups get the best perks - $10 total value plus founding member status.",
+    },
+  ];
+
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        {/* Section header */}
-        <div className="mx-auto mb-16 max-w-3xl text-center">
+        {/* Section Header */}
+        <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Frequently asked questions
+            Questions? We've got answers.
           </h2>
-          <p className="text-lg text-muted-foreground md:text-xl">
-            Everything you need to know. Can’t find your answer?{" "}
-            <a
-              href="/contact"
-              className="text-[hsl(var(--secondary))] underline hover:no-underline"
-            >
-              Contact us
-            </a>
-          </p>
         </div>
 
         {/* FAQ Accordion */}
         <div className="mx-auto max-w-3xl">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion
+            type="multiple"
+            defaultValue={["item-0", "item-1", "item-2"]}
+            className="w-full"
+          >
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
                 <AccordionTrigger className="text-left text-lg font-semibold">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-base text-muted-foreground">
+                <AccordionContent className="text-base text-muted-foreground leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

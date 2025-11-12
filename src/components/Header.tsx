@@ -7,16 +7,13 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ModeToggle";
-import { Menu } from "lucide-react";
+import { Menu, Globe } from "lucide-react";
 
 interface HeaderProps {
   currentPath?: string;
 }
 
 const links = [
-  { href: "/dashboard/create", label: "Create eBook" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "/getting-started/how-it-works/", label: "How it works" },
   { href: "/blog", label: "Blog" },
 ];
 
@@ -26,21 +23,26 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
   const isActive = (href: string) =>
     href === currentPath || (href !== "/" && currentPath.startsWith(href));
 
+  const scrollToWaitlist = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const form = document.querySelector('form[data-waitlist-form]') || 
+                 document.querySelector('input[type="email"]')?.closest('form');
+    if (form) {
+      form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
-        <a
-          href="/"
-          className="flex items-center gap-3 text-xl font-bold tracking-tight transition hover:opacity-90"
-          aria-label="Bookify — Home"
+        
+        <a href="/"
+          className="flex items-center gap-2 text-xl font-bold tracking-tight transition hover:opacity-90"
+          aria-label="NomaPhone — Home"
         >
-          <img
-            src="/logo-bookify.svg"
-            alt="Bookify"
-            className="h-7 w-auto"
-          />
-          <span>Bookify</span>
+          <Globe className="h-6 w-6 text-[hsl(var(--secondary))]" />
+          <span>NomaPhone</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -49,8 +51,8 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
             {links.map((link) => (
               <NavigationMenuItem key={link.href}>
                 <NavigationMenuLink asChild>
-                  <a
-                    href={link.href}
+                  
+                   <a href={link.href}
                     className={`px-3 py-2 text-sm font-medium transition-colors hover:text-[hsl(var(--secondary))] ${
                       isActive(link.href)
                         ? "text-[hsl(var(--secondary))]"
@@ -71,15 +73,13 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
           <ModeToggle />
 
           <Button
-            variant="ghost"
+            variant="default"
             size="sm"
             className="hidden md:inline-flex"
-            asChild
+            onClick={scrollToWaitlist}
           >
-            <a href="https://dash.bookify.it/login">Log in / Sign up</a>
+            Join Waitlist
           </Button>
-
-          
 
           {/* Mobile menu button */}
           <Button
@@ -113,17 +113,15 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
               </a>
             ))}
 
-            <div className="mt-4 space-y-2 border-t pt-4">
-              <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="/login">Log in</a>
-              </Button>
-              <Button className="w-full" asChild>
-                <a href="/dashboard" className="inline-flex items-center justify-center gap-2">
-                  Start here
-                  <span className="rounded-full border px-2 py-0.5 text-xs font-semibold text-[hsl(var(--secondary))]">
-                    1 free credit
-                  </span>
-                </a>
+            <div className="mt-4 border-t pt-4">
+              <Button 
+                className="w-full" 
+                onClick={(e) => {
+                  scrollToWaitlist(e);
+                  setMobileMenuOpen(false);
+                }}
+              >
+                Join Waitlist
               </Button>
             </div>
           </div>

@@ -1,20 +1,35 @@
 import * as React from "react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import {
-  ArrowRight,
-  Book,
-  Sparkles,
-  ShieldCheck,
-  FileDown,
-  Timer,
-  LineChart,
+  Globe,
+  Smartphone,
+  Zap,
+  CheckCircle2,
 } from "lucide-react";
 
 export function HeroSection() {
+  const [email, setEmail] = React.useState("");
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    
+    // TODO: Integrate with Brevo API
+    console.log("Waitlist signup:", email);
+    
+    // Simulate API call
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    setIsSubmitting(false);
+    setEmail("");
+    alert("Thanks! You're on the waitlist 🎉");
+  };
+
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
-      {/* Background brand-friendly */}
+      {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--muted))] via-background to-[hsl(var(--secondary)/0.08)] dark:from-[hsl(var(--background))] dark:via-[hsl(var(--background))] dark:to-[hsl(var(--secondary)/0.12)]" />
         <div className="pointer-events-none absolute -inset-[20%] rounded-full bg-[radial-gradient(ellipse_at_top_left,hsl(var(--secondary)/0.18),transparent_55%)] dark:bg-[radial-gradient(ellipse_at_top_left,hsl(var(--secondary)/0.25),transparent_55%)]" />
@@ -24,91 +39,81 @@ export function HeroSection() {
         <div className="mx-auto max-w-4xl text-center">
           {/* Badge */}
           <Badge variant="secondary" className="mb-6 px-4 py-2">
-            <Sparkles className="mr-2 h-4 w-4" />
-            Free proposal • Pay per manuscript
+            <Globe className="mr-2 h-4 w-4" />
+            Launching Q1 2026 • Join Beta Waitlist
           </Badge>
 
-          {/* Headline */}
+          {/* H1 - SEO Optimized */}
           <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            Create{" "}
+            International Calling for{" "}
             <span className="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
-              business-ready ebooks
-            </span>{" "}
-            with AI
+              Digital Nomads
+            </span>
           </h1>
 
-          {/* Subheadline */}
+          {/* Subheadline - Specific countries */}
           <p className="mb-10 text-lg text-muted-foreground md:text-xl lg:text-2xl">
-            Lead magnets that convert, paid digital products you can sell, full
-            course workbooks, and any non-fiction ebook. Generate unlimited
-            proposals for free — pay only when you produce the manuscript.
+            Call USA, UK, India landlines from Thailand, Bali, Mexico.
+            <br className="hidden sm:inline" />
+            Browser-based, no app, no roaming. Pay only what you use.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button
-              size="lg"
-              className="group w-full sm:w-auto"
-              onClick={() => {
-                const el = document.querySelector("#free-proposal");
-                if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-              }}
-            >
-              Generate free proposal
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+          {/* Form #1 - Hero Inline */}
+          <form onSubmit={handleSubmit} className="mx-auto mb-8 max-w-md">
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Input
+                type="email"
+                placeholder="your@email.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="flex-1"
+                disabled={isSubmitting}
+              />
+              <Button
+                type="submit"
+                size="lg"
+                disabled={isSubmitting}
+                className="sm:w-auto"
+              >
+                {isSubmitting ? "Joining..." : "Join Beta Waitlist"}
+              </Button>
+            </div>
+            <p className="mt-2 text-xs text-muted-foreground">
+              First 50 get $25 free credits • No spam, unsubscribe anytime
+            </p>
+          </form>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="w-full sm:w-auto"
-              onClick={() => {
-                const el = document.querySelector("#how-it-works");
-                if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-              }}
-            >
-              How it works
-            </Button>
-          </div>
-
-          {/* Trust / proof points */}
+          {/* Trust indicators */}
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <LineChart className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>Lead magnets & playbooks</span>
+              <Globe className="h-4 w-4 text-[hsl(var(--secondary))]" />
+              <span>210+ countries coverage</span>
             </div>
             <div className="flex items-center gap-2">
-              <Book className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>Course workbooks & guides</span>
+              <Zap className="h-4 w-4 text-[hsl(var(--secondary))]" />
+              <span>30 seconds to first call</span>
             </div>
             <div className="flex items-center gap-2">
-              <ShieldCheck className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>No subscription — pay per use</span>
+              <CheckCircle2 className="h-4 w-4 text-[hsl(var(--secondary))]" />
+              <span>No app required</span>
             </div>
             <div className="flex items-center gap-2">
-              <Sparkles className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>Claude-powered consistency</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileDown className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>Export PDF / Docx / MD</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Timer className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>From idea to draft in minutes</span>
+              <Smartphone className="h-4 w-4 text-[hsl(var(--secondary))]" />
+              <span>SMS + Virtual numbers</span>
             </div>
           </div>
         </div>
 
-        {/* Hero visual */}
+        {/* Hero visual - Nomad context */}
         <div className="mx-auto mt-16 max-w-5xl">
           <div className="relative aspect-video overflow-hidden rounded-2xl border bg-gradient-to-br from-[hsl(var(--secondary)/0.15)] to-[hsl(var(--secondary)/0.05)] shadow-2xl">
             <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-[hsl(var(--border))]" />
             <div className="flex h-full items-center justify-center">
               <div className="text-center">
-                <Book className="mx-auto h-24 w-24 text-[hsl(var(--secondary))] opacity-70" />
+                <Globe className="mx-auto h-24 w-24 text-[hsl(var(--secondary))] opacity-70" />
                 <p className="mt-4 text-muted-foreground">
-                  Example outline • “Marketing Funnel Lead Magnet”
+                  Preview: NomaPhone Dashboard
                 </p>
               </div>
             </div>
