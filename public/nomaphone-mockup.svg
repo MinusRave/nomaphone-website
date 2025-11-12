@@ -1,0 +1,222 @@
+<svg viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients using NomaPhone brand colors -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(200, 20%, 96%);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:hsl(200, 25%, 98%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(180, 30%, 95%);stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:hsl(200, 95%, 35%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(180, 75%, 45%);stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="dialpadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(180, 75%, 45%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(180, 60%, 65%);stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="callButtonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(15, 85%, 60%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(15, 85%, 50%);stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Enhanced glow for dialpad -->
+    <filter id="dialpadGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background with gradient -->
+  <rect width="1440" height="900" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles with brand colors -->
+  <circle cx="200" cy="150" r="120" fill="hsl(200, 95%, 35%)" opacity="0.04"/>
+  <circle cx="1300" cy="700" r="150" fill="hsl(180, 75%, 45%)" opacity="0.04"/>
+  <circle cx="100" cy="800" r="80" fill="hsl(15, 85%, 60%)" opacity="0.04"/>
+  
+  <!-- Browser Chrome -->
+  <rect width="1440" height="48" fill="#ffffff" opacity="0.95" filter="url(#softShadow)"/>
+  <circle cx="24" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="24" r="6" fill="#27c93f"/>
+  
+  <!-- URL Bar -->
+  <rect x="120" y="12" width="1200" height="24" rx="12" fill="#ffffff" stroke="hsl(200, 15%, 89%)" stroke-width="1" opacity="0.9"/>
+  <text x="140" y="28" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="12" fill="hsl(200, 10%, 45%)">
+    app.nomaphone.com
+  </text>
+  
+  <!-- App Header with brand gradient -->
+  <rect y="48" width="1440" height="64" fill="url(#headerGradient)" filter="url(#softShadow)"/>
+  
+  <!-- Logo -->
+  <circle cx="48" cy="80" r="18" fill="#ffffff" opacity="0.2" filter="url(#glow)"/>
+  <text x="48" y="86" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="22" text-anchor="middle">🌍</text>
+  <text x="82" y="88" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff">NomaPhone</text>
+  
+  <!-- Balance Badge -->
+  <rect x="1240" y="64" width="170" height="36" rx="18" fill="#ffffff" opacity="0.25" filter="url(#glow)"/>
+  <rect x="1242" y="66" width="166" height="32" rx="16" fill="#ffffff" opacity="0.95"/>
+  <text x="1325" y="88" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="hsl(180, 75%, 45%)" text-anchor="middle">Balance: $47.50</text>
+  
+  <!-- Left Sidebar -->
+  <rect x="24" y="136" width="280" height="720" rx="16" fill="#ffffff" opacity="0.6" filter="url(#softShadow)"/>
+  
+  <text x="44" y="172" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="hsl(200, 10%, 45%)" letter-spacing="1.5">CONTACTS</text>
+  
+  <!-- Contact 1 -->
+  <rect x="36" y="192" width="256" height="52" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <circle cx="62" cy="218" r="18" fill="hsl(180, 75%, 95%)"/>
+  <text x="62" y="224" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="hsl(180, 75%, 45%)" text-anchor="middle">B</text>
+  <text x="92" y="215" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Bank of America</text>
+  <text x="92" y="232" font-family="SF Mono, Menlo, monospace" font-size="12" fill="hsl(200, 10%, 45%)">+1 (800) 432-1000</text>
+  
+  <!-- Contact 2 -->
+  <rect x="36" y="256" width="256" height="52" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <circle cx="62" cy="282" r="18" fill="hsl(15, 85%, 95%)"/>
+  <text x="62" y="288" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="hsl(15, 85%, 60%)" text-anchor="middle">M</text>
+  <text x="92" y="279" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Mom and Dad</text>
+  <text x="92" y="296" font-family="SF Mono, Menlo, monospace" font-size="12" fill="hsl(200, 10%, 45%)">+39 081 555 0123</text>
+  
+  <!-- Contact 3 -->
+  <rect x="36" y="320" width="256" height="52" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <circle cx="62" cy="346" r="18" fill="hsl(200, 95%, 95%)"/>
+  <text x="62" y="352" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="hsl(200, 95%, 35%)" text-anchor="middle">P</text>
+  <text x="92" y="343" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Property Manager</text>
+  <text x="92" y="360" font-family="SF Mono, Menlo, monospace" font-size="12" fill="hsl(200, 10%, 45%)">+91 22 1234 5678</text>
+  
+  <!-- Contact 4 -->
+  <rect x="36" y="384" width="256" height="52" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <circle cx="62" cy="410" r="18" fill="hsl(180, 60%, 95%)"/>
+  <text x="62" y="416" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="hsl(180, 60%, 45%)" text-anchor="middle">C</text>
+  <text x="92" y="407" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Client - NYC</text>
+  <text x="92" y="424" font-family="SF Mono, Menlo, monospace" font-size="12" fill="hsl(200, 10%, 45%)">+1 (212) 555-9876</text>
+  
+  <!-- Add Contact Button -->
+  <rect x="36" y="800" width="256" height="44" rx="12" fill="url(#headerGradient)" filter="url(#glow)"/>
+  <text x="164" y="827" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">+ Add Contact</text>
+  
+  <!-- Center Dialpad Area - EMPHASIZED -->
+  <rect x="340" y="136" width="760" height="720" rx="16" fill="#ffffff" opacity="0.95" filter="url(#softShadow)"/>
+  
+  <!-- Dialpad Header -->
+  <text x="720" y="200" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="36" font-weight="200" fill="hsl(0, 0%, 3.9%)" text-anchor="middle" letter-spacing="-1">+1 (415) 555-0198</text>
+  
+  <!-- Country/Rate Info - Brand colors -->
+  <rect x="570" y="225" width="300" height="40" rx="20" fill="hsl(180, 75%, 95%)" filter="url(#softShadow)"/>
+  <text x="595" y="251" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="hsl(180, 75%, 45%)">🇺🇸 USA</text>
+  <text x="845" y="251" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="hsl(180, 75%, 45%)" text-anchor="end">$0.03/min</text>
+  
+  <!-- DIALPAD GRID - EMPHASIZED WITH GRADIENT -->
+  <!-- Row 1 -->
+  <rect x="560" y="310" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="560" y="310" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="610" y="372" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">1</text>
+  
+  <rect x="670" y="310" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="670" y="310" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="720" y="372" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">2</text>
+  
+  <rect x="780" y="310" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="780" y="310" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="830" y="372" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">3</text>
+  
+  <!-- Row 2 -->
+  <rect x="560" y="420" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="560" y="420" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="610" y="482" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">4</text>
+  
+  <rect x="670" y="420" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="670" y="420" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="720" y="482" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">5</text>
+  
+  <rect x="780" y="420" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="780" y="420" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="830" y="482" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">6</text>
+  
+  <!-- Row 3 -->
+  <rect x="560" y="530" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="560" y="530" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="610" y="592" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">7</text>
+  
+  <rect x="670" y="530" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="670" y="530" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="720" y="592" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">8</text>
+  
+  <rect x="780" y="530" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="780" y="530" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="830" y="592" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">9</text>
+  
+  <!-- Row 4 -->
+  <rect x="560" y="640" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="560" y="640" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="610" y="702" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">*</text>
+  
+  <rect x="670" y="640" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="670" y="640" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="720" y="702" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">0</text>
+  
+  <rect x="780" y="640" width="100" height="100" rx="16" fill="url(#dialpadGradient)" opacity="0.15" filter="url(#dialpadGlow)"/>
+  <rect x="780" y="640" width="100" height="100" rx="16" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="830" y="702" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="40" font-weight="400" fill="hsl(180, 75%, 45%)" text-anchor="middle">#</text>
+  
+  <!-- Call Button - Accent color -->
+  <circle cx="720" cy="795" r="46" fill="url(#callButtonGradient)" filter="url(#glow)"/>
+  <circle cx="720" cy="795" r="44" fill="url(#callButtonGradient)" filter="url(#softShadow)"/>
+  <text x="720" y="807" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="32" text-anchor="middle">📞</text>
+  
+  <!-- Right Sidebar -->
+  <rect x="1136" y="136" width="280" height="720" rx="16" fill="#ffffff" opacity="0.6" filter="url(#softShadow)"/>
+  
+  <text x="1156" y="172" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="hsl(200, 10%, 45%)" letter-spacing="1.5">RECENT CALLS</text>
+  
+  <!-- Call History 1 -->
+  <rect x="1148" y="192" width="256" height="68" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="1164" y="216" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Bank of America</text>
+  <text x="1164" y="234" font-family="SF Mono, Menlo, monospace" font-size="13" font-weight="600" fill="hsl(180, 75%, 45%)">12 min • $0.36</text>
+  <text x="1164" y="250" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="12" fill="hsl(200, 10%, 45%)">2 hours ago</text>
+  
+  <!-- Call History 2 -->
+  <rect x="1148" y="272" width="256" height="68" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="1164" y="296" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Property Manager</text>
+  <text x="1164" y="314" font-family="SF Mono, Menlo, monospace" font-size="13" font-weight="600" fill="hsl(200, 95%, 35%)">8 min • $0.64</text>
+  <text x="1164" y="330" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="12" fill="hsl(200, 10%, 45%)">Yesterday</text>
+  
+  <!-- Call History 3 -->
+  <rect x="1148" y="352" width="256" height="68" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="1164" y="376" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Client - NYC</text>
+  <text x="1164" y="394" font-family="SF Mono, Menlo, monospace" font-size="13" font-weight="600" fill="hsl(180, 60%, 45%)">23 min • $0.69</text>
+  <text x="1164" y="410" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="12" fill="hsl(200, 10%, 45%)">3 days ago</text>
+  
+  <!-- Call History 4 -->
+  <rect x="1148" y="432" width="256" height="68" rx="12" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="1164" y="456" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="hsl(0, 0%, 3.9%)">Mom and Dad</text>
+  <text x="1164" y="474" font-family="SF Mono, Menlo, monospace" font-size="13" font-weight="600" fill="hsl(15, 85%, 60%)">45 min • $1.35</text>
+  <text x="1164" y="490" font-family="SF Pro Display, system-ui, -apple-system, sans-serif" font-size="12" fill="hsl(200, 10%, 45%)">5 days ago</text>
+</svg>

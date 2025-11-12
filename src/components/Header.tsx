@@ -23,12 +23,22 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
   const isActive = (href: string) =>
     href === currentPath || (href !== "/" && currentPath.startsWith(href));
 
-  const scrollToWaitlist = (e: React.MouseEvent) => {
+  const handleWaitlistClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    const form = document.querySelector('form[data-waitlist-form]') || 
-                 document.querySelector('input[type="email"]')?.closest('form');
-    if (form) {
-      form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    
+    // Check if we're on the landing page
+    const isOnLandingPage = window.location.pathname === "/";
+    
+    if (isOnLandingPage) {
+      // Scroll to form on current page
+      const form = document.querySelector('form[data-waitlist-form]') || 
+                   document.querySelector('input[type="email"]')?.closest('form');
+      if (form) {
+        form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    } else {
+      // Redirect to landing page with hash
+      window.location.href = "/#waitlist";
     }
   };
 
@@ -36,8 +46,8 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
-        
-        <a href="/"
+        <a
+          href="/"
           className="flex items-center gap-2 text-xl font-bold tracking-tight transition hover:opacity-90"
           aria-label="NomaPhone — Home"
         >
@@ -51,8 +61,8 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
             {links.map((link) => (
               <NavigationMenuItem key={link.href}>
                 <NavigationMenuLink asChild>
-                  
-                   <a href={link.href}
+                  <a
+                    href={link.href}
                     className={`px-3 py-2 text-sm font-medium transition-colors hover:text-[hsl(var(--secondary))] ${
                       isActive(link.href)
                         ? "text-[hsl(var(--secondary))]"
@@ -76,7 +86,7 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
             variant="default"
             size="sm"
             className="hidden md:inline-flex"
-            onClick={scrollToWaitlist}
+            onClick={handleWaitlistClick}
           >
             Join Waitlist
           </Button>
@@ -117,7 +127,7 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
               <Button 
                 className="w-full" 
                 onClick={(e) => {
-                  scrollToWaitlist(e);
+                  handleWaitlistClick(e);
                   setMobileMenuOpen(false);
                 }}
               >

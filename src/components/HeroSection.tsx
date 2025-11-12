@@ -80,7 +80,7 @@ export function HeroSection() {
               </Button>
             </div>
             <p className="mt-2 text-xs text-muted-foreground">
-              First 50 get $25 free credits • No spam, unsubscribe anytime
+              First 50 get $5 free credits • No spam, unsubscribe anytime
             </p>
           </form>
 
@@ -105,21 +105,28 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* Hero visual - Nomad context */}
-        <div className="mx-auto mt-16 max-w-5xl">
-          <div className="relative aspect-video overflow-hidden rounded-2xl border bg-gradient-to-br from-[hsl(var(--secondary)/0.15)] to-[hsl(var(--secondary)/0.05)] shadow-2xl">
-            <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-[hsl(var(--border))]" />
-            <div className="flex h-full items-center justify-center">
-              <div className="text-center">
-                <Globe className="mx-auto h-24 w-24 text-[hsl(var(--secondary))] opacity-70" />
-                <p className="mt-4 text-muted-foreground">
-                  Preview: NomaPhone Dashboard
-                </p>
-              </div>
-            </div>
-            <div className="pointer-events-none absolute -inset-8 rounded-3xl bg-[radial-gradient(ellipse_at_bottom,hsl(var(--secondary)/0.25),transparent_60%)]" />
-          </div>
-        </div>
+{/* Hero visual - Nomad context */}
+<div className="mx-auto mt-16 max-w-5xl">
+  <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+    {/* Glow effect behind */}
+    <div className="pointer-events-none absolute -inset-8 rounded-3xl bg-[radial-gradient(ellipse_at_center,hsl(var(--secondary)/0.3),transparent_70%)]" />
+    
+    {/* Main container */}
+    <div className="relative aspect-video overflow-hidden rounded-2xl border border-[hsl(var(--border))] bg-gradient-to-br from-[hsl(var(--muted))] to-[hsl(var(--background))]">
+      {/* SVG Image */}
+      <img 
+        src="/nomaphone-mockup.svg" 
+        alt="NomaPhone Dashboard Interface"
+        className="h-full w-full object-cover"
+      />
+      
+      {/* Inner ring for depth */}
+      <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-[hsl(var(--border)/0.5)]" />
+    </div>
+  </div>
+</div>
+
+
       </div>
     </section>
   );
