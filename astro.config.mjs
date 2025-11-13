@@ -6,7 +6,7 @@ import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://nomaphone.com",
   integrations: [mdx(), sitemap(), react()],
   vite: { plugins: [tailwindcss()] },
 });
