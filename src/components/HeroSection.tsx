@@ -267,7 +267,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     const payload = buildPayload();
 
     const res = await fetch(
-      "http://173.249.43.146:1880/nomaphone/waitlist",
+      "https://nr.nomaphone.com/nomaphone/waitlist",
       {
         method: "POST",
         headers: {
