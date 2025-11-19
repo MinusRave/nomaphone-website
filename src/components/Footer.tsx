@@ -7,6 +7,12 @@ export default function Footer() {
   const legalLinks = [
     { href: "/privacy", label: "Privacy Policy" },
     { href: "/terms", label: "Terms of Service" },
+    
+  ];
+
+  const otherLinks = [
+    
+    { href: "/blog", label: "Blog" },
   ];
 
   const socialLinks = [
@@ -18,9 +24,9 @@ export default function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-4">
           {/* Brand Column */}
-          <div className="space-y-4">
+          <div className="space-y-3">
             <a
               href="/"
               className="flex items-center gap-2 text-lg font-bold transition hover:opacity-90"
@@ -39,6 +45,23 @@ export default function Footer() {
           </div>
 
           {/* Links Column */}
+          <div className="space-y-4">
+            <h3 className="text-sm font-semibold">Blog</h3>
+            <ul className="space-y-2">
+              {otherLinks.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Other Links Column */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold">Legal</h3>
             <ul className="space-y-2">
