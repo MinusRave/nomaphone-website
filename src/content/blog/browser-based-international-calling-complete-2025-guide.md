@@ -4,6 +4,7 @@ description: "Everything you need to know about making international calls direc
 pubDate: 2025-11-13
 author: "The NomaPhone Team"
 slug: "browser-based-international-calling-complete-2025-guide"
+
 tags: ["browser calling", "WebRTC", "international calling", "VoIP technology"]
 ---
 
