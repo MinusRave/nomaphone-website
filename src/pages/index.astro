@@ -1,18 +1,19 @@
 ---
 /**
  * NomaPhone Landing Page
- * 
+ *
  * Esempio di integrazione con Astro
  * Sostituisci questo file con src/pages/index.astro
  */
 
-import BaseHead from '@/components/BaseHead.astro';
-import Header from '@/components/Header';
-import LandingPage from '@/components/LandingPage.tsx';
-import Footer from '@/components/Footer.tsx';
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header";
+import LandingPage from "@/components/LandingPage.tsx";
+import Footer from "@/components/Footer.tsx";
 
 const title = "NomaPhone - International Calling for Digital Nomads";
-const description = "Bookify transforms your ideas into high-quality eBooks in minutes. Create lead magnets, digital products, or educational guides effortlessly — ready to share, sell, or publish anywhere.";
+const description =
+  "Make international calls directly from your browser. No apps, no downloads. Perfect for digital nomads and remote workers. Call 200+ countries starting at $0.03/minute.";
 ---
 
 <!doctype html>
@@ -20,47 +21,56 @@ const description = "Bookify transforms your ideas into high-quality eBooks in m
   <head>
     <BaseHead title={title} description={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="/og-image.png" />
-    
+    <meta property="og:image" content="/nomaphone-mockup.svg" />
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="/og-image.png" />
-    
+    <meta name="twitter:image" content="/nomaphone-mockup.svg" />
+
     <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
-  
+
   <body>
     <!-- Header with navigation -->
     <Header client:load currentPath="/" />
-    
+
     <!-- Main landing page content -->
     <LandingPage client:load />
-    
+
     <!-- Footer -->
-    <Footer client:load /> 
-    
+    <Footer client:load />
+
     <!-- Optional: Add analytics script here -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
   </body>
 </html>
 
 <style is:global>
-@reference "@/styles/global.css";
+  @reference "@/styles/global.css";
 
-html { scroll-behavior: smooth; }
+  html {
+    scroll-behavior: smooth;
+  }
 
-::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { @apply bg-background; }
-::-webkit-scrollbar-thumb { @apply bg-blue-600 rounded-full; }
-::-webkit-scrollbar-thumb:hover { @apply bg-blue-700; }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-blue-600 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-700;
+  }
 </style>
-
