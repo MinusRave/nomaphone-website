@@ -1,0 +1,33 @@
+---
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer.tsx";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Credits Reserved – Thank You | NomaPhone"
+      description="Your NomaPhone founding credits are reserved."
+    />
+  </head>
+
+  <body class="bg-background text-foreground">
+    <Header client:load currentPath="/reserve-success" />
+
+    <main class="container mx-auto px-4 py-24 text-center">
+      <h1 class="text-4xl font-bold">You're officially in 🎉</h1>
+      <p class="mt-4 text-lg text-muted-foreground">
+        Your founding credits are reserved. Before we launch, we’ll email you
+        everything you need to redeem your bonus balance.
+      </p>
+
+      <div class="mt-10 rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--muted)/0.3)] p-6 text-sm leading-relaxed text-muted-foreground">
+        Remember: your payment is fully refundable at any time.
+        No questions asked, ever.
+      </div>
+
+      <Footer client:load />
+    </main>
+  </body>
+</html>

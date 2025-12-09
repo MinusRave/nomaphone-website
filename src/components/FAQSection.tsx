@@ -9,54 +9,54 @@ import {
 export function FAQSection() {
   const faqs = [
     {
-      question: "Can I call landlines and mobile numbers?",
+      question: "Will this work to call my bank or a government office?",
       answer:
-        "Yes. NomaPhone calls any traditional phone number - landlines, mobile phones, office numbers, toll-free numbers. If it has a phone number, you can call it. Works in 210+ countries.",
+        "Yes. NomaPhone is built exactly for these calls. You can dial landlines, toll-free numbers and call center numbers in 210+ countries, including banks, tax offices and immigration hotlines. If they publish a phone number, you can call it from your browser.",
     },
     {
-      question: "Do I need to install an app?",
+      question: "Do I need a local SIM card or phone number?",
       answer:
-        "No. NomaPhone works directly in your browser - Chrome, Safari, Firefox, Edge. Any device with a browser and internet works. No downloads, no updates, no installation required.",
+        "No. To place outbound calls you only need an internet connection and a browser. A virtual number is only required if you also want to receive calls or SMS, for example for banking 2FA or callbacks.",
     },
     {
-      question: "Can I call USA numbers from Thailand?",
+      question: "Can I use NomaPhone for OTP and 2FA SMS?",
       answer:
-        "Absolutely. NomaPhone works anywhere you have internet. Call USA from Thailand, UK from Bali, India from Portugal - any combination. No geo-restrictions, no verification hoops.",
+        "Yes. If you purchase a virtual number (for example a US or UK local number), you can receive SMS with verification codes from most banks and online services. While we can’t legally guarantee delivery for 100% of providers, NomaPhone is designed with OTP/2FA use cases in mind.",
+    },
+    {
+      question: "How good is the call quality?",
+      answer:
+        "We route calls through carrier-grade providers, the same type of infrastructure used by many contact centers and SaaS telephony tools. In practice, if your internet connection is stable, you can expect clear audio and reliable connections comparable to a regular VoIP call.",
+    },
+    {
+      question: "Is this cheaper than roaming or traditional calling?",
+      answer:
+        "In most cases, yes. International roaming can easily cost $2–5/min plus monthly add-ons. With NomaPhone, US/Canada and UK landlines start at $0.03/min, India around $0.08–0.09/min and Mexico landlines at $0.03/min. A 20-minute call to the US is around $0.60 instead of $40–100 in roaming charges.",
     },
     {
       question: "How much does it cost to call [country]?",
       answer:
-        "USA/Canada: $0.03/min. UK landline: $0.03/min. India: $0.08-0.09/min. Mexico: $0.03/min. Thailand: $0.19/min. See full rates for 210+ countries after signup. Credits never expire.",
+        "Example rates: USA/Canada $0.03/min, UK landline $0.03/min, UK mobile $0.06/min, India $0.08–0.09/min, Mexico (landline) $0.03/min, Thailand $0.19/min. Full, transparent rate tables for 210+ destinations will be available after signup.",
     },
     {
-      question: "Do credits expire?",
+      question: "Do credits expire or require a monthly subscription?",
       answer:
-        "Never. Buy credits once, use them whenever you want - next week or next year. No expiration, no monthly fees, no pressure. Your money, your timeline.",
+        "Credits never expire. You top up once, and use your balance whenever you need to call – next week or next year. There are no mandatory monthly fees or contracts. You only pay for the minutes and messages you actually use.",
     },
     {
-      question: "What's better than Google Voice for non-US residents?",
+      question: "Can my team share one account and budget?",
       answer:
-        "Google Voice only works for US residents with US phone numbers. NomaPhone works for anyone, anywhere. No verification, no proof of address, no geo-restrictions. Digital nomad in Bali? You're in.",
+        "Yes. You can create a team workspace with a shared wallet, shared contacts and detailed call logs. Team members place calls from the company balance instead of their personal phones. Call history can be exported as CSV for accounting and reporting.",
     },
     {
-      question: "Can I receive calls and SMS?",
+      question: "Is NomaPhone available worldwide?",
       answer:
-        "Yes, with a virtual number. Purchase a USA, UK, or other local number ($1.90-4.09/month) and receive calls and SMS - perfect for banking 2FA, client callbacks, or keeping a home number while traveling.",
-    },
-    {
-      question: "Is this cheaper than roaming?",
-      answer:
-        "Much cheaper. International roaming typically costs $2-5/minute plus $10-15/month add-ons. NomaPhone has no monthly fees, and rates start at $0.03/minute. A 20-minute call to USA costs you $0.60 instead of $40-100 in roaming charges.",
-    },
-    {
-      question: "Can my team share credits?",
-      answer:
-        "Yes. Create a team account with shared wallet, team contacts, and detailed call logs. Everyone calls from the company budget. Perfect for remote teams spread across countries. Export CSV for accounting.",
+        "You can use NomaPhone from almost anywhere you have a stable internet connection, subject to local regulations on VoIP. If you can open a browser and access our site, you can place calls. Some virtual number options may be restricted based on country.",
     },
     {
       question: "When does NomaPhone launch?",
       answer:
-        "Q1 2026. Join the waitlist now to secure early access and bonus credits. First 50 signups get the best perks - $10 total value plus founding member status.",
+        "We’re aiming for a Q2 2026 beta launch. Joining the waitlist now gives you early access plus bonus credits. The earliest supporters get the highest free credit amounts and founding member perks.",
     },
   ];
 
@@ -82,7 +82,7 @@ export function FAQSection() {
                 <AccordionTrigger className="text-left text-lg font-semibold">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-base text-muted-foreground leading-relaxed">
+                <AccordionContent className="text-base leading-relaxed text-muted-foreground">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

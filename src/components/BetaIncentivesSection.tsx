@@ -7,39 +7,40 @@ export function BetaIncentivesSection() {
   const tiers = [
     {
       icon: Star,
-      label: "First 50",
-      badge: "Best Value",
+      label: "First 100",
+      badge: "Best value",
       highlighted: true,
       benefits: [
-        "$5 free credits when we launch",
-        "+$5 bonus credits when you make your first $25+ purchase",
-        "Early access - 7 days before public launch",
-        "Founding member status",
+        "$10 free calling credits at launch",
+        "Locked-in beta pricing for life",
+        "Priority access to new countries & features",
+        "Founding member badge in your account",
       ],
-      subtext: "Total $10 value - Get started free, earn more when you're ready",
+      subtext:
+        "Perfect if you know you’ll need to call banks, offices or clients from abroad in the next months.",
     },
     {
       icon: Gift,
-      label: "Next 150",
+      label: "Next 300",
       badge: null,
       highlighted: false,
       benefits: [
-        "$3 free credits when we launch",
-        "+$2 bonus credits when you make your first $10+ purchase",
-        "Early access - 3 days before public launch",
+        "$5 free calling credits at launch",
+        "Early access – 3 days before public launch",
+        "Access to our private feedback channel",
       ],
-      subtext: "Total $5 value",
+      subtext: "Great if you’re curious and want to try NomaPhone with real calls.",
     },
     {
       icon: Users,
-      label: "After 200",
+      label: "After 400",
       badge: null,
       highlighted: false,
       benefits: [
-        "$3 free credits when we launch",
-        "Early access - 1 day before public launch",
+        "$3 free calling credits at launch",
+        "Early access – 1 day before public launch",
       ],
-      subtext: "Still a great deal",
+      subtext: "Still better than waiting for the public launch with no bonus credits.",
     },
   ];
 
@@ -49,10 +50,11 @@ export function BetaIncentivesSection() {
         {/* Section Header */}
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Beta perks for early supporters
+            Extra credits for early callers.
           </h2>
           <p className="text-lg text-muted-foreground md:text-xl">
-            Join now and get more. Limited spots at each tier.
+            Join the beta waitlist now and we'll give you free credits to make
+            your first calls when NomaPhone goes live.
           </p>
         </div>
 
@@ -78,7 +80,7 @@ export function BetaIncentivesSection() {
                   </div>
                 )}
 
-                <CardHeader className="text-center pb-4">
+                <CardHeader className="pb-4 text-center">
                   <div className="mx-auto mb-3 inline-flex rounded-lg bg-[hsl(var(--secondary)/0.1)] p-3">
                     <Icon className="h-8 w-8 text-[hsl(var(--secondary))]" />
                   </div>
@@ -87,17 +89,17 @@ export function BetaIncentivesSection() {
 
                 <CardContent>
                   {/* Benefits List */}
-                  <div className="space-y-3 mb-4">
+                  <div className="mb-4 space-y-3">
                     {tier.benefits.map((benefit, benefitIndex) => (
                       <div key={benefitIndex} className="flex items-start gap-2">
-                        <Check className="h-5 w-5 text-[hsl(var(--secondary))] shrink-0 mt-0.5" />
+                        <Check className="mt-0.5 h-5 w-5 shrink-0 text-[hsl(var(--secondary))]" />
                         <span className="text-sm leading-relaxed">{benefit}</span>
                       </div>
                     ))}
                   </div>
 
                   {/* Subtext */}
-                  <p className="text-xs text-muted-foreground text-center pt-4 border-t">
+                  <p className="border-t pt-4 text-center text-xs text-muted-foreground">
                     {tier.subtext}
                   </p>
                 </CardContent>

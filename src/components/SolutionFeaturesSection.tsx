@@ -13,33 +13,39 @@ export function SolutionFeaturesSection() {
   const features = [
     {
       icon: Globe,
-      headline: "Call from any browser",
-      body: "No app to download. Works on your laptop, tablet, or phone. Chrome, Safari, Firefox - if it has a browser, it works. Your office is everywhere, your calls should be too.",
+      headline: "Call from any browser, on any connection",
+      body:
+        "Coworking Wi-Fi, hotel network, airport lounge – if you can open a browser, you can place a call. No SIM, no roaming plan, no app store. Just log in and dial.",
     },
     {
       icon: Phone,
-      headline: "Reach any number worldwide",
-      body: "Call landlines and mobile numbers in 210+ countries. Banks, government offices, property managers, clients - anyone with a traditional phone number. WhatsApp not required on their end.",
+      headline: "Reach real phone numbers, not just apps",
+      body:
+        "Call landlines, toll-free numbers and mobiles in 210+ countries. Banks, government offices, property managers, call centers – all the places WhatsApp and FaceTime can’t reach.",
     },
     {
       icon: Hash,
-      headline: "Get a local number anywhere",
-      body: "USA, UK, India, Mexico virtual numbers. Receive calls and SMS like a local. Perfect for banking 2FA, client callbacks, or keeping your home number while traveling.",
+      headline: "Keep a local number, wherever you are",
+      body:
+        "Get USA, UK, India or Mexico virtual numbers so people can call or text you like you’re still local. Perfect for banks, client callbacks and services that refuse to call foreign numbers.",
     },
     {
       icon: MessageSquare,
-      headline: "Send and receive SMS",
-      body: "Get verification codes from your bank. Receive 2FA messages. Send texts when calling isn't an option. Essential for managing accounts while traveling.",
+      headline: "Reliable SMS for OTP and 2FA",
+      body:
+        "Receive verification codes from banks and online services on your NomaPhone numbers. Keep access to your accounts while you travel, without fighting with your home SIM.",
     },
     {
       icon: Users,
-      headline: "Built for remote teams",
-      body: "Shared wallet, team contacts, detailed call logs. Everyone calls from the company budget. Export CSV for accounting. Roles and permissions included.",
+      headline: "One calling hub for your whole team",
+      body:
+        "Shared wallet, shared contacts and full call history. Everyone calls from the company account, not their personal phones. Export logs for accounting in one click.",
     },
     {
       icon: Wallet,
-      headline: "No contracts, no subscriptions",
-      body: "Buy credits, use them whenever. Credits never expire. No monthly fees. No commitment. Call 2 times a month or 200 - pay only for what you actually use.",
+      headline: "Simple pay-per-use, no commitments",
+      body:
+        "Buy credits once, use them whenever. Credits never expire and there are no monthly fees. Call twice a month or every day – you only pay for the minutes and messages you actually use.",
     },
   ];
 
@@ -49,11 +55,12 @@ export function SolutionFeaturesSection() {
         {/* Section Header */}
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Everything you need. Nothing you don't.
+            One tool for every “I need to call them now” moment.
           </h2>
           <p className="text-lg text-muted-foreground md:text-xl">
-            Professional international calling built for people who work without
-            borders.
+            From banks and government offices to clients and property
+            managers, NomaPhone gives you a stable line out from anywhere in
+            the world.
           </p>
         </div>
 

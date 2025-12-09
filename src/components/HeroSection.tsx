@@ -296,6 +296,9 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
 
 
+  
+
+
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
       {/* Background */}
@@ -309,22 +312,20 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           {/* Badge */}
           <Badge variant="secondary" className="mb-6 px-4 py-2">
             <Globe className="mr-2 h-4 w-4" />
-            Launching Q1 2026 • Join Beta Waitlist
+            Launching Q2 2026 • Early access for frequent callers
           </Badge>
 
-          {/* H1 - SEO Optimized */}
+          {/* H1 – focus sul problema reale */}
           <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            International Calling for{" "}
-            <span className="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
-              Digital Nomads
-            </span>
+            Call your <span className="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">bank, government office, or clients</span> from abroad.
           </h1>
 
-          {/* Subheadline - Specific countries */}
+          {/* Subheadline – chiarisce use case + target */}
           <p className="mb-10 text-lg text-muted-foreground md:text-xl lg:text-2xl">
-            Call USA, UK, India landlines from Thailand, Bali, Mexico.
+            No roaming, no SIM, no app. Just open your browser and call
+            US, UK, India and more at local-style rates.
             <br className="hidden sm:inline" />
-            Browser-based, no app, no roaming. Pay only what you use.
+            Built for digital nomads, expats and remote teams who still need to call real phone numbers.
           </p>
 
           {/* Form #1 - Hero Inline */}
@@ -332,7 +333,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             <div className="flex flex-col gap-3 sm:flex-row">
               <Input
                 type="email"
-                placeholder="your@email.com"
+                placeholder="you@nomadlife.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -345,57 +346,52 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                 disabled={isSubmitting}
                 className="sm:w-auto"
               >
-                {isSubmitting ? "Joining..." : "Join Beta Waitlist"}
+                {isSubmitting ? "Joining..." : "Join waitlist & get $10 credit"}
               </Button>
             </div>
             <p className="mt-2 text-xs text-muted-foreground">
-              First 50 get $5 free credits • No spam, unsubscribe anytime
+              First 100 members get $10 in free calling credits at launch. No spam, unsubscribe anytime.
             </p>
           </form>
 
-          {/* Trust indicators */}
+          {/* Trust indicators – orientati al risultato */}
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Globe className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>210+ countries coverage</span>
+              <span>Works with landlines, call centers & hotlines</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>30 seconds to first call</span>
+              <span>From landing to first call in 30 seconds</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>No app required</span>
+              <span>No app, no contract, pay-per-use only</span>
             </div>
             <div className="flex items-center gap-2">
               <Smartphone className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>SMS + Virtual numbers</span>
+              <span>Virtual numbers & SMS for OTP and 2FA</span>
             </div>
           </div>
         </div>
 
-{/* Hero visual - Nomad context */}
-<div className="mx-auto mt-16 max-w-5xl">
-  <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-    {/* Glow effect behind */}
-    <div className="pointer-events-none absolute -inset-8 rounded-3xl bg-[radial-gradient(ellipse_at_center,hsl(var(--secondary)/0.3),transparent_70%)]" />
-    
-    {/* Main container */}
-    <div className="relative aspect-video overflow-hidden rounded-2xl border border-[hsl(var(--border))] bg-gradient-to-br from-[hsl(var(--muted))] to-[hsl(var(--background))]">
-      {/* SVG Image */}
-      <img 
-        src="/nomaphone-mockup.svg" 
-        alt="NomaPhone Dashboard Interface"
-        className="h-full w-full object-cover"
-      />
-      
-      {/* Inner ring for depth */}
-      <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-[hsl(var(--border)/0.5)]" />
-    </div>
-  </div>
-</div>
+        {/* Hero visual - Nomad context */}
+        <div className="mx-auto mt-16 max-w-5xl">
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+            {/* Glow effect behind */}
+            <div className="pointer-events-none absolute -inset-8 rounded-3xl bg-[radial-gradient(ellipse_at_center,hsl(var(--secondary)/0.3),transparent_70%)]" />
 
-
+            {/* Main container */}
+            <div className="relative aspect-video overflow-hidden rounded-2xl border border-[hsl(var(--border))] bg-gradient-to-br from-[hsl(var(--muted))] to-[hsl(var(--background))]">
+              <img
+                src="/nomaphone-mockup.svg"
+                alt="NomaPhone calling interface"
+                className="h-full w-full object-cover"
+              />
+              <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-[hsl(var(--border)/0.5)]" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

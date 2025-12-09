@@ -1,0 +1,152 @@
+---
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer.tsx";
+
+const title = "Reserve Your Founding Credits – NomaPhone";
+const description =
+  "Lock in bonus credits for NomaPhone before launch. One-time purchase, no subscription, full money-back guarantee at any time.";
+---
+
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <BaseHead title={title} description={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body class="bg-background text-foreground">
+    <Header client:load currentPath="/reserve-credits" />
+
+    <main class="container mx-auto px-4 py-16">
+      <!-- HERO -->
+      <div class="mx-auto max-w-3xl text-center mb-16">
+        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+          Reserve your <span class="text-[hsl(var(--secondary))]">founding credits</span>
+        </h1>
+        <p class="mt-4 text-lg text-muted-foreground">
+          Pay once now, use when we launch. No subscriptions, no monthly fees, no obligations.
+          <br />
+          <strong class="text-foreground">Full refund guaranteed at any time—no questions asked.</strong>
+        </p>
+      </div>
+
+      <!-- PRICING CARDS -->
+      <section class="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto mb-16">
+        {[
+          {
+            id: "starter",
+            name: "Starter",
+            price: "$10",
+            launchValue: "$20 value",
+            bonus: "2× value at launch",
+            recommended: false,
+          },
+          {
+            id: "founder",
+            name: "Founder Pack",
+            price: "$25",
+            launchValue: "$75 value",
+            bonus: "3× value at launch",
+            recommended: true,
+          },
+          {
+            id: "team",
+            name: "Team Pack",
+            price: "$50",
+            launchValue: "$150 value",
+            bonus: "3× value at launch",
+            recommended: false,
+          },
+        ].map((plan) => (
+          <label
+            class={`relative block rounded-2xl border p-6 cursor-pointer transition
+              ${
+                plan.recommended
+                  ? "border-[hsl(var(--secondary))] bg-[hsl(var(--secondary)/0.08)] shadow-lg scale-[1.02]"
+                  : "border-[hsl(var(--border))] hover:border-[hsl(var(--secondary))]"
+              }`}
+          >
+            {plan.recommended && (
+              <span
+                class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[hsl(var(--secondary))] text-background px-3 py-1 text-xs font-semibold"
+              >
+                Most popular
+              </span>
+            )}
+
+            <input
+              type="radio"
+              name="plan"
+              value={plan.id}
+              class="sr-only peer"
+              checked={plan.id === "founder"}
+            />
+
+            <h3 class="text-xl font-semibold">{plan.name}</h3>
+            <div class="mt-4 text-[2rem] font-bold">{plan.price}</div>
+            <p class="mt-2 text-sm text-muted-foreground">{plan.launchValue}</p>
+            <p class="mt-2 text-sm text-[hsl(var(--secondary))] font-semibold">
+              {plan.bonus}
+            </p>
+          </label>
+        ))}
+      </section>
+
+      <!-- CTA -->
+      <div class="text-center">
+        <button
+          id="reserveButton"
+          class="px-8 py-4 rounded-full bg-[hsl(var(--secondary))] text-background text-lg font-semibold shadow-lg hover:opacity-90 transition"
+        >
+          Reserve my credits
+        </button>
+        <p class="mt-3 text-xs text-muted-foreground">
+          You're redirected to a secure Stripe checkout. One-time payment, no recurring billing.
+        </p>
+      </div>
+
+      <!-- GUARANTEE BLOCK -->
+      <section class="max-w-3xl mx-auto mt-16 rounded-xl border border-[hsl(var(--border))] p-8 text-center bg-[hsl(var(--muted)/0.3)]">
+        <h4 class="text-2xl font-bold mb-2">100% Money-Back Guarantee</h4>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Changed your mind? No problem. Request a refund anytime before or after launch.
+          <br />
+          <strong class="text-foreground">We’ll refund you instantly. No forms, no questions, no explanations required.</strong>
+        </p>
+      </section>
+
+      <Footer client:load />
+    </main>
+
+    <!-- SCRIPT -->
+    <script>
+      const btn = document.getElementById("reserveButton");
+
+      function getPlan() {
+        const selected = document.querySelector('input[name="plan"]:checked');
+        return selected ? selected.value : "founder";
+      }
+
+      btn.addEventListener("click", async () => {
+        btn.disabled = true;
+        btn.textContent = "Redirecting…";
+
+        const res = await fetch("/api/create-checkout-session", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ planId: getPlan() }),
+        });
+
+        const data = await res.json();
+        if (data.url) window.location.href = data.url;
+        else {
+          alert("Something went wrong.");
+          btn.disabled = false;
+          btn.textContent = "Reserve my credits";
+        }
+      });
+    </script>
+  </body>
+</html>

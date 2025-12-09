@@ -7,20 +7,23 @@ export function HowItWorksSection() {
     {
       icon: UserPlus,
       number: "1",
-      headline: "Sign up with email",
-      body: "One click with Google or just your email. No phone verification, no proof of address, no waiting. You're in immediately.",
+      headline: "Join the beta with your email",
+      body:
+        "No SIM required, no contract, no document upload. Create your NomaPhone account with just an email and you’re ready to go when we launch.",
     },
     {
       icon: Wallet,
       number: "2",
-      headline: "Add credits instantly",
-      body: "Choose your package, pay with card via Stripe. Your credits appear immediately and never expire.",
+      headline: "Top up once, when you actually need it",
+      body:
+        "Add credits securely via Stripe. Your balance is available instantly and never expires, so you always have a way to call home, your bank or your clients.",
     },
     {
       icon: Phone,
       number: "3",
-      headline: "Open browser and call",
-      body: "Type the number, see the rate, click call. Works on laptop, tablet, phone. Chrome, Safari, Firefox - anything with a browser. That's it.",
+      headline: "Open your browser and call any number",
+      body:
+        "Type the number, see the per-minute rate, press call. From your laptop, tablet or phone. Perfect for those moments when WhatsApp isn’t an option and you just need a real line out.",
     },
   ];
 
@@ -30,10 +33,12 @@ export function HowItWorksSection() {
         {/* Section Header */}
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            From idea to call in 10 seconds
+            When you must call, it’s three simple steps.
           </h2>
           <p className="text-lg text-muted-foreground md:text-xl">
-            No app, no verification, no complexity. Just works.
+            No roaming setup, no calling cards, no random VoIP hacks. Just a
+            browser, some credits and a working line to whoever you need to
+            reach.
           </p>
         </div>
 
@@ -42,11 +47,11 @@ export function HowItWorksSection() {
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
-              <Card key={index} className="border-2 relative">
+              <Card key={index} className="relative border-2">
                 <CardContent className="p-6">
                   {/* Step Number Badge */}
                   <div className="absolute -top-4 left-6">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[hsl(var(--secondary))] text-white font-bold">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[hsl(var(--secondary))] font-bold text-white">
                       {step.number}
                     </div>
                   </div>
@@ -60,7 +65,7 @@ export function HowItWorksSection() {
                   <h3 className="mb-3 text-xl font-semibold">
                     {step.headline}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="leading-relaxed text-muted-foreground">
                     {step.body}
                   </p>
                 </CardContent>

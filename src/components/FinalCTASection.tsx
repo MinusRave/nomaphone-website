@@ -4,9 +4,9 @@ import { WaitlistFormSection } from "./WaitlistFormSection";
 
 export function FinalCTASection() {
   const benefits = [
-    "Up to $10 in credits (depending on when you join)",
+    "Up to $10 in free calling credits",
     "Early access before public launch",
-    "Founding member status (first 50)",
+    "Founding member badge (first 100)",
   ];
 
   return (
@@ -15,10 +15,12 @@ export function FinalCTASection() {
         <div className="mx-auto max-w-3xl text-center">
           {/* Section Header */}
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Ready to call from anywhere?
+            The call you can’t make today will cost you tomorrow.
           </h2>
           <p className="mb-8 text-lg text-muted-foreground md:text-xl">
-            Join the waitlist. Get early access and bonus credits.
+            Banks, government offices, property managers and clients still rely
+            on phone numbers. When you need to call one — you need a solution
+            that works from anywhere.
           </p>
 
           {/* Benefits */}
@@ -27,7 +29,7 @@ export function FinalCTASection() {
             <div className="space-y-3 text-left">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <Check className="h-5 w-5 text-[hsl(var(--secondary))] shrink-0 mt-0.5" />
+                  <Check className="mt-0.5 h-5 w-5 shrink-0 text-[hsl(var(--secondary))]" />
                   <span className="leading-relaxed">{benefit}</span>
                 </div>
               ))}
@@ -39,7 +41,7 @@ export function FinalCTASection() {
 
           {/* Bottom Text */}
           <p className="mt-6 text-sm text-muted-foreground">
-            Launching Q1 2026. First 50 get the best perks. Don't miss out.
+            Launching Q2 2026 • First 100 get lifetime beta perks and the highest bonus credits.
           </p>
         </div>
       </div>

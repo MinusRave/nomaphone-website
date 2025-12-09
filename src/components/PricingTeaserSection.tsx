@@ -8,8 +8,8 @@ export function PricingTeaserSection() {
     { country: "🇺🇸 USA / Canada", rate: "$0.03/min" },
     { country: "🇬🇧 UK Landline", rate: "$0.03/min" },
     { country: "🇬🇧 UK Mobile", rate: "$0.06/min" },
-    { country: "🇮🇳 India", rate: "$0.08-0.09/min" },
-    { country: "🇲🇽 Mexico", rate: "$0.03/min", note: "landline" },
+    { country: "🇮🇳 India", rate: "$0.08–0.09/min" },
+    { country: "🇲🇽 Mexico (landline)", rate: "$0.03/min" },
     { country: "🇹🇭 Thailand", rate: "$0.19/min" },
   ];
 
@@ -28,10 +28,10 @@ export function PricingTeaserSection() {
   ];
 
   const keyPoints = [
-    "1 credit = $1",
+    "1 credit = $1 of calling & SMS balance",
     "Credits never expire",
-    "No monthly fees",
-    "Use whenever you want",
+    "No monthly subscriptions",
+    "Use it when you actually need to call",
   ];
 
   return (
@@ -40,10 +40,11 @@ export function PricingTeaserSection() {
         {/* Section Header */}
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Simple pricing. No surprises.
+            Clear rates, no contracts, no surprises.
           </h2>
           <p className="text-lg text-muted-foreground md:text-xl">
-            You call, you pay. That's it.
+            Know roughly what you’ll pay before you call your bank, your
+            government office or your clients abroad.
           </p>
         </div>
 
@@ -52,7 +53,9 @@ export function PricingTeaserSection() {
           {/* Left: Calling Rates */}
           <Card className="border-2">
             <CardHeader>
-              <CardTitle className="text-2xl">Pay-per-use calling rates</CardTitle>
+              <CardTitle className="text-2xl">
+                Typical pay-per-minute rates
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-3">
@@ -63,11 +66,6 @@ export function PricingTeaserSection() {
                   >
                     <span className="font-medium">
                       {rate.country}
-                      {rate.note && (
-                        <span className="ml-2 text-sm text-muted-foreground">
-                          ({rate.note})
-                        </span>
-                      )}
                     </span>
                     <span className="text-lg font-semibold text-[hsl(var(--secondary))]">
                       {rate.rate}
@@ -76,7 +74,8 @@ export function PricingTeaserSection() {
                 ))}
               </div>
               <p className="mt-6 text-sm text-muted-foreground">
-                210+ countries supported. See full rates after signup.
+                Over 210 destinations supported. You’ll see full, transparent
+                rates by country after signup — no hidden fees, ever.
               </p>
             </CardContent>
           </Card>
@@ -84,10 +83,10 @@ export function PricingTeaserSection() {
           {/* Right: Credit Packages */}
           <Card className="border-2">
             <CardHeader>
-              <CardTitle className="text-2xl">Credit packages</CardTitle>
+              <CardTitle className="text-2xl">Top up once, use anytime</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="space-y-3 mb-6">
+              <div className="mb-6 space-y-3">
                 {creditPackages.map((pkg, index) => (
                   <div
                     key={index}
@@ -105,7 +104,7 @@ export function PricingTeaserSection() {
               </div>
 
               {/* Key Points */}
-              <div className="space-y-2 border-t pt-4">
+              <div className="border-t pt-4 space-y-2">
                 {keyPoints.map((point, index) => (
                   <div key={index} className="flex items-center gap-2">
                     <Check className="h-4 w-4 text-[hsl(var(--secondary))]" />
@@ -123,9 +122,10 @@ export function PricingTeaserSection() {
         <div className="mx-auto mt-8 max-w-6xl">
           <Card className="border-2">
             <CardHeader>
-              <CardTitle className="text-2xl">Virtual numbers available</CardTitle>
+              <CardTitle className="text-2xl">Local numbers when you need a “home base”</CardTitle>
               <p className="text-muted-foreground">
-                Get a local number to receive calls and SMS
+                Keep a local presence for banks, clients and services that won’t
+                call foreign numbers.
               </p>
             </CardHeader>
             <CardContent>
