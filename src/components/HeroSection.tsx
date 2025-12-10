@@ -317,16 +317,19 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
           {/* H1 – focus sul problema reale */}
           <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            Call your <span className="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">bank, government office, or clients</span> from abroad.
-          </h1>
+  Make international calls from your browser — 
+  <span className="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
+    no SIM, no roaming, no app
+  </span>.
+</h1>
+
 
           {/* Subheadline – chiarisce use case + target */}
           <p className="mb-10 text-lg text-muted-foreground md:text-xl lg:text-2xl">
-            No roaming, no SIM, no app. Just open your browser and call
-            US, UK, India and more at local-style rates.
-            <br className="hidden sm:inline" />
-            Built for digital nomads, expats and remote teams who still need to call real phone numbers.
-          </p>
+  Call USA, UK, India, and landlines worldwide directly from your laptop or phone.
+  Perfect when you need to speak with your bank, government offices, or clients abroad —
+  without paying roaming fees.
+</p>
 
           {/* Form #1 - Hero Inline */}
           <form onSubmit={handleSubmit} className="mx-auto mb-8 max-w-md">
@@ -357,13 +360,14 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           {/* Trust indicators – orientati al risultato */}
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <Globe className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>Works with landlines, call centers & hotlines</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Zap className="h-4 w-4 text-[hsl(var(--secondary))]" />
-              <span>From landing to first call in 30 seconds</span>
-            </div>
+    <Globe className="h-4 w-4 text-[hsl(var(--secondary))]" />
+    <span>Call landlines, toll-free numbers & mobile phones worldwide</span>
+  </div>
+  <div className="flex items-center gap-2">
+    <Zap className="h-4 w-4 text-[hsl(var(--secondary))]" />
+    <span>Works without SIM — just Wi-Fi and a browser</span>
+  </div>
+       
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-[hsl(var(--secondary))]" />
               <span>No app, no contract, pay-per-use only</span>
