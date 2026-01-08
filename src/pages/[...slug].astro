@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import StaticPageLayout from "@/layouts/StaticPageLayout.astro";
 
+
 export async function getStaticPaths() {
   const entries = await getCollection("static");
   return entries.map((page) => ({
@@ -40,5 +41,6 @@ const currentPath = `/${page.id.replace(/\/?index$/i, "")}`;
   toc={autoToc}
   currentPath={currentPath}
 >
+
   <Content />
 </StaticPageLayout>
