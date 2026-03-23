@@ -1,0 +1,38 @@
+---
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer.tsx";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title="You're on the list! – Thank You | NomaPhone"
+      description="Thanks for joining the waiting list. We'll keep you updated."
+    />
+  </head>
+
+  <body class="bg-background text-foreground">
+    <Header client:load currentPath="/thank-you-page" />
+
+    <main class="container mx-auto px-4 py-24 text-center">
+      <h1 class="text-4xl font-bold">You're on the list! 🎉</h1>
+      <p class="mt-4 text-lg text-muted-foreground">
+        Thanks for subscribing. We’ll keep you posted with the latest updates
+        and news.
+      </p>
+
+      <div class="mt-10 py-24">
+        <a
+          href="/"
+          class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+        >
+          Back to Home
+        </a>
+      </div>
+
+      <Footer client:load />
+    </main>
+  </body>
+</html>

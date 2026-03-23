@@ -1,131 +1,409 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* 1) Map tokens to utilities (bg-*, text-*, border-*, etc.) */
 @theme {
-  --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--foreground));
+  --color-midnight: #0B1120;
+  --color-surface: #111827;
+  --color-surface-raised: #1F2937;
+  --color-border: #374151;
+  --color-border-focus: #6B7280;
 
-  --color-card: hsl(var(--card));
-  --color-card-foreground: hsl(var(--card-foreground));
-  --color-popover: hsl(var(--popover));
-  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-signal: #10B981;
+  --color-signal-hover: #059669;
+  --color-signal-subtle: #10B98115;
+  --color-signal-glow: #10B98130;
 
-  --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
-  --color-secondary: hsl(var(--secondary));
-  --color-secondary-foreground: hsl(var(--secondary-foreground));
-  --color-accent: hsl(var(--accent));
-  --color-accent-foreground: hsl(var(--accent-foreground));
-  --color-muted: hsl(var(--muted));
-  --color-muted-foreground: hsl(var(--muted-foreground));
-  --color-destructive: hsl(var(--destructive));
-  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-text-primary: #F9FAFB;
+  --color-text-secondary: #9CA3AF;
+  --color-text-muted: #6B7280;
+  --color-text-inverse: #0B1120;
 
-  --color-border: hsl(var(--border));
-  --color-input: hsl(var(--input));
-  --color-ring: hsl(var(--ring));
+  --color-amber: #F59E0B;
+  --color-amber-subtle: #F59E0B15;
+  --color-red: #EF4444;
+  --color-red-subtle: #EF444415;
+  --color-blue: #3B82F6;
+  --color-blue-subtle: #3B82F615;
+
+  --color-rate: #10B981;
+  --color-credit-badge: #F59E0B;
+
+  --font-display: 'Satoshi', sans-serif;
+  --font-body: 'General Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'General Sans', sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.05em;
+  --tracking-mono: 0.02em;
+
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Map standard tailwind/shadcn colors to NomaPhone palette */
+  --color-background: var(--color-midnight);
+  --color-foreground: var(--color-text-primary);
+  --color-card: var(--color-surface);
+  --color-card-foreground: var(--color-text-primary);
+  --color-popover: var(--color-surface);
+  --color-popover-foreground: var(--color-text-primary);
+  --color-primary: var(--color-signal);
+  --color-primary-foreground: var(--color-text-inverse);
+  --color-secondary: var(--color-surface-raised);
+  --color-secondary-foreground: var(--color-text-primary);
+  --color-muted: var(--color-surface-raised);
+  --color-muted-foreground: var(--color-text-muted);
+  --color-accent: var(--color-surface-raised);
+  --color-accent-foreground: var(--color-text-primary);
+  --color-destructive: var(--color-red);
+  --color-destructive-foreground: var(--color-text-primary);
+  --color-border: var(--color-border);
+  --color-input: var(--color-surface);
+  --color-ring: var(--color-signal);
+  --radius: var(--radius-md);
 }
 
-/* 2) HSL Color Variables - NomaPhone Brand Palette */
 @layer base {
   :root {
-    /* Backgrounds */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
+    --color-midnight: #0B1120;
+    --color-surface: #111827;
+    --color-surface-raised: #1F2937;
+    --color-border: #374151;
+    --color-border-focus: #6B7280;
+    --color-signal: #10B981;
+    --color-signal-hover: #059669;
+    --color-signal-subtle: #10B98115;
+    --color-signal-glow: #10B98130;
+    --color-text-primary: #F9FAFB;
+    --color-text-secondary: #9CA3AF;
+    --color-text-muted: #6B7280;
+    --color-text-inverse: #0B1120;
+    --color-amber: #F59E0B;
+    --color-amber-subtle: #F59E0B15;
+    --color-red: #EF4444;
+    --color-red-subtle: #EF444415;
+    --color-blue: #3B82F6;
+    --color-blue-subtle: #3B82F615;
+    --color-rate: #10B981;
+    --color-credit-badge: #F59E0B;
 
-    /* Primary: Deep blue-teal (trust, tech, professional) */
-    --primary: 200 95% 35%;
-    --primary-foreground: 0 0% 98%;
+    --font-display: 'Satoshi', sans-serif;
+    --font-body: 'General Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
 
-    /* Secondary: Warm teal (freedom, energy, friendly) */
-    --secondary: 180 75% 45%;
-    --secondary-foreground: 0 0% 98%;
-    
-    /* Secondary muted for gradients */
-    --secondary-muted: 180 60% 65%;
-    --secondary-muted-foreground: 0 0% 3.9%;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
 
-    /* Muted backgrounds */
-    --muted: 200 20% 96%;
-    --muted-foreground: 200 10% 45%;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    --weight-black: 900;
 
-    /* Accent: Energetic coral/orange (CTAs, highlights) */
-    --accent: 15 85% 60%;
-    --accent-foreground: 0 0% 98%;
+    --leading-tight: 1.15;
+    --leading-snug: 1.3;
+    --leading-normal: 1.6;
+    --leading-relaxed: 1.75;
 
-    /* Destructive */
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --tracking-tight: -0.02em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.05em;
+    --tracking-mono: 0.02em;
 
-    /* Borders & inputs */
-    --border: 200 15% 89%;
-    --input: 200 15% 89%;
+    --space-0: 0;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    --space-32: 8rem;
 
-    /* Focus ring */
-    --ring: 180 75% 45%;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 9999px;
 
-    --radius: 0.5rem;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 20px var(--color-signal-glow);
 
-    color-scheme: light;
-  }
+    --border-default: 1px solid var(--color-border);
+    --border-focus: 1px solid var(--color-signal);
 
-  .dark {
-    /* Dark backgrounds */
-    --background: 200 15% 7%;
-    --foreground: 0 0% 98%;
-    --card: 200 12% 10%;
-    --card-foreground: 0 0% 98%;
-    --popover: 200 15% 5%;
-    --popover-foreground: 0 0% 98%;
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+    --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
 
-    /* Primary: Brighter teal for dark mode contrast */
-    --primary: 180 75% 55%;
-    --primary-foreground: 200 15% 7%;
-
-    /* Secondary: Lighter warm teal */
-    --secondary: 180 70% 60%;
-    --secondary-foreground: 200 15% 7%;
-
-    /* Secondary muted for dark gradients */
-    --secondary-muted: 180 50% 35%;
-    --secondary-muted-foreground: 0 0% 98%;
-
-    /* Dark muted */
-    --muted: 200 12% 15%;
-    --muted-foreground: 200 8% 65%;
-
-    /* Accent: Warmer coral for dark mode */
-    --accent: 15 80% 65%;
-    --accent-foreground: 200 15% 7%;
-
-    /* Destructive */
-    --destructive: 0 62.8% 65%;
-    --destructive-foreground: 0 0% 98%;
-
-    /* Dark borders */
-    --border: 200 12% 18%;
-    --input: 200 12% 18%;
-
-    /* Focus ring = secondary teal */
-    --ring: 180 75% 55%;
+    --duration-fast: 120ms;
+    --duration-normal: 200ms;
+    --duration-slow: 350ms;
+    --duration-reveal: 600ms;
 
     color-scheme: dark;
+    
+    /* Shadcn defaults */
+    --background: var(--color-midnight);
+    --foreground: var(--color-text-primary);
+    --card: var(--color-surface);
+    --card-foreground: var(--color-text-primary);
+    --popover: var(--color-surface);
+    --popover-foreground: var(--color-text-primary);
+    --primary: var(--color-signal);
+    --primary-foreground: var(--color-text-inverse);
+    --secondary: var(--color-surface-raised);
+    --secondary-foreground: var(--color-text-primary);
+    --muted: var(--color-surface-raised);
+    --muted-foreground: var(--color-text-muted);
+    --accent: var(--color-surface-raised);
+    --accent-foreground: var(--color-text-primary);
+    --destructive: var(--color-red);
+    --destructive-foreground: var(--color-text-primary);
+    --border: var(--color-border);
+    --input: var(--color-surface);
+    --ring: var(--color-signal);
+    --radius: var(--radius-md);
   }
 
-  /* Base styles */
+  body {
+    background-color: var(--color-midnight);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-tight);
+  }
+  
   * { @apply border-border; }
-  html, body { height: 100%; }
-  body { @apply bg-background text-foreground; }
 }
 
-/* Custom utilities */
-@layer utilities {
-  .text-gradient-nomad {
-    @apply bg-gradient-to-r from-[hsl(var(--secondary-muted))] to-[hsl(var(--secondary))] bg-clip-text text-transparent;
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    background: var(--color-signal);
+    color: var(--color-text-inverse);
+    font-family: var(--font-body);
+    font-weight: var(--weight-semibold);
+    font-size: var(--text-sm);
+    letter-spacing: var(--tracking-wide);
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-md);
+    border: none;
+    cursor: pointer;
+    transition: background var(--duration-fast) var(--ease-in-out),
+                transform var(--duration-fast) var(--ease-out);
   }
+  .btn-primary:hover {
+    background: var(--color-signal-hover);
+    transform: translateY(-1px);
+  }
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+  .btn-primary:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  /* Call Button */
+  .btn-call {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-full);
+    background: var(--color-signal);
+    color: var(--color-text-inverse);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-glow);
+    transition: transform var(--duration-normal) var(--ease-spring),
+                box-shadow var(--duration-normal) var(--ease-out);
+  }
+  .btn-call:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 30px var(--color-signal-glow);
+  }
+  .btn-call[data-state="ringing"] {
+    animation: pulse-ring 1.5s var(--ease-in-out) infinite;
+  }
+  .btn-call[data-state="active"] {
+    background: var(--color-red);
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+  }
+  @keyframes pulse-ring {
+    0%, 100% { box-shadow: 0 0 0 0 var(--color-signal-glow); }
+    50% { box-shadow: 0 0 0 12px transparent; }
+  }
+
+  /* Inputs */
+  .input {
+    background: var(--color-surface);
+    border: var(--border-default);
+    border-radius: var(--radius-md);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    padding: var(--space-3) var(--space-4);
+    width: 100%;
+    transition: border-color var(--duration-fast) var(--ease-in-out);
+  }
+  .input:focus {
+    outline: none;
+    border-color: var(--color-signal);
+    box-shadow: 0 0 0 3px var(--color-signal-subtle);
+  }
+  .input::placeholder {
+    color: var(--color-text-muted);
+  }
+  .input[data-variant="phone"] {
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    letter-spacing: var(--tracking-mono);
+    text-align: center;
+    padding: var(--space-4) var(--space-6);
+  }
+
+  /* Cards */
+  .card {
+    background: var(--color-surface);
+    border: var(--border-default);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    box-shadow: var(--shadow-sm);
+  }
+  .card-interactive {
+    cursor: pointer;
+    transition: border-color var(--duration-fast) var(--ease-in-out),
+                box-shadow var(--duration-normal) var(--ease-out),
+                transform var(--duration-normal) var(--ease-out);
+  }
+  .card-interactive:hover {
+    border-color: var(--color-border-focus);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  /* Rates */
+  .rate-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .rate-flag { font-size: var(--text-xl); margin-right: var(--space-2); }
+  .rate-name {
+    font-family: var(--font-body);
+    font-weight: var(--weight-medium);
+    color: var(--color-text-primary);
+  }
+  .rate-price {
+    font-family: var(--font-mono);
+    font-weight: var(--weight-semibold);
+    font-size: var(--text-lg);
+    color: var(--color-signal);
+  }
+  .rate-unit {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    font-weight: var(--weight-regular);
+  }
+
+  /* Credit Balance */
+  .credit-balance {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .credit-label {
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+  .credit-amount {
+    font-family: var(--font-mono);
+    font-weight: var(--weight-semibold);
+    font-size: var(--text-base);
+    color: var(--color-text-primary);
+  }
+  .credit-amount[data-low="true"] {
+    color: var(--color-amber);
+  }
+
+  /* Badges */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semibold);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+  }
+  .badge-active   { background: var(--color-signal-subtle); color: var(--color-signal); }
+  .badge-warning  { background: var(--color-amber-subtle);  color: var(--color-amber);  }
+  .badge-error    { background: var(--color-red-subtle);    color: var(--color-red);    }
+  .badge-info     { background: var(--color-blue-subtle);   color: var(--color-blue);   }
 }

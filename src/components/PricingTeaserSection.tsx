@@ -5,26 +5,26 @@ import { Badge } from "@/components/ui/badge";
 
 export function PricingTeaserSection() {
   const callingRates = [
-    { country: "🇺🇸 USA / Canada", rate: "$0.03/min" },
-    { country: "🇬🇧 UK Landline", rate: "$0.03/min" },
-    { country: "🇬🇧 UK Mobile", rate: "$0.06/min" },
-    { country: "🇮🇳 India", rate: "$0.08–0.09/min" },
-    { country: "🇲🇽 Mexico (landline)", rate: "$0.03/min" },
-    { country: "🇹🇭 Thailand", rate: "$0.19/min" },
+    { country: "USA / Canada", flag: "🇺🇸", rate: "$0.03" },
+    { country: "UK Landline", flag: "🇬🇧", rate: "$0.03" },
+    { country: "UK Mobile", flag: "🇬🇧", rate: "$0.06" },
+    { country: "India", flag: "🇮🇳", rate: "$0.08–0.09" },
+    { country: "Mexico (landline)", flag: "🇲🇽", rate: "$0.03" },
+    { country: "Thailand", flag: "🇹🇭", rate: "$0.19" },
   ];
 
   const creditPackages = [
     { amount: "$10", credits: "10 credits", bonus: false },
     { amount: "$25", credits: "25 credits", bonus: false },
-    { amount: "$50", credits: "55 credits", bonus: true, bonusText: "10% bonus" },
-    { amount: "$100", credits: "115 credits", bonus: true, bonusText: "15% bonus" },
+    { amount: "$50", credits: "55 credits", bonus: true, bonusText: "+10%" },
+    { amount: "$100", credits: "115 credits", bonus: true, bonusText: "+15%" },
   ];
 
   const virtualNumbers = [
-    { country: "🇺🇸 USA Local", price: "$2.19/month" },
-    { country: "🇬🇧 UK Local", price: "$1.90/month" },
-    { country: "🇮🇳 India", price: "Coming soon", comingSoon: true },
-    { country: "🇲🇽 Mexico", price: "Coming soon", comingSoon: true },
+    { country: "USA Local", flag: "🇺🇸", price: "$2.19/mo" },
+    { country: "UK Local", flag: "🇬🇧", price: "$1.90/mo" },
+    { country: "India", flag: "🇮🇳", price: "Coming soon", comingSoon: true },
+    { country: "Mexico", flag: "🇲🇽", price: "Coming soon", comingSoon: true },
   ];
 
   const keyPoints = [
@@ -35,45 +35,43 @@ export function PricingTeaserSection() {
   ];
 
   return (
-    <section className="py-16 md:py-24">
-      <div className="container mx-auto px-4">
+    <section className="py-[var(--space-16)] md:py-[var(--space-24)] bg-[var(--color-midnight)]">
+      <div className="container mx-auto px-[var(--space-4)] max-w-[1200px]">
         {/* Section Header */}
-        <div className="mx-auto mb-12 max-w-3xl text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+        <div className="mx-auto mb-[var(--space-12)] max-w-3xl text-center">
+          <h2 className="mb-[var(--space-4)] text-[length:var(--text-3xl)] font-bold tracking-[var(--tracking-tight)] sm:text-[length:var(--text-4xl)] md:text-[length:var(--text-5xl)] font-display text-[var(--color-text-primary)]">
             Clear rates, no contracts, no surprises.
           </h2>
-          <p className="text-lg text-muted-foreground md:text-xl">
+          <p className="text-[length:var(--text-lg)] text-[var(--color-text-secondary)] font-body md:text-[length:var(--text-xl)]">
             Know roughly what you’ll pay before you call your bank, your
             government office or your clients abroad.
           </p>
         </div>
 
         {/* Pricing Grid */}
-        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl gap-[var(--space-8)] md:grid-cols-2">
           {/* Left: Calling Rates */}
-          <Card className="border-2">
+          <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">
+              <CardTitle>
                 Typical pay-per-minute rates
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="space-y-3">
+              <div className="flex flex-col">
                 {callingRates.map((rate, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center justify-between border-b pb-3 last:border-b-0 last:pb-0"
-                  >
-                    <span className="font-medium">
-                      {rate.country}
+                  <div key={index} className="rate-row">
+                    <span className="rate-country">
+                      <span className="rate-flag">{rate.flag}</span>
+                      <span className="rate-name">{rate.country}</span>
                     </span>
-                    <span className="text-lg font-semibold text-[hsl(var(--secondary))]">
-                      {rate.rate}
+                    <span className="rate-price">
+                      {rate.rate}<span className="rate-unit">/min</span>
                     </span>
                   </div>
                 ))}
               </div>
-              <p className="mt-6 text-sm text-muted-foreground">
+              <p className="mt-[var(--space-6)] text-[length:var(--text-sm)] text-[var(--color-text-muted)] font-body">
                 Over 210 destinations supported. You’ll see full, transparent
                 rates by country after signup — no hidden fees, ever.
               </p>
@@ -81,20 +79,20 @@ export function PricingTeaserSection() {
           </Card>
 
           {/* Right: Credit Packages */}
-          <Card className="border-2">
+          <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">Top up once, use anytime</CardTitle>
+              <CardTitle>Top up once, use anytime</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="mb-6 space-y-3">
+              <div className="mb-[var(--space-6)] space-y-[var(--space-3)]">
                 {creditPackages.map((pkg, index) => (
                   <div
                     key={index}
-                    className="flex items-center justify-between border-b pb-3 last:border-b-0 last:pb-0"
+                    className="flex items-center justify-between border-b border-[var(--color-border)] pb-[var(--space-3)] last:border-b-0 last:pb-0"
                   >
-                    <div className="flex items-center gap-3">
-                      <span className="text-lg font-semibold">{pkg.amount}</span>
-                      <span className="text-muted-foreground">{pkg.credits}</span>
+                    <div className="flex items-center gap-[var(--space-3)]">
+                      <span className="text-[length:var(--text-lg)] font-semibold font-mono text-[var(--color-text-primary)]">{pkg.amount}</span>
+                      <span className="text-[var(--color-text-secondary)] font-body">{pkg.credits}</span>
                     </div>
                     {pkg.bonus && (
                       <Badge variant="secondary">{pkg.bonusText}</Badge>
@@ -104,11 +102,11 @@ export function PricingTeaserSection() {
               </div>
 
               {/* Key Points */}
-              <div className="border-t pt-4 space-y-2">
+              <div className="border-t border-[var(--color-border)] pt-[var(--space-4)] space-y-[var(--space-2)]">
                 {keyPoints.map((point, index) => (
-                  <div key={index} className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-[hsl(var(--secondary))]" />
-                    <span className={index === 1 ? "font-semibold" : ""}>
+                  <div key={index} className="flex items-center gap-[var(--space-2)]">
+                    <Check className="h-4 w-4 text-[var(--color-signal)]" />
+                    <span className={`font-body text-[var(--color-text-primary)] ${index === 1 ? "font-semibold" : ""}`}>
                       {point}
                     </span>
                   </div>
@@ -119,28 +117,31 @@ export function PricingTeaserSection() {
         </div>
 
         {/* Virtual Numbers Section */}
-        <div className="mx-auto mt-8 max-w-6xl">
-          <Card className="border-2">
+        <div className="mx-auto mt-[var(--space-8)] max-w-6xl">
+          <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">Local numbers when you need a “home base”</CardTitle>
-              <p className="text-muted-foreground">
+              <CardTitle>Local numbers when you need a “home base”</CardTitle>
+              <p className="text-[var(--color-text-secondary)] font-body mt-2">
                 Keep a local presence for banks, clients and services that won’t
                 call foreign numbers.
               </p>
             </CardHeader>
             <CardContent>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="grid gap-[var(--space-4)] sm:grid-cols-2 lg:grid-cols-4">
                 {virtualNumbers.map((number, index) => (
                   <div
                     key={index}
-                    className="flex items-center justify-between rounded-lg border p-4"
+                    className="flex items-center justify-between rounded-[var(--radius-md)] border border-[var(--color-border)] bg-[var(--color-surface-raised)] p-[var(--space-4)]"
                   >
-                    <span className="font-medium">{number.country}</span>
+                    <span className="font-medium font-body flex items-center gap-2">
+                      <span className="text-xl">{number.flag}</span>
+                      <span className="text-[var(--color-text-primary)]">{number.country}</span>
+                    </span>
                     <span
                       className={
                         number.comingSoon
-                          ? "text-sm text-muted-foreground"
-                          : "font-semibold text-[hsl(var(--secondary))]"
+                          ? "text-[length:var(--text-sm)] text-[var(--color-text-muted)] font-body"
+                          : "font-semibold font-mono text-[var(--color-signal)]"
                       }
                     >
                       {number.price}

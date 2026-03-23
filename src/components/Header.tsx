@@ -6,8 +6,7 @@ import {
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
-import { ModeToggle } from "@/components/ModeToggle";
-import { Menu, Globe } from "lucide-react";
+import { Menu } from "lucide-react";
 
 interface HeaderProps {
   currentPath?: string;
@@ -43,47 +42,47 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <nav className="container mx-auto flex items-center justify-between px-4 py-3">
+    <header className="sticky top-0 z-50 w-full border-b border-[var(--color-border)] bg-[var(--color-midnight)]">
+      <nav className="container mx-auto flex items-center justify-between px-[var(--space-4)] py-[var(--space-3)]">
         {/* Logo */}
         <a
           href="/"
-          className="flex items-center gap-2 text-xl font-bold tracking-tight transition hover:opacity-90"
+          className="text-xl font-bold font-display tracking-[var(--tracking-tight)] text-white hover:opacity-90 transition-opacity"
           aria-label="NomaPhone — Home"
         >
-          <Globe className="h-6 w-6 text-[hsl(var(--secondary))]" />
-          <span>NomaPhone</span>
+          NomaPhone
         </a>
 
         {/* Desktop Navigation */}
         <NavigationMenu className="hidden md:flex">
-          <NavigationMenuList>
-            {links.map((link) => (
-              <NavigationMenuItem key={link.href}>
-                <NavigationMenuLink asChild>
-                  <a
-                    href={link.href}
-                    className={`px-3 py-2 text-sm font-medium transition-colors hover:text-[hsl(var(--secondary))] ${
-                      isActive(link.href)
-                        ? "text-[hsl(var(--secondary))]"
-                        : "text-muted-foreground"
-                    }`}
-                    aria-current={isActive(link.href) ? "page" : undefined}
-                  >
-                    {link.label}
-                  </a>
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-            ))}
+          <NavigationMenuList className="gap-6">
+            {links.map((link) => {
+              const active = isActive(link.href);
+              return (
+                <NavigationMenuItem key={link.href}>
+                  <NavigationMenuLink asChild>
+                    <a
+                      href={link.href}
+                      className={`pb-1 text-sm font-medium font-body transition-colors ${
+                        active
+                          ? "text-[var(--color-text-primary)] border-b-2 border-[var(--color-signal)]"
+                          : "text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]"
+                      }`}
+                      aria-current={active ? "page" : undefined}
+                    >
+                      {link.label}
+                    </a>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+              );
+            })}
           </NavigationMenuList>
         </NavigationMenu>
 
         {/* Right side actions */}
-        <div className="flex items-center gap-2">
-          <ModeToggle />
-
+        <div className="flex items-center gap-[var(--space-2)]">
           <Button
-            variant="default"
+            variant="primary"
             size="sm"
             className="hidden md:inline-flex"
             onClick={handleWaitlistClick}
@@ -95,7 +94,7 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-[var(--color-text-primary)]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -106,25 +105,29 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="border-t bg-background md:hidden">
-          <div className="container mx-auto space-y-1 px-4 py-4">
-            {links.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className={`block rounded-lg px-3 py-2 text-base font-medium transition-colors hover:bg-muted ${
-                  isActive(link.href)
-                    ? "bg-[hsl(var(--secondary)/0.15)] text-[hsl(var(--secondary))]"
-                    : "text-foreground"
-                }`}
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            ))}
+        <div className="border-t border-[var(--color-border)] bg-[var(--color-surface)] md:hidden">
+          <div className="container mx-auto space-y-1 px-[var(--space-4)] py-[var(--space-4)]">
+            {links.map((link) => {
+              const active = isActive(link.href);
+              return (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className={`block rounded-md px-[var(--space-3)] py-[var(--space-2)] text-base font-medium font-body transition-colors ${
+                    active
+                      ? "bg-[var(--color-surface-raised)] text-[var(--color-text-primary)] border-l-2 border-[var(--color-signal)]"
+                      : "text-[var(--color-text-secondary)] hover:bg-[var(--color-surface-raised)] hover:text-[var(--color-text-primary)]"
+                  }`}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </a>
+              );
+            })}
 
-            <div className="mt-4 border-t pt-4">
+            <div className="mt-4 pt-4 border-t border-[var(--color-border)]">
               <Button 
+                variant="primary"
                 className="w-full" 
                 onClick={(e) => {
                   handleWaitlistClick(e);

@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
     "@astrojs/mdx": "^4.3.9",
     "@astrojs/react": "^4.4.1",
     "@astrojs/rss": "^4.0.13",
@@ -48,6 +49,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.3.1",
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.552.0",

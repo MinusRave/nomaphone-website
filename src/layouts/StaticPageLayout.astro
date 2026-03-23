@@ -52,19 +52,6 @@ const {
   <head>
     <BaseHead title={title} description={description ?? title} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <script is:inline>
-      // Tema precoce per evitare flash
-      const theme = (() => {
-        try {
-          const saved = typeof localStorage !== 'undefined' && localStorage.getItem('theme');
-          if (saved) return saved;
-          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
-        } catch (e) {}
-        return 'light';
-      })();
-      if (theme === 'dark') document.documentElement.classList.add('dark');
-    </script>
   </head>
 
   <body class="bg-background text-foreground antialiased">
