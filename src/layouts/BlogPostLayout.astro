@@ -130,6 +130,28 @@ const {
         },
       })}
     />
+    <script>
+  // Sposta il mid-CTA dentro l'articolo
+  document.addEventListener('DOMContentLoaded', () => {
+    const content = document.getElementById('article-content');
+    const midCta = document.getElementById('mid-cta-placeholder');
+    
+    if (content && midCta && midCta.children.length > 0) {
+      // Trova tutti i paragrafi e heading
+      const elements = Array.from(content.querySelectorAll('p, h2, h3'));
+      
+      // Inserisci dopo il 40% del contenuto (o almeno dopo 3 elementi)
+      if (elements.length >= 3) {
+        const insertIndex = Math.max(3, Math.floor(elements.length * 0.4));
+        const insertAfter = elements[insertIndex - 1];
+        
+        // Sposta il CTA e mostralo
+        insertAfter.after(midCta);
+        midCta.style.display = 'block';
+      }
+    }
+  });
+</script>
   </head>
 
   <body>
@@ -240,8 +262,13 @@ const {
 
         {/* Article Content */}
         <div class="prose prose-lg dark:prose-invert mx-auto max-w-3xl">
+          <slot name="mid-cta" />
           <slot />
+          <slot name="end-cta" />
         </div>
+
+
+
 
         {/* Article Footer */}
         <footer class="mx-auto mt-16 max-w-3xl border-t pt-8">
