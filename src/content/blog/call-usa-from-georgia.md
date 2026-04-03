@@ -5,6 +5,7 @@ pubDate: 2026-06-08
 author: "The NomaPhone Team"
 slug: "call-usa-from-georgia"
 tags: ["Georgia", "Tbilisi", "digital nomad", "international calling", "remote workers", "VoIP"]
+heroImage: "../../assets/call-usa-from-georgia.jpg"
 ---
 
 You just landed in Tbilisi on the one-year remote work visa. Two days later, Bank of America sends the dreaded text: "Unusual activity detected on your account. Please call us immediately." Your Magti SIM wants 1.20 GEL per minute to call the US. That's roughly $0.45. The hold time for BofA fraud department? At least 40 minutes. You're looking at $18 just to sit on hold and prove you're not a criminal.

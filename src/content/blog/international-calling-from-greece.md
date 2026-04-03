@@ -5,6 +5,7 @@ pubDate: 2026-01-31
 author: "The NomaPhone Team"
 slug: "international-calling-from-greece"
 tags: ["Greece", "Athens", "Greek islands", "digital nomad"]
+heroImage: "../../assets/international-calling-from-greece.jpg"
 ---
 
 You're working from a café in Athens when your bank texts about suspicious activity. Your Cosmote SIM shows €1.30 per minute to call the US. That 45-minute fraud investigation just became €58.50.

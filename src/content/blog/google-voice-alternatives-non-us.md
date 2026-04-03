@@ -5,6 +5,7 @@ pubDate: 2026-06-11
 author: "The NomaPhone Team"
 slug: "google-voice-alternatives-non-us"
 tags: ["Google Voice", "international calling", "VoIP", "expats", "digital nomads", "browser calling"]
+heroImage: "../../assets/google-voice-alternatives-non-us.jpg"
 ---
 
 You just relocated to Lisbon for a remote gig. Your accountant in Ohio needs to talk through your tax situation on the phone — email won't cut it. A friend back home says: "Just use Google Voice. It's free for US calls."

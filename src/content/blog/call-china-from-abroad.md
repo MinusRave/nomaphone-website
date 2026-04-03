@@ -5,6 +5,7 @@ pubDate: 2026-06-02
 author: "The NomaPhone Team"
 slug: "call-china-from-abroad"
 tags: ["China", "VoIP", "international calling", "digital nomads", "remote workers"]
+heroImage: "../../assets/call-china-from-abroad.jpg"
 ---
 
 You need to call a factory in Shenzhen about a delayed shipment. Or maybe your supplier in Guangzhou isn't responding to emails. Or your grandmother in Beijing wants to hear your voice. You open your usual calling app and... nothing. The call won't connect.

@@ -5,6 +5,7 @@ pubDate: 2026-02-03
 author: "The NomaPhone Team"
 slug: "mobile-vs-landline-international-costs"
 tags: ["costs", "mobile", "landline", "savings"]
+heroImage: "../../assets/mobile-vs-landline-international-costs.jpg"
 ---
 
 You need to call your UK accountant. You have two numbers: office landline (020-XXXX-XXXX) and mobile (07XXX-XXXXXX). Both reach the same person, but one costs twice as much.

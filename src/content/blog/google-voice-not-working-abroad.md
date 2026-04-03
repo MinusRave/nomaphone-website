@@ -5,6 +5,7 @@ pubDate: 2026-06-14
 author: "The NomaPhone Team"
 slug: "google-voice-not-working-abroad"
 tags: ["Google Voice", "international calling", "expats", "VoIP", "troubleshooting", "digital nomads"]
+heroImage: "../../assets/google-voice-not-working-abroad.jpg"
 ---
 
 You moved abroad three months ago. Google Voice worked fine for the first few weeks. You called your bank, checked voicemail, even received 2FA texts. Then things started getting weird.

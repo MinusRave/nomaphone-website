@@ -5,6 +5,7 @@ pubDate: 2026-01-28
 author: "The NomaPhone Team"
 slug: "international-call-forwarding-setup"
 tags: ["call forwarding", "international forwarding", "phone setup"]
+heroImage: "../../assets/international-call-forwarding-setup.jpg"
 ---
 
 You're moving to Portugal for six months but need to keep your US number active for banking, family, and clients. Calls to your US number should reach you in Lisbon without paying $3/minute roaming.

@@ -5,6 +5,7 @@ pubDate: 2026-01-25
 author: "The NomaPhone Team"
 slug: "international-calling-from-argentina"
 tags: ["Argentina", "Buenos Aires", "digital nomad", "Latin America"]
+heroImage: "../../assets/international-calling-from-argentina.jpg"
 ---
 
 You're working from a café in Palermo when your bank texts about a security issue. Your Personal SIM shows 1,200 pesos per minute to call the US. With Argentina's exchange rate fluctuations, that's somewhere between $1.20 and $0.80 per minute depending on which rate you use. Yesterday's price is already outdated.

@@ -189,15 +189,22 @@ async function processBlogs() {
 
   for (const post of posts) {
     const expectedImagePath = path.join(ASSETS_DIR, `${post.slug}.jpg`);
-    const hasImage = fs.existsSync(expectedImagePath);
-    const isPlaceholder = post.data.heroImage && post.data.heroImage.includes('placeholder');
+    const hasImageFile = fs.existsSync(expectedImagePath);
+    const heroImageInFrontmatter = post.data.heroImage;
+    const isPlaceholder = heroImageInFrontmatter && heroImageInFrontmatter.includes('placeholder');
 
-    if (hasImage && !isPlaceholder && post.data.heroImage) {
-      // Silent skip to avoid console noise
+    if (heroImageInFrontmatter && !isPlaceholder && hasImageFile) {
+      // Post already has a valid, non-placeholder image linked and present
       continue;
     }
 
-    console.log(`✨ Processing ${post.slug} (Date: ${post.data.pubDate})...`);
+    if (!heroImageInFrontmatter) {
+      console.log(`✨ Processing ${post.slug} (Missing heroImage field)...`);
+    } else if (isPlaceholder) {
+      console.log(`✨ Processing ${post.slug} (Currently using placeholder: ${heroImageInFrontmatter})...`);
+    } else if (!hasImageFile) {
+      console.log(`✨ Processing ${post.slug} (Linked image file missing on disk: ${expectedImagePath})...`);
+    }
     
     const heroImagePath = await generateImage(post.data.title, post.data.description, post.slug);
     

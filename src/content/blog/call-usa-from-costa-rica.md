@@ -5,6 +5,7 @@ pubDate: 2026-05-30
 author: "The NomaPhone Team"
 slug: "call-usa-from-costa-rica"
 tags: ["Costa Rica", "USA", "expats", "international calling", "VoIP"]
+heroImage: "../../assets/call-usa-from-costa-rica.jpg"
 ---
 
 You're sitting on your terrace in Atenas and your phone buzzes. Social Security needs to verify your direct deposit information. The automated message says to call back within 48 hours. Your Kolbi SIM charges around 150 colones per minute to the US. That's roughly $0.28 per minute. And anyone who has called the SSA knows you're looking at 45 minutes to two hours on hold before a human picks up.
