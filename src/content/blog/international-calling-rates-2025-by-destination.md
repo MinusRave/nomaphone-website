@@ -5,6 +5,7 @@ pubDate: 2025-12-23
 author: "The NomaPhone Team"
 slug: "international-calling-rates-2025-by-destination"
 tags: ["calling rates", "costs", "pricing", "international"]
+heroImage: "../../assets/international-calling-rates-2025-by-destination.jpg"
 ---
 
 "How much does it cost to call internationally?" seems like a simple question. The answer is anything but simple.

@@ -5,6 +5,7 @@ pubDate: 2025-12-26
 author: "The NomaPhone Team"
 slug: "calling-landlines-vs-mobile-numbers-cost"
 tags: ["costs", "mobile", "landline", "international calling"]
+heroImage: "../../assets/calling-landlines-vs-mobile-numbers-cost.jpg"
 ---
 
 You're about to call your accountant in the UK. You have two numbers: the office landline and their mobile. Both connect to the same person, but one will cost you three times more.

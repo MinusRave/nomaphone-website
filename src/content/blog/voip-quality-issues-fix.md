@@ -5,6 +5,7 @@ pubDate: 2025-12-08
 author: "The NomaPhone Team"
 slug: "voip-quality-issues-fix"
 tags: ["VoIP", "call quality", "troubleshooting", "WebRTC"]
+heroImage: "../../assets/voip-quality-issues-fix.jpg"
 ---
 
 Your client can't understand you. There's a weird echo. Your voice cuts out every few seconds. The call drops entirely.

@@ -5,6 +5,7 @@ pubDate: 2026-07-23
 author: "The NomaPhone Team"
 slug: "international-calling-from-bali"
 tags: ["Bali", "Indonesia", "digital nomads", "international calling", "Southeast Asia"]
+heroImage: "../../assets/international-calling-from-bali.jpg"
 ---
 
 You're in Canggu. Your CPA needs you on the phone because it's extension season and there's a question about your foreign earned income exclusion. You pull up your Telkomsel data plan and it's crawling at 0.3 Mbps. The coworking space next door has fiber, but it's packed and loud. Your CPA's office closes in 40 minutes.

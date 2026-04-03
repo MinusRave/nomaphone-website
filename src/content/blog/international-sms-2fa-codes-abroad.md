@@ -5,6 +5,7 @@ pubDate: 2025-12-20
 author: "The NomaPhone Team"
 slug: "international-sms-2fa-codes-abroad"
 tags: ["2FA", "SMS", "security", "authentication"]
+heroImage: "../../assets/international-sms-2fa-codes-abroad.jpg"
 ---
 
 Your bank sends a verification code to your US number. You're in Thailand. The SMS never arrives. Your account is locked. You can't access your money.

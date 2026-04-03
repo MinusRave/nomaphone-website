@@ -5,6 +5,7 @@ pubDate: 2025-12-05
 author: "The NomaPhone Team"
 slug: "call-government-offices-from-abroad"
 tags: ["government calls", "expat", "IRS", "USCIS"]
+heroImage: "../../assets/call-government-offices-from-abroad.jpg"
 ---
 
 You're in Bangkok when you get an email from the IRS: "Call us immediately regarding your tax return." The number is a US toll-free 800 number. Your phone shows it'll cost $2.50 per minute on roaming. And you know from experience you'll be on hold for 45 minutes minimum.

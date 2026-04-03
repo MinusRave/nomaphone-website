@@ -5,6 +5,7 @@ pubDate: 2026-07-14
 author: "The NomaPhone Team"
 slug: "stay-connected-southeast-asia-nomad"
 tags: ["digital nomads", "Southeast Asia", "international calling", "remote workers", "Thailand", "Indonesia"]
+heroImage: "../../assets/stay-connected-southeast-asia-nomad.jpg"
 ---
 
 You just landed in Bangkok. It's 11 PM, the humidity hits you like a wall, and your phone says "No Service." Your Slack notifications are piling up. Your client in New York expects a call tomorrow morning. And you have no idea how to get online.

@@ -5,6 +5,7 @@ pubDate: 2025-12-23
 author: "The NomaPhone Team"
 slug: "international-calling-from-portugal"
 tags: ["Portugal", "digital nomad", "Lisbon", "international calling"]
+heroImage: "../../assets/international-calling-from-portugal.jpg"
 ---
 
 You're working from a coworking space in Lisbon's Príncipe Real when your accountant back home texts: "Need to discuss your Q4 taxes urgently. Call me today." Your MEO SIM card shows €1.20 per minute to call internationally. That's €72 for an hour-long tax discussion.

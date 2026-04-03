@@ -5,6 +5,7 @@ pubDate: 2026-07-29
 author: "The NomaPhone Team"
 slug: "international-calling-from-medellin"
 tags: ["Colombia", "Medellin", "digital nomad", "international calling", "Latin America"]
+heroImage: "../../assets/international-calling-from-medellin.jpg"
 ---
 
 You're in Laureles, halfway through a client call prep, and your US bank sends a fraud alert. They need you to call back on a verified number. Your Claro SIM wants 4,500 COP per minute — roughly $1.10 USD. That 30-minute hold plus 15-minute conversation with the fraud department? About $50 gone.

@@ -5,6 +5,7 @@ pubDate: 2026-07-20
 author: "The NomaPhone Team"
 slug: "international-calling-from-chiang-mai"
 tags: ["Thailand", "Chiang Mai", "digital nomads", "international calling", "VoIP"]
+heroImage: "../../assets/international-calling-from-chiang-mai.jpg"
 ---
 
 You're sitting at Punspace on Nimmanhaemin Road. Your phone buzzes. Chase wants you to verify a transaction by calling their fraud line. It's 9:30am in Chiang Mai, which means it's 9:30pm Eastern in the US. The bank's fraud department closes at 10pm. You have exactly 30 minutes to reach a human, explain you're not a criminal, and unfreeze your card.
