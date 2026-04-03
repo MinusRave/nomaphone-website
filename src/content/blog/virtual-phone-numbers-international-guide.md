@@ -5,6 +5,7 @@ pubDate: 2026-01-10
 author: "The NomaPhone Team"
 slug: "virtual-phone-numbers-international-guide"
 tags: ["virtual numbers", "VoIP", "international calling", "phone numbers"]
+heroImage: "../../assets/virtual-phone-numbers-international-guide.jpg"
 ---
 
 You're living in Thailand but need a US phone number for banking 2FA. Your property manager in India needs to reach you without paying international rates. Your UK clients expect a local London number, not a Thai mobile.

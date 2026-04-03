@@ -5,6 +5,7 @@ pubDate: 2026-01-13
 author: "The NomaPhone Team"
 slug: "international-calling-from-colombia"
 tags: ["Colombia", "Medellín", "Bogotá", "digital nomad"]
+heroImage: "../../assets/international-calling-from-colombia.jpg"
 ---
 
 You're working from a café in El Poblado when your bank texts about suspicious activity. Your Claro SIM shows 4,500 COP per minute to call the US. That 45-minute fraud investigation just became 202,500 pesos - about $50 USD.

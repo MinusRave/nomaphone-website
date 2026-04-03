@@ -5,6 +5,7 @@ pubDate: 2026-01-16
 author: "The NomaPhone Team"
 slug: "call-conference-lines-internationally"
 tags: ["conference calls", "international dial-in", "remote meetings", "business"]
+heroImage: "../../assets/call-conference-lines-internationally.jpg"
 ---
 
 You're in Bali for a critical client presentation. They send the dial-in: "1-800-555-1234, access code 123456#". You dial. Nothing. The US toll-free number doesn't work from Indonesia. The meeting starts in 10 minutes.

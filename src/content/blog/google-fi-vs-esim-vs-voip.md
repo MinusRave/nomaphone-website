@@ -5,6 +5,7 @@ pubDate: 2026-07-11
 author: "The NomaPhone Team"
 slug: "google-fi-vs-esim-vs-voip"
 tags: ["Google Fi", "eSIM", "VoIP", "digital nomads", "international calling", "remote workers"]
+heroImage: "../../assets/google-fi-vs-esim-vs-voip.jpg"
 ---
 
 You're scrolling through a digital nomad Facebook group and someone asks: "What's the best phone setup for traveling full-time?" Within an hour, the thread has 200 comments, three camps, and zero consensus.

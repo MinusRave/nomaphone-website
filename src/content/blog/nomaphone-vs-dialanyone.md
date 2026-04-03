@@ -5,6 +5,7 @@ pubDate: 2026-06-23
 author: "The NomaPhone Team"
 slug: "nomaphone-vs-dialanyone"
 tags: ["NomaPhone vs DialAnyone", "VoIP", "international calling", "browser calling", "digital nomads", "competitor comparison"]
+heroImage: "../../assets/nomaphone-vs-dialanyone.jpg"
 ---
 
 DialAnyone charges half a cent per minute to call the US. NomaPhone charges three cents. That makes DialAnyone six times cheaper for the same route.

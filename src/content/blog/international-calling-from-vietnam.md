@@ -5,6 +5,7 @@ pubDate: 2026-01-19
 author: "The NomaPhone Team"
 slug: "international-calling-from-vietnam"
 tags: ["Vietnam", "Ho Chi Minh City", "Hanoi", "digital nomad"]
+heroImage: "../../assets/international-calling-from-vietnam.jpg"
 ---
 
 You're working from a café in District 1 when your bank texts about suspicious activity. Your Viettel SIM shows 25,000 VND per minute to call the US. That 30-minute fraud investigation just became 750,000 dong - about $30 USD. Plus you need a VPN to access some calling apps.

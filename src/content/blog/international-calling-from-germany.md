@@ -5,6 +5,7 @@ pubDate: 2026-01-07
 author: "The NomaPhone Team"
 slug: "international-calling-from-germany"
 tags: ["Germany", "Berlin", "digital nomad", "German SIM"]
+heroImage: "../../assets/international-calling-from-germany.jpg"
 ---
 
 You're working from a coworking space in Berlin's Kreuzberg when your US bank sends a fraud alert. Your Deutsche Telekom SIM shows €1.40 per minute to call America. That 30-minute fraud investigation just became a €42 phone bill on top of the stress.

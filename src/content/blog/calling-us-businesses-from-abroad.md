@@ -5,6 +5,7 @@ pubDate: 2026-01-22
 author: "The NomaPhone Team"
 slug: "calling-us-businesses-from-abroad"
 tags: ["USA", "business calls", "toll-free", "international calling"]
+heroImage: "../../assets/calling-us-businesses-from-abroad.jpg"
 ---
 
 You're in Barcelona when your insurance claim needs urgent attention. The company lists one number: 1-800-555-HELP. You dial. Nothing. The automated message suggests visiting their website. The website says "Call us at 1-800-555-HELP." You're stuck in a loop.

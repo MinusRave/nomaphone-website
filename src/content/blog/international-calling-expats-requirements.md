@@ -5,6 +5,7 @@ pubDate: 2025-12-29
 author: "The NomaPhone Team"
 slug: "international-calling-expats-requirements"
 tags: ["expats", "requirements", "banking", "government"]
+heroImage: "../../assets/international-calling-expats-requirements.jpg"
 ---
 
 Your Indian bank just sent an email: "Update your contact information by calling us at this number within 48 hours or your NRI account will be frozen." You're in California. The number doesn't work from the US.

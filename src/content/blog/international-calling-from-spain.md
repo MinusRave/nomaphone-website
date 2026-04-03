@@ -5,6 +5,7 @@ pubDate: 2026-01-01
 author: "The NomaPhone Team"
 slug: "international-calling-from-spain"
 tags: ["Spain", "Barcelona", "Madrid", "digital nomad"]
+heroImage: "../../assets/international-calling-from-spain.jpg"
 ---
 
 You're working from a café in Barcelona's El Raval when your bank texts: "Call us immediately about suspicious account activity." Your Movistar SIM shows €1.50 per minute to call the US. That 45-minute fraud investigation just became a €67 phone bill.

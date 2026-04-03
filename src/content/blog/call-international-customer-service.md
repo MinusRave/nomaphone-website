@@ -5,6 +5,7 @@ pubDate: 2026-01-04
 author: "The NomaPhone Team"
 slug: "call-international-customer-service"
 tags: ["customer service", "banks", "airlines", "support"]
+heroImage: "../../assets/call-international-customer-service.jpg"
 ---
 
 You're in Thailand when your credit card gets declined. The bank's fraud department sends a text: "Call us immediately at 1-800-BANK-NOW." The number doesn't work from outside the US. You find an international number. Hold time: 47 minutes. Your roaming rate: $2.50/minute. That's $117.50 just to wait on hold.
