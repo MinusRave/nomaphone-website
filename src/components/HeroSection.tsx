@@ -350,11 +350,11 @@ export function HeroSection() {
                 disabled={isSubmitting}
                 className="sm:w-auto w-full"
               >
-                {isSubmitting ? "Joining..." : "Join waitlist & get $10 credit"}
+                {isSubmitting ? "Joining..." : "Join waitlist & get $5 matched"}
               </Button>
             </div>
             <p className="mt-[var(--space-2)] text-[length:var(--text-xs)] text-[var(--color-text-muted)] font-body">
-              First 100 members get $10 in free calling credits at launch. No spam, unsubscribe anytime.
+              300 members already joined. Top up $5 at launch and we'll match it — $10 to call with. No spam, unsubscribe anytime.
             </p>
           </form>
 

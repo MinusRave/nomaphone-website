@@ -4,9 +4,9 @@ import { WaitlistFormSection } from "./WaitlistFormSection";
 
 export function FinalCTASection() {
   const benefits = [
-    "Up to $10 in free calling credits",
+    "We'll match your first $5 top-up — $10 to call with",
     "Early access before public launch",
-    "Founding member badge (first 100)",
+    "Access to our private feedback channel",
   ];
 
   return (
@@ -41,7 +41,7 @@ export function FinalCTASection() {
 
           {/* Bottom Text */}
           <p className="mt-6 text-sm text-muted-foreground">
-            Launching Q2 2026 • First 100 get lifetime beta perks and the highest bonus credits.
+            Launching Q2 2026 • 300 early adopters already joined — don't miss out.
           </p>
         </div>
       </div>

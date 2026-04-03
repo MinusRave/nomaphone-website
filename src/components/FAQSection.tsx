@@ -56,7 +56,7 @@ export function FAQSection() {
     {
       question: "When does NomaPhone launch?",
       answer:
-        "We’re aiming for a Q2 2026 beta launch. Joining the waitlist now gives you early access plus bonus credits. The earliest supporters get the highest free credit amounts and founding member perks.",
+        "We’re aiming for a Q2 2026 beta launch. 300 early adopters already claimed $10 in free credits. Join now and we’ll match your first $5 top-up, dollar for dollar — giving you $10 to start calling.",
     },
   ];
 

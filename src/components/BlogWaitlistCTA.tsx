@@ -308,7 +308,7 @@ export function BlogWaitlistCTA() {
       Perfect! You're on the waitlist 🎉
     </p>
     <p className="mt-2 text-sm text-muted-foreground">
-      You'll get $10 in free credits when we launch. Stay tuned!
+      Top up $5 at launch and we'll match it — $10 to call with. Stay tuned!
     </p>
   </div>
 ) : (
@@ -335,14 +335,14 @@ export function BlogWaitlistCTA() {
                     Joining...
                   </>
                 ) : (
-                  "Get $10 credit"
+                  "Get $5 matched"
                 )}
               </Button>
             </div>
 
             {/* Privacy + incentive */}
             <p className="mt-3 text-center text-xs text-muted-foreground">
-              <strong className="text-[hsl(var(--secondary))]">First 100 members</strong> get $10 in free calling credits.
+              <strong className="text-[hsl(var(--secondary))]">300 members already joined.</strong> Top up $5 and we'll match it.
               Launching Q2 2026 • No spam, unsubscribe anytime.
             </p>
           </form>
