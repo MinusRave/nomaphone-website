@@ -5,6 +5,7 @@ pubDate: 2026-05-27
 author: "The NomaPhone Team"
 slug: "call-south-korea-from-abroad"
 tags: ["South Korea", "international calling", "expats", "country codes", "VoIP", "Asia"]
+heroImage: "../../assets/call-south-korea-from-abroad.jpg"
 ---
 
 Your Shinhan Bank app just locked you out. The screen says to call their international support line. You're sitting in a cafe in Lisbon, it's 2 PM your time, and you need to figure out if the Seoul office is even open right now. Oh, and you have no idea how Korean phone numbers work.

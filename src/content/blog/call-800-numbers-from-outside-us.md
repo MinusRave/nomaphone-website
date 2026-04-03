@@ -5,6 +5,7 @@ pubDate: 2026-02-09
 author: "The NomaPhone Team"
 slug: "call-800-numbers-from-outside-us"
 tags: ["800 numbers", "toll-free", "USA", "workarounds"]
+heroImage: "../../assets/call-800-numbers-from-outside-us.jpg"
 ---
 
 You're in Thailand when your insurance claim hits a snag. The company lists one number: 1-800-555-CLAIM. You dial. Nothing happens. The website says "Call 1-800-555-CLAIM for assistance." You're stuck in a loop.

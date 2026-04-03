@@ -5,6 +5,7 @@ pubDate: 2026-05-24
 author: "The NomaPhone Team"
 slug: "call-japan-from-abroad"
 tags: ["Japan", "international calling", "business calls", "digital nomads", "Asia"]
+heroImage: "../../assets/call-japan-from-abroad.jpg"
 ---
 
 Your Japanese business partner just emailed: "Please call our Tokyo office to confirm the contract details." You stare at the number — it starts with +81 3 and has a bunch of digits. You're sitting in a coworking space in Lisbon, your carrier wants $2.50 a minute for international calls, and you have no idea how Japanese phone numbers even work.

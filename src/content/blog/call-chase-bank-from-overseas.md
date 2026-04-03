@@ -5,6 +5,7 @@ pubDate: 2026-04-15
 author: "The NomaPhone Team"
 slug: "call-chase-bank-from-overseas"
 tags: ["banking abroad", "call Chase from abroad", "international calling", "digital nomads", "VoIP"]
+heroImage: "../../assets/call-chase-bank-from-overseas.jpg"
 ---
 
 You're sitting in a cafe in Lisbon when your phone buzzes. It's a text from Chase: "Did you attempt a purchase of $847.23 at an electronics store? Reply YES or NO. If you did not authorize this, call us immediately at the number on your card."

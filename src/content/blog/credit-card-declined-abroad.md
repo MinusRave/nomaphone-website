@@ -5,6 +5,7 @@ pubDate: 2026-04-27
 author: "The NomaPhone Team"
 slug: "credit-card-declined-abroad"
 tags: ["banking abroad", "credit card declined", "international calling", "digital nomads", "expat banking"]
+heroImage: "../../assets/credit-card-declined-abroad.jpg"
 ---
 
 You're checking out of a hotel in Lisbon. You hand over your Chase Visa. The front desk clerk swipes it, waits, and shakes her head. Declined.

@@ -5,6 +5,7 @@ pubDate: 2026-04-24
 author: "The NomaPhone Team"
 slug: "bank-fraud-alert-while-traveling"
 tags: ["banking abroad", "fraud alert", "digital nomads", "international calling", "travel tips"]
+heroImage: "../../assets/bank-fraud-alert-while-traveling.jpg"
 ---
 
 You're at a restaurant in Bangkok. The pad thai just arrived. You reach for your card and the server comes back shaking their head. Declined.

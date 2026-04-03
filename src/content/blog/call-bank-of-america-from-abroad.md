@@ -5,6 +5,7 @@ pubDate: 2026-04-18
 author: "The NomaPhone Team"
 slug: "call-bank-of-america-from-abroad"
 tags: ["banking abroad", "Bank of America", "international calling", "digital nomads", "VoIP"]
+heroImage: "../../assets/call-bank-of-america-from-abroad.jpg"
 ---
 
 You're sitting in a cafe in Lisbon. Your phone buzzes. It's a text from Bank of America: "Unusual activity detected on your account. Your debit card has been temporarily locked. Please call us immediately."

@@ -5,6 +5,7 @@ pubDate: 2026-05-06
 author: "The NomaPhone Team"
 slug: "free-international-calling-truth-vs-trap"
 tags: ["free international calling", "international calling", "digital nomads", "VoIP", "Google Voice", "Skype alternative"]
+heroImage: "../../assets/free-international-calling-truth-vs-trap.jpg"
 ---
 
 You're in a coworking space in Medellin, and your health insurance company just sent you a letter. They need you to call a US landline within 48 hours or your claim gets denied. You Google "free international calling" because you're not about to pay $2.50 per minute on roaming for what could be a 45-minute hold.

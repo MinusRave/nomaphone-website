@@ -5,6 +5,7 @@ pubDate: 2026-07-08
 author: "The NomaPhone Team"
 slug: "best-phone-plans-digital-nomads-2026"
 tags: ["digital nomads", "international calling", "eSIM", "roaming", "VoIP", "remote workers"]
+heroImage: "../../assets/best-phone-plans-digital-nomads-2026.jpg"
 ---
 
 You're packing for your next country. Laptop, charger, passport, adapter. Then you pause. What about your phone plan?

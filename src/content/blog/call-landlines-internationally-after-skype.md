@@ -5,6 +5,7 @@ pubDate: 2026-04-30
 author: "The NomaPhone Team"
 slug: "call-landlines-internationally-after-skype"
 tags: ["Skype alternative", "international calling", "landlines", "VoIP", "digital nomads", "browser calling"]
+heroImage: "../../assets/call-landlines-internationally-after-skype.jpg"
 ---
 
 Your mom picks up the landline on the third ring. That's how it used to work. You'd open Skype, dial her home number in Ohio, and talk for an hour at two cents a minute. Simple. Reliable. Done.

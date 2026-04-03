@@ -5,6 +5,7 @@ pubDate: 2026-02-15
 author: "The NomaPhone Team"
 slug: "remote-work-phone-setup-international"
 tags: ["remote work", "phone setup", "digital nomad", "international communication"]
+heroImage: "../../assets/remote-work-phone-setup-international.jpg"
 ---
 
 You're about to move to Portugal for remote work. Your employer expects you available during US hours. Your bank needs a US number for 2FA. Your family wants to reach you without international charges. You need local services in Portugal. How do you set up one system that handles everything?

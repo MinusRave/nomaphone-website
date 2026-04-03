@@ -5,6 +5,7 @@ pubDate: 2026-04-09
 author: "The NomaPhone Team"
 slug: "complete-guide-international-phone-calls-2026"
 tags: ["international calling", "VoIP", "roaming", "digital nomads", "browser calling", "Skype alternative"]
+heroImage: "../../assets/complete-guide-international-phone-calls-2026.jpg"
 ---
 
 Your bank just froze your debit card. You're in a cafe in Lisbon, it's 6 PM local time, and your bank's fraud department needs you to call a US phone number to verify your identity. No app-to-app option. No chat support. Just a 1-800 number and a hold time that could stretch to 45 minutes.

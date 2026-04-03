@@ -5,6 +5,7 @@ pubDate: 2026-04-03
 author: "The NomaPhone Team"
 slug: "pay-as-you-go-international-calling"
 tags: ["pay as you go", "international calling", "digital nomads", "Skype alternative", "browser calling", "remote workers"]
+heroImage: "../../assets/pay-as-you-go-international-calling.jpg"
 ---
 
 Your landlord in Lisbon just emailed you. There's a water leak, and she only speaks Portuguese on WhatsApp but needs you to call the plumber directly — a local landline number. You pull up your carrier app and see the international rate: $2.50 per minute. For a five-minute call to schedule a plumber. That's $12.50 to say "Tuesday at 3pm works."

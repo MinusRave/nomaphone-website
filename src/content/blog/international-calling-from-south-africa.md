@@ -5,6 +5,7 @@ pubDate: 2026-02-12
 author: "The NomaPhone Team"
 slug: "international-calling-from-south-africa"
 tags: ["South Africa", "Cape Town", "Johannesburg", "load shedding"]
+heroImage: "../../assets/international-calling-from-south-africa.jpg"
 ---
 
 You're working from a café in Cape Town's CBD when your client needs an urgent call. Your Vodacom SIM shows 15 rand per minute to call the UK. That's manageable until load shedding hits and the WiFi dies. Your 4G kicks in, but now you're worried about data costs on top of calling rates.

@@ -5,6 +5,7 @@ pubDate: 2026-04-21
 author: "The NomaPhone Team"
 slug: "call-wells-fargo-from-abroad"
 tags: ["banking abroad", "expat banking", "international calling", "Wells Fargo", "digital nomads"]
+heroImage: "../../assets/call-wells-fargo-from-abroad.jpg"
 ---
 
 You're sitting in a cafe in Lisbon when your phone buzzes. Text from Wells Fargo: "Suspicious activity detected on your debit card ending in 4782. If you did not authorize this transaction, call us immediately at 1-800-869-3557."

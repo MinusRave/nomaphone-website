@@ -5,6 +5,7 @@ pubDate: 2026-05-03
 author: "The NomaPhone Team"
 slug: "microsoft-teams-vs-browser-voip"
 tags: ["Skype alternative", "Microsoft Teams", "VoIP", "international calling", "browser calling", "digital nomads"]
+heroImage: "../../assets/microsoft-teams-vs-browser-voip.jpg"
 ---
 
 Microsoft killed Skype's consumer calling service and told everyone to use Teams instead. That sounds reasonable until you actually try to call your bank in New York from a cafe in Lisbon using Microsoft Teams. Then you realize the **microsoft teams vs skype replacement** story has a pretty big gap in it.

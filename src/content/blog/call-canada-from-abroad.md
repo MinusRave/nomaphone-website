@@ -5,6 +5,7 @@ pubDate: 2026-05-18
 author: "The NomaPhone Team"
 slug: "call-canada-from-abroad"
 tags: ["Canada", "international calling", "digital nomads", "expats", "VoIP"]
+heroImage: "../../assets/call-canada-from-abroad.jpg"
 ---
 
 You're sitting in a cafe in Lisbon and you need to call your Canadian bank. You dial the number like you would from the US — area code, seven digits — and nothing happens. Or worse, it connects and your carrier charges you $2.50 per minute because you forgot you're not in North America anymore.

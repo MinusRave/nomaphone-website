@@ -5,6 +5,7 @@ pubDate: 2026-02-06
 author: "The NomaPhone Team"
 slug: "international-calling-from-turkey"
 tags: ["Turkey", "Istanbul", "digital nomad", "VPN"]
+heroImage: "../../assets/international-calling-from-turkey.jpg"
 ---
 
 You're working from a café in Kadıköy when your accountant texts: "Call me urgently about your tax filing." Your Turkcell SIM shows 12 TL per minute to call the US. With Turkey's lira fluctuations, that's somewhere between $0.35-0.50 per minute depending on today's rate. A 30-minute call could cost $10-15.

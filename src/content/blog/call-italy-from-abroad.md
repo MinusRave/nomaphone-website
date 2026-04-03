@@ -5,6 +5,7 @@ pubDate: 2026-05-09
 author: "The NomaPhone Team"
 slug: "call-italy-from-abroad"
 tags: ["Italy", "international calling", "expats", "digital nomads", "banking abroad", "VoIP"]
+heroImage: "../../assets/call-italy-from-abroad.jpg"
 ---
 
 You need to call INPS about your pension contributions. You dial the number from your apartment in Lisbon. An automated Italian voice greets you with seven menu options — all in rapid-fire Italian. You press 2. Hold music. Fifteen minutes pass. Twenty. Thirty. Then the line disconnects.

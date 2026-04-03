@@ -5,6 +5,7 @@ pubDate: 2026-05-21
 author: "The NomaPhone Team"
 slug: "call-australia-from-abroad"
 tags: ["Australia", "expats", "digital nomads", "international calling", "country guide", "VoIP"]
+heroImage: "../../assets/call-australia-from-abroad.jpg"
 ---
 
 You're in Lisbon and your Australian bank just sent a text: "Unusual transaction detected on your account. Call us to verify." You check the number. It's a Sydney landline. Your local SIM charges $2.50 per minute for calls to Australia. The fraud team's hold time is at least 20 minutes. That's $50 just to confirm you bought a coffee in Portugal.
