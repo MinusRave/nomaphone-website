@@ -2,131 +2,134 @@
 title: "How to Call Japan From Abroad (Business and Personal)"
 description: "Need to call Japan from abroad? Country code +81, area codes, mobile prefixes, every calling method compared with real 2026 costs for business and personal."
 pubDate: 2026-05-24
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-japan-from-abroad"
 tags: ["Japan", "international calling", "business calls", "digital nomads", "Asia"]
 heroImage: "../../assets/call-japan-from-abroad.jpg"
 ---
 
-Your Japanese business partner just emailed: "Please call our Tokyo office to confirm the contract details." You stare at the number — it starts with +81 3 and has a bunch of digits. You're sitting in a coworking space in Lisbon, your carrier wants $2.50 a minute for international calls, and you have no idea how Japanese phone numbers even work.
+Your Japanese business partner just emailed: "Please call our Tokyo office to confirm the contract details." The number starts with 03, you're in a coworking space in Lisbon, and your carrier charges a few dollars a minute for international calls.
 
-Or maybe it's personal. You need to call your hotel in Kyoto to change a reservation. Or you're trying to reach Japan's immigration office before your visa runs out. Either way, you need to call Japan from abroad, and you need it to actually work.
+Or it's personal. You need to call your hotel in Kyoto to change a reservation, or reach an immigration office before your visa runs out. Either way, you need to call Japan from abroad, and you need it to work.
 
-Japan's phone system has its own quirks. Area codes that change by city, three different mobile prefixes, automated systems entirely in Japanese, and business hours that don't line up with most of the Western world. This guide covers everything you need to make that call — the right way, without overpaying.
+Japan's phone system has its own quirks: area codes of different lengths, a leading zero you have to drop, toll-free numbers that don't work from overseas, phone menus entirely in Japanese, and business hours that barely overlap with Europe or the Americas. This guide covers all of it, plus what each calling method costs.
 
 ## Understanding Japan's Country Code and Number Format
 
-Every international call to Japan starts with the country code **+81**.
+Every international call to Japan starts with the country code **+81**. If your phone doesn't support the "+" key, use your international exit code instead: 011 from the US and Canada, 00 from the UK and most of Europe.
 
-Japanese phone numbers follow a consistent structure, but the specifics depend on whether you're calling a landline or mobile.
+Inside Japan, every number starts with **0**. That 0 is a domestic trunk prefix: **drop it** when dialing from abroad. Japanese landline numbers have 10 digits including the 0, and mobile numbers have 11.
 
 ### Landline Numbers
 
-Japanese landline numbers use geographic area codes. The format is:
+The format is:
 
-**+81 + area code (without leading 0) + local number**
+**+81 + area code (without the leading 0) + local number**
 
-Here are the most common area codes:
+Area codes range from one to four digits after the 0. The shorter the area code, the longer the local number. The most common ones:
 
 | City | Area Code (domestic) | International Format |
 |---|---|---|
-| Tokyo | 03 | +81 3 XXXX XXXX |
+| Tokyo (23 wards) | 03 | +81 3 XXXX XXXX |
 | Osaka | 06 | +81 6 XXXX XXXX |
-| Nagoya | 052 | +81 52 XXXX XXXX |
-| Yokohama | 045 | +81 45 XXXX XXXX |
+| Yokohama | 045 | +81 45 XXX XXXX |
+| Nagoya | 052 | +81 52 XXX XXXX |
 | Sapporo | 011 | +81 11 XXX XXXX |
-| Fukuoka | 092 | +81 92 XXX XXXX |
+| Sendai | 022 | +81 22 XXX XXXX |
 | Kyoto | 075 | +81 75 XXX XXXX |
 | Kobe | 078 | +81 78 XXX XXXX |
+| Hiroshima | 082 | +81 82 XXX XXXX |
+| Fukuoka | 092 | +81 92 XXX XXXX |
+| Naha (Okinawa) | 098 | +81 98 XXX XXXX |
 
-The key rule: **drop the leading zero** from the area code when dialing internationally. If someone gives you a Tokyo number as 03-1234-5678, you dial +81 3 1234 5678.
+Japanese numbers are usually written with hyphens. A Tokyo number written as 03-1234-5678 becomes +81 3 1234 5678. A Kyoto number written as 075-123-4567 becomes +81 75 123 4567.
 
 ### Mobile Numbers
 
-Japanese mobile numbers use three prefixes: **070**, **080**, and **090**. All three work the same way — the prefix just indicates when the number was issued or which carrier originally assigned it.
+Japanese mobile numbers start with **070**, **080** or **090**, followed by 8 digits. All three work the same way. The prefix mostly reflects when the number range was opened, and with number portability it doesn't tell you the carrier.
 
 The international format is:
 
 **+81 + 70/80/90 + XXXX XXXX**
 
-Again, drop the leading zero. A mobile number written as 090-1234-5678 becomes +81 90 1234 5678.
+A mobile number written as 090-1234-5678 becomes +81 90 1234 5678.
 
 ### IP Phone Numbers
 
-You might also encounter numbers starting with **050**. These are IP-based phone numbers, common with Japanese VoIP services and some businesses. Dial them the same way: +81 50 XXXX XXXX.
+Numbers starting with **050** are IP phone numbers, used by some internet phone services and businesses. Dial them like any other number: +81 50 XXXX XXXX. Most are reachable from abroad, though a few services restrict incoming international calls.
 
 ### Toll-Free and Special Numbers
 
-Japan's toll-free numbers start with **0120** or **0800**. Here's the catch — most Japanese toll-free numbers **do not work from outside Japan**. If you're trying to reach a company's customer service on a 0120 number, you'll need to find their regular landline number instead. Check the company's website for an international contact number, usually listed under "overseas inquiries" or "from outside Japan."
+- **0120 and 0800** are toll-free numbers. Most **don't work from outside Japan**.
+- **0570** numbers (often branded "Navi Dial") are shared-cost lines used by many companies and government services. They often can't be reached from abroad either.
+
+If a company only lists one of these, look for a regular landline number on its website, usually labeled "from overseas," "international inquiries" or "for IP phones and calls from abroad." Many large companies and public services list one. Japan's Immigration Services Agency, for example, publishes a separate Tokyo 03 number for overseas callers alongside its 0570 information line.
 
 ## Methods to Call Japan From Abroad
 
-You have several options. Each comes with different costs, quality, and convenience trade-offs.
+Each option comes with different costs, quality and convenience trade-offs. Third-party prices below are typical figures at the time of writing; check the provider before relying on them.
 
 ### 1. Carrier Roaming / International Dialing
 
-Your regular phone carrier can place international calls to Japan. It's the simplest method — just dial the number.
+Your regular mobile carrier can call Japan directly. It's the simplest method: just dial the number.
 
-**Typical costs:**
-- AT&T: $2.00-3.00/min
-- Verizon: $2.99/min (or TravelPass at $10/day)
-- T-Mobile: $0.25/min on Magenta plans to 200+ countries
-- UK carriers (EE, Vodafone): typically $1.30-3.80/min
+**Typical pay-per-use costs without an add-on:**
+- Major US carriers: often $1 to $3 or more per minute
+- UK and European carriers: often £1 to £3 per minute, more when roaming
+- Some plans include cheaper international calling or sell add-ons. T-Mobile's Simple Global roaming, for example, has charged around $0.25/min for calls made while roaming in many countries.
 
-A 15-minute call to a Tokyo office on AT&T? That's $30-45. A 30-minute call while on hold with Japanese immigration? You're looking at $60-90.
+At $2 or $3 a minute, a 15-minute call to a Tokyo office costs $30 to $45. A long hold with an immigration or tax office can cost far more.
 
 ### 2. Browser-Based VoIP (NomaPhone, DialAnyone, etc.)
 
-Browser-based calling services let you call Japan from any device with an internet connection. No app download needed — just open your browser, enter the number, and call.
+Browser-based calling services let you call Japanese landlines and mobiles from a laptop or phone browser. Your voice travels over the internet to the provider, which connects the call to the Japanese phone network. The person you call just sees an incoming international call on their regular phone.
 
 **Why this works well for Japan:**
-- Works from anywhere in the world
-- No app installation or account setup headaches
-- Pay-as-you-go, so a 5-minute hotel confirmation call costs pennies
-- Quality is solid on any decent Wi-Fi or data connection
+- Works from anywhere you have a decent internet connection
+- Nothing to install
+- Pay-as-you-go, so short calls like a hotel confirmation cost little
+- Reaches landlines and offices, not just people on a particular app
 
-NomaPhone offers competitive rates for calls to Japan. Check [nomaphone.com](https://nomaphone.com) for current Japan rates. With pay-as-you-go pricing and credits that never expire, you only pay for what you use.
+**NomaPhone** calls Japan from your browser at [[rate:JP:both]], billed per second. There's no app and no account: you buy prepaid credit ($5, $10 or $20 with Apple Pay, Google Pay or card), get a phone card code that holds your balance, and dial. Credit never expires, unused credit can be refunded to your original payment method any time, and the on-screen keypad handles phone menus. Calls are capped at 30 minutes each; you can redial straight away if you're still on hold.
 
-DialAnyone also covers Japan at low per-minute rates and offers mobile apps alongside browser calling.
+Other browser and app-based services also cover Japan. We compare two of them in [NomaPhone vs DialAnyone](/blog/nomaphone-vs-dialanyone/) and [NomaPhone vs YadaPhone](/blog/nomaphone-vs-yadaphone/).
 
 ### 3. Messaging Apps (LINE, WhatsApp)
 
-**LINE** is Japan's dominant messaging app. If your Japanese contact uses LINE, you can make free voice and video calls over the internet. This is the most popular communication method within Japan — over 90 million monthly users.
+**LINE** is Japan's dominant messaging app, used by most smartphone owners in the country. If your Japanese contact has LINE, you can make free voice and video calls over the internet. For ongoing contact with people in Japan, it's the standard.
 
-**WhatsApp** works too, but it's far less common in Japan than in other countries. Your Japanese business contact is much more likely to have LINE.
+**WhatsApp** works too, but it's far less common in Japan. Your Japanese contact is much more likely to have LINE.
 
-The limitation: both parties need the same app installed, and both need internet. You can't call a Japanese landline or office phone through LINE for free.
+The limitation: both people need the same app. You can't call a Japanese landline, a hotel front desk or a government office through LINE or WhatsApp.
 
 ### 4. Calling Cards and Prepaid Services
 
-Still an option, but increasingly outdated. Calling cards to Japan typically run $0.03-0.10 per minute, but come with hidden connection fees, maintenance fees, and expiration dates that eat into your balance. Quality is often mediocre.
+Still an option, but increasingly outdated. Calling cards often advertise low rates to Japan, but connection fees, maintenance fees and expiring balances can eat into the value. You also have to dial an access number and PIN each time.
 
 ### 5. Google Voice
 
-If you're a US resident with Google Voice, you can call Japanese landlines and mobiles at Google's published rates. The catch: Google Voice is restricted to US residents, quality can be inconsistent from Asia, and you need a US phone number for verification.
+If you already have a US Google Voice account, you can call Japanese landlines and mobiles at Google's published per-minute rates, which are low. The catch: setting up Google Voice requires a US phone number, and it's built for US users.
 
 ## Cost Comparison: Calling Japan for 15 Minutes
 
-Here's what a typical 15-minute call to a Japanese landline actually costs with each method:
+Here's roughly what a 15-minute call to a Japanese landline costs with each method. Third-party figures are approximate and change; check current pricing.
 
 | Method | Cost (15-min call to Japan) | Pros | Cons |
 |---|---|---|---|
-| AT&T roaming | $30.00 - $45.00 | Works immediately | Extremely expensive |
-| Verizon roaming | $44.85 | No setup | Painful pricing |
-| T-Mobile (Magenta) | $3.75 | Reasonable | Need T-Mobile plan |
-| Browser VoIP (NomaPhone) | Check nomaphone.com | Works anywhere, no app needed | Needs internet |
-| Browser VoIP (DialAnyone) | Varies by rate | Apps available too | Variable quality |
-| LINE (app-to-app) | Free | No cost | Both parties need LINE |
-| Google Voice | Varies | Low cost | US residents only, quality issues |
-| Calling card | $0.45 - $1.50 + fees | No internet needed | Hidden fees, low quality |
+| Carrier pay-per-use | Often $15 - $45 | Works immediately | Expensive |
+| Carrier at around $0.25/min | Around $3.75 | Nothing to set up | Only on plans with such a rate |
+| Browser VoIP (NomaPhone) | 15 × [[rate:JP:landline]] | No app or account, billed per second | Needs internet |
+| Other browser/app services | Varies by provider | Some have apps | Need an account |
+| LINE (app-to-app) | Free | No cost | Both need LINE, no landlines |
+| Google Voice | A few cents per minute | Low cost | Needs a US account |
+| Calling card | Low rate plus fees | No internet needed | Fees, PINs, expiry |
 
-The gap between carrier roaming and browser-based VoIP is massive. A business call that costs $45 on AT&T costs a fraction of that through a browser calling service.
+To Japanese mobiles, NomaPhone charges [[rate:JP:mobile]], and some app-based services may be cheaper for long mobile calls. Rates to landlines and mobiles often differ by country; our guide to [calling landlines vs mobile numbers](/blog/calling-landlines-vs-mobile-numbers-cost/) explains why.
 
 ## Business Hours in Japan (JST)
 
-Japan Standard Time (JST) is UTC+9. Japan does **not** observe daylight saving time, which actually makes scheduling easier — the offset stays the same year-round.
-
-Here's how JST maps to common time zones:
+Japan Standard Time (JST) is **UTC+9**. Japan does **not** observe daylight saving time, so the offset stays the same year-round. Only your side changes.
 
 | Your Location | When it's 10:00 AM in Tokyo |
 |---|---|
@@ -137,93 +140,96 @@ Here's how JST maps to common time zones:
 | Bangkok (ICT) | 8:00 AM same day |
 | Sydney (AEST/AEDT) | 11:00 AM / 12:00 PM same day |
 
-**Standard Japanese business hours** are 9:00 AM to 6:00 PM JST, Monday through Friday.
+**Standard Japanese business hours** are about 9:00 AM to 5:30 or 6:00 PM JST, Monday through Friday.
 
 A few things to keep in mind:
 
-- **Government offices** (immigration, tax, municipal) typically operate 8:30 AM to 5:00 PM JST, closed weekends and national holidays.
-- **Banks** are open 9:00 AM to 3:00 PM JST, Monday through Friday. Yes, they close at 3 PM.
-- **Hotels** usually have front desks staffed 24/7, so timing is less of an issue for reservation calls.
-- **Golden Week** (late April to early May), **Obon** (mid-August), and **New Year** (December 28 through January 3) are major holiday periods. Many businesses close for several days. Avoid scheduling important calls during these windows.
+- **Government offices** (immigration, tax, city halls) typically operate about 8:30 AM to 5:15 PM JST on weekdays, closed weekends and national holidays.
+- **Banks** usually open their counters 9:00 AM to 3:00 PM JST on weekdays. Phone support lines often run longer.
+- **Hotels** usually staff the front desk 24/7, so timing matters less for reservation calls. Small ryokan may not.
+- **Holidays:** Golden Week (late April to early May), Obon (mid-August) and the New Year break (roughly December 29 to January 3) are the big ones. Many businesses close for several days. Japan also has around 16 national holidays a year, several of which fall on Mondays.
 
-If you're calling from the US East Coast, that means phoning a Tokyo office between 8:00 PM and 5:00 AM your time. Not ideal. Plan ahead and consider email or LINE as a first contact method, with a phone call scheduled for a mutually workable time.
+From the US East Coast, a 9-to-6 Tokyo workday runs from about 7:00 or 8:00 PM to 4:00 or 5:00 AM your time. From the UK and Western Europe, it runs from around midnight to 9:00 or 10:00 AM, so your early morning is the practical window. Consider email or LINE first, then schedule the call for a time that works for both sides.
 
 ## Language Considerations
 
-This is where calling Japan gets tricky compared to many other countries.
+This is where calling Japan gets tricky compared with many other countries.
 
 ### The Language Barrier Is Real
 
-English proficiency in Japan varies significantly. At large international companies, you'll likely reach someone who speaks English. At smaller businesses, government offices, and local services, everything may be in Japanese — including automated phone menus.
+English ability varies a lot. At large international companies you'll likely reach someone who speaks English. At smaller businesses, local offices and services, everything may be in Japanese, including the automated phone menu.
 
 **What to expect:**
 
-- **Automated systems**: Frequently in Japanese only. You'll hear prompts you can't understand. Pressing "0" or staying on the line sometimes connects you to an operator, but not always.
-- **Hotels**: Major international chains have English-speaking staff. Ryokans and smaller hotels may not.
-- **Government offices**: Immigration (the Immigration Services Agency) often has English-speaking staff for international inquiries. Local municipal offices usually don't.
-- **Banks**: Major branches in Tokyo and Osaka may have international desks. Smaller branches rarely have English speakers.
+- **Automated systems:** Often Japanese only. Some large companies offer an English option; many don't.
+- **Hotels:** International chains generally have English-speaking staff. Ryokan and small hotels may not.
+- **Government offices:** National bodies like the Immigration Services Agency offer support in English and other languages through dedicated information lines. Local city offices often have limited English, though some larger cities run foreign-resident help lines.
+- **Banks:** Major banks may have English support lines. Regular branches rarely have English speakers.
 
 ### Tips for Navigating Japanese Phone Systems
 
-**Prepare before you call.** If possible, find the specific extension or department number on the company's website. Many Japanese corporate websites have English pages with direct phone numbers for international inquiries.
+**Prepare before you call.** Find the specific department number on the company's website. Many Japanese corporate sites have English pages listing direct numbers for overseas inquiries.
 
 **Have key phrases ready.** Even basic Japanese helps:
-- "Eigo de onegaishimasu" (English, please) — pronounced "AY-go deh oh-neh-GUY-shee-mahss"
-- "Yoyaku no kakunin" (reservation confirmation) — for hotel calls
-- "Tantosha" (person in charge) — to ask for the relevant staff member
+- "Eigo de onegaishimasu" (English, please)
+- "Eigo o hanaseru kata wa imasu ka?" (Is there someone who speaks English?)
+- "Yoyaku no kakunin" (reservation confirmation), for hotel calls
+- "Tantōsha" (the person in charge), to ask for the relevant staff member
 
-**Use email first when possible.** Japanese business culture heavily favors written communication. Sending an email in advance — even a brief one — often gets faster results than cold-calling. Many Japanese professionals are more comfortable writing in English than speaking it.
+**Use email first when possible.** Japanese business culture leans heavily on written communication, and many Japanese professionals are more comfortable writing English than speaking it. A short email in advance often gets faster results than a cold call.
 
-**Consider a bilingual intermediary.** For ongoing business in Japan, having a Japanese-speaking colleague handle the initial phone contact saves hours.
+**Consider a bilingual intermediary.** For ongoing business in Japan, a Japanese-speaking colleague handling first contact can save hours.
 
 ## Common Issues When Calling Japan
 
 ### Issue 1: The Number Doesn't Connect
 
-**Most common cause**: You didn't drop the leading zero.
+**Most common cause:** you didn't drop the leading zero.
 
-If someone in Japan gives you their number as 03-1234-5678, the international format is +81 3 1234 5678 — not +81 03 1234 5678. That extra zero is only used for domestic dialing within Japan.
+A number given as 03-1234-5678 is dialed as +81 3 1234 5678, not +81 03 1234 5678. That zero is only for dialing within Japan.
 
-### Issue 2: Toll-Free Numbers Don't Work
+Also count the digits: after +81, landlines have 9 digits and mobiles have 10.
 
-Japanese 0120 and 0800 numbers are almost always restricted to domestic callers. Check the company's website for an alternative international number. Look for sections labeled "For overseas customers" or "International inquiries."
+### Issue 2: Toll-Free and Navi Dial Numbers Don't Work
+
+Japanese 0120, 0800 and 0570 numbers are usually restricted to callers inside Japan. Check the company's website for an alternative number, often in a section labeled "For overseas customers," "International inquiries" or "From IP phones."
 
 ### Issue 3: Getting Lost in Japanese IVR Menus
 
-Interactive Voice Response systems in Japan are almost entirely in Japanese. A few strategies:
+Phone menus in Japan are mostly in Japanese, and there's no universal shortcut to a human. A few strategies:
 
-- Press 0 repeatedly — this sometimes routes to a live operator
-- Press the star key (*) — another common shortcut to reach a human
-- Try calling during off-peak hours (right at 9:00 AM JST) when wait times are shorter and operators have more patience for language barriers
-- Check if the company has an English-language phone line — larger companies sometimes do
+- Check the website first. Some companies publish their menu options or a direct English line.
+- Listen for "English" or "Eigo" near the start of the menu.
+- Ask a Japanese-speaking friend to listen once and note which numbers to press.
+- Call right when lines open at 9:00 AM JST, when hold times tend to be shorter.
 
 ### Issue 4: The Call Drops or Has Poor Quality
 
-If you're using VoIP or browser-based calling, audio quality depends on your internet connection. Japan's phone infrastructure is excellent on their end — if there's a quality issue, it's almost always on the caller's side.
+With any internet-based calling, call quality depends mostly on your connection. Japan's phone network itself is very reliable, so problems are usually on the caller's side.
 
 **Quick fixes:**
-- Switch from Wi-Fi to mobile data (or vice versa) if quality is poor
-- Close bandwidth-heavy apps (video streaming, large downloads)
-- Use a wired connection if available
-- Make sure you're not on a VPN — some VPNs add latency that degrades call quality
+- Switch between Wi-Fi and mobile data if quality is poor
+- Close bandwidth-heavy apps (streaming, large downloads)
+- Use a wired connection or sit closer to the router
+- Turn off your VPN if it adds latency
+
+Our guide to [fixing VoIP call quality issues](/blog/voip-quality-issues-fix/) goes into more detail.
 
 ### Issue 5: Fax Is Still a Thing
 
-Japan still uses fax machines extensively in business. If a Japanese company asks you to "send a fax," they're serious. Use an online fax service to handle this from abroad.
+Many Japanese businesses and offices still use fax. If a Japanese company asks you to "send a fax," they mean it. An online fax service can handle this from abroad.
 
 ## Calling Japan for Business: Quick Etiquette
 
 A few things that matter in Japanese business phone culture:
 
-- **Identify yourself immediately.** State your full name and company before anything else. This is expected.
-- **Be exactly on time.** If you agreed to call at 2:00 PM JST, call at 2:00 PM JST. Not 2:05.
-- **Speak slowly.** Phone audio compresses speech. Slow down and pause between sentences, even when your contact's English is strong.
-- **Follow up in writing.** Send an email summarizing what was discussed. Japanese business culture values written documentation.
-- **Be patient with transfers.** Internal routing in Japanese companies sometimes goes through multiple levels.
+- **Identify yourself immediately.** State your full name and company before anything else.
+- **Be on time.** If you agreed to call at 2:00 PM JST, call at 2:00 PM JST.
+- **Speak slowly and clearly.** Pause between sentences, even when your contact's English is strong.
+- **Follow up in writing.** Send an email summarizing what was discussed and agreed.
+- **Be patient with transfers.** Calls are often routed through a receptionist before reaching the person you need.
 
 ## Quick Reference: Calling Japan Cheat Sheet
-
-Here's everything you need in one place:
 
 | Detail | Value |
 |---|---|
@@ -231,34 +237,34 @@ Here's everything you need in one place:
 | Tokyo area code | 03 (dial +81 3) |
 | Osaka area code | 06 (dial +81 6) |
 | Kyoto area code | 075 (dial +81 75) |
-| Mobile prefixes | 070, 080, 090 |
+| Mobile prefixes | 070, 080, 090 (dial +81 70, 80, 90) |
 | IP phone prefix | 050 |
-| Toll-free prefixes | 0120, 0800 (domestic only) |
+| Toll-free / Navi Dial | 0120, 0800, 0570 (usually domestic only) |
 | Time zone | JST (UTC+9, no daylight saving) |
-| Business hours | 9:00 AM - 6:00 PM JST |
-| Bank hours | 9:00 AM - 3:00 PM JST |
-| Government hours | 8:30 AM - 5:00 PM JST |
-| Key phrase | "Eigo de onegaishimasu" (English please) |
+| Business hours | About 9:00 AM - 6:00 PM JST |
+| Bank counter hours | 9:00 AM - 3:00 PM JST |
+| Government hours | About 8:30 AM - 5:15 PM JST |
+| Key phrase | "Eigo de onegaishimasu" (English, please) |
 
 **Step-by-step to call Japan:**
 
 1. Get the Japanese phone number
-2. If it starts with 0, remove the leading 0
-3. Add +81 before the remaining digits
-4. Check the time in Japan (UTC+9)
-5. Choose your calling method (browser VoIP for best value)
-6. Dial and connect
+2. If it's 0120, 0800 or 0570, find a regular number for overseas callers
+3. Remove the leading 0
+4. Add +81 before the remaining digits
+5. Check the time in Japan (UTC+9)
+6. Choose your calling method and dial
 
 ## Choosing the Right Method for Your Situation
 
-**Quick one-time call** (hotel, restaurant, confirming a reservation): Browser-based VoIP is your best bet. No setup, no commitment. You pay for the minutes you use and move on.
+**Quick one-off call** (hotel, restaurant, reservation): a browser-based service is the easiest. Nothing to install, no commitment, and you pay only for the seconds you use.
 
-**Ongoing business relationship**: Get on LINE. It's free for both parties and it's the communication standard in Japan. Use phone calls for formal conversations and LINE for day-to-day coordination.
+**Ongoing business or personal relationship:** get on LINE. It's free and it's the standard in Japan. Use phone calls for formal conversations and for landlines.
 
-**Emergency or urgent call** (lost passport, medical, legal): Use whatever connects fastest. Carrier roaming is expensive but immediate. If you have internet access, browser VoIP works in under 30 seconds.
+**Urgent call** (lost passport, problem with a booking): use whatever connects fastest. Your carrier works immediately but is expensive; a browser service works from any internet connection. Note that NomaPhone can't call emergency numbers. If you're in Japan, dial 110 for police or 119 for fire and ambulance from a local phone.
 
-**Extended calls** (immigration office, bank, anything with hold times): Browser-based VoIP saves serious money here. A 45-minute call on carrier roaming could cost $90-135. The same call through a browser service is a tiny fraction of that.
+**Long calls** (immigration office, bank, anything with hold times): carrier rates add up fast here. Compare per-minute rates before you dial, and keep in mind that NomaPhone calls are capped at 30 minutes each, so a very long hold may need a redial. For more options, see our guide to [calling landlines internationally after Skype](/blog/call-landlines-internationally-after-skype/).
 
 ---
 
-NomaPhone lets you call Japan right from your browser. No app to download, no contract to sign. Just open nomaphone.com, enter the Japanese number, and you're connected in about 30 seconds. Pay-as-you-go credits that never expire — check the site for current Japan rates. Whether it's a quick hotel confirmation or a long call with a Tokyo office, it just works.
+NomaPhone calls Japanese landlines and mobiles from your browser at [[rate:JP:both]], billed per second, with no app and no account. [Make a call](https://app.nomaphone.com).

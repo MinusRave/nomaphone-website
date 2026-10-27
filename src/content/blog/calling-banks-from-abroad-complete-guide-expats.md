@@ -2,532 +2,234 @@
 title: "Calling Banks from Abroad: The Complete Guide for Expats"
 description: "Need to call Chase, Bank of America, or HSBC from another country? Here's how to actually get through without paying $50 in roaming or waiting on hold for hours."
 pubDate: 2025-11-17
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "calling-banks-from-abroad-complete-guide-expats"
 tags: ["banking abroad", "expat banking", "international banking", "customer service"]
 ---
 
-You're in Portugal, Thailand, or anywhere that's not your home country, and you see it: "Suspicious Activity Alert - Call Us Immediately" from your bank.
+You're in Portugal, Thailand, or anywhere that isn't your home country, and the message arrives: "Unusual activity on your card. Please call us." Your card is frozen, you need it for the hotel, and your bank's customer service is 8,000 miles away.
 
-Your heart drops. You need to call them NOW. But you're abroad, roaming costs are insane, and you know you'll be on hold for 30 minutes minimum.
-
-This guide covers everything you need to know about calling banks from abroad in 2025.
+Calling a bank from abroad is harder than calling almost anyone else. Banks don't take WhatsApp calls, their main numbers are often toll-free lines that don't work from foreign phones, hold times are long, and verification can fail if you can't receive a text. This guide covers how to find the right number, the cheapest ways to call, what to have ready, and how to avoid fraud while you're at it.
 
 ## Why Calling Banks from Abroad Is Uniquely Terrible
 
-### The Problems Stack Up
+**Banks need a real phone call.** Customer service lines are landline or toll-free numbers. WhatsApp, FaceTime and Signal can't reach them.
 
-**Problem 1: They Don't Use WhatsApp**
-Your bank's customer service number is a landline or toll-free number. WhatsApp, FaceTime, and Signal don't work. You need to actually call their phone number.
+**Toll-free numbers often don't work from abroad.** US 800, 888, 877, 866, 855, 844 and 833 numbers are usually unreachable from a foreign SIM, or charged at expensive rates when they do connect. That's why banks publish a separate "calling from outside the US" number, often as a collect line.
 
-**Problem 2: Long Hold Times**
-Average hold time for bank customer service: 15-45 minutes. Sometimes over an hour for complex issues.
+**Hold times are long.** Fifteen to forty-five minutes isn't unusual on a busy day, and transfers between departments add more. On roaming rates of a few dollars a minute, the hold music becomes the most expensive part of your trip.
 
-At international roaming rates of $2-3/minute, you're looking at $30-135 just in hold time.
+**Verification gets harder.** Banks often confirm identity by texting a code to your registered mobile number. If your home SIM is switched off or has no roaming, the code never arrives.
 
-**Problem 3: Multiple Transfers**
-Banks love transferring you between departments. Each transfer extends the call by 10-20 minutes. More hold music, more time, more money.
-
-**Problem 4: Identity Verification**
-They ask security questions. If you fumble answers or can't hear clearly (bad connection), they might hang up "for security." Then you start over.
-
-**Problem 5: Time Zones**
-US bank business hours (9am-5pm EST) = Europe 2pm-10pm, Asia midnight-8am. You're calling at inconvenient times.
-
-**Problem 6: Toll-Free Numbers Don't Work**
-800, 888, 877 numbers usually don't work from abroad. You need the direct international number, which banks hide on their websites.
+**Time zones work against you.** Card and fraud lines at major US banks are usually 24/7, but departments like mortgages, wires or wealth management keep business hours. 9am-5pm Eastern is 2pm-10pm in London (most of the year) and late night to early morning across Asia.
 
 ## Major Banks: International Contact Numbers
 
-Here are the actual numbers to call each bank from abroad. Save these now.
+**The safest source for your bank's number is the back of your card, your bank's app, or its official website.** Bank phone numbers change, and fake "customer service" numbers in search ads and on scam sites are a known fraud tactic. Never call a number given in an unexpected text or email; look it up yourself.
 
-### US Banks
+With that caveat, these are the overseas numbers major US banks have published for customers abroad. Verify against your card or the bank's site before calling.
 
-**Chase Bank**
-- From outside US: +1-713-262-3300 (customer service)
-- Credit card from abroad: +1-800-493-3319 (works from some countries)
-- Collect call option: Yes (1-713-262-3300)
-- Hours: 24/7
-- Average hold time: 20-35 minutes
+| Bank | From abroad (check your card/app) | US toll-free also works via browser calling |
+|---|---|---|
+| Bank of America | +1 315-724-4022 | Yes |
+| Wells Fargo | +1 925-825-7600 | Yes |
+| Capital One | +1 804-934-2001 | Yes |
+| American Express | +1 336-393-1111 (collect accepted) | Yes |
+| Chase | International number listed on your card and on Chase's Contact Us page | Yes |
+| Citi | International number listed on your card and in the Citi app | Yes |
 
-**Bank of America**
-- From outside US: +1-315-724-4022 (debit cards)
-- Credit cards abroad: +1-757-677-4701
-- Collect call option: Yes
-- Hours: 24/7
-- Average hold time: 25-40 minutes
+We have dedicated guides for [calling Chase from overseas](/blog/call-chase-bank-from-overseas/), [calling Bank of America from abroad](/blog/call-bank-of-america-from-abroad/) and [calling Wells Fargo from abroad](/blog/call-wells-fargo-from-abroad/).
 
-**Wells Fargo**
-- From outside US: +1-800-869-3557 (may work from abroad)
-- Alternative: +1-651-450-4064
-- Credit cards: +1-650-477-5850
-- Hours: 24/7
-- Average hold time: 30-45 minutes
+### Calling the toll-free number instead
 
-**Citibank**
-- International: +1-210-677-3789
-- Credit cards: +1-904-954-7850
-- Citi Priority: +1-210-677-0207
-- Hours: 24/7
-- Average hold time: 15-30 minutes (better than most)
+Many people just want to dial the 1-800 number printed on the card. From a foreign SIM that usually fails, but some browser calling services can connect it. With NomaPhone, US and Canada toll-free numbers (800, 888, 877, 866, 855, 844, 833) are callable at the normal US rate of [[rate:US:landline]]. They're not free through us, but you get the same menu US customers get, which is sometimes faster than the international line. More on this in [how to call US toll-free numbers from anywhere](/blog/how-to-call-us-toll-free-numbers-from-anywhere/).
 
-**Capital One**
-- From abroad: +1-804-934-2001
-- Credit cards: +1-877-383-4802 (may work from some countries)
-- Hours: 24/7
-- Average hold time: 20-30 minutes
+### Collect calls
 
-**American Express**
-- Global assist: +1-336-393-1111 (collect calls accepted)
-- Direct: +1-800-528-4800 (works from many countries)
-- Hours: 24/7
-- Average hold time: 10-20 minutes (fastest major issuer)
+Several US banks accept collect calls on their international numbers, so the call is free for you. The catch: you need a way to place a collect call. That traditionally means a country-specific operator access number (such as AT&T's direct access codes), which isn't available everywhere and often doesn't work from mobile phones or hotel rooms. Worth trying if you have a landline handy; not something to count on in an emergency.
 
-### UK Banks
+### UK banks
 
-**HSBC UK**
-- From abroad: +44 1226 261 010
-- Premier: +44 2 4231 4000
-- Hours: 8am-6pm GMT Mon-Fri, 9am-2pm Sat
-- Average hold time: 25-40 minutes
+UK banks (HSBC, Barclays, Lloyds, NatWest and others) publish a +44 number for customers abroad, usually on the "contact us" page under "calling from overseas" and on the back of your card. Their 0800 freephone and 03 numbers often don't work from outside the UK, so use the +44 overseas number. With NomaPhone, calls to UK landlines cost [[rate:GB:landline]].
 
-**Barclays**
-- International: +44 1 702 278 278
-- Premier: +44 330 024 5545
-- Hours: 24/7 for urgent, 7am-11pm for general
-- Average hold time: 20-35 minutes
+### Banks in other countries
 
-**Lloyds Bank**
-- From abroad: +44 1733 347007
-- Hours: 8am-8pm Mon-Fri, 9am-5pm Sat
-- Average hold time: 30-45 minutes
+The same rule applies everywhere: look for the "calling from abroad" number on your bank's site. If your bank lists a special-rate number (UK 084/087, Spain 902 and similar), look for a regular geographic alternative; premium and special-rate numbers often can't be reached from abroad, and NomaPhone blocks premium-rate numbers.
 
-**NatWest**
-- International: +44 3457 888444
-- Premier: +44 345 366 8899
-- Hours: 8am-8pm daily
-- Average hold time: 25-40 minutes
-
-### Other Major Banks
-
-**Santander (Spain/UK/US)**
-- UK: +44 330 9123 123
-- US: +1-877-768-2265
-- Spain: +34 902 242 424
-
-**Deutsche Bank**
-- International: +49 69 910 10 (Germany)
-- Hours: Vary by region
-
-**ING**
-- International: Check country-specific number
-- Netherlands: +31 20 563 5555
+NomaPhone calls [[countries]] countries. A few examples for common expat banking countries: Germany [[rate:DE:landline]] to landlines, Spain [[rate:ES:landline]], the Netherlands [[rate:NL:landline]], Canada [[rate:CA:landline]], Australia [[rate:AU:landline]]. Check the [rates page](/rates/) for your bank's country before relying on it.
 
 ## How to Call Banks from Abroad: Methods Compared
 
 ### Method 1: International Roaming (Expensive)
 
-**How it works:**
-Use your home country mobile plan abroad, pay roaming rates.
+Use your home mobile plan abroad. US carriers typically charge somewhere around $0.25/min with a travel add-on, around $10-12/day for a day pass, or a few dollars a minute with no plan at all (check your carrier's current rates).
 
-**Cost example - 45 minute call to US bank:**
-- T-Mobile: $0.25/min = $11.25 (with intl plan) + $15 monthly = $26.25
-- AT&T: $12/day pass = $12
-- Verizon: $12/day pass = $12
-- Without plans: $2-3/min = $90-135
-
-**Pros:**
-- Your number shows up (bank recognizes it)
-- Works immediately
-- No setup
-
-**Cons:**
-- Expensive
-- Day pass wastes money if you only need one call
-- Quality varies by location
-
-**Best for:** Emergencies only, or if your company pays.
+**Pros:** your registered number is the one calling, so verification texts arrive on the same phone. Works immediately.
+**Cons:** expensive for long holds; day passes waste money if you need one call.
+**Best for:** true emergencies, or if your plan already includes international calling.
 
 ### Method 2: Calling Cards (Old School)
 
-**How it works:**
-Buy prepaid calling card with PIN, dial access number + PIN + bank number.
-
-**Cost example - 45 minute call:**
-- Card rate: $0.05-0.10/minute = $2.25-4.50
-- Connection fee: $0.39-0.99 per call
-- Total: $2.64-5.49
-
-**Pros:**
-- Relatively cheap
-- Works from any phone
-- No internet needed
-
-**Cons:**
-- Confusing PIN system
-- Hidden fees (connection charges, per-call fees)
-- Poor quality often
-- Cards expire
-- Can't see remaining balance easily
-
-**Best for:** Emergency backup if internet fails.
+Prepaid cards with an access number and PIN. Per-minute rates can be low, but connection fees, expiry dates and hard-to-find access numbers in many countries make them awkward. Mostly a backup if you have a landline but no internet.
 
 ### Method 3: Hotel Phone (Avoid This)
 
-**How it works:**
-Use the hotel room phone, hotel adds markup.
-
-**Cost example - 45 minute call:**
-- Hotel markup: $0.50-3.00/minute = $22.50-135
-- Plus: Connection fees ($5-15)
-- Total: $27.50-150
-
-**Pros:**
-- None really. Don't do this.
-
-**Cons:**
-- Outrageously expensive
-- Hidden fees
-- Unexpected hotel bill
-- Poor quality often
-
-**Best for:** Never. Seriously, never.
+Hotels often add large markups and connection fees to international calls. Fine for a collect call if the hotel allows it; otherwise avoid for anything longer than a minute.
 
 ### Method 4: Browser Calling (Best Value)
 
-**How it works:**
-Open browser, go to calling service, dial bank's number.
+Open a website, dial the bank's number, talk through your computer or phone. No app to install.
 
-**Cost example - 45 minute call to US bank:**
-- Rate: $0.03/minute
-- 45 minutes = $1.35
-- No connection fees
-- No monthly fees
-- Total: $1.35
+With NomaPhone you buy prepaid credit ($5, $10 or $20) with Apple Pay, Google Pay or card, and calls to US numbers cost [[rate:US:landline]], billed per second. No account, no subscription; unused credit doesn't expire and can be refunded.
 
-**Pros:**
-- Cheap (10-20x cheaper than roaming)
-- Good quality with decent internet
-- Works on any device
-- Simple setup (2 minutes)
-- No contracts
-
-**Cons:**
-- Needs internet (but you have that)
-- Bank doesn't see your mobile number
-- Requires quick setup first time
-
-**Best for:** 90% of situations.
+**Pros:** cheap for long holds; works with US toll-free numbers; works on any device with a browser.
+**Cons:** needs a decent internet connection. The bank won't see your registered number, so expect full verification. NomaPhone calls are capped at 30 minutes, so for very long holds you may need to redial (ask the agent for a reference number or a callback if a long transfer is coming). It also can't receive the bank's verification texts; those still go to your own phone.
+**Best for:** most non-emergency bank calls, especially long ones.
 
 ### Method 5: VoIP Apps (Mixed Results)
 
-**Google Voice:**
-- Free to US numbers (if you have it)
-- Problem: US residents only, verification issues
-- Quality from abroad: Mixed reviews
-
-**Skype:**
-- Discontinued for consumer PSTN calling (see our Skype article)
-
-**WhatsApp:**
-- Doesn't work for calling banks. They don't have WhatsApp numbers.
+**Google Voice** calls US numbers for free, but it's built for US users, can be hard to keep working from abroad, and isn't available to sign up for from most countries ([more here](/blog/google-voice-not-working-abroad/)). **Skype** is gone: Microsoft shut it down in May 2025. **Viber Out** and similar apps work if you're happy to install an app and create an account. **WhatsApp** can't call bank phone lines.
 
 ## Step-by-Step: Calling Your Bank from Abroad
 
 ### Preparation (Do This Before You Travel)
 
-**1. Save international numbers NOW**
-- Don't wait until you need them
-- Save in phone contacts
-- Save in password manager notes
-- Email yourself a backup
+1. **Save the official overseas numbers** for every bank and card you use, from the card or the bank's site. Keep a copy somewhere that isn't your phone.
+2. **Check how your bank verifies you.** If it texts codes, make sure you can still receive them abroad, or switch to app-based approval or an authenticator where offered. See our guide to [2FA codes abroad](/blog/international-sms-2fa-codes-abroad/).
+3. **Add travel notices** in the app if your bank still uses them, and keep your contact email current.
+4. **Install and log into bank apps** before you leave. Many problems can be fixed in-app, and the app may offer secure messaging or a "call me" button.
+5. **Make a short test call** with whatever calling method you plan to use.
 
-**2. Note your account details**
-- Account numbers
-- Security question answers
-- Recent transactions (for verification)
-- Customer ID or member number
+### What to Have Ready
 
-**3. Set up notification preferences**
-- Enable email alerts
-- Enable app notifications
-- Register travel plans (prevents fraud flags)
-
-**4. Download bank apps**
-- Many issues can be resolved in-app
-- Have app downloaded before traveling
-- Enable biometric login
-
-**5. Test a solution**
-- Make one test call before you actually need it
-- Verify quality is acceptable
-- Confirm you can get through
+- Card and account numbers (the card itself, or the last four digits)
+- The transactions in question: dates, amounts, merchants
+- Your registered address, date of birth, and answers to any security questions
+- Your phone with the registered SIM, in case they send a code
+- Pen and paper, or a notes app, for reference numbers
 
 ### During the Call
 
-**1. Call at optimal times**
-- Avoid Monday mornings (busiest)
-- Mid-week afternoons (US time) often shorter waits
-- Early morning (their time) can be faster
+1. **Say up front that you're abroad.** It changes how the agent verifies you and handles fraud flags.
+2. **Use the menu option for lost/stolen cards or fraud** when relevant; those queues are usually staffed 24/7 and move faster.
+3. **Write down** the agent's name, the reference number and what was agreed.
+4. **Ask for the direct number** of the department you end up with, for next time.
+5. **Ask whether they can call you back** if your connection is poor. Give a number you can actually answer abroad.
 
-**2. Have information ready**
-- Full account number
-- SSN or ID number
-- Recent transactions
-- Addresses (current and previous)
-- Mother's maiden name or security answers
+### Staying Safe
 
-**3. Stay patient with transfers**
-- Banks will transfer you multiple times
-- Each time, be ready to reverify identity
-- Take names and extension numbers
-
-**4. Take notes**
-- Reference numbers
-- Agent names
-- What was resolved
-- Any follow-up needed
-
-**5. Ask for direct numbers**
-- Request direct department lines
-- Get international direct numbers
-- Save for next time
+- Banks won't ask for your full PIN, online banking password or a one-time code you didn't request to "verify" you on an inbound call. If someone calls you and asks, hang up and call back on the official number.
+- Never call a number from an unexpected text, email or search ad.
+- Avoid saying card numbers out loud in crowded cafés or coworking spaces.
 
 ### If Call Quality Is Poor
 
-**Switch connection:**
-- Try mobile data instead of WiFi
-- Try WiFi instead of mobile data
-- Move to better location
-
-**Use callback:**
-- Ask if they can call you back
-- Provide a number that works (local SIM, hotel, etc.)
-- Set up callback for specific time
-
-**Reschedule:**
-- If quality is unacceptable, hang up and try again
-- Better to call back with good connection than struggle through
+- Switch between Wi-Fi and mobile data.
+- Use headphones with a microphone.
+- Move away from crowded networks (hostels, busy cafés).
+- If it's unusable, hang up and call back rather than failing verification over a bad line.
 
 ## Common Bank Call Scenarios from Abroad
 
 ### Scenario 1: Fraud Alert on Your Card
 
-**Urgency: High**
-They've locked your card. You might need it to pay for hotel.
-
-**Best approach:**
-1. Use browser calling immediately
-2. Have last few transactions ready to verify
-3. Explain you're abroad, authorize legitimate charges
-4. Ask them to note your travel in system
-5. Get direct fraud dept number for future
-
-**Average call time:** 15-25 minutes
-
-**Cost with browser calling:** $0.45-0.75
+**Urgency: high.** Many fraud alerts can be resolved by replying to the bank's text or approving in the app. If you have to call, use the official number (not one in the message), have recent transactions ready, and confirm which charges are yours. Typical call: 10-25 minutes. Our [bank fraud alert guide](/blog/bank-fraud-alert-while-traveling/) covers this in detail.
 
 ### Scenario 2: Lost or Stolen Card
 
-**Urgency: Critical**
-Need to cancel card immediately, arrange replacement.
-
-**Best approach:**
-1. Use whatever method works fastest (even roaming)
-2. Report loss immediately
-3. Request emergency replacement card
-4. Ask about cash advance options
-5. Set up alternative payment method
-
-**Average call time:** 20-30 minutes
-
-**Time matters more than cost here.**
+**Urgency: critical.** Freeze the card in the app first if you can; that takes seconds. Then call by whatever method is fastest, even roaming. Ask about emergency replacement cards and emergency cash; card networks and many banks can ship cards abroad.
 
 ### Scenario 3: Mortgage or Loan Question
 
-**Urgency: Medium**
-Needs resolution but not instant.
-
-**Best approach:**
-1. Use browser calling
-2. Call during your evening (their morning) for better connection to specialists
-3. Have loan number and last payment ready
-4. Take detailed notes
-5. Get email confirmation of any changes
-
-**Average call time:** 30-60 minutes
-
-**Cost with browser calling:** $0.90-1.80
+**Urgency: medium.** These departments keep business hours, so check the time difference first. Calls can be long; browser calling keeps a 45-minute conversation cheap, and with a 30-minute cap per NomaPhone call, ask for a reference number early so you can pick up where you left off if you need to redial.
 
 ### Scenario 4: Account Access Issues
 
-**Urgency: Medium-High**
-Locked out of online banking while abroad.
+**Urgency: medium-high.** Try the app's reset flow first. If you have to call, explain you're abroad and can't receive texts (if that's the case) and ask what alternative verification they offer.
 
-**Best approach:**
-1. Try app reset first (often works without calling)
-2. If calling needed, use browser calling
-3. Have ID verification ready
-4. Explain you're abroad (they'll note for security)
-5. Set up backup 2FA method while on call
+### Scenario 5: Wire or Large Payment
 
-**Average call time:** 20-40 minutes
+**Urgency: medium.** Have the recipient details ready, confirm fees and exchange rate before authorizing, and get a confirmation number. Some banks call you back to confirm wires; make sure they have a number you can answer.
 
-**Cost with browser calling:** $0.60-1.20
-
-### Scenario 5: Routing Payment or Wire
-
-**Urgency: Medium**
-Time-sensitive payment from abroad.
-
-**Best approach:**
-1. Use browser calling
-2. Have all routing details ready
-3. Confirm fees before authorizing
-4. Get confirmation number
-5. Follow up with email to verify
-
-**Average call time:** 25-45 minutes
-
-**Cost with browser calling:** $0.75-1.35
+Also see: [what to do when your credit card is declined abroad](/blog/credit-card-declined-abroad/).
 
 ## Bank-Specific Tips
 
-### Chase
-- Their app is actually good - try resolving there first
-- International collect call option works well
-- Ask for "international services" if traveling long-term
-- They have better travel notification system than most
-
-### Bank of America
-- Multiple international numbers (save both)
-- Long hold times but comprehensive help
-- Good app for most issues
-- Travel notification REQUIRED before major international use
-
-### Wells Fargo
-- Collect call option reliable
-- Ask for "expat banking" if abroad more than 3 months
-- International number isn't obvious on website
-- Consider their Expat Services if long-term abroad
-
-### Citibank
-- Best international support of major US banks
-- Lower hold times
-- Multiple country-specific support numbers
-- CitiPhone banking works well from abroad
-
-### American Express
-- Fastest customer service
-- Global assist is actually global
-- They expect international calls, don't act surprised
-- Premium cards get priority lines (faster)
+- **Chase:** the app handles card locks, travel and many disputes. Use the international number on your card if the toll-free line won't connect from your phone.
+- **Bank of America:** the overseas number is on the back of most cards; the app's secure messaging is useful for non-urgent questions.
+- **Wells Fargo:** keep both the overseas number and the toll-free number; the toll-free one works through browser calling.
+- **Citi:** check the international numbers in the app for your specific card product.
+- **American Express:** has long supported cardmembers abroad and publishes an overseas collect number.
+- **UK banks:** use the +44 overseas number, not 0800/03 numbers, and check opening hours; not every department is 24/7.
 
 ## What NOT to Do
 
-### Don't Use Public Computers to Log In
-Call them, but don't log into online banking from public computers. Security risk isn't worth it.
-
-### Don't Scream About Hold Times
-Agent can't control it. Being nice gets better help.
-
-### Don't Lie About Your Location
-They see transaction locations. Be honest about being abroad.
-
-### Don't Give Up Too Easily
-If first agent can't help, ask for supervisor or different department.
-
-### Don't Forget to Follow Up
-Always get email confirmation of any account changes.
+- **Don't call numbers from texts, emails or ads.** Look them up yourself.
+- **Don't log into online banking on public computers.**
+- **Don't misstate where you are.** Banks see transaction locations; being clear speeds things up.
+- **Don't give up after one agent.** Ask for a supervisor or a specialist team.
+- **Don't skip the confirmation.** Ask for email or in-app confirmation of any change.
 
 ## Alternative: Handle It Online or In-App
 
-Before calling, check if you can resolve online:
+**Usually works without calling:** freezing and unfreezing cards, travel notices, reporting unauthorized charges, viewing statements, transfers between your own accounts, many disputes.
 
-**Usually works without calling:**
-- Check transaction history
-- Report unauthorized charges (in app)
-- Reset online banking password
-- Request statements
-- Transfer between own accounts
-- Basic account inquiries
+**Usually needs a call:** lifting some fraud blocks, replacing cards abroad, complex disputes, loan changes, account access when verification fails.
 
-**Usually needs call:**
-- Lift fraud blocks
-- Cancel/replace cards
-- Complex disputes
-- Mortgage/loan modifications
-- Major account changes
-- Legal name changes
-
-Try the app first. Call only if truly needed.
+Try the app first. Call when you need to.
 
 ## Cost Comparison: 45-Minute Bank Call
 
-**International roaming:**
-- T-Mobile: $26.25
-- AT&T/Verizon day pass: $12
-- No plan: $90-135
+Rough figures at the time of writing; check your own carrier's rates.
 
-**Calling cards:**
-- Best case: $2.64
-- Typical: $4-6
-- Worst case: $8-10
-
-**Browser calling:**
-- $1.35
-- Consistent
-- No surprises
-
-**Hotel phone:**
-- $27.50-150
-- Never do this
+| Method | Approximate cost | Notes |
+|---|---|---|
+| Roaming with no plan | Often $50-130+ | A few dollars a minute adds up fast |
+| Carrier day pass | Around $10-12 | Per day, whether you call once or ten times |
+| Calling card | A few dollars | Plus connection fees; access numbers vary |
+| Hotel phone | Unpredictable, often very high | Ask before dialing |
+| NomaPhone (browser) | 45 × [[rate:US:landline]] | Billed per second; max 30 minutes per call, so a 45-minute call means redialing once |
+| Collect call | Free to you | If you can place one |
 
 ## Quick Reference: Before You Travel
 
-Save this checklist:
+**Numbers to save:**
+- [ ] Bank's overseas number (from the card or official website)
+- [ ] Credit card overseas numbers
+- [ ] Toll-free numbers (callable via browser calling)
 
-**Numbers to Save:**
-- [ ] Bank main international number
-- [ ] Bank fraud department direct
-- [ ] Credit card international support
-- [ ] Two alternative bank contacts
+**Info to have:**
+- [ ] Account and card details (stored securely)
+- [ ] Security answers
+- [ ] Registered address and phone number
 
-**Info to Document:**
-- [ ] All account numbers
-- [ ] Security question answers
-- [ ] Customer service usernames
-- [ ] Recent transaction list (for verification)
+**Setup:**
+- [ ] Bank apps installed and logged in
+- [ ] Verification method that works abroad (app approval, authenticator, or a home SIM that still receives texts)
+- [ ] A calling method tested and bookmarked
 
-**Setup to Complete:**
-- [ ] Register travel dates in bank app
-- [ ] Enable international transactions
-- [ ] Set up backup 2FA (not just SMS)
-- [ ] Test browser calling service
+## FAQ
 
-**Download:**
-- [ ] Bank apps
-- [ ] Password manager
-- [ ] Browser calling bookmark
+**Can I call a US bank's 1-800 number from abroad?**
+Usually not from a foreign mobile. Through NomaPhone, US and Canada toll-free numbers are callable at the normal US rate ([[rate:US:landline]]).
+
+**Will the bank see my phone number if I call from the browser?**
+No. The call arrives from a NomaPhone caller ID, so the bank will verify you with questions, codes or app approval rather than recognizing your number.
+
+**Can NomaPhone receive my bank's verification code?**
+No. NomaPhone only makes outgoing voice calls. Codes go to the phone number registered with your bank.
+
+**What if I'm on hold longer than 30 minutes?**
+NomaPhone calls end at 30 minutes; you can dial again straight away. Ask for a reference number or a callback early in the call.
 
 ## The Bottom Line
 
-Calling banks from abroad doesn't have to cost $50 or involve an hour of headache.
-
-**The smart setup:**
-1. Save international bank numbers now
-2. Set up browser calling service (2 minutes, costs nothing until you use it)
-3. Keep roaming as emergency backup
-4. Try app/online first, call only when needed
-
-**For the actual call:**
-- Use browser calling (costs $0.03/minute to US)
-- Have all verification info ready
-- Call during their morning (shorter holds)
-- Take notes and get confirmation numbers
-
-Most bank calls from abroad should cost you $1-3, not $30-50.
+1. Save your banks' official overseas numbers now, from the card or website.
+2. Sort out a verification method that works abroad before you need it.
+3. Try the app first; call when you must.
+4. For the call itself, browser calling at [[rate:US:landline]] to US numbers (toll-free included) is far cheaper than roaming for long holds. Keep roaming as an emergency backup.
 
 ---
 
-Tired of paying roaming fees to call your bank from abroad? NomaPhone lets you call any bank's customer service line for $0.03/minute to the US. No monthly fees, no complicated setup, works from any country with internet. [Join the waitlist](https://nomaphone.com) to get access when we launch.
+Need to call your bank from abroad? Try NomaPhone: call US banks, toll-free lines included, from your browser with no app or account. [Make a call](https://app.nomaphone.com).

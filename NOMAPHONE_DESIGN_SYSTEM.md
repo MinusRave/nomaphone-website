@@ -1,5 +1,13 @@
 # NomaPhone Design System
 
+> **Relaunch override (2026-10-27).** The marketing site now uses the "pixel-art public phone" direction:
+> light paper background, not dark. Palette: paper `#f4f0e5`, paper-2 `#fffdf7`, ink `#122a31`, muted `#536166`,
+> green `#087b65` (primary action), orange `#ee7938` (accents; use `#b8531c` for small orange text on paper),
+> LCD `#082626` / `#3ee2b5`. Fonts: Archivo (bold 800 headings, UI), JetBrains Mono (numbers, rates), VT323 (LCD accents).
+> Artwork: `public/pixel/phone.webp`. Tokens in `src/styles/global.css`. Where this document says "dark only" or
+> `--color-midnight`, read paper. Product scope also changed: no virtual numbers, no SMS (section 6.4 is obsolete);
+> credit packs are $5/$10/$20 with no bonuses (section 6.3 bonus badges are obsolete).
+
 > **Purpose**: Single source of truth for any AI coding agent building NomaPhone interfaces.
 > **Last updated**: 2026-03-23
 > **Stack**: HTML/CSS/JS, React (Next.js), Tailwind CSS 4.x

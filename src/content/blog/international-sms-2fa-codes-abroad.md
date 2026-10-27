@@ -2,527 +2,219 @@
 title: "International SMS and 2FA: How to Receive Verification Codes from Abroad"
 description: "Complete guide to receiving SMS verification codes and 2FA while living abroad. Solutions for banking, apps, and services that require SMS authentication."
 pubDate: 2025-12-20
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-sms-2fa-codes-abroad"
 tags: ["2FA", "SMS", "security", "authentication"]
 heroImage: "../../assets/international-sms-2fa-codes-abroad.jpg"
 ---
 
-Your bank sends a verification code to your US number. You're in Thailand. The SMS never arrives. Your account is locked. You can't access your money.
+Your bank sends a verification code to your US number. You're in Thailand. The text never arrives, and now you can't log in to your own account.
 
-This happens thousands of times daily to expats and digital nomads. Two-factor authentication keeps accounts secure, but SMS-based 2FA breaks down when you cross borders.
+SMS-based two-factor authentication (2FA) assumes your phone is on your home network, and it gets unreliable once you cross a border. This guide covers what actually works: keeping your home line alive for texts, Wi-Fi calling, dual SIM and eSIM, iPhone settings, moving accounts off SMS, and what to do when a code won't come.
 
-Here's how to actually receive SMS and 2FA codes while living abroad.
+One note up front, since we make a calling app: **NomaPhone does not receive SMS or verification codes, and it does not give you a phone number.** It only makes outgoing calls. Where it fits is the fallback near the end: calling your bank or carrier when a code won't arrive.
 
 ## Why SMS Doesn't Work Abroad
 
 ### Problem 1: Roaming SMS Issues
-Carriers don't always deliver SMS over international roaming. Even if you pay for roaming, texts can:
-- Arrive hours late (useless for time-sensitive codes)
-- Never arrive at all
-- Get blocked by anti-spam filters
-- Cost $0.50-2.00 each to receive
+A text to a roaming phone has to pass from your home carrier to a foreign partner network. Codes can:
+- Arrive late, after they've expired
+- Never arrive, especially from short codes (the 5- and 6-digit senders many US companies use)
+- Go nowhere because the line is off, or roaming is disabled and Wi-Fi calling isn't set up
+
+On many plans, receiving texts abroad is free or cheap; on others, using the line triggers a daily international pass. Check your carrier's current rules.
 
 ### Problem 2: VoIP Number Rejection
-Many services block VoIP numbers (Google Voice, Skype numbers) from receiving verification codes:
-- Banks (Chase, Bank of America, Wells Fargo)
-- Financial services (PayPal, Venmo, brokerage)
-- Government sites (IRS, USCIS)
-- Some apps detect and reject VoIP
+Many banks, brokerages, payment apps and government sites look up the carrier behind your number. If it comes back as VoIP (Google Voice, most app-based numbers, and often numbers moved to a parking service), they may refuse to send codes to it.
 
 ### Problem 3: Carrier Suspension
-If you cancel your carrier plan, your number disappears. All accounts using that number for 2FA are locked out.
+Cancel your plan or let a prepaid line lapse, and the number goes back to the carrier and is eventually reassigned. Every account that used it for 2FA loses its second factor.
 
 ### Problem 4: International Number Rejection
-Some US services won't send codes to international numbers. You have Thai number, but US bank only accepts US numbers.
+Some US services only accept US numbers. You have a Thai SIM, but your bank's form won't take a +66 number.
 
 ## What Services Use SMS 2FA
 
-Understanding what you're dealing with:
+- **Usually SMS (or start there):** many US banks and credit unions (a common default, not a legal requirement), brokerages, card issuers, payment apps, some government portals
+- **Often SMS, with alternatives:** social media, email, shopping, ride-sharing and delivery apps
+- **Rarely SMS alone:** Google, Apple, Microsoft, GitHub and most tech services, which support authenticator apps, passkeys and security keys
 
-### Always Use SMS
-- Most US banks (required by law)
-- Brokerage accounts
-- Government websites
-- Credit card companies
-- PayPal, Venmo, Cash App
-
-### Often Use SMS
-- Social media platforms
-- Email providers
-- Shopping sites (Amazon, eBay)
-- Ride-sharing apps
-- Food delivery services
-
-### Rarely Use SMS
-- Tech-savvy services (GitHub, Slack)
-- Services with app-based 2FA
-- Services supporting authenticator apps
-
-**Key insight:** Financial services are most problematic. They require SMS and often reject VoIP numbers.
+**Key insight:** Financial services are the hard case. They're the most likely to insist on SMS and to reject VoIP numbers, so plan around them first.
 
 ## Solution 1: Keep US Carrier Number (Expensive)
 
-**Cost:** $50-100+ per month
-**Reliability:** High
-**Compatibility:** Perfect
+Keep your current plan and keep the line switched on abroad. It's a real mobile number, so every service accepts it, and texts arrive over roaming or, on the major US carriers, over Wi-Fi calling.
 
-If you keep your regular carrier plan active:
-- SMS arrives normally (most of the time)
-- All services accept it
-- No compatibility issues
-- Can call carrier for support
+**The problems:** you pay a full monthly plan mostly to receive texts, day passes add up if you use data or calls, and carriers' terms generally let them limit roaming if most of your usage is abroad for long stretches.
 
-**The problems:**
-- Very expensive for just receiving SMS
-- SMS still sometimes delayed internationally
-- Requires keeping carrier plan active
+**Keep costs down:** turn off data roaming on the US line, use a local SIM or travel eSIM for data, and receive texts over Wi-Fi calling.
 
-**Best for:** Short trips (under 3 months) or unlimited budget.
+**Best for:** trips of a few weeks to a few months.
 
 ## Solution 2: Google Voice (Free, Partially Works)
 
-**Cost:** Free
-**Reliability:** Medium
-**Compatibility:** Medium
+Google Voice gives you a free US number that works over the internet anywhere. Know the caveats:
 
-### What Works
-Google Voice receives SMS from:
-- Most apps and services
-- Social media platforms
-- Many shopping sites
-- Some financial services
-- Tech companies
+- **Sign-up is US-only.** You need an existing US number and generally need to be in the US. You can't set it up after you've left.
+- **Many banks reject it.** Banks and payment services often refuse VoIP numbers for 2FA, and short-code texts frequently don't reach Google Voice.
+- **Inactivity reclaim.** Google can reclaim a number that goes unused for an extended period, so use it regularly.
+- **Porting your main number in** is possible for a one-time fee (check current pricing), but it ends your carrier service and turns the number into a VoIP number, which can break bank 2FA tied to it.
 
-### What Doesn't Work
-Google Voice blocked by:
-- Major banks (Bank of America, Chase, Wells Fargo)
-- Some payment processors
-- Government websites (hit or miss)
-- Services with strict VoIP blocking
-
-### How to Set It Up
-1. Get Google Voice number before leaving US
-2. Or port your existing US number to Google Voice ($20)
-3. SMS arrives in Google Voice app or web interface
-4. Works from anywhere with internet
-
-### The Hybrid Approach
-- Use Google Voice for most services
-- Keep minimal carrier plan for banking only
-- Cost: $0-15/month vs $50-100
-
-**Best for:** People willing to manage two numbers and spend $10-15/month on MVNO for banking.
+**Best for:** social media, shopping and non-critical accounts. More in [why Google Voice stops working abroad](/blog/google-voice-not-working-abroad/).
 
 ## Solution 3: Minimal MVNO Plan
 
-**Cost:** $10-25 per month
-**Reliability:** High
-**Compatibility:** Perfect
+Move your number to a low-cost prepaid plan from an MVNO (Tello, US Mobile, Mint Mobile, Ultra Mobile, Red Pocket and others). Low-usage plans cost a fraction of a postpaid plan; prices change often, so check current pricing. Your number **stays a real mobile number**, so banks treat it normally.
 
-Keep minimal mobile plan with traditional carrier or MVNO:
+Before choosing, check that the plan supports **Wi-Fi calling and texting** on your phone (that's how texts reach you abroad without roaming), its **roaming terms**, **eSIM**, and **auto-renew**, since a missed refill can release the number.
 
-### Best MVNOs for Expats
+### How to Move Your Number
+1. Don't cancel your current plan first. Canceling releases the number.
+2. Get your account number and port-out PIN from your current carrier.
+3. Activate the new plan with a number transfer, ideally while still in the US.
+4. Turn on Wi-Fi calling and register the emergency address it asks for.
+5. With roaming off and Wi-Fi on, request a code from your bank and confirm it arrives.
+6. Set up auto-pay.
 
-**Tello (T-Mobile network)**
-- $10/month: Unlimited text + 500MB data
-- Receives SMS via WiFi calling internationally
-- Real carrier number (not VoIP)
-
-**Ultra Mobile PayGo**
-- $10/month: Pay-as-you-go
-- Can receive SMS internationally
-- T-Mobile network
-
-**US Mobile**
-- $18/month: Custom plan with text
-- All major networks available
-- Good international roaming
-
-**Red Pocket**
-- $15/month: Basic plan
-- Choose network (AT&T, T-Mobile, Verizon)
-- SMS included
-
-### How This Works
-1. Sign up before leaving US
-2. Keep SIM in drawer or dual-SIM phone
-3. Enable WiFi calling on most devices
-4. SMS arrives over WiFi (no roaming charges)
-5. Works with all banks and services
-
-**Limitation:** Need to keep phone with that SIM nearby, or access texts via carrier website/app.
-
-**Best for:** People needing bank-compatible number without carrier prices.
+**Best for:** long-term travelers who need a bank-compatible number without carrier prices. See also [how to maintain a US phone number abroad](/blog/maintain-us-phone-number-abroad/).
 
 ## Solution 4: Dual-SIM Phones
 
-**Cost:** $0 (if phone supports it)
-**Reliability:** High
-**Compatibility:** Perfect
+Most current phones run two lines at once: iPhone XS and later (recent US iPhones are eSIM-only), most Android flagships and many mid-range phones.
 
-Modern phones support two SIM cards:
-- Physical dual-SIM (two slots)
-- eSIM + physical SIM
-- Dual eSIM
+Keep your US number in one slot, ideally as an eSIM, and a local SIM or travel data eSIM in the other. Mobile data runs on the local line; the US line stays on, with data roaming off and Wi-Fi calling on, and receives your codes.
 
-### How to Use It
-1. Keep US SIM in one slot (minimal plan like Tello)
-2. Local SIM in other slot (Thailand, Portugal, etc.)
-3. Use local SIM for calls/data
-4. Use US SIM only for receiving SMS
-5. US SIM on WiFi calling (no roaming charges)
+- **Never delete your US eSIM** to tidy up. Reinstalling it usually needs your carrier, which can be hard from abroad.
+- **Set a SIM PIN** so a stolen phone can't receive your codes.
+- **Ask your carrier for a port-out or number lock** against SIM-swap fraud.
 
-### Compatible Phones
-- iPhone XS and newer (physical + eSIM)
-- iPhone 14 and newer US models (dual eSIM)
-- Most Android flagships (Samsung, Pixel, OnePlus)
-- Many mid-range phones now support it
+**Best for:** anyone with a compatible phone. It's the most reliable everyday setup.
 
-### Benefits
-- One phone, two numbers
-- Receive US SMS anytime
-- Use local number for daily life
-- No switching SIMs constantly
+## How to Receive Verification Codes Overseas on iPhone
 
-**Best for:** Anyone with compatible phone who needs reliable SMS reception.
+Menu names vary by region ("Cellular" in the US, "Mobile Service" elsewhere).
+
+1. **Turn on Wi-Fi Calling before you leave:** Settings > Cellular > your US line > Wi-Fi Calling. Some carriers require you to enable it, and enter an emergency address, while on their network.
+2. **Keep the line on:** Settings > Cellular > your US line > Turn On This Line.
+3. **Route data elsewhere:** under Cellular Data, choose your local or travel eSIM and turn off Allow Cellular Data Switching. Turn Data Roaming off on the US line.
+4. **Check filtered messages:** with Filter Unknown Senders on, codes can land in the Unknown Senders or Transactions list.
+5. **Set a SIM PIN** on the US line, but know your PUK first: three wrong PINs lock the SIM.
+6. **See codes on your Mac or iPad** with Text Message Forwarding in the Messages settings. The iPhone still needs to be online with the line active.
+
+When it's working, Control Center shows "Wi-Fi" next to your carrier name. Android follows the same principles: Wi-Fi calling in the SIM settings, both SIMs active, data on the travel SIM.
 
 ## Solution 5: Virtual Numbers for Non-Banking
 
-**Cost:** $2-15 per month
-**Reliability:** Medium
-**Compatibility:** Low
+App-based virtual numbers (business phone apps, privacy apps such as MySudo or Burner) are cheap and work over the internet, but they're VoIP numbers, so banks often reject them. Use them for social media, shopping and newsletters, not for banking or government accounts.
 
-Virtual number services for non-critical accounts:
-
-**OpenPhone ($15/month)**
-- Business focused
-- Good for professional accounts
-- Can receive SMS
-
-**MySudo ($0.99-5/month)**
-- Privacy focused
-- Multiple numbers
-- SMS works
-
-**Burner ($5/month)**
-- Temporary numbers
-- Good for testing
-- SMS capable
-
-### Use Cases
-- Social media accounts
-- Shopping websites
-- Newsletter signups
-- Non-financial apps
-- Services that accept VoIP
-
-**Don't use for:**
-- Banking
-- Government
-- Critical financial services
-
-**Best for:** Secondary accounts and non-critical services.
+### A Note on Number Parking
+Number-parking services such as NumberBarn hold your existing number for a small monthly fee, and some plans forward calls or texts. That keeps the number from being lost, but once it's ported a carrier lookup usually shows it as non-mobile or VoIP, and banks may stop sending codes to it. Park your number only after your critical accounts have moved off SMS.
 
 ## Solution 6: Authenticator Apps (Best Alternative)
 
-**Cost:** Free
-**Reliability:** Perfect
-**Compatibility:** Growing
+The real fix is to stop depending on SMS wherever you can.
 
-Many services support authenticator apps instead of SMS:
+- **Authenticator apps** (Google Authenticator, Microsoft Authenticator, Authy, or password managers such as 1Password, Bitwarden or Apple Passwords) generate codes offline. No signal needed.
+- **Passkeys** let you sign in with Face ID, a fingerprint or your device PIN. Google, Apple, Microsoft, Amazon, PayPal and a growing number of banks support them.
+- **In-app approval:** many banks let you approve sign-ins inside their own app instead of by text. Check the app's security settings.
+- **Backup codes:** most services offer one-time recovery codes. Save them offline.
 
-### Popular Authenticators
-- **Google Authenticator** (free, simple)
-- **Authy** (free, cloud backup)
-- **Microsoft Authenticator** (free, good Microsoft integration)
-- **1Password** (paid, integrated with password manager)
+To switch, open the account's security settings, choose authenticator app, passkey or app approval, follow the prompts, test a sign-in and save the backup codes. **Do this before leaving**, and back up your authenticator: if your phone is lost abroad, the codes go with it.
 
-### Services That Support It
-- Google, Microsoft, Apple
-- Amazon
-- Most crypto exchanges
-- Social media (optional)
-- Many tech services
-- Some banks (growing)
-
-### Why It's Better
-- Works anywhere (no SMS needed)
-- More secure than SMS
-- No roaming issues
-- Free
-- Instant codes
-
-### The Problem
-Not all services offer it:
-- Many banks still SMS-only
-- Government sites rarely support it
-- Some services hide the option
-
-### How to Switch
-1. Log into account settings
-2. Look for "Security" or "Two-Factor Authentication"
-3. Choose "Authenticator App" option
-4. Scan QR code with authenticator
-5. Verify it works
-6. Disable SMS 2FA (optional)
-
-**Do this before leaving:** Set up authenticator apps for every service that supports them.
-
-**Best for:** Reducing dependency on SMS for services that support it.
+**The catch:** some banks still fall back to SMS for new devices, large transfers or new payees, so keep the US line anyway.
 
 ## Solution 7: Physical Authentication Keys
 
-**Cost:** $25-50 per key
-**Reliability:** Perfect
-**Compatibility:** Limited
-
-Hardware keys (YubiKey, Titan Security Key):
-- Physical device you plug in
-- More secure than SMS or app
-- Works anywhere
-- No phone needed
-
-### Compatible Services
-- Google, Microsoft
-- GitHub, Dropbox
-- Some crypto services
-- Growing adoption
-
-### Not Compatible
-- Most banks
-- Many consumer services
-- Government sites (rarely)
-
-**Best for:** Tech-savvy users with services that support it. Not a complete solution.
+Hardware keys (YubiKey, Google Titan and other FIDO2 keys) work without any phone network. Google, Microsoft, Apple accounts, GitHub and the major password managers support them; most banks don't. Buy two and register both. They're best for securing your email and password manager, which unlock everything else.
 
 ## SMS Reception Methods Compared
 
-| Method | Cost/Mo | Reliability | Bank Compatible | Setup Difficulty | Works Offline |
-|--------|---------|-------------|-----------------|------------------|---------------|
-| Keep Carrier | $50-100 | High | Yes | Easy | No (roaming) |
-| Google Voice | $0 | Medium | No | Easy | No (needs internet) |
-| MVNO | $10-25 | High | Yes | Easy | Yes (with WiFi calling) |
-| Dual-SIM | $10-25 | High | Yes | Medium | Yes |
-| Virtual Numbers | $2-15 | Medium | No | Easy | No |
-| Auth Apps | $0 | Perfect | Sometimes | Easy | Yes |
-| Hardware Keys | $25-50 once | Perfect | Rarely | Medium | Yes |
+| Method | Ongoing cost | Accepted by banks | Main risk |
+|--------|--------------|-------------------|-----------|
+| Keep carrier plan | Full monthly plan | Yes | Cost, roaming limits |
+| Prepaid / MVNO | Low (check current pricing) | Usually | Line lapses if a refill fails |
+| Dual SIM / eSIM | Your US plan | Yes | Deleting the eSIM by mistake |
+| Google Voice | Free | Often not | VoIP rejection, inactivity reclaim |
+| Virtual number / parking | Small monthly fee | Often not | VoIP rejection |
+| Authenticator / passkeys | Free | Growing | Losing the phone without a backup |
+| Hardware keys | One-time purchase | Rarely | Losing the key (register two) |
 
 ## Recommended Setup by User Type
 
-### Digital Nomad (Moving Frequently)
-**Primary:** MVNO minimal plan ($15/month) in dual-SIM phone
-**Secondary:** Google Voice for non-banking
-**Backup:** Authenticator apps where possible
-**Total cost:** $15/month
-
-### Long-term Expat (Settled Abroad)
-**Primary:** Port number to Google Voice ($0/month)
-**Secondary:** MVNO for banking only ($10/month)
-**Backup:** Authenticator apps
-**Total cost:** $10/month
-
-### Frequent US Visitor (3+ months/year in US)
-**Primary:** Keep minimal carrier ($50/month)
-**Backup:** Authenticator apps
-**Total cost:** $50/month (but full US service when home)
-
-### Short-term Traveler (Under 3 months)
-**Primary:** Keep regular carrier with international
-**Backup:** Authenticator apps
-**Total cost:** $65-100/month (temporary)
+- **Digital nomad:** US number on a prepaid plan in the eSIM slot, a data eSIM per country, authenticators and passkeys wherever possible, Google Voice for non-critical accounts.
+- **Long-term expat:** move banking to app approval or passkeys, keep the US number on the cheapest real mobile plan while any critical account needs SMS, and park it only once nothing critical depends on it.
+- **Frequent US visitor:** keep your plan, with authenticator apps as backup.
+- **Short-term traveler:** keep your plan, turn on Wi-Fi calling, turn off data roaming on the US line, use a local eSIM for data.
 
 ## Banking Strategies
 
-Since banks are the biggest problem:
+**Before leaving:** list every account that texts your US number, switch to app approval or an authenticator where offered, save backup codes, ask whether the bank accepts a foreign number, and save its phone numbers, including any number it lists for calling from outside the US.
 
-### Before Leaving
-1. Set up authenticator app if bank supports it (rare)
-2. Save backup codes bank provides
-3. Add international number as backup (if allowed)
-4. Verify you can access account from abroad
-5. Note customer service number
+**While abroad:** keep the US line active and receive codes over Wi-Fi calling, use the bank's app (which often replaces SMS with in-app approval), or call the bank to verify your identity and change your verification method.
 
-### While Abroad
-**Option A:** Keep US number active (MVNO or carrier)
-**Option B:** Use bank's app (some send push notifications instead of SMS)
-**Option C:** Call bank to verify identity instead of SMS
-
-### Major Banks and 2FA
-
-**Chase**
-- SMS required for most transactions
-- Rejects Google Voice
-- App has push notifications (better than SMS)
-
-**Bank of America**
-- Strict SMS verification
-- Blocks VoIP
-- Keep real carrier/MVNO number
-
-**Wells Fargo**
-- SMS heavy
-- VoIP blocked
-- App notifications available
-
-**Capital One**
-- More flexible
-- Sometimes accepts Google Voice
-- Good app-based authentication
-
-**Charles Schwab**
-- Accepts international numbers
-- Good for expats
-- Multiple verification methods
-
-**Recommendation:** Open Schwab or similar expat-friendly bank before leaving. Transfer most funds there.
+Bank policies change and differ by account type, so don't rely on lists of which bank accepts what. Check your security settings, or call. Our [guide to calling banks from abroad](/blog/calling-banks-from-abroad-complete-guide-expats/) covers how.
 
 ## Common Problems and Solutions
 
-### Problem: SMS Arrives Hours Late
-**Cause:** International routing delays
-**Solution:** 
-- Use WiFi calling (instant)
-- Request new code (don't wait)
-- Call service for verification instead
-
-### Problem: SMS Never Arrives
-**Cause:** Carrier blocking, VoIP rejection, or service down
-**Solution:**
-- Check spam/blocked messages
-- Try authenticator app if available
-- Call customer service
-- Use backup verification method
+### Problem: SMS Arrives Late or Never Arrives
+- Check that Wi-Fi calling is active, or that the line is registered on a network
+- Toggle airplane mode, then turn Wi-Fi back on
+- Wait a couple of minutes before requesting another code; repeated requests can invalidate codes or trigger a lockout
+- Check filtered or spam folders
+- Choose "call me" or a voice code if offered; a call can reach you over Wi-Fi calling when texts don't
+- Switch to email, app approval or a backup code
 
 ### Problem: Service Says "Invalid Number"
-**Cause:** VoIP number detected or international format issues
-**Solution:**
-- Use traditional carrier/MVNO number
-- Format as +1 (555) 123-4567
-- Call service to add number manually
+Usually a VoIP number was detected or foreign numbers aren't accepted. Use a real mobile number with its country code (+1 for the US).
 
 ### Problem: Lost Access to Number
-**Cause:** Canceled carrier without porting
-**Solution:**
-- Call carrier immediately (might recover)
-- Contact services for alternative verification
-- Use backup codes if saved
-- Last resort: Identity verification with service
+Call the carrier immediately; a recently canceled number can sometimes be recovered. Then ask each service for alternative verification.
 
 ### Problem: Account Locked After Multiple Failed Codes
-**Cause:** Too many wrong code entries or expired codes
-**Solution:**
-- Wait 24 hours
-- Call customer service
-- Prepare alternate identity verification
-- Don't keep requesting codes
+Stop requesting codes. Many lockouts expire on their own; if not, call the service.
+
+## When a Code Won't Arrive: Call Instead
+
+When every automated option fails, a person can usually help. Banks and carriers can verify you other ways (security questions, account details, ID) and then reset your 2FA, send a code by email, or switch you to app approval.
+
+The obstacle abroad is the call itself: many US toll-free numbers can't be reached from foreign phone networks, and roaming calls can be expensive.
+
+That's where NomaPhone fits. It calls any landline or mobile from your browser, with no app or account, and US and Canadian toll-free numbers are included at the normal US rate of [[rate:US:landline]], billed per second. It won't receive the code, and the agent won't see your US number, so expect them to verify you another way. See [how to call US toll-free numbers from anywhere](/blog/how-to-call-us-toll-free-numbers-from-anywhere/).
 
 ## Security Best Practices
 
-### Don't
-- Share SMS codes with anyone (phishing attempts)
-- Use SMS as only recovery method
-- Ignore requests to update backup methods
-- Use same number for everything without backup
-
-### Do
-- Save backup codes banks provide
-- Set up authenticator apps where possible
-- Keep list of which accounts use which number
-- Test SMS reception regularly
-- Have backup number registered
-- Enable app-based notifications when available
+- Never share a code with anyone who contacts you. Your bank won't ask for one.
+- Don't let SMS be your only recovery method
+- Lock your carrier account against port-outs and SIM swaps
+- Keep a list of which accounts use which number and method
 
 ## Testing Your Setup
 
-Before relying on it:
-
-**Week 1:**
-- Request test code from non-critical service
-- Verify SMS arrives promptly
-- Check code works to log in
-- Note any delays
-
-**Week 2:**
-- Test with banking app
-- Verify bank SMS arrives
-- Try backup verification methods
-- Document what works
-
-**Week 3:**
-- Test from different locations
-- WiFi vs mobile data
-- Different times of day
-- Various services
-
-**Week 4:**
-- Finalize setup
-- Document everything
-- Share with trusted person
-- Create emergency plan
+Before you leave, turn on airplane mode with Wi-Fi back on to simulate being abroad. Request a code from each critical account, try the voice-code option, confirm your authenticators and passkeys work, and note what works for each account.
 
 ## Emergency Access Plan
 
-If SMS completely fails:
-
-### Preparation
-1. Save backup codes for critical accounts
-2. Document customer service numbers
-3. Have trusted US contact who can help
-4. Photocopy ID for identity verification
-5. Know alternative verification methods
-
-### When Locked Out
-1. Try alternative verification (email, call, app)
-2. Call customer service (explain you're abroad)
-3. Request manual verification
-4. Use backup codes if available
-5. Ask to update verification method
-
-### Services Usually Offer
-- Email verification link
-- Phone call verification
-- Answer security questions
-- Submit ID documents
-- Trusted contact verification
+Keep backup codes stored offline, customer service numbers for your bank, card issuers and carrier, copies of your ID, and a way to call US toll-free numbers from abroad. If you're locked out, try every alternative method first, then call, explain you're abroad, and ask to be switched to a method that doesn't depend on SMS.
 
 ## Cost-Benefit Analysis
 
-### Just SMS Codes (Minimal Setup)
-- Google Voice: $0
-- Works for 60-70% of services
-- Risk: Locked out of banks
+Google Voice alone costs nothing but leaves your banks out. A low-cost prepaid line keeps a real mobile number that banks accept, which is cheap insurance against a locked bank account in another country. Over time, the cheapest setup is moving accounts to authenticators and passkeys so fewer things depend on any phone number.
 
-### Reliable SMS (Recommended)
-- MVNO $15/month: $180/year
-- Works for 100% of services
-- No lockout risk
-- Peace of mind
+## FAQ
 
-### Premium Carrier
-- $65/month: $780/year
-- Perfect reliability
-- Expensive for just SMS
-- Hard to justify cost
+**Can I receive SMS abroad without roaming?** Often, yes, via Wi-Fi calling on carriers and phones that support it. See [how to receive SMS OTPs abroad without roaming](/blog/receive-sms-otp-abroad-no-roaming/).
 
-**Break-even:** If you receive more than one critical SMS per month, MVNO pays for itself vs emergency workarounds.
+**Will my bank send codes to a foreign SIM?** Some will, many won't. See [will 2FA work with a foreign SIM](/blog/will-2fa-work-foreign-sim/).
+
+**Can NomaPhone receive my verification codes?** No. NomaPhone only makes outgoing voice calls. It doesn't provide a number and can't receive texts or calls.
 
 ## The Bottom Line
 
-**For most people living abroad:**
-1. Get dual-SIM phone if you don't have one
-2. Keep minimal MVNO plan ($10-15/month) for banking SMS
-3. Use Google Voice ($0) for everything else
-4. Set up authenticator apps where possible
-5. Total cost: $10-15/month vs $50-100
+1. Keep your US number on a real mobile plan, even a cheap prepaid one, while your bank needs SMS
+2. Put it in your eSIM slot with Wi-Fi calling on and data roaming off
+3. Move every account you can to authenticators, passkeys or in-app approval
+4. Save backup codes before you leave
+5. Know how you'll call your bank if a code never arrives
 
-**The alternative (Google Voice only):**
-Works for 60-70% of services. You'll get locked out of banks eventually. Not worth the risk.
-
-**The $15/month for MVNO is insurance.** You might only receive 2-3 banking SMS per month, but each one could be critical (fraud alert, locked account, required verification).
-
-Don't save $15/month and risk losing access to your money.
-
----
-
-**Receiving SMS verification codes abroad?** NomaPhone offers virtual numbers that work with most services, plus you can receive SMS for 2FA. Reliable international SMS reception at affordable rates. Join the waitlist at nomaphone.com.
+When you need to reach a US toll-free line from abroad, [make a call with NomaPhone](https://app.nomaphone.com) from your browser.

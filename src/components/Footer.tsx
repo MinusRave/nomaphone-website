@@ -54,6 +54,7 @@ export default function Footer() {
               <Mail className="h-4 w-4" />
               support@nomaphone.com
             </a>
+            <p className="text-xs text-[var(--color-text-secondary)]">Made in Naples, Italy</p>
           </div>
           <Column title="Product" links={productLinks} />
           <Column title="Guides" links={guideLinks} />
