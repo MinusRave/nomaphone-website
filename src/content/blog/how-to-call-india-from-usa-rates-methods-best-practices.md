@@ -20,16 +20,14 @@ If you're calling India from the US, you want good quality at reasonable rates. 
 India has two main types of numbers, and they cost different amounts:
 
 **Landlines (fixed lines):**
-- Usually cheaper to call
 - Common for businesses, government offices
 - Format: Starts with area code (like 011 for Delhi, 022 for Mumbai)
 
 **Mobile numbers:**
-- Slightly more expensive typically
 - Most personal contacts
 - Format: Starts with mobile prefix (usually 9, 8, 7, or 6)
 
-Some services charge the same rate for both, others differentiate.
+Some services charge the same rate for both, others differentiate. Don't assume landlines are the cheaper call: with NomaPhone it's the other way around, with Indian mobiles at [[rate:IN:mobile]] and landlines at [[rate:IN:landline]].
 
 ### Current Market Rates (2025)
 
@@ -37,7 +35,7 @@ Some services charge the same rate for both, others differentiate.
 - $0.08-0.12/minute
 
 **Mid-tier (browser calling, some VoIP):**
-- $0.04-0.08/minute
+- Roughly $0.04-0.15/minute; NomaPhone charges [[rate:IN:mobile]] to mobiles and [[rate:IN:landline]] to landlines
 
 **Budget (calling cards, some apps):**
 - $0.02-0.04/minute
@@ -140,7 +138,7 @@ Open website, make calls from browser, pay per minute.
 - Around $0.08-0.15/minute, depending on the service and whether you call a landline or a mobile
 - NomaPhone, for example, charges [[rate:IN:both]], billed per second
 
-**Cost for 100 minutes:** roughly $8-15
+**Cost for 100 minutes:** 100 × the per-minute rate, so with NomaPhone 100 minutes to an Indian mobile costs 100 × [[rate:IN:mobile]]
 
 **Quality:** Generally very good, consistent
 
@@ -258,8 +256,8 @@ Pure VoIP (computer to computer to phone) can have more variables. Hybrid routes
 **Google Voice:**
 - 180 min × $0.01 = $1.80/month ✓
 
-**Browser calling:**
-- 180 min × $0.08 = $14.40/month ✓
+**Browser calling (NomaPhone):**
+- 180 min × [[rate:IN:mobile]] if family is on mobiles (most are), or × [[rate:IN:landline]] for a landline ✓
 
 **WhatsApp:**
 - Free (if family has WiFi) ✓
@@ -281,9 +279,9 @@ Pure VoIP (computer to computer to phone) can have more variables. Hybrid routes
 - 30 min × $0.01 = $0.30/month
 - But some banks block VoIP numbers
 
-**Browser calling:**
-- 30 min × $0.08 = $2.40/month
-- Works reliably
+**Browser calling (NomaPhone):**
+- 30 min × [[rate:IN:landline]] to a bank landline
+- Calls the bank's number directly; no number of yours involved
 
 **US carrier:**
 - 30 min × $2.50 = $75/month ❌
@@ -300,9 +298,9 @@ Pure VoIP (computer to computer to phone) can have more variables. Hybrid routes
 - 200 min × $0.01 = $2.00/month
 - Risk: Quality inconsistent, some numbers don't work
 
-**Browser calling:**
-- 200 min × $0.08 = $16/month
-- Reliable, professional
+**Browser calling (NomaPhone):**
+- 200 min at [[rate:IN:mobile]] (mobiles) or [[rate:IN:landline]] (landlines)
+- No app or account, pay per second
 
 **Dedicated app:**
 - 200 min × $0.04 = $8/month
@@ -324,14 +322,14 @@ Pure VoIP (computer to computer to phone) can have more variables. Hybrid routes
 **Google Voice:**
 - Cheap but risky for important calls
 
-**Browser calling:**
-- $1.60-3.20/month
-- Reliable when you need it
+**Browser calling (NomaPhone):**
+- 20-40 min at [[rate:IN:mobile]] to a mobile or [[rate:IN:landline]] to a landline
+- Credit never expires, so it's there when you need it
 
 **WhatsApp:**
 - Free but property managers often don't have/use it
 
-**Best: Browser calling (peace of mind worth $2-3/month)**
+**Best: Browser calling (a few dollars a month for peace of mind)**
 
 ## India-Specific Calling Tips
 
@@ -347,6 +345,8 @@ Example for Delhi: 011-91-11-XXXX-XXXX
 
 Example: 011-91-98XXXX-XXXX
 
+**From a browser or app:** most calling services, NomaPhone included, take the international format instead of 011: enter +91 followed by the number, for example +91 22 XXXX XXXX for a Mumbai landline. Indian landline numbers are 10 digits after +91, made of the city's STD code plus the local number (drop any leading 0 from the STD code, so Mumbai's 022 becomes 22). Mobile numbers are also 10 digits.
+
 **Common area codes:**
 - Delhi: 11
 - Mumbai: 22
@@ -357,7 +357,7 @@ Example: 011-91-98XXXX-XXXX
 
 ### Time Zone Considerations
 
-**India is 10.5 or 12.5 hours ahead of US:**
+**India is 9.5 to 13.5 hours ahead of the US, depending on your time zone and daylight saving time:**
 - EST (New York): India is 10.5 hours ahead (or 9.5 during DST)
 - PST (California): India is 13.5 hours ahead (or 12.5 during DST)
 
@@ -403,6 +403,8 @@ Example: 011-91-98XXXX-XXXX
 - Consider having someone in India call on your behalf for very important matters
 - Many services now have online portals (use when possible)
 
+Common reasons people in the US need to call Indian offices: Aadhaar queries with UIDAI, passport offices, tax departments, and bank branches for KYC updates. Most of these don't offer WhatsApp support from abroad, so you'll need a regular phone call.
+
 ### NRI Banking and Property
 
 **NRI (Non-Resident Indian) services:**
@@ -412,6 +414,12 @@ Most major Indian banks have dedicated NRI services with better international su
 - Often less hold time
 - Better trained for international calls
 - More used to accents/questions from abroad
+
+**Bank OTPs when you live abroad:**
+Indian banks, investment platforms and government services send one-time passwords by SMS to your registered Indian mobile number. If that SIM lapses, you can get locked out. To keep OTPs coming:
+- Keep your Indian SIM active with a low-cost validity recharge, or an international roaming pack when you travel
+- Or ask your bank to update your registered number, following its NRI process
+- NomaPhone can't receive OTPs (it makes outgoing calls only and doesn't provide a number), but if a code doesn't arrive you can call the bank's helpline or branch by voice and sort it out with a person
 
 **Property management:**
 If you own property in India and deal with property managers:
@@ -464,9 +472,9 @@ Some services let you buy Indian number that forwards to you:
 
 ### Mistake 1: Not Checking If Mobile or Landline
 
-Some services charge different rates. Calling a mobile at landline rate costs more per minute.
+Many services charge different rates for Indian landlines and mobiles, and which one is cheaper depends on the service. With NomaPhone, mobiles ([[rate:IN:mobile]]) cost less than landlines ([[rate:IN:landline]]).
 
-**Solution:** Know which numbers are mobile vs landline in your contacts
+**Solution:** Know which numbers are mobile vs landline in your contacts, and check the rate shown before you call
 
 ### Mistake 2: Calling During Peak Hours
 
@@ -551,11 +559,11 @@ Based on what works for most people:
 
 **For personal calls to family:**
 - WhatsApp/FaceTime when they have it (free)
-- Browser calling for those who don't (reliable, $0.08/min)
+- Browser calling for those who don't (NomaPhone: [[rate:IN:mobile]] to mobiles, [[rate:IN:landline]] to landlines)
 - Google Voice as ultra-budget backup (if quality acceptable for you)
 
 **For business calls:**
-- Browser calling primary ($0.08/min, reliable)
+- Browser calling primary (no app, pay per second)
 - Dedicated app if you find one with good quality
 - Backup method ready
 
@@ -564,12 +572,7 @@ Based on what works for most people:
 - Have account numbers and details ready
 - Call during their business hours
 
-**Monthly cost estimate:**
-- Light user (30 min): $2-3
-- Moderate user (100 min): $8-10  
-- Heavy user (300 min): $24-30
-
-All very reasonable for staying connected to India.
+**Monthly cost estimate:** multiply your minutes by the rate. With NomaPhone that's [[rate:IN:mobile]] for Indian mobiles and [[rate:IN:landline]] for landlines, billed per second. Even heavy users pay a small fraction of carrier pay-per-minute rates.
 
 ## Quick Reference
 
@@ -583,7 +586,7 @@ All very reasonable for staying connected to India.
 
 **Typical rates 2025:**
 - Google Voice: $0.01/min (variable quality)
-- Browser calling: $0.08/min (reliable)
+- Browser calling (NomaPhone): [[rate:IN:mobile]] to mobiles, [[rate:IN:landline]] to landlines
 - US carrier: $2.50+/min (avoid unless emergency)
 
 **Required speed for calls:**
@@ -600,16 +603,16 @@ Calling India from the USA in 2025 is cheap and easy if you set it up right.
 - Buy calling cards (outdated, confusing, hidden fees)
 
 **Do:**
-- Set up browser calling for reliability ($0.08/min)
+- Set up browser calling for phone numbers that aren't on WhatsApp ([[rate:IN:both]] with NomaPhone)
 - Use WhatsApp for family who have it (free)
 - Keep Google Voice as backup if you're okay with variable quality
 - Test your setup before you urgently need it
 
 **For typical monthly usage (100 minutes):**
-- Your cost: $8-10
+- Browser calling: 100 × the per-minute rate (with NomaPhone, 100 × [[rate:IN:mobile]] to mobiles)
 - vs carrier rates: $200-300
 
-You save $2,000-3,000 per year by setting it up right.
+Over a year, that difference adds up to thousands of dollars.
 
 ---
 

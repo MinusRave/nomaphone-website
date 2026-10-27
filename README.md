@@ -1,62 +1,33 @@
-# Astro Starter Kit: Blog
+# nomaphone.com
 
-```sh
-npm create astro@latest -- --template blog
-```
+Marketing site and blog for NomaPhone, the internet's public phone: call any landline or mobile from the browser,
+no app, no account, no SIM. The calling app lives at https://app.nomaphone.com (repo `cabina`).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Astro 5 + Tailwind 4, deployed on Cloudflare Pages from `main`.
 
-Features:
+## Commands
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+| Command | Action |
+| :-- | :-- |
+| `npm install` | Install dependencies |
+| `npm run dev` | Dev server at `localhost:4321` |
+| `npm run build` | Build to `./dist/` |
+| `npm run preview` | Preview the build |
+| `npm run rates:sync` | Regenerate `src/data/rates.json` from `../cabina/lib/rates.ts` (commit the result) |
 
-## 🚀 Project Structure
+## Where things are
 
-Inside of your Astro project, you'll see the following folders and files:
+- `src/pages/index.astro`: homepage. `src/pages/rates.astro`: rates table.
+- `src/content/blog/`: posts (Markdown/MDX). Write NomaPhone prices as tokens: `[[rate:IN]]`, `[[rate:IN:landline]]`,
+  `[[rate:IN:mobile]]`, `[[rate:MX:both]]`, `[[countries]]` (see `src/lib/remark-rates.mjs`). In Astro/MDX you can use
+  `<RateFor country="IN" type="mobile" />`.
+- `src/content/static/`: terms and privacy.
+- `public/_redirects`: Cloudflare Pages 301s for retired URLs. Never remove an entry.
+- `NOMAPHONE_DESIGN_SYSTEM.md`: palette, type, components.
+- `docs/relaunch-changes.md`: per-post log of the October 2026 relaunch.
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+## Product facts (keep copy true)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+Outgoing voice calls only. Prepaid $5/$10/$20 phone card code, never expires, refundable, billed per second, max 30
+minutes per call. US/Canada toll-free callable. Countries: those in `src/data/rates.json`. No phone numbers, no SMS/2FA,
+no emergency calls.

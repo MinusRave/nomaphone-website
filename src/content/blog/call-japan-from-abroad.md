@@ -125,7 +125,7 @@ Here's roughly what a 15-minute call to a Japanese landline costs with each meth
 | Google Voice | A few cents per minute | Low cost | Needs a US account |
 | Calling card | Low rate plus fees | No internet needed | Fees, PINs, expiry |
 
-To Japanese mobiles, NomaPhone charges [[rate:JP:mobile]], and some app-based services may be cheaper for long mobile calls. Rates to landlines and mobiles often differ by country; our guide to [calling landlines vs mobile numbers](/blog/calling-landlines-vs-mobile-numbers-cost/) explains why.
+To Japanese mobiles, NomaPhone charges [[rate:JP:mobile]], and some app-based services may be cheaper for long mobile calls. Rates to landlines and mobiles often differ by country; our guide to [calling landlines vs mobile numbers](/blog/mobile-vs-landline-international-costs/) explains why.
 
 ## Business Hours in Japan (JST)
 

@@ -63,7 +63,7 @@ The infrastructure and business reasons.
 
 ## Country-by-Country Breakdown
 
-Real pricing differences worldwide.
+Real pricing differences worldwide. NomaPhone rates are current (see the [rates page](/rates/)); carrier ranges are typical market figures.
 
 ### United Kingdom
 
@@ -330,6 +330,17 @@ How to recognize number types.
 **Special:**
 - 03XX: Non-geographic, landline rate
 
+**Easy rule:** If it starts with 07, it's mobile and costs more.
+
+### United States and Canada
+
+**No visual difference:**
+- Same format: (XXX) XXX-XXXX
+- Same area codes used for both landlines and mobiles
+- No way to tell by looking at the number
+
+**Why it doesn't matter:** Same rate for both anyway.
+
 ### Germany
 
 **Landlines:**
@@ -482,6 +493,8 @@ United Kingdom
 - "Standard" often means landline
 - "Premium" sometimes means mobile
 
+- "National rate" usually means landline too
+
 **Always verify definitions.**
 
 ### Blended Rate Providers
@@ -502,6 +515,28 @@ United Kingdom
 - 09XX: Premium rate (very expensive)
 
 **Not the same as mobile vs landline.**
+
+## Special Cases and Exceptions
+
+Numbers that don't follow the normal landline/mobile pattern.
+
+### VoIP Numbers
+
+- Not technically mobile or landline (e.g., Vonage, Magic Jack, many virtual numbers)
+- Depending on the provider, billed at the landline rate, the mobile rate, or a separate "VoIP" rate
+- The prefix usually looks like a landline, so you often can't tell in advance
+
+### Ported Numbers
+
+- A UK 07 number moved to a landline or VoIP service still starts with 07
+- It's still charged as a mobile
+- There's no way for the caller to know, and nothing to do about it
+
+### Satellite Phones
+
+- Numbers look unusual (e.g., +870 for Inmarsat)
+- Typically $8-15 per minute, which dwarfs any landline/mobile gap
+- Many calling services, NomaPhone included, don't reach them; used mainly on ships and in very remote areas
 
 ## Technology Behind Price Differences
 

@@ -82,6 +82,14 @@ Businesses pay for toll-free calls based on US domestic rates (roughly $0.03-0.1
 **From Canada/US territories:**
 - Usually works (same toll-free system)
 
+### Workarounds That Don't Work
+
+**"Just add +1 to the 800 number":** +1-800 is still a toll-free number. From a foreign phone line it still won't connect.
+
+**"Ask an international operator to connect you":** Operators abroad can't complete toll-free calls either. Different network, same block.
+
+**"A VPN fixes it":** A VPN doesn't change how the phone network routes a regular call. At best it helps with some VoIP apps (see Method 4 below), and even that isn't reliable.
+
 ## How to Actually Call Toll-Free Numbers from Abroad
 
 ### Method 1: Find the Regular Number
@@ -202,6 +210,14 @@ Let's use Chase Bank as example:
 - Company LinkedIn pages often list main numbers
 - Employee profiles sometimes have direct extensions
 
+**Technique 5: Investor relations and SEC filings**
+- Public companies list a corporate phone number in their "Investor Relations" section and SEC filings
+- It's a regular geographic number, so it works from abroad
+- The switchboard can usually transfer you to customer service
+
+**Technique 6: Crowdsourced directories**
+- Sites like GetHuman.com, Reddit threads and travel forums often share the direct numbers other callers abroad have used
+
 ### For Customer Service Lines
 
 **Technique: Call competitor**
@@ -251,6 +267,9 @@ Here are direct numbers that work from abroad:
 - Toll-free: 1-800-627-8372
 - International: +1-636-722-7111
 
+**Discover:**
+- International: +1-801-902-3100
+
 ### Airlines
 
 **United:**
@@ -264,6 +283,38 @@ Here are direct numbers that work from abroad:
 **Delta:**
 - Toll-free: 1-800-221-1212
 - International: +1-404-715-2600
+
+**Southwest:**
+- Toll-free: 1-800-435-9792
+- International: +1-214-932-0333
+
+### Insurance
+
+**State Farm:**
+- Toll-free: 1-800-STATE-FARM
+- Corporate: +1-309-766-2311
+
+**Geico:**
+- Toll-free: 1-800-861-8380
+- International: +1-301-986-3000
+
+**Progressive:**
+- Toll-free: 1-800-776-4737
+- Corporate: +1-440-461-5000
+
+### Government Agencies
+
+**IRS:**
+- Toll-free: 1-800-829-1040
+- International: +1-267-941-1000
+
+**Social Security:**
+- Toll-free: 1-800-772-1213
+- International: +1-410-965-0160
+
+**USCIS:**
+- Toll-free: 1-800-375-5283
+- International: +1-212-620-3418
 
 ### Utilities/Services
 
@@ -295,6 +346,8 @@ You pay the browser calling service's rates:
 - Not free (it's not toll-free for you), but affordable
 
 **30-minute call:** 30 × [[rate:US:landline]] on NomaPhone
+
+**Hold times matter:** US customer service lines often keep you on hold 15-30 minutes, and you're paying for every one of them. On a carrier charging $1-2/min that hold alone can cost more than the rest of the call; on browser calling billed per second it stays small. Call early in the US morning when queues are shorter, have your details ready to cut talk time, and if the company offers a callback, take it: the hold is then free for you. NomaPhone calls are capped at 30 minutes, so if a long hold runs out the clock, just dial again.
 
 Compare to:
 - Carrier international: $60-90
@@ -447,6 +500,11 @@ Most companies now have:
 - Email address ready
 - Chat option tested
 - Social media account ready
+
+**Build a contact list before you travel:**
+- Look up geographic numbers for your bank, credit cards, insurance and any other important services
+- Save them in your phone, clearly labeled (e.g. "Chase International")
+- Keep a simple table: company, toll-free number, direct number, opening hours (in US time)
 
 ### During the Call
 

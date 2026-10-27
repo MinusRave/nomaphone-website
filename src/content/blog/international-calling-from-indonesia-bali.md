@@ -39,6 +39,11 @@ Even worse than local Indonesian carriers. A 60-minute call costs $120-150 on ro
 ### Why Indonesia Is Expensive
 Indonesia isn't on major international calling routes. Calls route through Singapore or Australia, increasing costs. Plus, as a tourist/nomad destination, carriers know you'll pay premium rates.
 
+### The Good News: VoIP Isn't Blocked
+Unlike the UAE or China, where VoIP is blocked or degraded, Indonesia generally allows internet calling without restrictions. You don't need a VPN to make calls over WiFi or mobile data.
+
+Voice calls also need surprisingly little bandwidth: around 100 Kbps is enough for a clear call. The real enemy on Bali internet isn't speed, it's consistency. A connection that swings between 2 Mbps and zero every 30 seconds will sound terrible; a steady 1 Mbps connection will sound fine.
+
 ## Solution 1: Local Indonesian SIM Card
 
 Most digital nomads start here. Get a local SIM and use it for data.
@@ -104,6 +109,19 @@ With a 30GB monthly data package, you can make 15-30 hours of calls before runni
 - Browser-based calling: $0.90-1.50
 - **Savings: 90-98%**
 
+### UK and Australia: Landline vs Mobile Rates
+Many Bali nomads are British or Australian, and for both countries calling a mobile costs more than calling a landline, whichever service you use. With NomaPhone:
+
+| Destination | Landline | Mobile |
+|---|---|---|
+| UK | [[rate:GB:landline]] | [[rate:GB:mobile]] |
+| Australia | [[rate:AU:landline]] | [[rate:AU:mobile]] |
+
+If you're calling a UK bank or HMRC, you're usually reaching a landline or an 0345/0800-style number, so the lower rate applies in most cases.
+
+### Is Browser Calling the Cheapest Option?
+Not always. Some VoIP services (DialAnyone, YadaPhone) advertise lower per-minute rates to the US, though some only work in Chromium browsers or require an account. NomaPhone's angle is simplicity for the calls that matter: it works in any browser, needs no app or account, reaches US toll-free numbers, bills per second, and credit never expires. It's outgoing calls only, so it won't receive SMS or 2FA codes.
+
 ### Best Locations in Bali for Calling
 
 **Reliable WiFi:**
@@ -140,6 +158,10 @@ Bali is UTC+8 (WITA - Central Indonesian Time)
 - Australia: Anytime during normal Bali hours
 
 **Pro tip:** For US West Coast calls, wake up early (6-9am Bali) or stay up late. Time zones are challenging but manageable.
+
+**Daylight saving shifts the math:** Bali never changes its clocks, so the gap to the US grows by an hour when the US is on standard time (Eastern becomes 13 hours behind), and the UK is 7 hours behind during BST but 8 during GMT. Perth (AWST) is on exactly the same time as Bali year-round.
+
+**Check opening hours first:** Many US banks have extended or early hours. A line that opens at 7am Eastern is reachable at 7pm Bali time, much easier than a midnight call.
 
 ## Solution 3: Google Voice
 
@@ -376,6 +398,20 @@ Even heavy users save thousands per month with proper setup.
 3. **Coworking over cafes** - More stable internet
 4. **Wired headphones** - Better quality, no Bluetooth lag
 5. **Test first** - Make short test call before important one
+
+### Finding a Quiet Spot
+Motorbikes, roosters, construction, dogs and ceremony music are Bali's soundtrack.
+- **Coworking phone booths** (Dojo, Outpost) are the gold standard; book early in peak season
+- **Your villa bathroom** is oddly effective: tile walls, closed door, usually the quietest room
+- **Coworking terraces** work when booths are full, with less echo than open-plan rooms
+- **Upscale hotel lobbies** (Seminyak, Nusa Dua) are often quiet and air-conditioned mid-morning
+- **Avoid** beachside cafes (wind noise ruins calls) and road-facing seats
+
+### Backup Connectivity
+For calls where a drop means rejoining a 45-minute hold queue:
+- Keep your local SIM data active as a hotspot and switch the moment WiFi drops
+- Some nomads carry a portable MiFi with a separate SIM as a dedicated backup
+- Sit close to the router; WiFi signal weakens significantly through walls
 
 ### Time Management
 1. **Set alarms for different time zones** - Easy to forget

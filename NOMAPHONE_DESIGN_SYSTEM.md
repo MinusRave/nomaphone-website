@@ -1,783 +1,162 @@
 # NomaPhone Design System
 
-> **Relaunch override (2026-10-27).** The marketing site now uses the "pixel-art public phone" direction:
-> light paper background, not dark. Palette: paper `#f4f0e5`, paper-2 `#fffdf7`, ink `#122a31`, muted `#536166`,
-> green `#087b65` (primary action), orange `#ee7938` (accents; use `#b8531c` for small orange text on paper),
-> LCD `#082626` / `#3ee2b5`. Fonts: Archivo (bold 800 headings, UI), JetBrains Mono (numbers, rates), VT323 (LCD accents).
-> Artwork: `public/pixel/phone.webp`. Tokens in `src/styles/global.css`. Where this document says "dark only" or
-> `--color-midnight`, read paper. Product scope also changed: no virtual numbers, no SMS (section 6.4 is obsolete);
-> credit packs are $5/$10/$20 with no bonuses (section 6.3 bonus badges are obsolete).
-
-> **Purpose**: Single source of truth for any AI coding agent building NomaPhone interfaces.
-> **Last updated**: 2026-03-23
-> **Stack**: HTML/CSS/JS, React (Next.js), Tailwind CSS 4.x
-> **Voice**: Confident, direct, nomad-native. We don't explain what a VoIP is. We solve the call.
+> **Purpose**: single source of truth for anyone (human or AI agent) building NomaPhone interfaces: the marketing site (this repo, Astro) and the calling app (`cabina`, Next.js).
+> **Last updated**: 2026-10-27 (relaunch: pixel-art public phone direction)
+> **Stack**: Astro 5 + Tailwind CSS 4 (site), Next.js (app). Tokens live in `src/styles/global.css`.
+> **Voice**: plain, direct, honest. We don't explain VoIP. We help you make the call.
 
 ---
 
-## 1. Brand DNA
+## 1. Brand
 
-### Identity
-NomaPhone is a browser-based international calling service for digital nomads and remote workers. The brand sits at the intersection of **telecom reliability** and **nomad simplicity**. We are not a consumer VoIP toy — we're the tool you reach for when your bank freezes your card in Bali.
+### What NomaPhone is
+**The internet's public phone.** Call any landline or mobile straight from the browser. No app, no account, no SIM.
+You buy a prepaid phone card ($5, $10 or $20), get a code like `CAB-XXXX-XXXX-XXXX`, dial, and pay per second.
 
-### Design Principles
+What it is **not** (never design UI or copy that implies it): no phone number for the user, no incoming calls, no SMS or 2FA codes, no virtual numbers, no number porting, no team accounts, no recording, no subscriptions, no emergency calls.
+
+### The metaphor
+A street payphone, rendered as pixel art: metal body, orange handset, dark-green LCD, chunky keys, a green call bar. It signals "public, simple, pay as you go" and it's friendly without being a toy.
+
+### Design principles
 
 | Principle | Meaning | Anti-pattern |
 |---|---|---|
-| **Trust-first** | Every pixel should say "this works." Telecom-grade confidence. | Playful/bubbly UI, toy-like animations |
-| **Zero friction** | Interfaces load fast, work on any connection, never ask unnecessary questions. | Wizards, modals-on-modals, loading spinners without progress |
-| **Globally neutral** | No cultural assumptions. Works in LTR. Avoids US-centric idioms in UI. | American flag as default, "Call Mom" as example |
-| **Honest pricing** | Rates, costs, balances always visible. No dark patterns. | Hidden fees, confusing credit math, auto-renewal buried in settings |
-| **One screen, one job** | Each view does one thing well. | Dashboards crammed with widgets the user didn't ask for |
+| **Honest** | Rates, balances and limits always visible. Say what we don't do. | Hidden fees, vague "affordable", implying features we don't have |
+| **One job per screen** | A page or view does one thing. | Dashboards of widgets nobody asked for |
+| **Zero friction** | Fast load, no sign-up, no install. | Wizards, modals on modals, email walls |
+| **Tactile** | Things look pressable: hard borders, offset shadows, LCD readouts. | Soft glassmorphism, gradients on text |
+| **Globally neutral** | Works for any caller in any country. | US-only idioms in UI chrome |
 
-### Tone of Voice (for UI copy)
-- **Do**: "Call any number from your browser." / "3¢/min to US landlines." / "Credits never expire."
-- **Don't**: "Experience seamless global connectivity!" / "Unlock premium calling features!" / "Your journey starts here!"
-- Headlines: short, factual, benefit-first. Max 8 words.
-- Body: 1–2 sentences per block. No jargon. No filler.
-- CTAs: verb + object. "Add credits" / "Start call" / "Get a number" — never "Submit" or "Continue."
-- Error messages: say what happened + what to do. "Call failed — weak connection. Try again or switch to Wi-Fi."
+### Tone of voice
+- **Do**: "Call any number from your browser." / "$0.03/min to the US, toll-free included." / "Credit never expires."
+- **Don't**: "Experience seamless global connectivity!" / "Unlock premium features!"
+- Headlines: short, factual, max ~8 words. Body: 1–2 sentences per block.
+- CTAs: verb + object. "Make a call", "Buy credit", "See rates". Never "Submit", "Get started", "Join the waitlist".
+- Errors: what happened + what to do. "Call failed — weak connection. Try again on Wi-Fi."
 
 ---
 
-## 2. Design Tokens
+## 2. Tokens
 
-### 2.1 Colors
+### 2.1 Color
 
 ```css
 :root {
-  /* ── Core ── */
-  --color-midnight:       #0B1120;    /* Primary background — deep navy-black */
-  --color-surface:        #111827;    /* Cards, panels, elevated surfaces */
-  --color-surface-raised: #1F2937;    /* Hover states, active cards, dropdowns */
-  --color-border:         #374151;    /* Subtle borders, dividers */
-  --color-border-focus:   #6B7280;    /* Focused input borders */
+  /* Surfaces */
+  --color-paper:    #f4f0e5;  /* page background */
+  --color-paper-2:  #fffdf7;  /* cards, bands, inputs */
+  --color-surface-raised: #ebe5d6; /* hover, subtle fills */
+  --color-border:   #cfc9b8;  /* dividers, table rules */
 
-  /* ── Signal Green — Primary Action ── */
-  --color-signal:         #10B981;    /* Primary buttons, active states, "call now" */
-  --color-signal-hover:   #059669;    /* Hover on primary actions */
-  --color-signal-subtle:  #10B98115;  /* Green tint backgrounds (status badges, etc.) */
-  --color-signal-glow:    #10B98130;  /* Glow/ring on focused call button */
+  /* Ink */
+  --color-ink:      #122a31;  /* text, hard borders, offset shadows */
+  --color-muted:    #536166;  /* secondary text (passes AA on paper) */
 
-  /* ── Text ── */
-  --color-text-primary:   #F9FAFB;   /* Headings, primary content */
-  --color-text-secondary: #9CA3AF;   /* Descriptions, labels, meta */
-  --color-text-muted:     #6B7280;   /* Placeholders, disabled, timestamps */
-  --color-text-inverse:   #0B1120;   /* Text on signal-green backgrounds */
+  /* Accents */
+  --color-green:    #087b65;  /* primary action, rates, success */
+  --color-green-dark: #064e40;/* hover on primary */
+  --color-orange:   #ee7938;  /* handset orange: accents, art, large text only */
+  --orange-text:    #b8531c;  /* orange for SMALL text on paper (AA contrast) */
 
-  /* ── Accents ── */
-  --color-amber:          #F59E0B;   /* Warnings, low balance, attention */
-  --color-amber-subtle:   #F59E0B15;
-  --color-red:            #EF4444;   /* Errors, call failed, destructive actions */
-  --color-red-subtle:     #EF444415;
-  --color-blue:           #3B82F6;   /* Informational, links, SMS/OTP indicators */
-  --color-blue-subtle:    #3B82F615;
-
-  /* ── Rates/Pricing specific ── */
-  --color-rate:           #10B981;   /* Per-minute rate display — same as signal */
-  --color-credit-badge:   #F59E0B;   /* Credit balance pill */
+  /* LCD */
+  --color-lcd:      #082626;  /* LCD background */
+  --color-lcd-ink:  #3ee2b5;  /* LCD text */
 }
 ```
 
-**Rules**:
-- Dark mode is the **only** mode. NomaPhone is always dark. No light theme.
-- `--color-midnight` is the page background. Never use pure `#000`.
-- `--color-signal` (green) is reserved for **primary actions and live/active states only**. Do not use green decoratively.
-- Amber is for "attention needed" — low balance, expiring number, weak signal.
-- Red is for errors and destructive confirmations only. Never decorative.
+Rules:
+- Light only. Paper is the background; never pure white pages, never pure black.
+- Green = the primary action (one per view) and money/rate figures. Not decorative.
+- Orange `#ee7938` fails contrast as small text on paper; use `#b8531c` for kickers/labels, keep `#ee7938` for art, large type, shadows on dark.
+- Ink is used for 2px borders and 4px offset shadows (`box-shadow: 4px 4px 0 var(--color-ink)`) on cards and primary buttons.
+- The legacy names in `global.css` (`--color-midnight`, `--color-signal`, `--color-text-primary`…) are mapped to this palette so older components and shadcn/ui keep working. New code should use the names above.
 
 ### 2.2 Typography
 
-```css
-:root {
-  /* ── Font Families ── */
-  --font-display:  'Satoshi', sans-serif;       /* Headings, hero text, nav brand */
-  --font-body:     'General Sans', sans-serif;   /* Body text, descriptions, UI labels */
-  --font-mono:     'JetBrains Mono', monospace;  /* Phone numbers, rates, credit amounts, code */
+| Role | Font | Weight | Use |
+|---|---|---|---|
+| UI + headings | **Archivo** | 400 / 600 / 800 | Headings always 800, tight tracking (-0.02 to -0.03em) |
+| Numbers | **JetBrains Mono** | 400 / 600 | Rates, balances, card codes, phone numbers, table headers |
+| LCD accents | **VT323** | 400 | Short LCD readouts ("> READY_"), step numbers. Never body text |
 
-  /* ── Font Sizes (rem) ── */
-  --text-xs:    0.75rem;    /* 12px — timestamps, fine print */
-  --text-sm:    0.875rem;   /* 14px — labels, meta, secondary info */
-  --text-base:  1rem;       /* 16px — body text */
-  --text-lg:    1.125rem;   /* 18px — emphasized body, card titles */
-  --text-xl:    1.25rem;    /* 20px — section subtitles */
-  --text-2xl:   1.5rem;     /* 24px — section headings */
-  --text-3xl:   1.875rem;   /* 30px — page titles */
-  --text-4xl:   2.25rem;    /* 36px — hero subheading */
-  --text-5xl:   3rem;       /* 48px — hero headline */
-  --text-6xl:   3.75rem;    /* 60px — landing hero, max size */
+Scale (rem): 0.75 · 0.875 · 1 · 1.125 · 1.25 · 1.5 · 1.875 · 2.25 · 3 · 3.75. Hero H1 uses `clamp(2.6rem, 6.5vw, 4.6rem)`, line-height ~1.02.
+Body line-height 1.6. Kicker labels: mono, 0.8rem, uppercase, 0.08em tracking, orange-text.
 
-  /* ── Font Weights ── */
-  --weight-regular:  400;
-  --weight-medium:   500;
-  --weight-semibold: 600;
-  --weight-bold:     700;
-  --weight-black:    900;   /* Hero headlines only */
+### 2.3 Spacing, radii, shadows
+- Spacing on a 4px grid (`--space-1` = 0.25rem … `--space-32` = 8rem). Sections: 4–4.5rem vertical.
+- Radii: 4px (LCD chips), 8px (buttons, inputs), 12px (cards, CTA boxes). No pills except small badges.
+- Shadows: hard offset only (`4px 4px 0 ink`; on dark backgrounds `4px 4px 0 orange`). No blur glows.
 
-  /* ── Line Heights ── */
-  --leading-tight:   1.15;  /* Headlines */
-  --leading-snug:    1.3;   /* Subheadings */
-  --leading-normal:  1.6;   /* Body text */
-  --leading-relaxed: 1.75;  /* Long-form, legal */
-
-  /* ── Letter Spacing ── */
-  --tracking-tight:  -0.02em;  /* Headlines */
-  --tracking-normal:  0;       /* Body */
-  --tracking-wide:    0.05em;  /* Labels, badges, overlines */
-  --tracking-mono:    0.02em;  /* Phone numbers, rates */
-}
-```
-
-**Font loading** (add to `<head>`):
-```html
-<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-<link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,900&f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-```
-
-**Rules**:
-- Phone numbers are **always** `--font-mono`. Format: `+1 (555) 123-4567`.
-- Rates are **always** `--font-mono` + `--color-signal`. Format: `$0.03/min`.
-- Credit balances use `--font-mono` + `--weight-semibold`. Format: `$12.40`.
-- Country names in rate tables: `--font-body` + `--weight-medium`.
-- Never use `--font-display` below `--text-xl`. It's for headings only.
-- Max line length for body text: `65ch`.
-
-### 2.3 Spacing
-
-```css
-:root {
-  --space-0:   0;
-  --space-1:   0.25rem;   /* 4px */
-  --space-2:   0.5rem;    /* 8px */
-  --space-3:   0.75rem;   /* 12px */
-  --space-4:   1rem;       /* 16px */
-  --space-5:   1.25rem;   /* 20px */
-  --space-6:   1.5rem;    /* 24px */
-  --space-8:   2rem;       /* 32px */
-  --space-10:  2.5rem;    /* 40px */
-  --space-12:  3rem;       /* 48px */
-  --space-16:  4rem;       /* 64px */
-  --space-20:  5rem;       /* 80px */
-  --space-24:  6rem;       /* 96px */
-  --space-32:  8rem;       /* 128px */
-}
-```
-
-**Rules**:
-- Section vertical padding: `--space-20` desktop, `--space-12` mobile.
-- Card internal padding: `--space-6`.
-- Between heading and body text: `--space-3`.
-- Between stacked cards/items: `--space-4`.
-- Page horizontal max-width: `1200px` with `--space-6` gutter.
-
-### 2.4 Radii & Shadows
-
-```css
-:root {
-  /* ── Border Radius ── */
-  --radius-sm:   6px;     /* Small badges, tags */
-  --radius-md:   10px;    /* Buttons, inputs */
-  --radius-lg:   16px;    /* Cards, panels */
-  --radius-xl:   24px;    /* Modal, hero cards */
-  --radius-full: 9999px;  /* Pills, avatars, call button */
-
-  /* ── Shadows ── */
-  --shadow-sm:   0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md:   0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg:   0 8px 30px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 20px var(--color-signal-glow);  /* Call button active state */
-
-  /* ── Borders ── */
-  --border-default: 1px solid var(--color-border);
-  --border-focus:   1px solid var(--color-signal);
-}
-```
-
-**Rules**:
-- Cards always use `--radius-lg` + `--border-default` + `--shadow-sm`.
-- Buttons: `--radius-md` for rectangular, `--radius-full` for pill-shaped CTAs.
-- The main "Call" button is always a circle with `--radius-full` + `--shadow-glow` on active.
-- Inputs: `--radius-md`, `--border-default`, transition to `--border-focus` on focus.
-- Never use `border-radius: 0` anywhere. Minimum is `--radius-sm`.
-
-### 2.5 Motion
-
-```css
-:root {
-  --ease-out:      cubic-bezier(0.16, 1, 0.3, 1);   /* Primary — exits, reveals */
-  --ease-in-out:   cubic-bezier(0.65, 0, 0.35, 1);   /* State changes */
-  --ease-spring:   cubic-bezier(0.34, 1.56, 0.64, 1); /* Bouncy — badges, notifications */
-
-  --duration-fast:   120ms;   /* Hover color changes, opacity */
-  --duration-normal: 200ms;   /* Button presses, toggles */
-  --duration-slow:   350ms;   /* Panel slides, card reveals */
-  --duration-reveal: 600ms;   /* Page section entrance */
-}
-```
-
-**Rules**:
-- All interactive elements must have hover/active transitions. No exceptions.
-- Page load: sections fade-in with `translateY(12px)` → `translateY(0)`, staggered 80ms each.
-- Call button: pulse animation when ringing, scale(1.02) on hover.
-- Reduced motion: wrap all animations in `@media (prefers-reduced-motion: no-preference)`.
-- Never animate layout properties (width, height, top, left). Use `transform` and `opacity` only.
+### 2.4 Motion
+- Buttons nudge `translate(-1px,-1px)` and grow their offset shadow on hover, 120ms.
+- No autoplay animation. Respect `prefers-reduced-motion` (disable transitions).
 
 ---
 
-## 3. Component Library
+## 3. Components
 
-### 3.1 Buttons
+### Buttons
+- **Primary**: green fill, paper-2 text, 2px ink border, 4px ink offset shadow, 800 weight. One per view. Label: "Make a call".
+- **Ghost**: transparent, ink text, 2px ink border; hover fills surface-raised. For "See rates".
+- Header CTA: compact green button, no shadow.
 
-```
-┌─────────────────────────────────────────────────────────┐
-│ Variant        │ Use Case                    │ Color     │
-├─────────────────────────────────────────────────────────┤
-│ primary        │ Main CTA per screen (1 max) │ signal bg │
-│ secondary      │ Supporting actions           │ surface   │
-│ ghost          │ Tertiary, navigation         │ transparent│
-│ danger         │ Delete, cancel subscription  │ red bg    │
-│ call           │ Initiate/end phone call      │ circle    │
-└─────────────────────────────────────────────────────────┘
-```
+### Cards
+Paper or paper-2 fill, 2px ink border, 12px radius, 1.5rem padding. Links inside: green, 700, underline on hover.
 
-**Primary button**:
-```css
-.btn-primary {
-  background: var(--color-signal);
-  color: var(--color-text-inverse);
-  font-family: var(--font-body);
-  font-weight: var(--weight-semibold);
-  font-size: var(--text-sm);
-  letter-spacing: var(--tracking-wide);
-  padding: var(--space-3) var(--space-6);
-  border-radius: var(--radius-md);
-  border: none;
-  cursor: pointer;
-  transition: background var(--duration-fast) var(--ease-in-out),
-              transform var(--duration-fast) var(--ease-out);
-}
-.btn-primary:hover {
-  background: var(--color-signal-hover);
-  transform: translateY(-1px);
-}
-.btn-primary:active {
-  transform: translateY(0);
-}
-.btn-primary:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-  transform: none;
-}
-```
+### LCD chip
+`--color-lcd` background, `--color-lcd-ink` text, VT323 ~1.4rem, 4px radius. For hero readouts and step numbers.
 
-**Rules**:
-- Max ONE `primary` button per screen/view.
-- Primary button label is always `verb + object`: "Add credits", "Start call", "Get number".
-- Min touch target: 44×44px on all buttons.
-- Buttons never contain icons alone — always include text (except the call button).
+### Rate display
+- Always `$X.XX/min` (three decimals only for half cents, e.g. `$0.025/min`), JetBrains Mono, green.
+- Never hardcode a rate in a page or post: use `<RateFor country="IN" type="mobile" />` in Astro/MDX or `[[rate:IN:mobile]]` in Markdown. Data: `src/data/rates.json` (sync with `npm run rates:sync`).
+- Tables: country name in ink, landline / mobile / from columns in mono; mono uppercase muted headers; 2px ink outer border.
 
-### 3.2 Call Button (special)
+### In-article CTA (`BlogAppCTA.astro`)
+Paper-2 box, 2px ink border, 4px offset shadow, phone artwork on the left, orange-text kicker, one-line title, one honest sentence (outgoing calls only), primary link to https://app.nomaphone.com.
 
-The call button is the single most important UI element. It deserves its own spec.
+### Header / footer
+- Header: paper, sticky, small phone icon + "NomaPhone" wordmark (Archivo 800), links Rates · How it works · FAQ · Blog, green "Make a call".
+- Footer: four columns (brand + support email, Product, Guides, Legal); last line in mono: "Outgoing calls only. Not for emergency calls."
 
-```css
-.btn-call {
-  width: 64px;
-  height: 64px;
-  border-radius: var(--radius-full);
-  background: var(--color-signal);
-  color: var(--color-text-inverse);
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow-glow);
-  transition: transform var(--duration-normal) var(--ease-spring),
-              box-shadow var(--duration-normal) var(--ease-out);
-}
-.btn-call:hover {
-  transform: scale(1.06);
-  box-shadow: 0 0 30px var(--color-signal-glow);
-}
-.btn-call[data-state="ringing"] {
-  animation: pulse-ring 1.5s var(--ease-in-out) infinite;
-}
-.btn-call[data-state="active"] {
-  background: var(--color-red);
-  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
-}
-@keyframes pulse-ring {
-  0%, 100% { box-shadow: 0 0 0 0 var(--color-signal-glow); }
-  50% { box-shadow: 0 0 0 12px transparent; }
-}
-```
+### FAQ
+`<details>` rows separated by border lines; summary 800 weight with a mono orange "+ / −" marker. Every FAQ answer must be honest about limits (no number, no SMS, refunds).
 
-**States**: `idle` → `ringing` → `active` → `ended`
-- Idle: green, static glow
-- Ringing: green, pulsing ring animation
-- Active: red (tap to hang up), no pulse
-- Ended: grey out, fade back to idle after 2s
-
-### 3.3 Inputs
-
-```css
-.input {
-  background: var(--color-surface);
-  border: var(--border-default);
-  border-radius: var(--radius-md);
-  color: var(--color-text-primary);
-  font-family: var(--font-body);
-  font-size: var(--text-base);
-  padding: var(--space-3) var(--space-4);
-  width: 100%;
-  transition: border-color var(--duration-fast) var(--ease-in-out);
-}
-.input:focus {
-  outline: none;
-  border-color: var(--color-signal);
-  box-shadow: 0 0 0 3px var(--color-signal-subtle);
-}
-.input::placeholder {
-  color: var(--color-text-muted);
-}
-.input[data-variant="phone"] {
-  font-family: var(--font-mono);
-  font-size: var(--text-lg);
-  letter-spacing: var(--tracking-mono);
-  text-align: center;
-  padding: var(--space-4) var(--space-6);
-}
-```
-
-**Rules**:
-- Phone number input uses `data-variant="phone"` — monospace, larger, centered.
-- All inputs must have visible labels (no placeholder-only labels).
-- Error state: `border-color: var(--color-red)` + error message below in `--text-sm` + `--color-red`.
-
-### 3.4 Cards
-
-```css
-.card {
-  background: var(--color-surface);
-  border: var(--border-default);
-  border-radius: var(--radius-lg);
-  padding: var(--space-6);
-  box-shadow: var(--shadow-sm);
-}
-.card-interactive {
-  cursor: pointer;
-  transition: border-color var(--duration-fast) var(--ease-in-out),
-              box-shadow var(--duration-normal) var(--ease-out),
-              transform var(--duration-normal) var(--ease-out);
-}
-.card-interactive:hover {
-  border-color: var(--color-border-focus);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
-}
-```
-
-**Variants**:
-- `.card` — static content (pricing tier, feature block)
-- `.card-interactive` — clickable (country selector, number picker)
-- `.card-highlight` — adds `border-color: var(--color-signal)` + subtle green left-border accent for "recommended" or "selected" state
-
-### 3.5 Rate Display
-
-Rates are core UI. They must be instantly scannable.
-
-```html
-<!-- Rate row in a table or list -->
-<div class="rate-row">
-  <span class="rate-country">
-    <span class="rate-flag">🇺🇸</span>
-    <span class="rate-name">USA / Canada</span>
-  </span>
-  <span class="rate-price">$0.03<span class="rate-unit">/min</span></span>
-</div>
-```
-
-```css
-.rate-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: var(--space-3) var(--space-4);
-  border-bottom: 1px solid var(--color-border);
-}
-.rate-flag { font-size: var(--text-xl); margin-right: var(--space-2); }
-.rate-name {
-  font-family: var(--font-body);
-  font-weight: var(--weight-medium);
-  color: var(--color-text-primary);
-}
-.rate-price {
-  font-family: var(--font-mono);
-  font-weight: var(--weight-semibold);
-  font-size: var(--text-lg);
-  color: var(--color-signal);
-}
-.rate-unit {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  font-weight: var(--weight-regular);
-}
-```
-
-**Rules**:
-- Rates always show `$X.XX/min` format — never "from $0.03" or "starting at".
-- Flag emoji + country name on left, rate on right. Always.
-- If a rate is a range (e.g., India mobile vs landline), show both: `$0.08–0.09/min`.
-
-### 3.6 Credit Balance
-
-```html
-<div class="credit-balance">
-  <span class="credit-label">Balance</span>
-  <span class="credit-amount">$12.40</span>
-</div>
-```
-
-```css
-.credit-balance {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-}
-.credit-label {
-  font-family: var(--font-body);
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-}
-.credit-amount {
-  font-family: var(--font-mono);
-  font-weight: var(--weight-semibold);
-  font-size: var(--text-base);
-  color: var(--color-text-primary);
-}
-.credit-amount[data-low="true"] {
-  color: var(--color-amber);
-}
-```
-
-**Rules**:
-- Balance below $1.00 → amber color + "Low balance" tooltip.
-- Balance at $0.00 → red color + inline "Add credits" link.
-- Always show 2 decimal places: `$12.40`, never `$12.4`.
-
-### 3.7 Status Badges
-
-```css
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  padding: var(--space-1) var(--space-3);
-  border-radius: var(--radius-sm);
-  font-family: var(--font-body);
-  font-size: var(--text-xs);
-  font-weight: var(--weight-semibold);
-  letter-spacing: var(--tracking-wide);
-  text-transform: uppercase;
-}
-.badge-active   { background: var(--color-signal-subtle); color: var(--color-signal); }
-.badge-warning  { background: var(--color-amber-subtle);  color: var(--color-amber);  }
-.badge-error    { background: var(--color-red-subtle);    color: var(--color-red);    }
-.badge-info     { background: var(--color-blue-subtle);   color: var(--color-blue);   }
-```
-
-Use cases:
-- `badge-active`: "Connected", "Active number", "Online"
-- `badge-warning`: "Low balance", "Expiring soon"
-- `badge-error`: "Call failed", "Number inactive"
-- `badge-info`: "SMS", "OTP received", "New"
-
-### 3.8 Navigation / Header
-
-```
-┌──────────────────────────────────────────────────────┐
-│  [Logo]  Dialpad  Numbers  History  │  $12.40  [Avatar] │
-└──────────────────────────────────────────────────────┘
-```
-
-- Logo: "NomaPhone" in `--font-display` + `--weight-bold`, white. No logomark needed initially.
-- Nav items: `--font-body`, `--weight-medium`, `--text-sm`, `--color-text-secondary`. Active: `--color-text-primary` + 2px bottom border in `--color-signal`.
-- Credit balance always visible in header on authenticated pages.
-- Mobile: bottom tab bar with icons + labels. Same items.
-
-### 3.9 Country/Number Selector
-
-```
-┌────────────────────────────────────────┐
-│  🔍  Search countries...               │
-├────────────────────────────────────────┤
-│  🇺🇸  United States      $0.03/min    │
-│  🇬🇧  United Kingdom     $0.03/min    │
-│  🇮🇳  India              $0.08/min    │
-│  🇲🇽  Mexico             $0.03/min    │
-│  ── Recently called ──                 │
-│  🇦🇷  Argentina          $0.12/min    │
-└────────────────────────────────────────┘
-```
-
-- Searchable dropdown. Flags are emoji, not images.
-- Show rate inline so user knows cost before selecting.
-- "Recently called" section pinned at top after first use.
-- Keyboard navigable (arrow keys + enter).
+### Blog prose
+Ink text on paper, green underlined links, square green list markers, tables with border rules, hero image in a rounded bordered frame.
 
 ---
 
-## 4. Layout Patterns
-
-### 4.1 Page Types
-
-**Landing / Marketing**:
-- Full-width hero → constrained content sections (max `1200px`)
-- Generous vertical spacing (`--space-20` to `--space-24`)
-- No sidebar. Single column with occasional 2–3 col grids for features/pricing.
-
-**App / Dashboard** (authenticated):
-- Fixed header + optional bottom tab bar (mobile)
-- Single-column main content, max `720px` centered
-- No sidebar on any breakpoint — the app is intentionally simple
-
-**Dialpad view**:
-- Centered, max `400px` wide
-- Phone input at top, numpad below, call button at bottom
-- Fullscreen feel on mobile (no visible chrome except header)
-
-### 4.2 Responsive Breakpoints
-
-```css
-/* Mobile-first */
---bp-sm:  640px;    /* Large phones, landscape */
---bp-md:  768px;    /* Tablets */
---bp-lg:  1024px;   /* Small laptops */
---bp-xl:  1280px;   /* Desktops */
-```
-
-**Rules**:
-- Design mobile-first. Every component must work at 320px.
-- The dialpad is the primary mobile experience — optimize it ruthlessly.
-- Marketing pages: stack to single column below `--bp-md`.
-- Never horizontal scroll. Ever.
-
-### 4.3 Grid
-
-```css
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 var(--space-6);
-}
-.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-6); }
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); }
-
-@media (max-width: 768px) {
-  .grid-2, .grid-3 { grid-template-columns: 1fr; }
-}
-```
+## 4. Artwork
+- Main asset: `public/pixel/phone.webp` (980×900, transparent). Also in `src/assets/nomaphone-phone.webp` for OG images.
+- Keep it crisp; don't recolor, crop the handset or add gradients. Optional hard-edged drop shadow (`8px 10px 0 rgba(18,42,49,.12)`).
+- Blog hero images are illustrations per post; new ones should prefer the pixel style.
 
 ---
 
-## 5. Iconography
-
-Use **Lucide** icons exclusively (`lucide-react` or inline SVG from lucide.dev).
-
-**Core icons by function**:
-| Function | Icon | Context |
-|---|---|---|
-| Call / dial | `Phone` | Call button, nav |
-| End call | `PhoneOff` | Active call, hang up |
-| Add credits | `Plus` or `CreditCard` | Top-up flow |
-| Numbers | `Hash` | Virtual numbers section |
-| History | `Clock` | Call log |
-| Settings | `Settings` | Account/preferences |
-| SMS | `MessageSquare` | Message view |
-| Signal quality | `Signal` | During call |
-| Country | `Globe` | Country selector |
-| Copy | `Copy` | Copy number |
-| Search | `Search` | Country/contact search |
-| Warning | `AlertTriangle` | Low balance, errors |
-| Check | `Check` | Success, confirmed |
-| Close | `X` | Dismiss, close modal |
-| Menu | `Menu` | Mobile hamburger |
-
-**Rules**:
-- Icon size: 20px default, 16px in compact contexts, 24px in nav.
-- Stroke width: 1.75 (Lucide default). Never change it.
-- Color inherits from parent text color. Never apply standalone color to icons unless it's a status indicator.
+## 5. Layout
+- Max content width 72rem (site), 48–52rem for reading pages and the rates table.
+- Mobile first from 320px; 16px side gutter; no horizontal scroll (tables scroll inside their own wrapper).
+- Homepage order: Hero → How it works (3 steps) → Rates (main corridors) → Use cases → FAQ → Final CTA (ink band).
 
 ---
 
-## 6. Key Screens Reference
-
-AI agents should produce these screens following the patterns above.
-
-### 6.1 Dialpad (primary app screen)
-```
-┌───────────────────────┐
-│  [Nav: Dialpad active] │
-│                        │
-│  🇺🇸 ▾  +1 (555) 123-4567  │
-│          $0.03/min     │
-│                        │
-│    1     2     3       │
-│   ABC   DEF            │
-│    4     5     6       │
-│   GHI   JKL   MNO     │
-│    7     8     9       │
-│   PQRS  TUV  WXYZ     │
-│    *     0     #       │
-│                        │
-│       [  📞  ]         │  ← Big green call button
-│                        │
-│   Balance: $12.40      │
-└───────────────────────┘
-```
-
-### 6.2 Active Call
-```
-┌───────────────────────┐
-│                        │
-│   +1 (555) 123-4567   │
-│   United States        │
-│                        │
-│      03:24             │  ← Elapsed time, --font-mono
-│      ● Connected       │  ← Green badge
-│                        │
-│   [Mute] [Keypad] [Speaker] │
-│                        │
-│       [  🔴  ]         │  ← Red hang-up button
-│                        │
-│   $0.03/min • $0.10    │  ← Rate + running cost
-└───────────────────────┘
-```
-
-### 6.3 Credits / Top-up
-```
-┌───────────────────────┐
-│  Current balance       │
-│  $2.30                 │  ← Amber if low
-│                        │
-│  ┌──────┐ ┌──────┐    │
-│  │ $10  │ │ $25  │    │  ← Card grid, selectable
-│  └──────┘ └──────┘    │
-│  ┌──────┐ ┌──────────┐│
-│  │ $50  │ │ $100     ││  ← $100 shows "15% bonus"
-│  │+10%  │ │ +15%     ││    badge
-│  └──────┘ └──────────┘│
-│                        │
-│  [Add credits — $25]   │  ← Primary button
-│  Powered by Stripe     │
-└───────────────────────┘
-```
-
-### 6.4 Virtual Numbers
-```
-┌───────────────────────┐
-│  My Numbers            │
-│                        │
-│  🇺🇸 +1 (415) 555-0199│
-│  Active • $2.19/mo     │
-│  [Copy] [Settings]     │
-│                        │
-│  ── Get a new number ──│
-│  🇺🇸 USA    $2.19/mo   │
-│  🇬🇧 UK     $1.90/mo   │
-│  🇮🇳 India  Coming soon │
-│  🇲🇽 Mexico Coming soon │
-└───────────────────────┘
-```
+## 6. Accessibility
+- WCAG 2.1 AA: ink and muted on paper pass; green on paper passes; orange only as `#b8531c` for small text.
+- Visible focus: `outline: 2px solid var(--color-green); outline-offset: 2px`.
+- All images have alt text (decorative art uses `alt=""`).
+- Touch targets ≥ 44×44px. Forms have visible labels.
 
 ---
 
-## 7. Accessibility
+## 7. Anti-patterns
 
-- **WCAG 2.1 AA** minimum. All color combinations must pass 4.5:1 contrast.
-- Focus rings: `outline: 2px solid var(--color-signal); outline-offset: 2px;` on all interactive elements.
-- All images/icons have `aria-label` or `alt` text.
-- Dialpad is fully keyboard-operable (Tab, Enter, arrow keys).
-- Screen reader: call status changes announced via `aria-live="polite"`.
-- Touch targets: minimum 44×44px.
-- `prefers-reduced-motion`: disable all animations, show static states.
-
----
-
-## 8. AI Agent Instructions
-
-When building any NomaPhone interface, follow this checklist:
-
-### Before writing code:
-1. Identify which **screen type** you're building (landing, app, dialpad, settings).
-2. Confirm the **single primary action** on the screen.
-3. Check if the component exists in Section 3 — reuse before creating.
-
-### While writing code:
-4. Use CSS custom properties from Section 2 — never hardcode colors/sizes.
-5. Use `--font-mono` for all numbers (phone, rates, balances, times).
-6. Use `--color-signal` only for the primary action element.
-7. Every interactive element needs hover + focus + disabled states.
-8. Mobile-first: start at 320px, add breakpoints up.
-
-### Copy/content rules:
-9. Headlines: max 8 words, factual, no marketing fluff.
-10. CTAs: `verb + object` format only.
-11. Error messages: `what happened + what to do`.
-12. Rates: always `$X.XX/min`, monospace, green.
-13. Phone numbers: always `+CC (XXX) XXX-XXXX`, monospace.
-14. Balances: always 2 decimal places, monospace.
-
-### Quality checks:
-15. No `#000000` backgrounds — use `--color-midnight`.
-16. No orphan text (single word on last line of heading).
-17. No horizontal scroll at any breakpoint.
-18. Contrast ratio ≥ 4.5:1 on all text.
-19. Animations respect `prefers-reduced-motion`.
-20. All forms have visible labels — no placeholder-only patterns.
-
----
-
-## 9. File Structure (for reference)
-
-```
-nomaphone/
-├── public/
-│   └── fonts/            # Self-hosted fallbacks
-├── src/
-│   ├── styles/
-│   │   ├── tokens.css    # All CSS custom properties from Section 2
-│   │   ├── reset.css     # Minimal reset (box-sizing, margin, font-smoothing)
-│   │   └── global.css    # Base element styles, imports tokens
-│   ├── components/
-│   │   ├── ui/           # Primitives: Button, Input, Card, Badge, etc.
-│   │   ├── call/         # CallButton, Dialpad, ActiveCall, CallTimer
-│   │   ├── credits/      # CreditBalance, TopUpCard, TopUpFlow
-│   │   ├── numbers/      # NumberCard, NumberSelector, CountryPicker
-│   │   ├── rates/        # RateRow, RateTable, RateSearch
-│   │   └── layout/       # Header, BottomNav, Container, PageShell
-│   ├── pages/            # Next.js pages or route components
-│   └── lib/              # Utilities, formatters, API client
-└── DESIGN_SYSTEM.md      # This file
-```
-
----
-
-## 10. Anti-Patterns (never do these)
-
-| ❌ Anti-pattern | ✅ Correct approach |
+| Don't | Do |
 |---|---|
-| Light/white backgrounds | Dark only. `--color-midnight` base. |
-| Multiple primary buttons on one screen | One `primary` max. Others are `secondary`/`ghost`. |
-| Green used decoratively (borders, backgrounds, text) | Green = primary action or active/success state only |
-| Phone numbers in body font | Always `--font-mono` |
-| "Get Started" / "Submit" / "Continue" CTAs | Verb + object: "Add credits", "Start call" |
-| Modal for simple confirmations | Inline confirmation or bottom sheet on mobile |
-| Placeholder-only form labels | Visible label above every input |
-| Loading spinner with no context | Skeleton screens or progress text ("Connecting...") |
-| Emoji as functional icons | Emoji for flags only. Lucide icons for actions. |
-| Sidebar navigation | Top nav (desktop) + bottom tabs (mobile). No sidebar. |
-| Auto-playing sounds or animations | User-initiated only. Respect reduced-motion. |
-| Hiding the rate until after dialing | Rate visible before AND during the call. |
-| Credit balance hidden in settings | Always visible in header/nav. |
+| Dark theme, neon glows | Paper background, ink borders, hard shadows |
+| Gradient or transparent text | Solid ink headings |
+| Multiple primary buttons | One green primary, the rest ghost |
+| Hardcoded prices | `RateFor` / `[[rate:XX]]` from rates.json |
+| "210+ countries", "virtual numbers", "receive SMS", "waitlist" | Real coverage from rates.json, outgoing calls only, app CTA |
+| "Join the waitlist", "Get started" | "Make a call", "See rates" |
+| Emoji as icons | Lucide icons; pixel art for illustration |

@@ -106,7 +106,27 @@ A consultant in Portugal with UK clients gets a London number, publishes it, and
 
 ### Keeping a "home" number while abroad
 
-Some people port their old mobile number to a virtual provider so they don't lose it. This can work, but read the limitations below before relying on it for banking. See also our guides on [keeping your US number while living abroad](/blog/how-to-keep-us-number-while-living-abroad/) and [virtual numbers for digital nomads](/blog/virtual-number-for-digital-nomads-guide/).
+Some people port their old mobile number to a virtual provider so they don't lose it. This can work, but read the limitations below before relying on it for banking. See also our guide on [keeping your US number while living abroad](/blog/how-to-keep-us-number-while-living-abroad/).
+
+### Digital nomads: one stable number across borders
+
+Picking up a local SIM in each new country is great for data, but it's a liability if your accounts are tied to whatever number you had last. Every time you retire a SIM you risk losing:
+
+- **Bank and payment access**, when login or transaction approvals rely on SMS codes.
+- **Government and tax portals** back home, which still send codes to the number on file.
+- **2FA on everyday services** like Google, Microsoft and PayPal, where changing the number mid-trip can turn into a long account recovery.
+- **Client and employer contact**, because handing out a new number every few weeks causes missed calls.
+
+Keeping your home plan on roaming is the usual fallback, but carrier roaming can cost several dollars a minute for calls, on top of the monthly plan you're paying just so the number doesn't get recycled.
+
+A setup that works for many long-term travelers:
+
+1. **Keep your original number alive cheaply** where possible: move it to a low-cost carrier (in the US, Tello or US Mobile, which can receive texts over Wi-Fi calling), an eSIM plan, or a number-parking service. This is usually the most robust option for bank 2FA.
+2. **Set up a virtual number before you leave** if you want one. Google Voice, for example, needs an existing US number to sign up.
+3. **Move accounts to authenticator apps or push approvals** wherever you can, so they don't depend on a phone number at all.
+4. **Test every important account** with the number you plan to use before you go.
+
+This matters most for long-term travelers who move every few weeks or months, expats with financial and legal ties to their home country, and remote workers or freelancers who need to stay reachable for clients in a specific country.
 
 ### Separating personal and work
 

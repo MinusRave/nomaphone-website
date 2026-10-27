@@ -1,0 +1,25 @@
+# Cloudflare Pages redirects (relaunch 2026-10-27)
+
+# Pre-sale / waitlist pages (retired)
+/reserve-credits /  301
+/reserve-credits/ /  301
+/thank-you-page /  301
+/thank-you-page/ /  301
+
+# Duplicate-intent posts merged into the stronger URL (by GSC clicks/impressions)
+/blog/maintain-us-phone-number-abroad /blog/how-to-keep-us-number-while-living-abroad/ 301
+/blog/maintain-us-phone-number-abroad/ /blog/how-to-keep-us-number-while-living-abroad/ 301
+/blog/receive-sms-otp-abroad-no-roaming /blog/international-sms-2fa-codes-abroad/ 301
+/blog/receive-sms-otp-abroad-no-roaming/ /blog/international-sms-2fa-codes-abroad/ 301
+/blog/international-calling-from-bali /blog/international-calling-from-indonesia-bali/ 301
+/blog/international-calling-from-bali/ /blog/international-calling-from-indonesia-bali/ 301
+/blog/call-800-numbers-from-outside-us /blog/how-to-call-us-toll-free-numbers-from-anywhere/ 301
+/blog/call-800-numbers-from-outside-us/ /blog/how-to-call-us-toll-free-numbers-from-anywhere/ 301
+/blog/calling-landlines-vs-mobile-numbers-cost /blog/mobile-vs-landline-international-costs/ 301
+/blog/calling-landlines-vs-mobile-numbers-cost/ /blog/mobile-vs-landline-international-costs/ 301
+/blog/virtual-number-for-digital-nomads-guide /blog/virtual-phone-numbers-international-guide/ 301
+/blog/virtual-number-for-digital-nomads-guide/ /blog/virtual-phone-numbers-international-guide/ 301
+/blog/skype-alternative-for-international-calling /blog/skype-shut-down-7-best-alternatives-for-international-calling-in-2025/ 301
+/blog/skype-alternative-for-international-calling/ /blog/skype-shut-down-7-best-alternatives-for-international-calling-in-2025/ 301
+/blog/call-india-from-usa-browser /blog/how-to-call-india-from-usa-rates-methods-best-practices/ 301
+/blog/call-india-from-usa-browser/ /blog/how-to-call-india-from-usa-rates-methods-best-practices/ 301

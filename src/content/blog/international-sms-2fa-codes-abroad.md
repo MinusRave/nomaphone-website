@@ -77,7 +77,7 @@ Before choosing, check that the plan supports **Wi-Fi calling and texting** on y
 5. With roaming off and Wi-Fi on, request a code from your bank and confirm it arrives.
 6. Set up auto-pay.
 
-**Best for:** long-term travelers who need a bank-compatible number without carrier prices. See also [how to maintain a US phone number abroad](/blog/maintain-us-phone-number-abroad/).
+**Best for:** long-term travelers who need a bank-compatible number without carrier prices. See also [how to maintain a US phone number abroad](/blog/how-to-keep-us-number-while-living-abroad/).
 
 ## Solution 4: Dual-SIM Phones
 
@@ -155,6 +155,15 @@ Hardware keys (YubiKey, Google Titan and other FIDO2 keys) work without any phon
 
 Bank policies change and differ by account type, so don't rely on lists of which bank accepts what. Check your security settings, or call. Our [guide to calling banks from abroad](/blog/calling-banks-from-abroad-complete-guide-expats/) covers how.
 
+### If Your Home Number Is in the UK
+
+The same principles apply to a UK number, with a few differences worth knowing:
+
+- **Pay-as-you-go SIMs can be disconnected after a period without use.** Networks set their own rules, so check your network's terms and make a small chargeable use or top-up regularly to keep the number alive.
+- **Roaming isn't free everywhere anymore.** Several UK networks charge daily fees for EU roaming, so the same setup applies: data roaming off on the UK line, a local SIM or travel eSIM for data, Wi-Fi calling on.
+- **UK banks lean on SMS and app approval**, including for online card payments. Turn on in-app approval in your banking app before you leave, and confirm whether the bank will send codes to a foreign number.
+- **Save the number your bank lists for calling from abroad.** UK banks usually publish a standard number for overseas callers alongside their freephone line.
+
 ## Common Problems and Solutions
 
 ### Problem: SMS Arrives Late or Never Arrives
@@ -180,7 +189,7 @@ When every automated option fails, a person can usually help. Banks and carriers
 
 The obstacle abroad is the call itself: many US toll-free numbers can't be reached from foreign phone networks, and roaming calls can be expensive.
 
-That's where NomaPhone fits. It calls any landline or mobile from your browser, with no app or account, and US and Canadian toll-free numbers are included at the normal US rate of [[rate:US:landline]], billed per second. It won't receive the code, and the agent won't see your US number, so expect them to verify you another way. See [how to call US toll-free numbers from anywhere](/blog/how-to-call-us-toll-free-numbers-from-anywhere/).
+That's where NomaPhone fits. It calls any landline or mobile from your browser, with no app or account, and US and Canadian toll-free numbers are included at the normal US rate of [[rate:US:landline]], billed per second. It won't receive the code, and the agent won't see your US number, so expect them to verify you another way. You can also use it to call your home carrier's support line, for example to reactivate a suspended line or move your number onto an eSIM, and to reach a UK bank's overseas number at [[rate:GB]]. See [how to call US toll-free numbers from anywhere](/blog/how-to-call-us-toll-free-numbers-from-anywhere/).
 
 ## Security Best Practices
 
@@ -203,7 +212,7 @@ Google Voice alone costs nothing but leaves your banks out. A low-cost prepaid l
 
 ## FAQ
 
-**Can I receive SMS abroad without roaming?** Often, yes, via Wi-Fi calling on carriers and phones that support it. See [how to receive SMS OTPs abroad without roaming](/blog/receive-sms-otp-abroad-no-roaming/).
+**Can I receive SMS abroad without roaming?** Often, yes, via Wi-Fi calling on carriers and phones that support it. See the Wi-Fi calling section above (Solution 1 and the iPhone section) for setup steps.
 
 **Will my bank send codes to a foreign SIM?** Some will, many won't. See [will 2FA work with a foreign SIM](/blog/will-2fa-work-foreign-sim/).
 

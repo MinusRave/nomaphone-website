@@ -138,7 +138,7 @@ But here's the context that matters: both services are dramatically cheaper than
 
 Price-per-minute comparisons look clean in a table. But they don't capture the full picture.
 
-Neither service receives SMS or 2FA codes. NomaPhone makes outgoing calls only and doesn't give you a phone number, and YadaPhone, based on its published features, doesn't offer SMS/2FA receiving either. If your bank texts codes to your US number, you need a separate solution, like keeping a cheap US plan alive or switching to app-based authentication. Our guide to [keeping a US phone number abroad](/blog/maintain-us-phone-number-abroad/) covers the options.
+Neither service receives SMS or 2FA codes. NomaPhone makes outgoing calls only and doesn't give you a phone number, and YadaPhone, based on its published features, doesn't offer SMS/2FA receiving either. If your bank texts codes to your US number, you need a separate solution, like keeping a cheap US plan alive or switching to app-based authentication. Our guide to [keeping a US phone number abroad](/blog/how-to-keep-us-number-while-living-abroad/) covers the options.
 
 Here's where calling still helps. You're in Bali. Your Chase account flags a suspicious login because you're accessing it from an Indonesian IP address. Chase sends a 6-digit verification code to your US phone number. You don't receive it because you're using a local SIM. You need to call Chase's fraud department, and the number on the back of your card is toll-free.
 

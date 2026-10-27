@@ -203,7 +203,7 @@ To make it concrete, say you need a 30-minute call with a supplier's mobile phon
 | Calling card | Often $1 - $5 | Watch connection and maintenance fees |
 | WeChat | Free | Only if they're on WeChat |
 
-If cost per minute is all that matters and you call China often, an app-based service or WeChat wins. If you need to reach a Chinese phone number once or occasionally, from a laptop or a borrowed device, with nothing to install, a browser service is the simpler path. Our guide to [calling landlines vs mobile numbers](/blog/calling-landlines-vs-mobile-numbers-cost/) explains why mobile rates are often higher across countries.
+If cost per minute is all that matters and you call China often, an app-based service or WeChat wins. If you need to reach a Chinese phone number once or occasionally, from a laptop or a borrowed device, with nothing to install, a browser service is the simpler path. Our guide to [calling landlines vs mobile numbers](/blog/mobile-vs-landline-international-costs/) explains why mobile rates are often higher across countries.
 
 ## Tips for Better Call Quality to China
 
