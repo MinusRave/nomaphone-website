@@ -45,7 +45,7 @@ const posts = entries
   });
 
 const pageTitle = "NomaPhone Blog";
-const pageDescription = "International calling tips, digital nomad guides, and remote work communication strategies for location-independent professionals.";
+const pageDescription = "International calling guides for travelers, expats and digital nomads: how to reach banks, family and offices from abroad, straight from your browser.";
 ---
 
 <!doctype html>
@@ -64,12 +64,12 @@ const pageDescription = "International calling tips, digital nomad guides, and r
     <!-- Main Content -->
     <main class="min-h-screen bg-background">
       <!-- Hero Section -->
-      <section class="border-b bg-gradient-to-b from-[hsl(var(--muted))] to-background">
+      <section class="border-b bg-gradient-to-b from-[var(--color-surface-raised)] to-background">
         <div class="container mx-auto px-4 py-16 md:py-24">
           <div class="mx-auto max-w-3xl text-center">
-            <Badge variant="secondary" class="mb-4">📝 Blog</Badge>
+            <Badge variant="secondary" class="mb-4 font-mono">Guides</Badge>
             <h1 class="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              <span class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
+              <span>
                 {pageTitle}
               </span>
             </h1>
@@ -95,7 +95,7 @@ const pageDescription = "International calling tips, digital nomad guides, and r
                   class="group block h-full"
                   aria-label={`Read: ${post.title}`}
                 >
-                  <Card className="h-full overflow-hidden border-2 transition-all hover:border-[hsl(var(--secondary)/0.35)] hover:shadow-xl">
+                  <Card className="h-full overflow-hidden border-2 transition-all hover:border-[var(--color-signal)] hover:shadow-xl">
                     {/* Hero Image */}
                     {post.hero && (
                       <div class="relative aspect-video overflow-hidden bg-muted">
@@ -137,7 +137,7 @@ const pageDescription = "International calling tips, digital nomad guides, and r
                       </div>
 
                       {/* Title */}
-                      <CardTitle className="text-xl transition-colors group-hover:text-[hsl(var(--secondary))]">
+                      <CardTitle className="text-xl transition-colors group-hover:text-[var(--color-signal)]">
                         {post.title}
                       </CardTitle>
 
@@ -169,7 +169,7 @@ const pageDescription = "International calling tips, digital nomad guides, and r
 
                     {/* Read more indicator */}
                     <CardContent className="pt-2">
-                      <div class="flex items-center gap-2 text-sm font-medium text-[hsl(var(--secondary))] transition-all group-hover:gap-3">
+                      <div class="flex items-center gap-2 text-sm font-medium text-[var(--color-signal)] transition-all group-hover:gap-3">
                         <span>Read article</span>
                         <span class="transition-transform group-hover:translate-x-1">→</span>
                       </div>

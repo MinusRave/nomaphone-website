@@ -205,11 +205,7 @@ const {
           <h1
             class="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl"
           >
-            <span
-              class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent"
-            >
-              {title}
-            </span>
+            {title}
           </h1>
 
           {/* Description */}
@@ -261,9 +257,9 @@ const {
         </header>
 
         {/* Article Content */}
-        <div class="prose prose-lg dark:prose-invert mx-auto max-w-3xl">
-          <slot name="mid-cta" />
-          <slot />
+        <div class="prose prose-lg mx-auto max-w-3xl">
+          <div id="mid-cta-placeholder" style="display:none"><slot name="mid-cta" /></div>
+          <div id="article-content"><slot /></div>
           <slot name="end-cta" />
         </div>
 
@@ -275,7 +271,7 @@ const {
           <div class="flex items-center justify-between">
             <a
               href="/blog"
-              class="inline-flex items-center gap-2 text-sm font-medium text-[hsl(var(--secondary))] transition-colors hover:opacity-90"
+              class="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-signal)] transition-colors hover:opacity-90"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to all posts
@@ -318,14 +314,14 @@ const {
   }
 
   .prose a {
-    color: hsl(var(--secondary));
+    color: var(--color-signal);
     text-decoration: underline;
-    text-decoration-color: hsl(var(--secondary) / 0.3);
+    text-decoration-color: color-mix(in srgb, var(--color-signal) 35%, transparent);
     text-underline-offset: 4px;
     transition: opacity 0.2s ease;
   }
   .prose a:hover {
-    text-decoration-color: hsl(var(--secondary));
+    text-decoration-color: var(--color-signal);
     opacity: 0.9;
   }
 
@@ -353,7 +349,7 @@ const {
   }
 
   .prose blockquote {
-    border-left: 4px solid hsl(var(--secondary));
+    border-left: 4px solid var(--color-signal);
     @apply my-6 pl-6 italic text-muted-foreground;
   }
 

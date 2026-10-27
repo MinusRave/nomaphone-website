@@ -1,0 +1,15 @@
+---
+// <RateFor country="IN" />              -> "from $0.10/min"
+// <RateFor country="IN" type="mobile" /> -> "$0.10/min"
+// <RateFor country="MX" type="both" />   -> "$0.04/min to landlines and $0.10/min to mobiles"
+// In .md posts use the equivalent token: [[rate:IN]], [[rate:IN:mobile]], [[rate:MX:both]].
+import { rateText } from "@/lib/rates.mjs";
+
+interface Props {
+  country: string;
+  type?: "from" | "landline" | "mobile" | "both";
+  class?: string;
+}
+const { country, type = "from", class: className } = Astro.props;
+---
+<span class:list={["np-rate", className]} data-country={country.toUpperCase()}>{rateText(country, type)}</span>

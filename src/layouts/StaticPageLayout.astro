@@ -58,7 +58,7 @@ const {
     <!-- Reading progress (sotto l'header) -->
     <div
       id="reading-progress"
-      class="fixed left-0 top-0 z-40 h-0.5 w-0 bg-[hsl(var(--secondary))] transition-[width] duration-150 ease-out"
+      class="fixed left-0 top-0 z-40 h-0.5 w-0 bg-[var(--color-signal)] transition-[width] duration-150 ease-out"
     ></div>
 
     <Header client:load currentPath={currentPath} />
@@ -107,7 +107,7 @@ const {
             )}
 
             <h1 class="mb-4 text-4xl font-semibold tracking-tight sm:text-5xl md:text-5xl">
-              <span class="bg-[linear-gradient(to_right,hsl(var(--secondary-muted)),hsl(var(--secondary)))] bg-clip-text text-transparent">
+              <span class="text-foreground">
                 {title}
               </span>
             </h1>
@@ -157,7 +157,7 @@ const {
                           }`}
                       >
                         <span
-                          class={`mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[hsl(var(--secondary-muted))] opacity-40
+                          class={`mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[var(--color-text-muted)] opacity-40
                             group-hover:opacity-90`}
                         ></span>
                         <span class="leading-snug">
@@ -331,20 +331,20 @@ const {
   }
 
   .prose a {
-    color: hsl(var(--secondary));
+    color: var(--color-signal);
     text-decoration: underline;
-    text-decoration-color: hsl(var(--secondary) / 0.35);
+    text-decoration-color: color-mix(in srgb, var(--color-signal) 35%, transparent);
     text-underline-offset: 3px;
     transition: opacity .18s ease, text-decoration-color .18s ease, color .18s ease;
   }
 
   .prose a:hover {
-    text-decoration-color: hsl(var(--secondary));
+    text-decoration-color: var(--color-signal);
     opacity: .95;
   }
 
   .prose blockquote {
-    border-left: 4px solid hsl(var(--secondary));
+    border-left: 4px solid var(--color-signal);
     @apply my-6 pl-5 italic text-muted-foreground bg-muted/20 rounded-r-xl;
   }
 
@@ -375,6 +375,6 @@ const {
   }
   .prose .callout::before {
     content: "★";
-    @apply mt-0.5 text-[hsl(var(--secondary))];
+    @apply mt-0.5 text-[var(--color-signal)];
   }
 </style>

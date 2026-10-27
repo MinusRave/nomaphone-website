@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "rates:sync": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/sync-rates.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

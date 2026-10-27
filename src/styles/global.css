@@ -2,36 +2,45 @@
 @import "tw-animate-css";
 
 @theme {
-  --color-midnight: #0B1120;
-  --color-surface: #111827;
-  --color-surface-raised: #1F2937;
-  --color-border: #374151;
-  --color-border-focus: #6B7280;
+  /* Relaunch palette (pixel public phone): paper #f4f0e5, ink #122a31, muted #536166, green #087b65, orange #ee7938 */
+  --color-paper: #f4f0e5;
+  --color-paper-2: #fffdf7;
+  --color-ink: #122a31;
+  --color-green: #087b65;
+  --color-orange: #ee7938;
+  --color-lcd: #082626;
+  --color-lcd-ink: #3ee2b5;
+  --font-lcd: 'VT323', ui-monospace, monospace;
+  --color-midnight: #f4f0e5;
+  --color-surface: #fffdf7;
+  --color-surface-raised: #ebe5d6;
+  --color-border: #cfc9b8;
+  --color-border-focus: #536166;
 
-  --color-signal: #10B981;
-  --color-signal-hover: #059669;
-  --color-signal-subtle: #10B98115;
-  --color-signal-glow: #10B98130;
+  --color-signal: #087b65;
+  --color-signal-hover: #064e40;
+  --color-signal-subtle: #087b6514;
+  --color-signal-glow: #087b6530;
 
-  --color-text-primary: #F9FAFB;
-  --color-text-secondary: #9CA3AF;
-  --color-text-muted: #6B7280;
-  --color-text-inverse: #0B1120;
+  --color-text-primary: #122a31;
+  --color-text-secondary: #536166;
+  --color-text-muted: #536166;
+  --color-text-inverse: #fffdf7;
 
-  --color-amber: #F59E0B;
-  --color-amber-subtle: #F59E0B15;
+  --color-amber: #ee7938;
+  --color-amber-subtle: #ee793820;
   --color-red: #EF4444;
   --color-red-subtle: #EF444415;
   --color-blue: #3B82F6;
   --color-blue-subtle: #3B82F615;
 
-  --color-rate: #10B981;
-  --color-credit-badge: #F59E0B;
+  --color-rate: #087b65;
+  --color-credit-badge: #ee7938;
 
-  --font-display: 'Satoshi', sans-serif;
-  --font-body: 'General Sans', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-  --font-sans: 'General Sans', sans-serif;
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-body: 'Archivo', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-sans: 'Archivo', system-ui, sans-serif;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -101,31 +110,31 @@
 
 @layer base {
   :root {
-    --color-midnight: #0B1120;
-    --color-surface: #111827;
-    --color-surface-raised: #1F2937;
-    --color-border: #374151;
-    --color-border-focus: #6B7280;
-    --color-signal: #10B981;
-    --color-signal-hover: #059669;
-    --color-signal-subtle: #10B98115;
-    --color-signal-glow: #10B98130;
-    --color-text-primary: #F9FAFB;
-    --color-text-secondary: #9CA3AF;
-    --color-text-muted: #6B7280;
-    --color-text-inverse: #0B1120;
-    --color-amber: #F59E0B;
-    --color-amber-subtle: #F59E0B15;
+    --color-midnight: #f4f0e5;
+    --color-surface: #fffdf7;
+    --color-surface-raised: #ebe5d6;
+    --color-border: #cfc9b8;
+    --color-border-focus: #536166;
+    --color-signal: #087b65;
+    --color-signal-hover: #064e40;
+    --color-signal-subtle: #087b6514;
+    --color-signal-glow: #087b6530;
+    --color-text-primary: #122a31;
+    --color-text-secondary: #536166;
+    --color-text-muted: #536166;
+    --color-text-inverse: #fffdf7;
+    --color-amber: #ee7938;
+    --color-amber-subtle: #ee793820;
     --color-red: #EF4444;
     --color-red-subtle: #EF444415;
     --color-blue: #3B82F6;
     --color-blue-subtle: #3B82F615;
-    --color-rate: #10B981;
-    --color-credit-badge: #F59E0B;
+    --color-rate: #087b65;
+    --color-credit-badge: #ee7938;
 
-    --font-display: 'Satoshi', sans-serif;
-    --font-body: 'General Sans', sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
+    --font-display: 'Archivo', system-ui, sans-serif;
+    --font-body: 'Archivo', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
     --text-xs: 0.75rem;
     --text-sm: 0.875rem;
@@ -175,9 +184,9 @@
     --radius-xl: 24px;
     --radius-full: 9999px;
 
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --shadow-sm: 0 1px 2px rgba(18, 42, 49, 0.08);
+    --shadow-md: 0 4px 12px rgba(18, 42, 49, 0.12);
+    --shadow-lg: 0 8px 30px rgba(18, 42, 49, 0.16);
     --shadow-glow: 0 0 20px var(--color-signal-glow);
 
     --border-default: 1px solid var(--color-border);
@@ -192,7 +201,7 @@
     --duration-slow: 350ms;
     --duration-reveal: 600ms;
 
-    color-scheme: dark;
+    color-scheme: light;
     
     /* Shadcn defaults */
     --background: var(--color-midnight);
@@ -227,6 +236,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
+    font-weight: 800;
     line-height: var(--leading-tight);
     letter-spacing: var(--tracking-tight);
   }

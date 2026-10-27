@@ -1,76 +1,365 @@
 ---
 /**
- * NomaPhone Landing Page
- *
- * Esempio di integrazione con Astro
- * Sostituisci questo file con src/pages/index.astro
+ * NomaPhone homepage: "The internet's public phone."
+ * Facts only (see docs/relaunch-changes.md). Rates come from src/data/rates.json.
  */
-
 import BaseHead from "@/components/BaseHead.astro";
 import Header from "@/components/Header";
-import LandingPage from "@/components/LandingPage.tsx";
 import Footer from "@/components/Footer.tsx";
+import RateFor from "@/components/RateFor.astro";
+import { APP_URL } from "@/consts";
+import phoneArt from "@/assets/nomaphone-phone.webp";
+import { getCountry, formatPerMin, COUNTRY_COUNT, RATES_GENERATED_AT } from "@/lib/rates.mjs";
 
-const title = "NomaPhone - International Calling for Digital Nomads";
+const title = "NomaPhone: the internet's public phone. Call any number from your browser";
 const description =
-  "Make international calls directly from your browser. No apps, no downloads. Perfect for digital nomads and remote workers. Call 200+ countries starting at $0.03/minute.";
+  "Call any landline or mobile straight from your browser. No app, no account, no SIM. Prepaid credit from $5, rate shown before you dial, billed per second, unused credit refundable.";
+
+const corridors = ["US", "GB", "IN", "MX", "PH"].map((code) => {
+  const row = getCountry(code);
+  return {
+    code,
+    name: row.name,
+    landline: row.landlineCents !== undefined ? formatPerMin(row.landlineCents) : "n/a",
+    mobile: row.mobileCents !== undefined ? formatPerMin(row.mobileCents) : "n/a",
+  };
+});
+
+const usRate = formatPerMin(getCountry("US").landlineCents);
+
+const steps = [
+  {
+    n: "1",
+    title: "Buy a phone card",
+    text: "Pick $5, $10 or $20 and pay with Apple Pay, Google Pay or card. You get a code like CAB-XXXX-XXXX-XXXX, also sent to your email.",
+  },
+  {
+    n: "2",
+    title: "Dial the number",
+    text: "Type any landline or mobile in your browser. The per-minute rate appears on screen before you press call.",
+  },
+  {
+    n: "3",
+    title: "Talk. Pay per second.",
+    text: "Calls are billed per second, up to 30 minutes each. Credit never expires and unused credit is refundable.",
+  },
+];
+
+const useCases = [
+  {
+    title: "Call US banks, the IRS and airlines from abroad",
+    text: `US and Canadian toll-free numbers (800, 888, 877, 866, 855, 844, 833) work at the normal US rate of ${usRate}. No US phone line needed.`,
+    href: "/blog/how-to-call-us-toll-free-numbers-from-anywhere/",
+    link: "How to call US toll-free numbers",
+  },
+  {
+    title: "Call family on their landline or mobile",
+    text: "Grandparents without WhatsApp, a landline back home, a mobile on a weak data connection: if it has a phone number, you can ring it.",
+    href: "/rates/",
+    link: "See rates by country",
+  },
+  {
+    title: "Life after Skype credit",
+    text: "Skype shut down in May 2025. NomaPhone covers the part most people miss: calling real phone numbers with pay-as-you-go credit, without installing anything.",
+    href: "/blog/tested-7-skype-replacements/",
+    link: "Skype replacements we tested",
+  },
+];
+
+const faqs = [
+  {
+    q: "Do I need an app or an account?",
+    a: "No. NomaPhone runs in your browser on phone or laptop. Your phone card code is your access: keep it like cash. It's also emailed to you, and if you lose it we can re-send it to the email you paid with.",
+  },
+  {
+    q: "Does NomaPhone give me a phone number?",
+    a: "No. NomaPhone is for outgoing voice calls only. You don't get a number, people can't call you back on NomaPhone, and you can't keep or port a number.",
+  },
+  {
+    q: "Can I receive SMS or 2FA / OTP codes?",
+    a: "No. NomaPhone doesn't receive SMS or calls, so it can't receive verification codes. What it can do is let you call your bank or carrier by voice when a code isn't arriving.",
+  },
+  {
+    q: "How much does a call cost?",
+    a: `The rate depends on the country and on whether you call a landline or a mobile. It's shown on screen as you dial, per minute, and billed per second. US and Canada cost ${usRate}, toll-free numbers included. Calls last up to 30 minutes each; you can dial again.`,
+  },
+  {
+    q: "Which countries can I call?",
+    a: `${COUNTRY_COUNT} countries today, listed on the rates page. Emergency numbers can't be called, and premium-rate numbers are blocked.`,
+  },
+  {
+    q: "Does credit expire? Can I get a refund?",
+    a: "Credit never expires and you can top up the same card. Unused credit can be refunded any time, free, to the original payment method.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
 ---
 
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
-    <BaseHead title={title} description={description} />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Open Graph / Social Media -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content="/nomaphone-mockup.svg" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="/nomaphone-mockup.svg" />
-
-    <!-- Preconnect to external resources -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <BaseHead title={title} description={description} image={phoneArt} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </head>
 
-  <body>
-    <!-- Header with navigation -->
+  <body class="home">
     <Header client:load currentPath="/" />
 
-    <!-- Main landing page content -->
-    <LandingPage client:load />
+    <main>
+      <!-- HERO -->
+      <section class="hero wrap">
+        <div class="hero__copy">
+          <p class="lcd" aria-hidden="true">&gt; READY_ DIAL ANY NUMBER</p>
+          <h1>The internet's public phone.</h1>
+          <p class="lede">
+            Call any landline or mobile straight from your browser. No app, no account, no SIM.
+            Drop in prepaid credit, dial, talk.
+          </p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href={APP_URL}>Make a call</a>
+            <a class="btn btn--ghost" href="/rates/">See rates</a>
+          </div>
+          <ul class="ticks">
+            <li>US &amp; Canada <RateFor country="US" type="landline" />, toll-free included</li>
+            <li>Billed per second · credit never expires</li>
+            <li>Unused credit refundable, free</li>
+          </ul>
+        </div>
+        <div class="hero__art">
+          <img src="/pixel/phone.webp" alt="Pixel-art public payphone with an orange handset, keypad and green call button" width="980" height="900" fetchpriority="high" />
+        </div>
+      </section>
 
-    <!-- Footer -->
+      <!-- HOW IT WORKS -->
+      <section id="how-it-works" class="band">
+        <div class="wrap">
+          <p class="kicker">How it works</p>
+          <h2>Three steps, like a phone booth.</h2>
+          <ol class="steps">
+            {steps.map((s) => (
+              <li class="card">
+                <span class="step-n">{s.n}</span>
+                <h3>{s.title}</h3>
+                <p>{s.text}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <!-- RATES -->
+      <section id="rates" class="wrap section">
+        <p class="kicker">Rates</p>
+        <h2>What a minute costs.</h2>
+        <p class="sub">Per minute, in US dollars, billed per second. The exact rate for the number you dial appears on screen before you call.</p>
+        <div class="table-wrap">
+          <table class="rates">
+            <thead>
+              <tr><th scope="col">Country</th><th scope="col">Landline</th><th scope="col">Mobile</th></tr>
+            </thead>
+            <tbody>
+              {corridors.map((c) => (
+                <tr>
+                  <th scope="row">{c.name}</th>
+                  <td class="mono">{c.landline}</td>
+                  <td class="mono">{c.mobile}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="note">
+          {COUNTRY_COUNT} countries available. <a href="/rates/">See all rates →</a>
+          <span class="muted"> Updated {RATES_GENERATED_AT}.</span>
+        </p>
+      </section>
+
+      <!-- USE CASES -->
+      <section class="band">
+        <div class="wrap">
+          <p class="kicker">What people use it for</p>
+          <h2>The calls you can't make on WhatsApp.</h2>
+          <div class="grid3">
+            {useCases.map((u) => (
+              <article class="card">
+                <h3>{u.title}</h3>
+                <p>{u.text}</p>
+                <a href={u.href}>{u.link} →</a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="wrap section narrow">
+        <p class="kicker">FAQ</p>
+        <h2>Straight answers.</h2>
+        <div class="faq">
+          {faqs.map((f) => (
+            <details>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="final">
+        <div class="wrap final__inner">
+          <img src="/pixel/phone.webp" alt="" width="160" height="147" loading="lazy" />
+          <div>
+            <h2>Pick up the handset.</h2>
+            <p>Load $5, dial a number, hear it ring. If you don't use the credit, you can get it back.</p>
+            <a class="btn btn--primary" href={APP_URL}>Make a call</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <Footer client:load />
-
-    <!-- Optional: Add analytics script here -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
   </body>
 </html>
 
-<style is:global>
-  @reference "@/styles/global.css";
+<style>
+  .home {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .wrap { max-width: 72rem; margin: 0 auto; padding: 0 1rem; }
+  .narrow { max-width: 48rem; }
+  .section { padding: 4.5rem 1rem; }
+  .band { background: var(--color-paper-2); border-block: 1px solid var(--color-border); padding: 4.5rem 0; }
 
-  html {
-    scroll-behavior: smooth;
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #b8531c;
+    margin-bottom: 0.5rem;
   }
+  h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; margin-bottom: 1rem; }
+  h3 { font-size: 1.15rem; font-weight: 800; margin-bottom: 0.5rem; }
+  .sub { color: var(--color-text-secondary); max-width: 40rem; margin-bottom: 1.5rem; }
+  .muted { color: var(--color-text-secondary); }
 
-  ::-webkit-scrollbar {
-    width: 10px;
+  /* hero */
+  .hero {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
-  ::-webkit-scrollbar-track {
-    @apply bg-background;
+  .lcd {
+    display: inline-block;
+    font-family: var(--font-lcd);
+    font-size: 1.4rem;
+    background: var(--color-lcd);
+    color: var(--color-lcd-ink);
+    padding: 0.15rem 0.7rem;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.04em;
   }
-  ::-webkit-scrollbar-thumb {
-    @apply bg-blue-600 rounded-full;
+  .hero h1 {
+    font-size: clamp(2.6rem, 6.5vw, 4.6rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.25rem;
   }
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-blue-700;
+  .lede { font-size: 1.2rem; color: var(--color-text-secondary); max-width: 34rem; margin-bottom: 2rem; }
+  .hero__ctas { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.75rem; }
+  .ticks { list-style: none; padding: 0; display: grid; gap: 0.35rem; font-size: 0.95rem; }
+  .ticks li::before { content: "■ "; color: var(--color-green); font-size: 0.7rem; vertical-align: 2px; }
+  .ticks :global(.np-rate) { font-family: var(--font-mono); font-weight: 600; color: var(--color-green); }
+  .hero__art img { width: 100%; height: auto; filter: drop-shadow(8px 10px 0 rgba(18, 42, 49, 0.12)); }
+
+  .btn {
+    display: inline-block;
+    font-weight: 800;
+    padding: 0.85rem 1.5rem;
+    border-radius: 8px;
+    border: 2px solid var(--color-ink);
+    text-decoration: none;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  .btn--primary { background: var(--color-green); color: var(--color-paper-2); box-shadow: 4px 4px 0 var(--color-ink); }
+  .btn--primary:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--color-ink); }
+  .btn--ghost { background: transparent; color: var(--color-ink); }
+  .btn--ghost:hover { background: var(--color-surface-raised); }
+
+  /* steps / cards */
+  .steps { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+  .card {
+    background: var(--color-paper);
+    border: 2px solid var(--color-ink);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .card p { color: var(--color-text-secondary); margin-bottom: 0.75rem; }
+  .card a { color: var(--color-green); font-weight: 700; text-decoration: none; }
+  .card a:hover { text-decoration: underline; }
+  .step-n {
+    display: inline-grid;
+    place-items: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-family: var(--font-lcd);
+    font-size: 1.6rem;
+    background: var(--color-lcd);
+    color: var(--color-lcd-ink);
+    border-radius: 4px;
+    margin-bottom: 0.9rem;
+  }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+
+  /* rates */
+  .table-wrap { overflow-x: auto; }
+  .rates { width: 100%; max-width: 40rem; border-collapse: collapse; background: var(--color-paper-2); border: 2px solid var(--color-ink); }
+  .rates th, .rates td { text-align: left; padding: 0.75rem 1rem; border-bottom: 1px solid var(--color-border); }
+  .rates thead th { font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-secondary); }
+  .mono { font-family: var(--font-mono); font-weight: 600; color: var(--color-green); }
+  .note { margin-top: 1rem; }
+  .note a { color: var(--color-green); font-weight: 700; }
+
+  /* faq */
+  .faq details { border-bottom: 1px solid var(--color-border); padding: 1rem 0; }
+  .faq summary { cursor: pointer; font-weight: 800; font-size: 1.05rem; list-style: none; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::before { content: "+ "; font-family: var(--font-mono); color: #b8531c; }
+  .faq details[open] summary::before { content: "− "; }
+  .faq p { margin-top: 0.6rem; color: var(--color-text-secondary); }
+
+  /* final */
+  .final { background: var(--color-ink); color: var(--color-paper); padding: 4rem 0; }
+  .final__inner { display: flex; gap: 2.5rem; align-items: center; }
+  .final__inner img { width: 160px; height: auto; flex-shrink: 0; }
+  .final h2 { color: var(--color-paper); }
+  .final p { color: #d9d4c6; margin-bottom: 1.5rem; max-width: 34rem; }
+  .final .btn--primary { border-color: var(--color-paper); box-shadow: 4px 4px 0 var(--color-orange); }
+
+  @media (max-width: 860px) {
+    .hero { grid-template-columns: 1fr; gap: 2rem; padding-top: 2.5rem; }
+    .hero__art { order: -1; max-width: 22rem; }
+    .steps, .grid3 { grid-template-columns: 1fr; }
+    .final__inner { flex-direction: column; align-items: flex-start; }
+    .final__inner img { width: 110px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .btn { transition: none; }
   }
 </style>

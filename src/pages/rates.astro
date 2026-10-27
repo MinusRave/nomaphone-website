@@ -1,0 +1,125 @@
+---
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer.tsx";
+import { APP_URL } from "@/consts";
+import phoneArt from "@/assets/nomaphone-phone.webp";
+import { COUNTRIES, COUNTRY_COUNT, RATES_GENERATED_AT, fromCents, formatPerMin } from "@/lib/rates.mjs";
+
+const title = "NomaPhone rates: international calling prices per minute by country";
+const description = `Per-minute rates to call landlines and mobiles in ${COUNTRY_COUNT} countries from your browser. Billed per second, prepaid credit that never expires, unused credit refundable.`;
+
+const rows = COUNTRIES.map((c) => ({
+  ...c,
+  landline: c.landlineCents !== undefined ? formatPerMin(c.landlineCents) : "n/a",
+  mobile: c.mobileCents !== undefined ? formatPerMin(c.mobileCents) : "n/a",
+  from: formatPerMin(fromCents(c)),
+}));
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} image={phoneArt} />
+  </head>
+  <body class="rates-page">
+    <Header client:load currentPath="/rates/" />
+    <main class="wrap">
+      <p class="kicker">Rates</p>
+      <h1>What a minute costs, by country.</h1>
+      <p class="lede">
+        Prices per minute in US dollars, billed per second. The exact rate for the number you dial is shown on screen
+        before you call. Calls last up to 30 minutes each.
+      </p>
+
+      <label for="q" class="search-label">Search a country</label>
+      <input id="q" type="search" placeholder="e.g. India, Mexico, UK" autocomplete="off" class="search" />
+
+      <div class="table-wrap">
+        <table class="rates" id="rates-table">
+          <thead>
+            <tr>
+              <th scope="col">Country</th>
+              <th scope="col">Landline</th>
+              <th scope="col">Mobile</th>
+              <th scope="col">From</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr data-search={`${r.name} ${r.country} ${r.country === "GB" ? "uk england britain" : ""}${r.country === "US" ? "usa america" : ""}`.toLowerCase()}>
+                <th scope="row">{r.name}</th>
+                <td class="mono">{r.landline}</td>
+                <td class="mono">{r.mobile}</td>
+                <td class="mono strong">{r.from}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p id="no-results" class="muted" hidden>No match. We currently call {COUNTRY_COUNT} countries, all listed above.</p>
+      </div>
+
+      <section class="notes">
+        <h2>Good to know</h2>
+        <ul>
+          <li><strong>US and Canada toll-free numbers</strong> (800, 888, 877, 866, 855, 844, 833) cost the same as a normal US call. Handy for banks, the IRS and airlines.</li>
+          <li><strong>US and Canada</strong> have one rate for landlines and mobiles.</li>
+          <li>Some prefixes inside a country can cost more or less than the rate shown here. The app always shows the price for the exact number before you call.</li>
+          <li>"n/a" means we don't list a standard rate for that kind of number yet; the app will tell you if a number can be called.</li>
+          <li>Emergency numbers can't be called. Premium-rate numbers are blocked.</li>
+          <li>Outgoing calls only: NomaPhone doesn't give you a number and doesn't receive calls or SMS.</li>
+          <li>Credit never expires. Unused credit can be refunded any time, free, to the original payment method.</li>
+        </ul>
+        <p class="muted">Rates updated {RATES_GENERATED_AT}.</p>
+        <a class="btn" href={APP_URL}>Make a call</a>
+      </section>
+    </main>
+    <Footer client:load />
+
+    <script>
+      const input = document.getElementById("q") as HTMLInputElement | null;
+      const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>("#rates-table tbody tr"));
+      const empty = document.getElementById("no-results");
+      input?.addEventListener("input", () => {
+        const q = input.value.trim().toLowerCase();
+        let shown = 0;
+        for (const row of rows) {
+          const match = !q || (row.dataset.search ?? "").includes(q);
+          row.hidden = !match;
+          if (match) shown++;
+        }
+        if (empty) empty.hidden = shown > 0;
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .rates-page { background: var(--color-paper); color: var(--color-ink); }
+  .wrap { max-width: 52rem; margin: 0 auto; padding: 3.5rem 1rem 4rem; }
+  .kicker { font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: #b8531c; margin-bottom: 0.5rem; }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; margin-bottom: 1rem; }
+  h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.75rem; }
+  .lede { color: var(--color-text-secondary); font-size: 1.1rem; margin-bottom: 2rem; }
+  .search-label { display: block; font-weight: 700; margin-bottom: 0.4rem; }
+  .search {
+    width: 100%; max-width: 24rem; padding: 0.7rem 0.9rem; margin-bottom: 1.25rem;
+    border: 2px solid var(--color-ink); border-radius: 8px; background: var(--color-paper-2);
+    font: inherit; color: var(--color-ink);
+  }
+  .search:focus { outline: 2px solid var(--color-green); outline-offset: 2px; }
+  .table-wrap { overflow-x: auto; }
+  .rates { width: 100%; border-collapse: collapse; background: var(--color-paper-2); border: 2px solid var(--color-ink); }
+  .rates th, .rates td { text-align: left; padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--color-border); white-space: nowrap; }
+  .rates thead th { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-secondary); position: sticky; top: 0; background: var(--color-paper-2); }
+  .mono { font-family: var(--font-mono); }
+  .strong { font-weight: 600; color: var(--color-green); }
+  .muted { color: var(--color-text-secondary); margin-top: 1rem; }
+  .notes { margin-top: 3rem; }
+  .notes ul { padding-left: 1.2rem; display: grid; gap: 0.5rem; list-style: square; }
+  .btn {
+    display: inline-block; margin-top: 1.5rem; background: var(--color-green); color: var(--color-paper-2);
+    font-weight: 800; padding: 0.85rem 1.5rem; border-radius: 8px; border: 2px solid var(--color-ink);
+    box-shadow: 4px 4px 0 var(--color-ink); text-decoration: none;
+  }
+</style>

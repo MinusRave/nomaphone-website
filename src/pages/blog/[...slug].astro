@@ -2,7 +2,7 @@
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import BlogPostLayout from "@/layouts/BlogPostLayout.astro";
 import { isPublished } from "@/lib/filterPublishedPosts";
-import { BlogWaitlistCTA } from "@/components/BlogWaitlistCTA";
+import BlogAppCTA from "@/components/BlogAppCTA.astro";
 
 export async function getStaticPaths() {
   const entries = await getCollection("blog", ({ data }) => {
@@ -22,15 +22,13 @@ const { Content } = await render(post);
 ---
 
 <BlogPostLayout post={post}>
- <div slot="mid-cta">
-    <BlogWaitlistCTA client:load />
+  <div slot="mid-cta">
+    <BlogAppCTA variant="mid" />
   </div>
-  
+
   <Content />
 
- 
-  
   <div slot="end-cta">
-    <BlogWaitlistCTA client:load />
+    <BlogAppCTA variant="end" />
   </div>
 </BlogPostLayout>

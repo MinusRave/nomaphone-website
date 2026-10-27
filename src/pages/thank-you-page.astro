@@ -1,38 +1,40 @@
 ---
+// Former waitlist confirmation page. Kept so existing links keep working.
 import BaseHead from "@/components/BaseHead.astro";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer.tsx";
+import { APP_URL } from "@/consts";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead
-      title="You're on the list! – Thank You | NomaPhone"
-      description="Thanks for joining the waiting list. We'll keep you updated."
+      title="Thank you | NomaPhone"
+      description="Thanks for your interest in NomaPhone, the internet's public phone. You can now call any landline or mobile from your browser."
     />
+    <meta name="robots" content="noindex" />
   </head>
 
   <body class="bg-background text-foreground">
     <Header client:load currentPath="/thank-you-page" />
 
-    <main class="container mx-auto px-4 py-24 text-center">
-      <h1 class="text-4xl font-bold">You're on the list! 🎉</h1>
-      <p class="mt-4 text-lg text-muted-foreground">
-        Thanks for subscribing. We’ll keep you posted with the latest updates
-        and news.
+    <main class="mx-auto max-w-2xl px-4 py-24 text-center">
+      <h1 class="text-4xl font-extrabold">Thanks! NomaPhone is ready.</h1>
+      <p class="mt-4 text-lg text-[var(--color-text-secondary)]">
+        No more waiting list: you can call any landline or mobile straight from your browser. No app, no account, no SIM.
       </p>
-
-      <div class="mt-10 py-24">
+      <div class="mt-10 flex flex-wrap justify-center gap-3">
         <a
-          href="/"
-          class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          href={APP_URL}
+          class="inline-block rounded-lg border-2 border-[var(--color-ink)] bg-[var(--color-green)] px-6 py-3 font-extrabold text-[var(--color-paper-2)] shadow-[4px_4px_0_var(--color-ink)]"
         >
-          Back to Home
+          Make a call
         </a>
+        <a href="/" class="inline-block rounded-lg border-2 border-[var(--color-ink)] px-6 py-3 font-extrabold">Back to home</a>
       </div>
-
-      <Footer client:load />
     </main>
+
+    <Footer client:load />
   </body>
 </html>

@@ -1,142 +1,97 @@
 import * as React from "react";
-import {
-  NavigationMenu,
-  NavigationMenuList,
-  NavigationMenuItem,
-  NavigationMenuLink,
-} from "@/components/ui/navigation-menu";
-import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import { APP_URL, APP_CTA_LABEL } from "@/consts";
 
 interface HeaderProps {
   currentPath?: string;
 }
 
 const links = [
+  { href: "/rates/", label: "Rates" },
+  { href: "/#how-it-works", label: "How it works" },
+  { href: "/#faq", label: "FAQ" },
   { href: "/blog", label: "Blog" },
 ];
 
 export default function Header({ currentPath = "/" }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
-  const isActive = (href: string) =>
-    href === currentPath || (href !== "/" && currentPath.startsWith(href));
-
-  const handleWaitlistClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    
-    // Check if we're on the landing page
-    const isOnLandingPage = window.location.pathname === "/";
-    
-    if (isOnLandingPage) {
-      // Scroll to form on current page
-      const form = document.querySelector('form[data-waitlist-form]') || 
-                   document.querySelector('input[type="email"]')?.closest('form');
-      if (form) {
-        form.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    } else {
-      // Redirect to landing page with hash
-      window.location.href = "/#waitlist";
-    }
+  const isActive = (href: string) => {
+    const clean = href.replace(/\/$/, "");
+    return !href.includes("#") && clean !== "" && currentPath.replace(/\/$/, "").startsWith(clean);
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[var(--color-border)] bg-[var(--color-midnight)]">
-      <nav className="container mx-auto flex items-center justify-between px-[var(--space-4)] py-[var(--space-3)]">
-        {/* Logo */}
+    <header className="sticky top-0 z-50 w-full border-b border-[var(--color-border)] bg-[var(--color-paper)]/95 backdrop-blur">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a
           href="/"
-          className="text-xl font-bold font-display tracking-[var(--tracking-tight)] text-white hover:opacity-90 transition-opacity"
-          aria-label="NomaPhone — Home"
+          className="flex items-center gap-2 font-display text-xl font-extrabold tracking-[var(--tracking-tight)] text-[var(--color-ink)] hover:opacity-90"
+          aria-label="NomaPhone home"
         >
+          <img src="/pixel/phone.webp" alt="" width="32" height="29" className="h-7 w-auto [image-rendering:pixelated]" />
           NomaPhone
         </a>
 
-        {/* Desktop Navigation */}
-        <NavigationMenu className="hidden md:flex">
-          <NavigationMenuList className="gap-6">
-            {links.map((link) => {
-              const active = isActive(link.href);
-              return (
-                <NavigationMenuItem key={link.href}>
-                  <NavigationMenuLink asChild>
-                    <a
-                      href={link.href}
-                      className={`pb-1 text-sm font-medium font-body transition-colors ${
-                        active
-                          ? "text-[var(--color-text-primary)] border-b-2 border-[var(--color-signal)]"
-                          : "text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]"
-                      }`}
-                      aria-current={active ? "page" : undefined}
-                    >
-                      {link.label}
-                    </a>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              );
-            })}
-          </NavigationMenuList>
-        </NavigationMenu>
-
-        {/* Right side actions */}
-        <div className="flex items-center gap-[var(--space-2)]">
-          <Button
-            variant="primary"
-            size="sm"
-            className="hidden md:inline-flex"
-            onClick={handleWaitlistClick}
-          >
-            Join Waitlist
-          </Button>
-
-          {/* Mobile menu button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden text-[var(--color-text-primary)]"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <Menu className="h-5 w-5" />
-          </Button>
-        </div>
-      </nav>
-
-      {/* Mobile Navigation */}
-      {mobileMenuOpen && (
-        <div className="border-t border-[var(--color-border)] bg-[var(--color-surface)] md:hidden">
-          <div className="container mx-auto space-y-1 px-[var(--space-4)] py-[var(--space-4)]">
-            {links.map((link) => {
-              const active = isActive(link.href);
-              return (
+        <ul className="hidden items-center gap-6 md:flex">
+          {links.map((link) => {
+            const active = isActive(link.href);
+            return (
+              <li key={link.href}>
                 <a
-                  key={link.href}
                   href={link.href}
-                  className={`block rounded-md px-[var(--space-3)] py-[var(--space-2)] text-base font-medium font-body transition-colors ${
+                  className={`pb-1 text-sm font-semibold transition-colors ${
                     active
-                      ? "bg-[var(--color-surface-raised)] text-[var(--color-text-primary)] border-l-2 border-[var(--color-signal)]"
-                      : "text-[var(--color-text-secondary)] hover:bg-[var(--color-surface-raised)] hover:text-[var(--color-text-primary)]"
+                      ? "border-b-2 border-[var(--color-orange)] text-[var(--color-ink)]"
+                      : "text-[var(--color-text-secondary)] hover:text-[var(--color-ink)]"
                   }`}
-                  onClick={() => setMobileMenuOpen(false)}
+                  aria-current={active ? "page" : undefined}
                 >
                   {link.label}
                 </a>
-              );
-            })}
+              </li>
+            );
+          })}
+        </ul>
 
-            <div className="mt-4 pt-4 border-t border-[var(--color-border)]">
-              <Button 
-                variant="primary"
-                className="w-full" 
-                onClick={(e) => {
-                  handleWaitlistClick(e);
-                  setMobileMenuOpen(false);
-                }}
+        <div className="flex items-center gap-2">
+          <a
+            href={APP_URL}
+            className="hidden rounded-md bg-[var(--color-green)] px-4 py-2 text-sm font-bold text-[var(--color-paper-2)] transition-colors hover:bg-[var(--color-signal-hover)] md:inline-flex"
+          >
+            {APP_CTA_LABEL}
+          </a>
+          <button
+            type="button"
+            className="rounded-md p-2 text-[var(--color-ink)] md:hidden"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
+          >
+            {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
+      </nav>
+
+      {mobileMenuOpen && (
+        <div className="border-t border-[var(--color-border)] bg-[var(--color-paper-2)] md:hidden">
+          <div className="space-y-1 px-4 py-4">
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="block rounded-md px-3 py-2 text-base font-semibold text-[var(--color-ink)] hover:bg-[var(--color-surface-raised)]"
+                onClick={() => setMobileMenuOpen(false)}
               >
-                Join Waitlist
-              </Button>
-            </div>
+                {link.label}
+              </a>
+            ))}
+            <a
+              href={APP_URL}
+              className="mt-3 block rounded-md bg-[var(--color-green)] px-3 py-3 text-center font-bold text-[var(--color-paper-2)]"
+            >
+              {APP_CTA_LABEL}
+            </a>
           </div>
         </div>
       )}

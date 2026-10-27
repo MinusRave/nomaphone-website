@@ -1,0 +1,367 @@
+{
+  "generatedAt": "2026-10-27",
+  "currency": "USD",
+  "unit": "cents per minute, billed per second",
+  "countries": [
+    {
+      "country": "AR",
+      "name": "Argentina",
+      "landlineCents": 12,
+      "mobileCents": 69
+    },
+    {
+      "country": "AU",
+      "name": "Australia",
+      "landlineCents": 5,
+      "mobileCents": 15
+    },
+    {
+      "country": "AT",
+      "name": "Austria",
+      "landlineCents": 4,
+      "mobileCents": 10
+    },
+    {
+      "country": "BD",
+      "name": "Bangladesh",
+      "landlineCents": 12,
+      "mobileCents": 12
+    },
+    {
+      "country": "BE",
+      "name": "Belgium",
+      "landlineCents": 25,
+      "mobileCents": 99
+    },
+    {
+      "country": "BR",
+      "name": "Brazil",
+      "landlineCents": 6,
+      "mobileCents": 12
+    },
+    {
+      "country": "BG",
+      "name": "Bulgaria",
+      "landlineCents": 25,
+      "mobileCents": 99
+    },
+    {
+      "country": "CA",
+      "name": "Canada",
+      "landlineCents": 3
+    },
+    {
+      "country": "CL",
+      "name": "Chile",
+      "landlineCents": 10,
+      "mobileCents": 15
+    },
+    {
+      "country": "CN",
+      "name": "China",
+      "landlineCents": 59,
+      "mobileCents": 59
+    },
+    {
+      "country": "CO",
+      "name": "Colombia",
+      "landlineCents": 15,
+      "mobileCents": 8
+    },
+    {
+      "country": "HR",
+      "name": "Croatia",
+      "landlineCents": 49
+    },
+    {
+      "country": "CY",
+      "name": "Cyprus",
+      "landlineCents": 39,
+      "mobileCents": 29
+    },
+    {
+      "country": "CZ",
+      "name": "Czechia",
+      "landlineCents": 8,
+      "mobileCents": 29
+    },
+    {
+      "country": "DK",
+      "name": "Denmark",
+      "landlineCents": 5,
+      "mobileCents": 12
+    },
+    {
+      "country": "EG",
+      "name": "Egypt",
+      "landlineCents": 35,
+      "mobileCents": 39
+    },
+    {
+      "country": "EE",
+      "name": "Estonia",
+      "landlineCents": 15,
+      "mobileCents": 99
+    },
+    {
+      "country": "FI",
+      "name": "Finland",
+      "landlineCents": 8,
+      "mobileCents": 8
+    },
+    {
+      "country": "FR",
+      "name": "France",
+      "landlineCents": 4,
+      "mobileCents": 29
+    },
+    {
+      "country": "DE",
+      "name": "Germany",
+      "landlineCents": 6,
+      "mobileCents": 69
+    },
+    {
+      "country": "GR",
+      "name": "Greece",
+      "landlineCents": 35,
+      "mobileCents": 99
+    },
+    {
+      "country": "HK",
+      "name": "Hong Kong SAR China",
+      "landlineCents": 8,
+      "mobileCents": 10
+    },
+    {
+      "country": "HU",
+      "name": "Hungary",
+      "landlineCents": 19,
+      "mobileCents": 25
+    },
+    {
+      "country": "IN",
+      "name": "India",
+      "landlineCents": 15,
+      "mobileCents": 10
+    },
+    {
+      "country": "ID",
+      "name": "Indonesia",
+      "landlineCents": 19,
+      "mobileCents": 19
+    },
+    {
+      "country": "IE",
+      "name": "Ireland",
+      "landlineCents": 10,
+      "mobileCents": 19
+    },
+    {
+      "country": "IL",
+      "name": "Israel",
+      "landlineCents": 12,
+      "mobileCents": 35
+    },
+    {
+      "country": "IT",
+      "name": "Italy",
+      "landlineCents": 4,
+      "mobileCents": 10
+    },
+    {
+      "country": "JP",
+      "name": "Japan",
+      "landlineCents": 15,
+      "mobileCents": 35
+    },
+    {
+      "country": "LV",
+      "name": "Latvia",
+      "landlineCents": 69,
+      "mobileCents": 99
+    },
+    {
+      "country": "LT",
+      "name": "Lithuania",
+      "landlineCents": 49
+    },
+    {
+      "country": "LU",
+      "name": "Luxembourg",
+      "landlineCents": 49,
+      "mobileCents": 59
+    },
+    {
+      "country": "MY",
+      "name": "Malaysia",
+      "landlineCents": 10,
+      "mobileCents": 15
+    },
+    {
+      "country": "MT",
+      "name": "Malta",
+      "landlineCents": 49,
+      "mobileCents": 99
+    },
+    {
+      "country": "MX",
+      "name": "Mexico",
+      "landlineCents": 4,
+      "mobileCents": 10
+    },
+    {
+      "country": "MA",
+      "name": "Morocco",
+      "landlineCents": 99
+    },
+    {
+      "country": "NL",
+      "name": "Netherlands",
+      "landlineCents": 69,
+      "mobileCents": 49
+    },
+    {
+      "country": "NZ",
+      "name": "New Zealand",
+      "landlineCents": 6,
+      "mobileCents": 15
+    },
+    {
+      "country": "NG",
+      "name": "Nigeria",
+      "landlineCents": 49,
+      "mobileCents": 49
+    },
+    {
+      "country": "NO",
+      "name": "Norway",
+      "landlineCents": 6,
+      "mobileCents": 15
+    },
+    {
+      "country": "PK",
+      "name": "Pakistan",
+      "landlineCents": 29,
+      "mobileCents": 35
+    },
+    {
+      "country": "PE",
+      "name": "Peru",
+      "landlineCents": 29,
+      "mobileCents": 15
+    },
+    {
+      "country": "PH",
+      "name": "Philippines",
+      "landlineCents": 39,
+      "mobileCents": 59
+    },
+    {
+      "country": "PL",
+      "name": "Poland",
+      "landlineCents": 25,
+      "mobileCents": 39
+    },
+    {
+      "country": "PT",
+      "name": "Portugal",
+      "landlineCents": 4,
+      "mobileCents": 99
+    },
+    {
+      "country": "RO",
+      "name": "Romania",
+      "landlineCents": 3,
+      "mobileCents": 6
+    },
+    {
+      "country": "SG",
+      "name": "Singapore",
+      "landlineCents": 8,
+      "mobileCents": 12
+    },
+    {
+      "country": "SK",
+      "name": "Slovakia",
+      "landlineCents": 6,
+      "mobileCents": 25
+    },
+    {
+      "country": "SI",
+      "name": "Slovenia",
+      "landlineCents": 79
+    },
+    {
+      "country": "ZA",
+      "name": "South Africa",
+      "landlineCents": 99,
+      "mobileCents": 69
+    },
+    {
+      "country": "KR",
+      "name": "South Korea",
+      "landlineCents": 10,
+      "mobileCents": 10
+    },
+    {
+      "country": "ES",
+      "name": "Spain",
+      "landlineCents": 4,
+      "mobileCents": 35
+    },
+    {
+      "country": "SE",
+      "name": "Sweden",
+      "landlineCents": 4,
+      "mobileCents": 15
+    },
+    {
+      "country": "CH",
+      "name": "Switzerland",
+      "landlineCents": 8,
+      "mobileCents": 35
+    },
+    {
+      "country": "TW",
+      "name": "Taiwan",
+      "landlineCents": 25,
+      "mobileCents": 35
+    },
+    {
+      "country": "TH",
+      "name": "Thailand",
+      "landlineCents": 19,
+      "mobileCents": 19
+    },
+    {
+      "country": "TR",
+      "name": "Türkiye",
+      "landlineCents": 15,
+      "mobileCents": 49
+    },
+    {
+      "country": "AE",
+      "name": "United Arab Emirates",
+      "landlineCents": 69,
+      "mobileCents": 59
+    },
+    {
+      "country": "GB",
+      "name": "United Kingdom",
+      "landlineCents": 4,
+      "mobileCents": 6
+    },
+    {
+      "country": "US",
+      "name": "United States",
+      "landlineCents": 3
+    },
+    {
+      "country": "VN",
+      "name": "Vietnam",
+      "landlineCents": 35,
+      "mobileCents": 35
+    }
+  ]
+}
