@@ -2,6 +2,7 @@
 title: "How to Call Canada From Abroad (It's Not Always Free)"
 description: "Need to call Canada from abroad? Country code +1 tricks people into thinking it's free. Compare real costs, methods, and why Google Voice won't help."
 pubDate: 2026-05-18
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-canada-from-abroad"
 tags: ["Canada", "international calling", "digital nomads", "expats", "VoIP"]
@@ -132,7 +133,7 @@ Skype was once the default for international calling. Microsoft shut it down in 
 
 Services like NomaPhone, YadaPhone, and DialAnyone let you call Canadian numbers directly from your web browser. No app download, no SIM card, no country restrictions.
 
-**Cost:** $0.005 to $0.03 per minute, depending on the service.
+**Cost:** From under a cent to a few cents per minute, depending on the service (NomaPhone: [[rate:CA:landline]] to Canadian landlines and mobiles, billed per second).
 
 **Pros:** Works from anywhere with internet. No app installation. Pay only for what you use. Call any Canadian number — landlines, mobiles, businesses, banks.
 
@@ -153,7 +154,7 @@ Let's make this concrete. You need to call a Canadian number for 30 minutes — 
 | Calling card (real cost) | $4.50 - $9.00 | Yes | Yes |
 | DialAnyone | $0.15 | Yes | Yes |
 | YadaPhone | $0.60 | Yes | Yes |
-| NomaPhone | $0.90 | Yes | Yes |
+| NomaPhone | 30 × [[rate:CA:landline]] | Yes | Yes |
 
 The difference is stark. Carrier roaming without a plan can cost 100 times more than browser-based VoIP for the same call.
 
@@ -165,12 +166,12 @@ People treat "US and Canada" as one destination. In many cases, they are. But th
 
 - Same country code (+1)
 - Same number format (10 digits: area code + 7 digits)
-- Most VoIP services charge the same rate for both (NomaPhone charges $0.03/min for both US and Canada)
+- Most VoIP services charge the same rate for both (NomaPhone charges [[rate:US:landline]] for the US and [[rate:CA:landline]] for Canada)
 - Most carrier roaming plans treat them identically
 
 ### Where They Differ
 
-**Toll-free numbers.** Canadian toll-free numbers (1-800, 1-833, 1-855, 1-866, 1-877, 1-888) only work from within Canada or the US. If you're calling a Canadian company's 1-800 number from Europe, it probably won't connect. You'll need their direct number instead.
+**Toll-free numbers.** Canadian toll-free numbers (1-800, 1-833, 1-855, 1-866, 1-877, 1-888) only work from within Canada or the US. If you're calling a Canadian company's 1-800 number from a European phone, it probably won't connect. You'll need their direct number instead, or a service that routes the call through North America: NomaPhone can dial US and Canadian toll-free numbers (800, 833, 844, 855, 866, 877, 888) at its normal rate. Some companies restrict their toll-free lines by region, so keep the direct number handy as a backup.
 
 **Local rate numbers.** Some Canadian businesses use numbers that are local-rate within Canada but international-rate from abroad. This is especially common with government services.
 
@@ -196,9 +197,9 @@ Here are the direct (non-toll-free) numbers for major Canadian banks:
 | BMO Bank of Montreal | +1 514 877 1101 |
 | CIBC | +1 416 980 3300 |
 
-These are the numbers that work when you're dialing from outside Canada. The 1-800 numbers on their websites won't connect from most international locations.
+These are the numbers that work when you're dialing from outside Canada. The 1-800 numbers on their websites won't connect from most international phones, though a browser service that supports North American toll-free numbers (NomaPhone does) can usually reach them.
 
-**Pro tip:** Call during Eastern Time business hours. Canadian bank hold times are shortest between 8-9 AM ET on weekdays. At 3 cents per minute with a service like NomaPhone, even a 45-minute hold only costs $1.35.
+**Pro tip:** Call during Eastern Time business hours. Canadian bank hold times are shortest between 8-9 AM ET on weekdays. With a service like NomaPhone ([[rate:CA:landline]], billed per second), even a long hold costs very little. One thing to know: NomaPhone calls are capped at 30 minutes, so if you're stuck on hold that long, you'll need to dial again.
 
 ## Calling Canadian Government Services From Abroad
 
@@ -212,7 +213,7 @@ If you're a Canadian citizen living abroad, you'll occasionally need to reach go
 
 **IRCC (Immigration):** +1 613 321 4063
 
-Government hold times can be brutal. Budget for 30-60 minutes minimum. At carrier roaming rates, that's $30-180. At $0.03/min with browser-based VoIP, the same call costs $0.90 to $1.80.
+Government hold times can be brutal. Budget for 30-60 minutes minimum. At carrier roaming rates, that's $30-180. With browser-based VoIP at a few cents per minute (NomaPhone: [[rate:CA:landline]]), the same time on the line costs a small fraction of that.
 
 ## How to Get the Best Audio Quality
 
@@ -232,9 +233,11 @@ Calling Canada from abroad over the internet is only as good as your connection.
 
 Browser-based calling works for most situations. But there are times when other methods make more sense:
 
-**Emergency calls.** VoIP cannot reliably reach 911 in Canada (or 112 in Europe). For emergencies, use a local SIM or landline.
+**Emergency calls.** VoIP cannot reliably reach 911 in Canada (or 112 in Europe), and NomaPhone can't call emergency numbers at all. For emergencies, use a local SIM or landline.
 
 **Areas with no internet.** If you're in a rural area with spotty Wi-Fi and no mobile data, a calling card or local SIM with an international plan is your only option.
+
+**Very long calls.** NomaPhone caps each call at 30 minutes. You can dial straight back, but for a marathon call a plan with unlimited minutes may be simpler.
 
 **Extremely sensitive calls.** If you're dealing with a legal matter where call quality absolutely cannot falter, consider a local SIM with a Canada-specific plan, or call from a business center with a wired connection.
 
@@ -242,13 +245,13 @@ Browser-based calling works for most situations. But there are times when other 
 
 | Your Location | Cheapest Reliable Method | Notes |
 |---|---|---|
-| Mexico | Browser VoIP ($0.03/min) | Strong Wi-Fi widely available. Cell roaming from US carriers often includes Canada. |
-| UK/Europe | Browser VoIP ($0.03/min) | Excellent internet infrastructure. Time zone overlap with Eastern Canada. |
-| Thailand | Browser VoIP ($0.03/min) | Good Wi-Fi in cities. 12-hour time difference to Eastern Canada — plan calls carefully. |
-| Portugal | Browser VoIP ($0.03/min) | Nomad-friendly internet. 4-5 hour difference to Eastern Canada. |
-| Colombia | Browser VoIP ($0.03/min) | Improving internet. Same time zone as Eastern Canada in some cities. |
-| Bali, Indonesia | Browser VoIP ($0.03/min) | Wi-Fi quality varies. 13-hour difference to Eastern Canada. |
-| Japan | Browser VoIP ($0.03/min) | Excellent internet. 14-hour difference makes timing tricky. |
+| Mexico | Browser VoIP | Strong Wi-Fi widely available. Cell roaming from US carriers often includes Canada. |
+| UK/Europe | Browser VoIP | Excellent internet infrastructure. Time zone overlap with Eastern Canada. |
+| Thailand | Browser VoIP | Good Wi-Fi in cities. 12-hour time difference to Eastern Canada — plan calls carefully. |
+| Portugal | Browser VoIP | Nomad-friendly internet. 4-5 hour difference to Eastern Canada. |
+| Colombia | Browser VoIP | Improving internet. Same time zone as Eastern Canada in some cities. |
+| Bali, Indonesia | Browser VoIP | Wi-Fi quality varies. 13-hour difference to Eastern Canada. |
+| Japan | Browser VoIP | Excellent internet. 14-hour difference makes timing tricky. |
 
 The method stays the same. The real variable is your time zone gap and local internet quality.
 
@@ -260,7 +263,7 @@ In terms of dialing format and country code, yes. Both use +1. Most VoIP service
 
 ### Can I call Canadian toll-free numbers from outside Canada?
 
-Usually not. Most Canadian 1-800/1-888 numbers are restricted to calls originating from within Canada or the US. You'll need the company's direct local number instead. Check their website's "contact us" page for an international number.
+Not from a regular foreign phone. Most Canadian 1-800/1-888 numbers only accept calls originating from within Canada or the US. Either use the company's direct local number (check their website's "contact us" page for an international number) or use a service that routes calls through North America: NomaPhone can dial US and Canadian toll-free numbers at its normal rate.
 
 ### Why does Google Voice not work when I travel?
 
@@ -272,8 +275,8 @@ No. You can call any Canadian number from any country using the international fo
 
 ### What's the cheapest way to call Canada from abroad?
 
-DialAnyone offers the lowest per-minute rate at $0.005/min. YadaPhone charges $0.02/min. NomaPhone charges $0.03/min. All three are browser-based and work from anywhere. NomaPhone isn't the cheapest option, but it focuses on call quality and reliability — three cents per minute for a call that actually connects when you need it to.
+At the time of writing, DialAnyone advertises around $0.005/min and YadaPhone around $0.02/min. NomaPhone charges [[rate:CA:landline]]. All three are browser-based and work from anywhere. NomaPhone isn't the cheapest option per minute; its angle is simplicity: no app, no account, per-second billing, credit that never expires and can be refunded, and North American toll-free numbers included.
 
 ---
 
-**NomaPhone** lets you call Canada from your browser at $0.03 per minute. No app to download, no SIM card to swap, no contracts. Just open your browser, enter the Canadian number, and you're connected in about 30 seconds. Your credits never expire, and you only pay for the minutes you use. Whether you're calling RBC about a frozen card or catching up with family in Vancouver, it just works — from anywhere in the world.
+NomaPhone lets you call Canadian landlines, mobiles and toll-free numbers from your browser at [[rate:CA:landline]], with no app, no account and no SIM swap. Buy prepaid credit, dial, and pay per second. [Make a call](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "International Calling for Expats: Country-Specific Requirements You Need to Know"
 description: "Essential international calling requirements for expats. Learn about banking, government, and local number needs when living abroad."
 pubDate: 2025-12-29
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-expats-requirements"
 tags: ["expats", "requirements", "banking", "government"]
@@ -40,9 +41,9 @@ Why expats need reliable calling to home country banks.
 
 **Cost reality:**
 - US carrier: $2-3/min
-- NomaPhone: $0.08-0.09/min
+- NomaPhone: [[rate:IN:both]]
 - Annual banking calls: 3-5 hours typical
-- Savings: $300-500/year
+- Savings: several hundred dollars a year
 
 **Common trigger:** "Suspicious activity detected. Call immediately to unlock account."
 
@@ -220,8 +221,8 @@ For expats maintaining property at home.
 **Annual cost:**
 - 40 calls × 20 min = 800 minutes/year
 - Carrier rate ($2/min): $1,600
-- NomaPhone rate ($0.08/min India): $64
-- Savings: $1,536/year
+- NomaPhone (India: [[rate:IN:both]]): a small fraction of that
+- Savings: well over $1,000/year
 
 ### Selling Property Remotely
 
@@ -352,7 +353,7 @@ Setting up your complete calling system.
 
 **Browser calling:**
 - Purpose: Calling home country (banks, government, family)
-- Cost: Pay per use ($0.03-0.10/min)
+- Cost: Pay per use (a few cents to around 15 cents per minute for most home countries)
 - Use for: All outbound to home country
 
 **Total monthly:** $25-60 for complete setup
@@ -442,8 +443,8 @@ What expats actually spend.
 
 **Annual cost:**
 - Carrier ($2/min): $1,200
-- NomaPhone ($0.08/min): $48
-- Savings: $1,152/year
+- NomaPhone: 600 minutes × your home country's rate (e.g. [[rate:US:landline]] to the US, [[rate:IN]] to India)
+- Savings: over 90% for calls to the US, UK or India
 
 ### Regular User (Active Home Connections)
 
@@ -460,8 +461,8 @@ What expats actually spend.
 
 **Annual cost:**
 - Carrier ($2/min): $8,400
-- NomaPhone ($0.08/min): $336
-- Savings: $8,064/year
+- NomaPhone: 4,200 minutes × your home country's rate (e.g. [[rate:GB:landline]] to UK landlines, [[rate:IN]] to India)
+- Savings: over 90% for calls to the US, UK or India
 
 ### Heavy User (Complex Home Affairs)
 
@@ -478,8 +479,8 @@ What expats actually spend.
 
 **Annual cost:**
 - Carrier ($2/min): $28,800
-- NomaPhone ($0.08/min): $1,152
-- Savings: $27,648/year
+- NomaPhone: 14,400 minutes × your home country's rate (see the [rates page](/rates/))
+- Savings: over 90% for calls to the US, UK or India
 
 ## Common Problems and Solutions
 
@@ -500,7 +501,7 @@ Issues expats face with international calling.
 **Scenario:** Government office puts you on hold for 90+ minutes. Expensive on roaming.
 
 **Solutions:**
-- Use browser calling (affordable for long holds)
+- Use browser calling (affordable for long holds; NomaPhone calls are capped at 30 minutes, so be ready to redial)
 - Call early in business hours (shorter waits)
 - Use callback options when available
 - Budget time - block 2+ hours for government calls
@@ -513,7 +514,7 @@ Issues expats face with international calling.
 - Search "bank name international number"
 - Look for "outside USA" section on website
 - Try main headquarters number
-- Use browser calling service (often works with toll-free)
+- Use a browser calling service that supports toll-free (NomaPhone dials US and Canada toll-free numbers at the normal US rate)
 
 ### Problem: Time Zones Make Calls Difficult
 
@@ -632,4 +633,4 @@ What expats must understand.
 
 ---
 
-**Living abroad and need reliable calling back home?** NomaPhone offers browser-based international calling with no app required. Call India for $0.08/min, USA for $0.03/min, UK for $0.03/min. Credits never expire. Join the waitlist at nomaphone.com.
+**Living abroad and need to call back home?** NomaPhone offers browser-based international calling with no app and no account. India is [[rate:IN:both]], the USA [[rate:US:landline]], and the UK [[rate:GB:both]]. Credit never expires. [Make a call](https://app.nomaphone.com)

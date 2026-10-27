@@ -2,6 +2,7 @@
 title: "International Calling from Indonesia: Complete Guide for Bali Digital Nomads"
 description: "How to call internationally from Indonesia without expensive roaming. Complete guide covering calling from Bali, local SIM cards, VoIP options, and costs."
 pubDate: 2025-12-11
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-indonesia-bali"
 tags: ["Indonesia", "Bali", "digital nomad", "Southeast Asia"]
@@ -87,7 +88,7 @@ The most practical solution for international calls from Indonesia.
 - Open browser on laptop or phone
 - Call any number worldwide
 - Uses your internet connection (WiFi or mobile data)
-- Costs $0.03-0.10/minute depending on destination
+- Costs from a few cents per minute, depending on destination (with NomaPhone: [[rate:US:landline]] to the US, [[rate:GB]] to the UK, [[rate:AU]] to Australia)
 
 ### Data Usage
 Voice calls use very little data:
@@ -400,21 +401,21 @@ Even heavy users save thousands per month with proper setup.
 If you're island hopping:
 
 ### From Bali to Thailand
-- Browser calling: $0.10-0.19/minute
+- Browser calling (NomaPhone): [[rate:TH]]
 - WhatsApp works great for personal calls
 - Google Voice doesn't cover Thailand
 
 ### From Bali to Vietnam
-- Browser calling: $0.09-0.15/minute
+- Browser calling (NomaPhone): [[rate:VN]]
 - Local Vietnamese numbers challenging
 - WhatsApp widely used in Vietnam
 
 ### From Bali to Singapore
-- Browser calling: $0.03/minute (cheap)
+- Browser calling (NomaPhone): [[rate:SG:both]]
 - Or just wait until visa run and call free from Singapore WiFi
 
 ### From Bali to Malaysia
-- Browser calling: $0.03-0.05/minute
+- Browser calling (NomaPhone): [[rate:MY:both]]
 - Similar setup works in KL and Penang
 
 ## When to Use What
@@ -470,4 +471,4 @@ Bali has the infrastructure to support reliable international calling. You don't
 
 ---
 
-**Calling internationally from Bali?** NomaPhone offers browser-based calling that works great on Bali internet. Call US, UK, Australia, or 200+ countries at $0.03-0.10/minute. No roaming fees, no apps to download. Join the waitlist at nomaphone.com.
+**Calling internationally from Bali?** NomaPhone lets you call landlines and mobiles in [[countries]] countries, including the US, UK and Australia, straight from your browser. No roaming fees, no app, no account. [Make a call](https://app.nomaphone.com).

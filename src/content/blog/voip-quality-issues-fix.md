@@ -479,4 +479,4 @@ VoIP quality is fixable in most cases. It's not magic, it's just internet engine
 
 ---
 
-**Need reliable international calling without VoIP quality headaches?** NomaPhone uses WebRTC with automatic quality optimization, works over any internet connection, and falls back gracefully on poor networks. Browser-based, no app required. Join the waitlist at nomaphone.com.
+Once your connection is sorted, try NomaPhone: call any landline or mobile in [[countries]] countries from your browser, over your internet connection, with no app and no account. [Make a call](https://app.nomaphone.com)

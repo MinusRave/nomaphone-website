@@ -2,6 +2,7 @@
 title: "Bank Fraud Alert While Traveling? Here's What to Do"
 description: "Got a bank fraud alert traveling abroad? Step-by-step guide to verify your account, call your bank cheaply, and prevent future fraud alerts while overseas."
 pubDate: 2026-04-24
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "bank-fraud-alert-while-traveling"
 tags: ["banking abroad", "fraud alert", "digital nomads", "international calling", "travel tips"]
@@ -59,9 +60,9 @@ Let's say your fraud verification call takes 30 minutes total (15 minutes on hol
 | T-Mobile (Magenta) | $7.50 | Instant | 200+ countries |
 | Calling card | $3.00 - $8.00 | 5-10 min | Most countries |
 | Google Voice | Free | Complex setup | US residents only, quality issues abroad |
-| Browser-based VoIP (NomaPhone) | $0.90 | Under 1 min | Anywhere with WiFi |
+| Browser-based calling (NomaPhone) | 30 × [[rate:US:landline]] | Under 1 min | Anywhere with internet |
 
-The difference is staggering. A 30-minute fraud verification call costs less than a dollar with browser-based calling. The same call on AT&T roaming could cost more than your dinner.
+The difference is staggering. A 30-minute fraud verification call costs about a dollar with browser-based calling. The same call on AT&T roaming could cost more than your dinner.
 
 ## Why Banks Flag International Transactions
 
@@ -83,12 +84,12 @@ You're sitting in the restaurant. Card is frozen. You need to call the bank. Her
 
 ### Option 1: Browser-Based VoIP (Best for Most Travelers)
 
-Open your phone's browser. Go to a service like NomaPhone. You can be on a call to your bank's fraud line in under 30 seconds.
+Open your phone's browser. Go to a service like NomaPhone, buy a few dollars of prepaid credit with Apple Pay, Google Pay or a card, and dial your bank's fraud line.
 
-- Cost: $0.03/min to US numbers (that's three cents)
-- Works on: Any device with a browser and WiFi
-- No app to download, no account setup needed ahead of time
-- A 30-minute call costs $0.90
+- Cost: [[rate:US:landline]] to US numbers, billed per second
+- Toll-free 1-800 and other US toll-free numbers can be dialed at the same rate
+- Works on: Any device with a browser and an internet connection
+- No app to download, no account to create
 
 This is the option that makes the most sense when you're sitting in a restaurant with WiFi and need to call right now.
 
@@ -178,7 +179,7 @@ This doesn't prevent fraud alerts, but it prevents a different kind of pain. Car
 
 ### Keep Your Bank's International Number Saved
 
-Your bank's 1-800 number won't work from outside the US. Every major bank has a collect-call or direct-dial number for international callers. Find it before you leave and save it in your phone:
+Your bank's 1-800 number usually won't work from a foreign SIM or hotel phone (browser-calling services like NomaPhone can reach US toll-free numbers, but not every method can). Every major bank also has a collect-call or direct-dial number for international callers. Find it before you leave and save it in your phone:
 
 - **Chase:** +1-713-262-3300
 - **Bank of America:** +1-315-724-4022
@@ -221,8 +222,8 @@ Getting a fraud alert abroad feels like an emergency. And in the moment, it kind
 
 But with the right preparation and a cheap way to call, the whole thing takes 15-20 minutes to resolve. The key is not paying $75 in roaming charges for the privilege of sitting on hold.
 
-Three cents a minute for a call that gets your card unfrozen? That's the kind of math that makes sense.
+A few cents a minute for a call that gets your card unfrozen? That's the kind of math that makes sense.
 
 ---
 
-**NomaPhone** lets you call US bank fraud lines from anywhere with a browser and WiFi. No app download, no complicated setup. Just open your browser, dial the number, and you're connected in under 30 seconds. At $0.03/min, a 30-minute fraud verification call costs you $0.90 — not $90. Your credits never expire, so you can load up before your trip and they'll be there when you need them. [Try NomaPhone and see how it works.](https://nomaphone.com)
+**NomaPhone** lets you call US bank fraud lines, including toll-free numbers, from any browser. No app, no account: buy prepaid credit, dial, and pay [[rate:US:landline]] billed per second. Credit never expires, so you can load it before your trip. [Make a call](https://app.nomaphone.com)

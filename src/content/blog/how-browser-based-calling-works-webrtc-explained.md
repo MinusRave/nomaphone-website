@@ -2,6 +2,7 @@
 title: "How Browser-Based Calling Works: WebRTC Explained Simply"
 description: "Ever wonder how you can make phone calls from your browser without installing anything? Here's how WebRTC technology makes it possible, explained without the technical jargon."
 pubDate: 2025-11-19
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "how-browser-based-calling-works-webrtc-explained"
 tags: ["WebRTC", "technology", "browser calling", "VoIP explained"]
@@ -449,4 +450,4 @@ The technology keeps getting better, but it's already good enough for daily use 
 
 ---
 
-Want to experience WebRTC-powered calling yourself? NomaPhone uses modern WebRTC technology to deliver crystal-clear calls from any browser. No downloads, no plugins, just open and call. Starting at $0.03/minute. [Join the waitlist](https://nomaphone.com) to try it when we launch.
+Want to try browser calling yourself? NomaPhone runs in your browser and calls landlines and mobiles in [[countries]] countries. No downloads, no plugins, no account. The rate is shown on screen as you dial. [Make a call](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "International Calling Rates 2025: What You'll Actually Pay by Destination"
 description: "Real international calling costs for 50+ countries. Compare rates across carriers, VoIP, and browser calling. Honest breakdown of what calls really cost."
 pubDate: 2025-12-23
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-rates-2025-by-destination"
 tags: ["calling rates", "costs", "pricing", "international"]
@@ -12,7 +13,7 @@ heroImage: "../../assets/international-calling-rates-2025-by-destination.jpg"
 
 Call Mexico from the US: could be free, $0.01/minute, $0.03/minute, $0.50/minute, or $2.00/minute depending on which method you use.
 
-This guide breaks down actual costs for calling 50+ countries using different methods in 2025.
+This guide breaks down actual costs for calling 50+ countries using different methods in 2025. Where we list landline and mobile ranges, those are typical market rates across VoIP and browser-calling services; the "NomaPhone" line shows NomaPhone's current rate for that country (full list on our [rates page](/rates/)). NomaPhone currently calls [[countries]] countries, so a few destinations below aren't covered yet.
 
 ## The Three Pricing Tiers
 
@@ -56,10 +57,10 @@ The most common destination for expats.
 - **30-minute call: $0-0.70**
 
 ### Browser Calling
-- NomaPhone: $0.03/minute
+- NomaPhone: [[rate:US:landline]] (toll-free numbers included)
 - Yadaphone: $0.02/minute
 - DialAnyone: $0.005/minute
-- **30-minute call: $0.15-0.90**
+- **30-minute call: under a dollar**
 
 **Reality check:** Carrier roaming is 40-400x more expensive than alternatives.
 
@@ -70,18 +71,18 @@ Popular destination with landline/mobile price split.
 ### UK Landlines
 - Carrier roaming: $1.50-2.00/minute
 - Skype: $0.023/minute
-- Browser calling: $0.03/minute
+- NomaPhone: [[rate:GB:landline]]
 - Google Voice: $0.01/minute
 - **30-minute call: $0.30-60**
 
 ### UK Mobiles
 - Carrier roaming: $1.50-2.00/minute
 - Skype: $0.09/minute
-- Browser calling: $0.06/minute
+- NomaPhone: [[rate:GB:mobile]]
 - Google Voice: $0.03/minute
 - **30-minute call: $0.90-60**
 
-**Key difference:** UK mobile numbers cost 2-3x more than landlines across all methods.
+**Key difference:** UK mobile numbers cost more than landlines with almost every method, often 2-3x.
 
 **How to tell:** UK mobile numbers start with 07. Landlines start with 01 or 02.
 
@@ -93,26 +94,31 @@ Generally cheap, but mobile vs landline matters.
 - Landline: $0.01-0.03/minute (cheap)
 - Mobile: $0.10-0.15/minute (moderate)
 - Carrier roaming: $1.50-2.00/minute (expensive)
+- NomaPhone: [[rate:FR:both]]
 
 ### Germany
 - Landline: $0.01-0.03/minute
 - Mobile: $0.12-0.18/minute
 - Carrier roaming: $1.50-2.00/minute
+- NomaPhone: [[rate:DE:both]]
 
 ### Spain
 - Landline: $0.01-0.03/minute
 - Mobile: $0.08-0.12/minute
 - Carrier roaming: $1.50-2.00/minute
+- NomaPhone: [[rate:ES:both]]
 
 ### Italy
 - Landline: $0.02-0.04/minute
 - Mobile: $0.10-0.15/minute
 - Carrier roaming: $1.50-2.00/minute
+- NomaPhone: [[rate:IT:both]]
 
 ### Netherlands
 - Landline: $0.01-0.03/minute
 - Mobile: $0.15-0.20/minute
 - Carrier roaming: $1.50-2.00/minute
+- NomaPhone: [[rate:NL:both]]
 
 **Pattern:** Landlines cheap everywhere. Mobiles cost 3-10x more.
 
@@ -123,18 +129,22 @@ Moderate pricing, good value.
 ### Poland
 - Landline: $0.03-0.05/minute
 - Mobile: $0.12-0.18/minute
+- NomaPhone: [[rate:PL:both]]
 
 ### Czech Republic
 - Landline: $0.03-0.05/minute
 - Mobile: $0.15-0.20/minute
+- NomaPhone: [[rate:CZ:both]]
 
 ### Romania
 - Landline: $0.04-0.06/minute
 - Mobile: $0.10-0.15/minute
+- NomaPhone: [[rate:RO:both]]
 
 ### Hungary
 - Landline: $0.04-0.06/minute
 - Mobile: $0.15-0.20/minute
+- NomaPhone: [[rate:HU:both]]
 
 **Note:** Still far cheaper than carrier roaming ($1.50-2.00/minute).
 
@@ -146,6 +156,7 @@ Wide variance by country and development level.
 - Landline: $0.05-0.09/minute
 - Mobile: $0.02-0.08/minute
 - Carrier roaming: $1.50-2.50/minute
+- NomaPhone: [[rate:IN:both]]
 
 **Unusual:** Indian mobiles sometimes cheaper than landlines due to market structure.
 
@@ -153,6 +164,7 @@ Wide variance by country and development level.
 - Landline: $0.01-0.02/minute (very cheap)
 - Mobile: $0.01-0.03/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:CN:both]]
 
 **Note:** Cheap rates but internet access issues (Great Firewall affects VoIP quality).
 
@@ -160,16 +172,19 @@ Wide variance by country and development level.
 - Landline: $0.02-0.04/minute
 - Mobile: $0.10-0.15/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:JP:both]]
 
 ### South Korea
 - Landline: $0.02-0.04/minute
 - Mobile: $0.08-0.12/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:KR:both]]
 
 ### Thailand
 - Landline: $0.03-0.05/minute
 - Mobile: $0.15-0.19/minute
 - Carrier roaming: $1.50-2.50/minute
+- NomaPhone: [[rate:TH:both]]
 
 **Digital nomad note:** Thailand mobile rates are higher despite being developing country.
 
@@ -177,21 +192,25 @@ Wide variance by country and development level.
 - Landline: $0.05-0.09/minute
 - Mobile: $0.09-0.15/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:VN:both]]
 
 ### Philippines
 - Landline: $0.08-0.12/minute
 - Mobile: $0.15-0.20/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:PH:both]]
 
 ### Indonesia
 - Landline: $0.03-0.06/minute
 - Mobile: $0.15-0.25/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:ID:both]]
 
 ### Singapore
 - Landline: $0.02-0.03/minute (cheap)
 - Mobile: $0.02-0.03/minute (cheap)
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:SG:both]]
 
 **Why Singapore is cheap:** Developed telecom infrastructure, business hub status.
 
@@ -203,6 +222,7 @@ Generally moderate pricing.
 - Landline: $0.01-0.03/minute
 - Mobile: $0.05-0.09/minute
 - Carrier roaming: $1.50-2.50/minute
+- NomaPhone: [[rate:MX:both]]
 
 **Digital nomad hub:** Cheap rates from US (similar to domestic in some carrier plans).
 
@@ -210,16 +230,19 @@ Generally moderate pricing.
 - Landline: $0.03-0.05/minute
 - Mobile: $0.08-0.12/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: not covered yet
 
 ### Colombia
 - Landline: $0.02-0.04/minute
 - Mobile: $0.03-0.06/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:CO:both]]
 
 ### Brazil
 - Landline: $0.02-0.04/minute
 - Mobile: $0.08-0.15/minute
 - Carrier roaming: $2.50-3.50/minute
+- NomaPhone: [[rate:BR:both]]
 
 **Note:** Brazil is geographically huge. Different regions, different costs.
 
@@ -227,16 +250,19 @@ Generally moderate pricing.
 - Landline: $0.02-0.05/minute
 - Mobile: $0.10-0.18/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:AR:both]]
 
 ### Chile
 - Landline: $0.02-0.04/minute
 - Mobile: $0.12-0.18/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:CL:both]]
 
 ### Peru
 - Landline: $0.03-0.05/minute
 - Mobile: $0.15-0.22/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:PE:both]]
 
 ## Middle East
 
@@ -246,6 +272,7 @@ Moderate to expensive, politically sensitive.
 - Landline: $0.15-0.25/minute
 - Mobile: $0.20-0.30/minute
 - Carrier roaming: $2.50-4.00/minute
+- NomaPhone: [[rate:AE:both]]
 
 **Note:** Higher rates due to telecom regulations and VoIP restrictions.
 
@@ -253,16 +280,19 @@ Moderate to expensive, politically sensitive.
 - Landline: $0.15-0.25/minute
 - Mobile: $0.25-0.35/minute
 - Carrier roaming: $3.00-4.50/minute
+- NomaPhone: not covered yet
 
 ### Israel
 - Landline: $0.03-0.05/minute
 - Mobile: $0.10-0.15/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:IL:both]]
 
 ### Turkey
 - Landline: $0.05-0.08/minute
 - Mobile: $0.15-0.25/minute
 - Carrier roaming: $2.00-3.00/minute
+- NomaPhone: [[rate:TR:both]]
 
 ## Africa
 
@@ -272,21 +302,25 @@ Generally expensive, infrastructure challenges.
 - Landline: $0.05-0.09/minute
 - Mobile: $0.15-0.25/minute
 - Carrier roaming: $2.50-4.00/minute
+- NomaPhone: [[rate:ZA:both]]
 
 ### Nigeria
 - Landline: $0.10-0.15/minute
 - Mobile: $0.12-0.18/minute
 - Carrier roaming: $3.00-5.00/minute
+- NomaPhone: [[rate:NG:both]]
 
 ### Kenya
 - Landline: $0.15-0.25/minute
 - Mobile: $0.20-0.30/minute
 - Carrier roaming: $3.00-5.00/minute
+- NomaPhone: not covered yet
 
 ### Egypt
 - Landline: $0.08-0.12/minute
 - Mobile: $0.18-0.28/minute
 - Carrier roaming: $2.50-4.00/minute
+- NomaPhone: [[rate:EG:both]]
 
 **Pattern:** Africa consistently more expensive due to infrastructure costs and smaller markets.
 
@@ -298,6 +332,7 @@ Australia cheap, Pacific islands expensive.
 - Landline: $0.01-0.03/minute
 - Mobile: $0.03-0.06/minute
 - Carrier roaming: $1.50-2.50/minute
+- NomaPhone: [[rate:AU:both]]
 
 **Good news:** Australia is cheap across all methods.
 
@@ -305,11 +340,13 @@ Australia cheap, Pacific islands expensive.
 - Landline: $0.02-0.04/minute
 - Mobile: $0.05-0.09/minute
 - Carrier roaming: $1.50-2.50/minute
+- NomaPhone: [[rate:NZ:both]]
 
 ### Pacific Islands (Fiji, Samoa, etc.)
 - Landline: $0.30-0.60/minute
 - Mobile: $0.40-0.80/minute
 - Carrier roaming: $4.00-8.00/minute
+- NomaPhone: not covered yet
 
 **Why so expensive:** Small populations, limited infrastructure, satellite reliance.
 
@@ -363,11 +400,11 @@ If sending text messages:
 - $60 per call × 4 calls/month = $240/month
 - Annual: $2,880
 
-**Browser calling:**
-- $0.90 per call × 4 calls/month = $3.60/month
-- Annual: $43
+**Browser calling (NomaPhone, UK landline):**
+- 120 minutes a month at [[rate:GB:landline]]
+- Annual: well under $100
 
-**Savings: $2,837/year**
+**Savings: over $2,800/year**
 
 ### Scenario 2: Daily Business Calls to India (15 min avg)
 
@@ -375,11 +412,11 @@ If sending text messages:
 - $30-37 per call × 20 calls/month = $600-740/month
 - Annual: $7,200-8,880
 
-**Browser calling:**
-- $1.35 per call × 20 calls/month = $27/month
-- Annual: $324
+**Browser calling (NomaPhone):**
+- 300 minutes a month at [[rate:IN:both]]
+- Annual: a few hundred dollars
 
-**Savings: $6,876-8,556/year**
+**Savings: thousands of dollars a year**
 
 ### Scenario 3: Monthly Check-in with Mexican Office (60 min)
 
@@ -387,16 +424,16 @@ If sending text messages:
 - $120 per call × 1 call/month = $120/month
 - Annual: $1,440
 
-**Browser calling:**
-- $1.80 per call × 1 call/month = $1.80/month
-- Annual: $22
+**Browser calling (NomaPhone):**
+- 60 minutes a month at [[rate:MX:both]] (as two calls, since NomaPhone calls max out at 30 minutes)
+- Annual: tens of dollars at most
 
-**Savings: $1,418/year**
+**Savings: around $1,400/year**
 
 ## Money-Saving Strategies
 
 ### 1. Know the Number Type
-Calling UK landline (01/02) instead of mobile (07) saves 50-70% on most services.
+Calling a UK landline (01/02) instead of a mobile (07) saves money on most services: on NomaPhone it's [[rate:GB:landline]] versus [[rate:GB:mobile]].
 
 ### 2. Use Apps When Possible
 If recipient has WhatsApp, use it. Free for both parties.
@@ -405,46 +442,44 @@ If recipient has WhatsApp, use it. Free for both parties.
 If you control timing, call during off-peak hours (some services offer lower rates).
 
 ### 4. Buy Credits in Bulk
-Services offering packages often give bonuses:
-- $50 package: Get $55 in credits
-- $100 package: Get $115 in credits
+Some services offering larger packages give bonus credit (for example, a few extra dollars on a $50 or $100 top-up). Weigh that against expiry rules: a bonus is worthless if the credit expires before you use it. NomaPhone sells $5, $10 and $20 cards with no bonuses, but the credit never expires and unused credit is refundable.
 
 ### 5. Use Right Service for Destination
 - US/Canada: Google Voice (free)
-- Everywhere else: Browser calling ($0.01-0.20/min)
+- Everywhere else: Browser calling (rates vary a lot by destination, so check the rate page before you call)
 - Never use carrier roaming unless emergency
 
 ### 6. Get Virtual Number
-If you call one country frequently, get virtual number there. Recipients call you at local rates.
-- US virtual number: $2.19/month
-- UK virtual number: $1.90/month
-- Worth it if receive 3+ calls/month
+If people in one country call you frequently, get a virtual number there from a third-party provider (Google Voice or a VoIP number provider). Recipients call you at local rates.
+- Typical price: a few dollars a month per number
+- Worth it if you receive 3+ calls/month
+- Note: NomaPhone doesn't provide numbers or receive calls; it's for outgoing calls only
 
 ## Rate Comparison Table
 
 50 most called countries from US:
 
-| Country | Carrier | Skype | Browser | Google Voice |
+| Country | Carrier | Skype | NomaPhone | Google Voice |
 |---------|---------|-------|---------|--------------|
-| US/Canada | $2.00 | $0.02 | $0.03 | Free |
-| Mexico | $1.50 | $0.01 | $0.03 | $0.02 |
-| UK Landline | $1.50 | $0.02 | $0.03 | $0.01 |
-| UK Mobile | $1.50 | $0.09 | $0.06 | $0.03 |
-| France Landline | $1.50 | $0.02 | $0.03 | $0.01 |
-| Germany Landline | $1.50 | $0.02 | $0.03 | $0.01 |
-| Spain Landline | $1.50 | $0.02 | $0.03 | $0.01 |
-| Italy Landline | $1.50 | $0.02 | $0.03 | $0.02 |
-| India | $2.00 | $0.02 | $0.08 | $0.05 |
-| China | $2.00 | $0.02 | $0.02 | $0.02 |
-| Japan | $2.00 | $0.05 | $0.04 | $0.03 |
-| Australia | $1.50 | $0.02 | $0.03 | $0.02 |
-| Brazil | $2.50 | $0.02 | $0.03 | $0.04 |
-| Colombia | $2.00 | $0.03 | $0.03 | $0.03 |
-| Philippines | $2.00 | $0.05 | $0.18 | $0.10 |
-| Thailand | $1.50 | $0.04 | $0.19 | $0.09 |
-| South Korea | $2.00 | $0.04 | $0.04 | $0.03 |
+| US/Canada | $2.00 | $0.02 | [[rate:US:landline]] | Free |
+| Mexico | $1.50 | $0.01 | [[rate:MX]] | $0.02 |
+| UK Landline | $1.50 | $0.02 | [[rate:GB:landline]] | $0.01 |
+| UK Mobile | $1.50 | $0.09 | [[rate:GB:mobile]] | $0.03 |
+| France Landline | $1.50 | $0.02 | [[rate:FR:landline]] | $0.01 |
+| Germany Landline | $1.50 | $0.02 | [[rate:DE:landline]] | $0.01 |
+| Spain Landline | $1.50 | $0.02 | [[rate:ES:landline]] | $0.01 |
+| Italy Landline | $1.50 | $0.02 | [[rate:IT:landline]] | $0.02 |
+| India | $2.00 | $0.02 | [[rate:IN]] | $0.05 |
+| China | $2.00 | $0.02 | [[rate:CN]] | $0.02 |
+| Japan | $2.00 | $0.05 | [[rate:JP]] | $0.03 |
+| Australia | $1.50 | $0.02 | [[rate:AU]] | $0.02 |
+| Brazil | $2.50 | $0.02 | [[rate:BR]] | $0.04 |
+| Colombia | $2.00 | $0.03 | [[rate:CO]] | $0.03 |
+| Philippines | $2.00 | $0.05 | [[rate:PH]] | $0.10 |
+| Thailand | $1.50 | $0.04 | [[rate:TH]] | $0.09 |
+| South Korea | $2.00 | $0.04 | [[rate:KR]] | $0.03 |
 
-*Rates as of 2025, subject to change
+*Carrier, Skype and Google Voice rates as of 2025, subject to change. NomaPhone rates are current; see the [rates page](/rates/). NomaPhone isn't the cheapest for every destination (China and the Philippines, for example), but there's no app or account, billing is per second, and credit never expires.
 
 ## The Bottom Line by Destination
 
@@ -459,7 +494,7 @@ If you call one country frequently, get virtual number there. Recipients call yo
 ### Cheap with Right Method
 - US/Canada (free with Google Voice)
 - Western Europe landlines ($0.01-0.03/min)
-- China ($0.01-0.02/min)
+- China ($0.01-0.02/min with the cheapest VoIP providers)
 - Australia ($0.02-0.03/min)
 
 **Strategy:** Use browser calling or Google Voice.
@@ -482,4 +517,4 @@ If you call one country frequently, get virtual number there. Recipients call yo
 
 ---
 
-**Need transparent, affordable international calling?** NomaPhone offers clear rates to 210+ countries, starting at $0.03/minute. No hidden fees, no connection charges. See exactly what you'll pay before each call. Join the waitlist at nomaphone.com.
+**Need transparent international calling?** NomaPhone calls landlines and mobiles in [[countries]] countries from your browser. No connection fees, billed per second, and you see the rate on screen before each call. [Make a call](https://app.nomaphone.com).

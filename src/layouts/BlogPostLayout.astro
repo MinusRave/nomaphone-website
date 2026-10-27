@@ -344,9 +344,12 @@ const {
   .prose ol {
     @apply my-6 space-y-2 pl-6;
   }
+  .prose ul { list-style: square; }
+  .prose ol { list-style: decimal; }
   .prose li {
     @apply leading-relaxed;
   }
+  .prose li::marker { color: var(--color-signal); }
 
   .prose blockquote {
     border-left: 4px solid var(--color-signal);

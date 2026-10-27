@@ -2,6 +2,7 @@
 title: "Google Voice Not Working Abroad? Here's Why (And What to Use Instead)"
 description: "Google Voice not working abroad? Here's why calls break for expats, troubleshooting fixes to try, and better alternatives compared with real 2026 pricing."
 pubDate: 2026-06-14
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "google-voice-not-working-abroad"
 tags: ["Google Voice", "international calling", "expats", "VoIP", "troubleshooting", "digital nomads"]
@@ -117,12 +118,12 @@ The specific situations where switching makes sense:
 
 ## Alternatives to Google Voice for Expats Abroad
 
-Here's a comparison of what's actually available in 2026. These are real rates, not promotional pricing.
+Here's a comparison of what's actually available in 2026. These are real rates, not promotional pricing (NomaPhone's are current; others as of mid-2026).
 
 | Service | Cost to Call US (per min) | Browser-Based | Works Abroad | SMS/2FA | Pay-As-You-Go |
 |---|---|---|---|---|---|
 | Google Voice | Free (US residents) | Yes | Limited | Yes (US only) | N/A |
-| NomaPhone | $0.03/min | Yes | Yes (210+ countries) | Yes | Yes, credits never expire |
+| NomaPhone | [[rate:US:landline]] | Yes (any browser) | Yes (calls [[countries]] countries) | No (outgoing calls only) | Yes, credits never expire |
 | YadaPhone | $0.02/min | Yes (Chromium) | Yes (150+ countries) | No | Yes, credits never expire |
 | DialAnyone | $0.005/min | Yes, plus apps | Yes (210+ countries) | Yes | Yes |
 | Viber Out | Varies | No (app required) | Yes | No | Yes |
@@ -133,17 +134,17 @@ Let's break down the alternatives honestly.
 
 ### NomaPhone
 
-NomaPhone is browser-based calling at $0.03 per minute to the US. No app to download — you open a browser, dial, and you're connected in about 30 seconds. It works from anywhere with an internet connection, on any device.
+NomaPhone is browser-based calling at [[rate:US:landline]] to US numbers, toll-free included. No app to download and no account to create — you buy credit, open a browser, and dial. It works from anywhere with an internet connection, on any device.
 
-The main advantage over Google Voice for expats is reliability. NomaPhone is built for international calling, so the routing is optimized for people calling from abroad rather than treating international connections as an afterthought. You also get SMS and 2FA support, which is critical if your bank or brokerage sends verification codes.
+The main advantage over Google Voice for expats is that nothing depends on a US phone number or US residency: you don't need to verify a number, and there's no number for Google to reclaim. Be clear on the limits, though: NomaPhone is outgoing calls only. It doesn't give you a number, doesn't receive calls, and doesn't receive SMS or 2FA codes — so if you rely on Google Voice for verification texts, keep it (or another number) for that.
 
-Credits are pay-as-you-go and never expire. No subscription, no monthly fee. A 30-minute call to a US number costs about $0.90.
+Credit is pay-as-you-go ($5, $10 or $20), billed per second, never expires, and unused credit is refundable. No subscription, no monthly fee. A 30-minute call to a US number costs 30 × [[rate:US:landline]].
 
-The trade-off: it costs money where Google Voice is free. Three cents a minute adds up if you make hours of calls per day. But for the calls that matter — your bank, your CPA, a government office — the reliability difference is worth it.
+The trade-off: it costs money where Google Voice is free. A few cents a minute adds up if you make hours of calls per day. But for the calls that matter — your bank, your CPA, a government office — a call that doesn't depend on Google Voice's international quirks is worth it.
 
 ### YadaPhone
 
-YadaPhone charges $0.02 per minute to the US, a penny less than NomaPhone. It's also browser-based and pay-as-you-go with credits that never expire. It includes call recording with AI transcripts, which is useful if you need records of your calls.
+YadaPhone charges $0.02 per minute to the US, a bit less than NomaPhone. It's also browser-based and pay-as-you-go with credits that never expire. It includes call recording with AI transcripts, which is useful if you need records of your calls.
 
 The gap: YadaPhone doesn't support SMS or 2FA as of mid-2026. If you need to receive verification codes from banks or other services, this is a significant limitation. For voice-only calling, though, it's a solid option at a slightly lower price.
 
@@ -172,7 +173,7 @@ Say you're an expat in Lisbon who makes about 10 calls to US numbers per month, 
 | AT&T Roaming | $400 - $600 |
 | T-Mobile Magenta | $50.00 |
 | Google Voice | Free (if it works) |
-| NomaPhone | $6.00 |
+| NomaPhone | 200 × [[rate:US:landline]] |
 | YadaPhone | $4.00 |
 | DialAnyone | $1.00 |
 
@@ -184,9 +185,9 @@ If you decide to move away from Google Voice, think through these things first.
 
 **Don't cancel Google Voice immediately.** Keep it active as a backup for non-critical calls.
 
-**Update your 2FA numbers.** If banks or services send verification codes to your Google Voice number, update them to your new service while GV is still working.
+**Update your 2FA numbers.** If banks or services send verification codes to your Google Voice number, move them to a number you'll reliably keep (or to app-based authentication) while GV is still working. Calling-only services like NomaPhone can't receive those codes.
 
-**Tell your contacts.** Let people know your new number or that you're switching services.
+**Tell your contacts.** Let people know your new number, or — if you switch to an outgoing-only service — that calls from you may come from an unfamiliar caller ID.
 
 **Test before you commit.** Most VoIP services offer free trials or small starter credits. Try a few calls from your actual location, on your actual network, before buying a big credit package.
 
@@ -210,10 +211,10 @@ Texts count as activity. As long as you're sending or receiving texts through Go
 
 Network routing. Europe has better direct cable connections to US data centers, resulting in lower latency. Southeast Asia often routes through more intermediaries. Japan, South Korea, and Singapore tend to have better connections than Thailand, Vietnam, or Indonesia due to higher-capacity submarine cables.
 
-### Is three cents per minute worth it compared to free?
+### Is a few cents per minute worth it compared to free?
 
-That depends on what the call is for. If you're chatting with a friend and don't mind occasional lag, free is fine. If you're on hold with Chase for 45 minutes waiting to unfreeze your card while standing outside an ATM in Chiang Mai, $1.35 for a call that actually connects and stays connected is a different calculation entirely.
+That depends on what the call is for. If you're chatting with a friend and don't mind occasional lag, free is fine. If you're on hold with Chase for 45 minutes waiting to unfreeze your card while standing outside an ATM in Chiang Mai, paying 45 × [[rate:US:landline]] for a call that doesn't depend on Google Voice's quirks is a different calculation entirely.
 
 ---
 
-**NomaPhone** is browser-based international calling built for people who live abroad. No app. No subscription. Just open your browser, dial, and talk. Calls to the US cost $0.03 per minute, and your credits never expire. When you need a call that works — to your bank, your family, your business — try NomaPhone.
+Try NomaPhone: call US numbers (toll-free included) at [[rate:US:landline]] and landlines and mobiles in [[countries]] countries straight from your browser. No app, no account, and credit never expires. [Make a call](https://app.nomaphone.com).

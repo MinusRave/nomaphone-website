@@ -2,6 +2,7 @@
 title: "International Calling From Bali: The Nomad's Guide"
 description: "How to make international calls from Bali as a digital nomad. Covers SIMs, coworking WiFi, VoIP, time zones, and real costs for calling the US, UK, and Australia."
 pubDate: 2026-07-23
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-bali"
 tags: ["Bali", "Indonesia", "digital nomads", "international calling", "Southeast Asia"]
@@ -127,7 +128,7 @@ This means your options for calling landlines and mobile numbers worldwide are s
 
 Browser-based calling services let you dial any phone number in the world from your laptop or phone browser. You don't need to install an app. You open a website, enter the number, and call. The audio travels over your internet connection to the service's servers, which connect to the regular phone network.
 
-The person you're calling sees a real phone number on their caller ID. They pick up their phone normally. They don't need any app or internet connection.
+The person you're calling just gets a normal phone call. They pick up their phone normally. They don't need any app or internet connection.
 
 This is different from WhatsApp or FaceTime calls, where both people need the app and an internet connection. Browser-based VoIP connects to actual phone lines -- which is what you need when calling your bank, your CPA's office, government agencies, or anyone with a regular phone number.
 
@@ -143,10 +144,10 @@ Here's what each method actually costs for a 30-minute call from Bali to the US:
 | Google Voice | Free | No cost | US residents only, lag from Asia |
 | WhatsApp/FaceTime | Free | Free | Both sides need app + internet |
 | DialAnyone | $0.15 | Very cheap | -- |
-| YadaPhone | $0.60 | Cheap, browser-based | No SMS/2FA support |
-| NomaPhone | $0.90 | Browser-based, reliable, SMS/2FA | Needs internet |
+| YadaPhone | $0.60 | Cheap, browser-based | Chromium browsers only |
+| NomaPhone | 30 × [[rate:US:landline]] | Any browser, no account, US toll-free numbers work | Needs internet; outgoing calls only |
 
-The cost difference is hard to ignore. Three cents per minute versus 40-80 cents per minute through a local carrier. For calls that happen regularly -- weekly check-ins with clients, monthly calls with your accountant, occasional bank calls -- browser-based VoIP saves hundreds of dollars over the course of a Bali stay.
+The cost difference is hard to ignore. A few cents per minute ([[rate:US:landline]] on NomaPhone) versus 40-80 cents per minute through a local carrier. For calls that happen regularly -- weekly check-ins with clients, monthly calls with your accountant, occasional bank calls -- browser-based VoIP saves hundreds of dollars over the course of a Bali stay.
 
 ### Calling the UK From Bali
 
@@ -155,8 +156,8 @@ A lot of nomads in Bali are British or Australian, not just American. UK calling
 | Method | Cost (30-min call to UK) | Notes |
 |---|---|---|
 | Telkomsel direct | $12.00 - $18.00 | Varies by plan |
-| NomaPhone (UK landline) | $1.50 | $0.05/min |
-| NomaPhone (UK mobile) | $3.60 | $0.12/min |
+| NomaPhone (UK landline) | 30 × [[rate:GB:landline]] | [[rate:GB:landline]] |
+| NomaPhone (UK mobile) | 30 × [[rate:GB:mobile]] | [[rate:GB:mobile]] |
 | YadaPhone (UK landline) | ~$1.00 | Rates vary |
 
 If you're calling a UK bank or HMRC, you're likely hitting a landline or an 0345/0800 number. Landline rates apply in most cases, keeping costs low.
@@ -168,10 +169,10 @@ Bali is a short flight from Australia, which means there's a massive Aussie noma
 | Method | Cost (30-min call to Australia) | Notes |
 |---|---|---|
 | Telkomsel direct | $12.00 - $20.00 | Varies by plan |
-| NomaPhone (AU landline) | $1.50 | $0.05/min |
-| NomaPhone (AU mobile) | $3.60 | $0.12/min |
+| NomaPhone (AU landline) | 30 × [[rate:AU:landline]] | [[rate:AU:landline]] |
+| NomaPhone (AU mobile) | 30 × [[rate:AU:mobile]] | [[rate:AU:mobile]] |
 
-Australia mobile rates are higher than landlines everywhere. If you're calling someone's cell, expect to pay roughly double the landline rate regardless of which service you use.
+Australia mobile rates are higher than landlines everywhere. If you're calling someone's cell, expect to pay roughly double the landline rate or more, regardless of which service you use.
 
 ## Time Zone Math: WITA (GMT+8)
 
@@ -250,15 +251,15 @@ What does a typical nomad's calling actually cost over a month? Let's say you ma
 |---|---|---|
 | Local SIM direct dialing | $96 - $192 | At $0.40-0.80/min avg |
 | US carrier roaming | $480 - $720 | AT&T/Verizon rates |
-| Browser-based VoIP (NomaPhone) | $4.80 - $14.40 | Depends on destination mix |
-| Browser-based VoIP (YadaPhone) | $3.20 - $9.60 | Cheaper per minute, no SMS/2FA |
+| Browser-based VoIP (NomaPhone) | 240 min at [[rate:US:landline]] (all US) up to [[rate:AU:mobile]] (all AU mobile) | Depends on destination mix |
+| Browser-based VoIP (YadaPhone) | $3.20 - $9.60 | Cheaper per minute, Chromium only |
 | Browser-based VoIP (DialAnyone) | $0.60 - $4.80 | Cheapest rates available |
 
-The range for browser VoIP depends on your destination mix. Calling mostly US numbers at three cents per minute keeps it under $10/month easily. Mix in some UK mobile calls at $0.12/min and it edges higher.
+The range for browser VoIP depends on your destination mix. Calling mostly US numbers at [[rate:US:landline]] keeps it under $10/month easily. Mix in Australian mobiles at [[rate:AU:mobile]] and it climbs.
 
-NomaPhone isn't the cheapest option in the table. DialAnyone charges $0.005/min to the US, and YadaPhone charges $0.02/min. Where NomaPhone differentiates is reliability for calls that matter -- bank calls, government calls, business calls -- and SMS/2FA support that YadaPhone doesn't offer.
+NomaPhone isn't the cheapest option in the table. DialAnyone charges $0.005/min to the US, and YadaPhone charges $0.02/min. Where NomaPhone differentiates is simplicity for calls that matter -- bank calls, government calls, business calls: it works in any browser (not just Chromium), needs no account, reaches US toll-free numbers, and bills per second with credit that never expires. It's outgoing calls only, so it won't receive SMS or 2FA codes.
 
-For three cents a minute, a 30-minute call to sort out a frozen credit card costs $0.90. That's less than your morning smoothie bowl in Canggu.
+At [[rate:US:landline]], a 30-minute call to sort out a frozen credit card costs less than your morning smoothie bowl in Canggu.
 
 ## Quick Reference: International Calling From Bali
 
@@ -278,4 +279,4 @@ Bali is one of the easier places in Southeast Asia for international calling. Th
 
 ---
 
-NomaPhone lets you call any phone number in the world from your browser. No app to download. No setup. Just open the site, enter a number, and call. Rates start at three cents per minute to the US, five cents to UK landlines, and five cents to Australian landlines. Credits never expire. Whether you're in a Canggu coworking space or tethered to your Telkomsel data in Ubud, your calls connect to real phone lines with carrier-grade quality. Try NomaPhone for your next international call from Bali.
+Try NomaPhone: call landlines and mobiles in [[countries]] countries from your browser, whether you're in a Canggu coworking space or tethered to Telkomsel data in Ubud. [[rate:US:landline]] to the US, [[rate:GB:landline]] to UK landlines, [[rate:AU:landline]] to Australian landlines. No app, no account, credit never expires. [Make a call](https://app.nomaphone.com).

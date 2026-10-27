@@ -2,6 +2,7 @@
 title: "How to Call South Korea From Abroad (Expat Guide 2026)"
 description: "Need to call South Korea from abroad? Country code +82, area codes, mobile prefixes, methods compared with real costs and timezone tips."
 pubDate: 2026-05-27
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-south-korea-from-abroad"
 tags: ["South Korea", "international calling", "expats", "country codes", "VoIP", "Asia"]
@@ -103,6 +104,8 @@ Pro tip: Korean banks typically have English-speaking staff during business hour
 - **Fire/Ambulance:** +82 2 119
 - **Korea Tourism Hotline:** +82 2 1330 (English available 24/7)
 
+Note that internet calling services, NomaPhone included, can't connect you to emergency numbers. Use a local phone for emergencies.
+
 ## Methods to Call South Korea From Abroad
 
 You have several options. Each comes with different trade-offs on cost, convenience, and reliability.
@@ -122,7 +125,7 @@ Roaming works without any setup. You just dial. But those per-minute rates add u
 
 Browser-based calling lets you dial Korean landlines and mobiles from any device with internet. No app download required. You open a browser, enter the number, and call.
 
-NomaPhone is built for exactly this kind of call -- the urgent bank call, the immigration office, the "I need to reach someone in Korea right now" moment. Pay-as-you-go credits, no subscription, and credits that never expire.
+NomaPhone is built for exactly this kind of call -- the urgent bank call, the immigration office, the "I need to reach someone in Korea right now" moment. Calls to South Korea cost [[rate:KR:landline]] to landlines and mobiles alike, billed per second. Pay-as-you-go credit, no subscription, and credit that never expires.
 
 Other browser-based options exist too. DialAnyone offers coverage to 210+ countries and includes mobile apps alongside browser calling. YadaPhone provides browser-based calling to 150+ countries.
 
@@ -155,13 +158,13 @@ Here's what a 30-minute call to a Korean landline actually costs with each metho
 |---|---|---|---|
 | AT&T roaming | $10/day pass or $60-90 per-min | No setup needed | Expensive without a day pass |
 | T-Mobile Magenta | $7.50 | Included in plan | Only from T-Mobile covered countries |
-| Browser VoIP (NomaPhone) | Check current rates | No app, works anywhere, pay-as-you-go | Needs internet connection |
+| Browser VoIP (NomaPhone) | 30 × [[rate:KR:landline]] | No app, works anywhere, pay-as-you-go | Needs internet connection |
 | Browser VoIP (DialAnyone) | Varies | App + browser, 210+ countries | Rates vary by destination |
 | Viber Out | Varies | Large user base in Asia | Requires app install |
 | KakaoTalk | Free | No cost at all | Only for personal contacts with the app |
 | Calling card | $3-12 | Works without internet | Hidden fees, poor quality |
 
-Note on NomaPhone rates: South Korea rates are available on the NomaPhone website. The per-minute cost follows the same transparent, pay-as-you-go model -- no connection fees, no monthly minimums, and credits never expire. For the most current rate, check the pricing page directly.
+Note on NomaPhone rates: South Korea is [[rate:KR:landline]] to both landlines and mobiles, billed per second -- no connection fees, no monthly minimums, and credit never expires. The rate is also shown on screen as you dial, and the full list is on the [rates page](/rates/).
 
 ## Time Zone: When to Call South Korea
 
@@ -306,4 +309,4 @@ Try BBB Korea at +82 2 1588 5644. Their volunteers can interpret for you. Altern
 
 ---
 
-**NomaPhone** makes calling South Korea straightforward. Open your browser, dial the Korean number, and connect. No app to install, no contract to sign. Pay-as-you-go credits that never expire. Whether you're calling Shinhan Bank about a frozen card or checking in with family in Seoul, it works from anywhere you have internet. Visit [NomaPhone](https://www.nomaphone.com) to see current rates and get started.
+**NomaPhone** makes calling South Korea straightforward. Open your browser, dial the Korean number, and connect. No app to install, no contract to sign. Pay-as-you-go credits that never expire. Whether you're calling Shinhan Bank about a frozen card or checking in with family in Seoul, it works from anywhere you have internet. [Make a call](https://app.nomaphone.com)

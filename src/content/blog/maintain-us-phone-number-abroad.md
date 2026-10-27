@@ -2,6 +2,7 @@
 title: "How to Maintain a US Phone Number While Living Abroad in 2025"
 description: "Complete guide to keeping your US phone number active while living overseas. Compare Google Voice, carrier plans, virtual numbers, and cost-effective solutions."
 pubDate: 2025-12-17
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "maintain-us-phone-number-abroad"
 tags: ["US phone number", "expat", "Google Voice", "virtual numbers"]
@@ -349,6 +350,12 @@ Testing with major US banks:
 
 **Key insight:** For banking, traditional carrier or MVNO better than Google Voice or virtual numbers.
 
+## When You Need to Call Your Bank or Carrier
+
+Keeping a number alive solves receiving codes. It doesn't solve the other common problem: you need to *call* a US bank, your carrier, or the IRS from abroad, often because a code didn't arrive or a port is stuck. Most of those support lines are toll-free (800, 888, 877, etc.), which usually won't connect from a foreign SIM.
+
+This is where an outgoing-calls service helps. NomaPhone, for example, lets you call US numbers, including toll-free lines, from your browser at [[rate:US:landline]], with no app and no account. It doesn't give you a number, keep or port your number, or receive SMS, so it doesn't replace any of the options above. It's the voice fallback for when you need to reach a human.
+
 ## Hybrid Approach (Recommended)
 
 Most expats end up with combination:
@@ -391,7 +398,7 @@ You port to Google Voice but clients still have your old carrier number.
 ### Mistake 5: Not Having Backup
 Google Voice goes down. Services have outages. Bank needs to call you urgently.
 
-**Solution:** Have two methods. Primary + backup. Never rely on single solution.
+**Solution:** Have two methods. Primary + backup. Never rely on single solution. And save your bank's and carrier's support numbers, plus a way to call them from abroad, before you need them.
 
 ## Tax and Legal Considerations
 
@@ -493,4 +500,4 @@ The key is not losing your number. Once it's gone, you can't get the same number
 
 ---
 
-**Need to make international calls while keeping your US number?** NomaPhone works perfectly alongside Google Voice and any US number solution. Call internationally at $0.03/minute while maintaining your US identity. Join the waitlist at nomaphone.com.
+**Need to call US banks or your carrier from abroad?** NomaPhone works alongside Google Voice and any US number solution: it makes outgoing calls to US numbers, toll-free included, from your browser. [Make a call](https://app.nomaphone.com)

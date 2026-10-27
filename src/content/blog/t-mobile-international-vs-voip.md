@@ -2,6 +2,7 @@
 title: "T-Mobile International Plan vs VoIP: Which Saves More Money?"
 description: "T-Mobile Magenta includes free international data and $0.25/min calls. But does it actually save money? We compare real costs against VoIP alternatives."
 pubDate: 2026-07-05
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "t-mobile-international-vs-voip"
 tags: ["T-Mobile", "international calling", "VoIP", "roaming", "digital nomads", "remote workers"]
@@ -106,11 +107,11 @@ You're abroad for a month. You make 10 calls averaging 15 minutes each. All to U
 |---|---|---|
 | T-Mobile Magenta (cellular) | $0.25/min | $37.50 |
 | T-Mobile International Pass Plus | $15/day (if used 10 days) | $150.00 |
-| NomaPhone (browser VoIP) | $0.03/min | $4.50 |
+| NomaPhone (browser VoIP) | [[rate:US:landline]] | 150 × [[rate:US:landline]] |
 | YadaPhone (browser VoIP) | $0.02/min | $3.00 |
 | DialAnyone (browser VoIP) | $0.005/min | $0.75 |
 
-The gap is stark. T-Mobile at $37.50 versus NomaPhone at $4.50 — that's an 88% cost reduction for the same calls to the same numbers.
+The gap is stark. T-Mobile at $37.50 versus a few dollars on NomaPhone — close to a 90% cost reduction for the same calls to the same numbers.
 
 ### Scenario 2: The Regular Caller
 
@@ -119,7 +120,7 @@ You work remotely and make 20 calls per month averaging 20 minutes each — clie
 | Method | Rate | Monthly Cost |
 |---|---|---|
 | T-Mobile Magenta (cellular) | $0.25/min | $100.00 |
-| NomaPhone (browser VoIP) | $0.03/min | $12.00 |
+| NomaPhone (browser VoIP) | [[rate:US:landline]] | 400 × [[rate:US:landline]] |
 | YadaPhone (browser VoIP) | $0.02/min | $8.00 |
 | DialAnyone (browser VoIP) | $0.005/min | $2.00 |
 
@@ -134,10 +135,10 @@ Your credit card company flags suspicious activity because you're in Thailand. Y
 | T-Mobile Magenta | $11.25 |
 | AT&T Roaming | $90.00 - $135.00 |
 | Verizon TravelPass + per-min | $10.00/day + variable |
-| NomaPhone | $1.35 |
+| NomaPhone | 45 × [[rate:US:landline]] (over two calls; each call is capped at 30 minutes) |
 | YadaPhone | $0.90 |
 
-That single bank call costs $11.25 on T-Mobile versus $1.35 on NomaPhone. And if you were on AT&T instead of T-Mobile, you'd be looking at $90 or more.
+That single bank call costs $11.25 on T-Mobile versus pocket change on NomaPhone. And if you were on AT&T instead of T-Mobile, you'd be looking at $90 or more.
 
 ## When T-Mobile International Actually Makes Sense
 
@@ -163,19 +164,19 @@ VoIP makes the most financial sense in these situations:
 
 ### Extended Stays Abroad
 
-If you're living or traveling abroad for more than a week or two, the per-minute savings compound fast. At 150 minutes per month (about 10 calls of 15 minutes), you save $33 per month by switching from T-Mobile to NomaPhone.
+If you're living or traveling abroad for more than a week or two, the per-minute savings compound fast. At 150 minutes per month (about 10 calls of 15 minutes), you save most of that $37.50 per month by switching from T-Mobile to NomaPhone.
 
 ### Calls That Involve Hold Times
 
-Bank calls, insurance calls, government offices — any call where you might sit on hold for 20-30 minutes. At $0.25/min, hold time on T-Mobile is expensive. At $0.03/min on NomaPhone, it's negligible.
+Bank calls, insurance calls, government offices — any call where you might sit on hold for 20-30 minutes. At $0.25/min, hold time on T-Mobile is expensive. At [[rate:US:landline]] on NomaPhone, billed per second, it's negligible.
 
 ### Regular Business or Client Calls
 
-Remote workers and freelancers who make frequent calls to US numbers from abroad. Even 5 calls per week at 15 minutes each adds up to $75/month on T-Mobile versus $9/month on NomaPhone.
+Remote workers and freelancers who make frequent calls to US numbers from abroad. Even 5 calls per week at 15 minutes each adds up to $75/month on T-Mobile versus a small fraction of that on NomaPhone at [[rate:US:landline]].
 
 ### Calling Toll-Free Numbers
 
-Here's something many travelers don't realize: US toll-free numbers (1-800, 1-888, etc.) are only free when called from inside the US. From abroad on T-Mobile, they cost the same $0.25/min. With VoIP, you can call toll-free numbers at standard rates — $0.03/min with NomaPhone.
+Here's something many travelers don't realize: US toll-free numbers (1-800, 1-888, etc.) are only free when called from inside the US. From abroad on T-Mobile, they cost the same $0.25/min. With VoIP, you can call toll-free numbers at standard rates — [[rate:US:landline]] with NomaPhone, which dials US and Canada toll-free numbers at its normal US rate.
 
 ## Data Speeds and the VoIP Connection
 
@@ -234,7 +235,7 @@ T-Mobile's international rate applies to 215+ countries and destinations, but no
 
 ### Are VoIP calls to toll-free numbers free?
 
-Not usually. Toll-free numbers are only free when called from within the US on a US carrier. When you call them from abroad — whether through T-Mobile or VoIP — there's a charge. T-Mobile charges $0.25/min. NomaPhone charges $0.03/min to US toll-free numbers.
+Not usually. Toll-free numbers are only free when called from within the US on a US carrier. When you call them from abroad — whether through T-Mobile or VoIP — there's a charge. T-Mobile charges $0.25/min. NomaPhone charges its normal US rate of [[rate:US:landline]] to US toll-free numbers.
 
 ### What happens if my Wi-Fi drops during a VoIP call?
 
@@ -242,4 +243,4 @@ The call will drop, just like a cellular call drops when you lose signal. The di
 
 ---
 
-**Ready to stop paying $0.25 per minute for calls abroad?** NomaPhone lets you call US landlines and mobiles from any browser at $0.03 per minute. No app to download. No subscription. No contract. Just open your browser, add some credit, and dial. Your credits never expire. Try NomaPhone and see how much you save on your next trip.
+**Ready to stop paying $0.25 per minute for calls abroad?** NomaPhone lets you call US landlines and mobiles from any browser at [[rate:US:landline]]. No app, no account, no subscription. Add some credit and dial; your credit never expires. [Make a call](https://app.nomaphone.com)

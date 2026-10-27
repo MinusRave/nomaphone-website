@@ -2,6 +2,7 @@
 title: "Is Google Fi Good for International Calling? (Honest Review)"
 description: "Google Fi works in 200+ countries, but international calls cost $0.20/min. Real review of Fi's calling costs, pros, cons, and cheaper alternatives for 2026."
 pubDate: 2026-07-02
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "google-fi-international-calling-review"
 tags: ["Google Fi", "international calling", "VoIP", "digital nomads", "roaming", "browser calling"]
@@ -106,24 +107,26 @@ Here's where the numbers tell the story. Let's compare what Google Fi charges fo
 |---|---|---|---|
 | Google Fi (cellular) | $0.20/min | $6.00 | On top of monthly plan fee |
 | Google Fi (Wi-Fi) | Free | $0.00 | Requires stable Wi-Fi connection |
-| NomaPhone | $0.03/min | $0.90 | Browser-based, works anywhere with internet |
-| YadaPhone | $0.02/min | $0.60 | Browser-based, no SMS/2FA support |
+| NomaPhone | [[rate:US:landline]] | 30 × [[rate:US:landline]] | Browser-based, no app or account, billed per second |
+| YadaPhone | ~$0.02/min | ~$0.60 | Browser-based (advertised rate) |
 
 ### Calling UK Numbers (30-Minute Call)
 
 | Service | UK Landline | UK Mobile | Notes |
 |---|---|---|---|
 | Google Fi | Varies ($0.20+/min) | Varies ($0.20+/min) | Rates depend on origin country |
-| NomaPhone | $0.05/min ($1.50) | $0.12/min ($3.60) | Same rate from any country |
-| YadaPhone | ~$0.04/min ($1.20) | ~$0.10/min ($3.00) | Same rate from any country |
+| NomaPhone | [[rate:GB:landline]] | [[rate:GB:mobile]] | Same rate from any country |
+| YadaPhone | ~$0.04/min | ~$0.10/min | Same rate from any country (advertised) |
 
 ### Calling India (30-Minute Call)
 
 | Service | India Landline | India Mobile | Notes |
 |---|---|---|---|
 | Google Fi | Varies ($0.20+/min) | Varies ($0.20+/min) | Rates change by corridor |
-| NomaPhone | $0.08/min ($2.40) | $0.05/min ($1.50) | Consistent pricing |
-| YadaPhone | ~$0.06/min ($1.80) | ~$0.04/min ($1.20) | Consistent pricing |
+| NomaPhone | [[rate:IN:landline]] | [[rate:IN:mobile]] | Same rate from any country |
+| YadaPhone | ~$0.06/min | ~$0.04/min | Consistent pricing (advertised) |
+
+Competitor rates are approximate and based on published prices at the time of writing; check current rates before you buy. To India, NomaPhone isn't the cheapest browser option per minute. Where it differs is no app, no account, per-second billing, and credit that never expires and can be refunded.
 
 ### Monthly Cost for a Typical Nomad
 
@@ -133,8 +136,8 @@ Let's say you make 15 calls per month averaging 15 minutes each — a mix of ban
 |---|---|---|---|
 | Google Fi (all cellular) | $45.00 | $50-65 | $95-110 |
 | Google Fi (half Wi-Fi, half cellular) | $22.50 | $50-65 | $72.50-87.50 |
-| Google Fi data only + NomaPhone for calls | $6.75 | $50-65 | $56.75-71.75 |
-| Google Fi data only + YadaPhone for calls | $4.50 | $50-65 | $54.50-69.50 |
+| Google Fi data only + NomaPhone for calls | 225 × [[rate:US:landline]] | $50-65 | Plan + a few dollars |
+| Google Fi data only + YadaPhone for calls | ~$4.50 | $50-65 | ~$54.50-69.50 |
 
 The pattern is clear. Using Fi for data and a separate browser-based service for calls saves $20-40/month compared to using Fi for everything.
 
@@ -214,4 +217,4 @@ The verdict: use Google Fi for what it does best — data and connectivity. Pair
 
 ---
 
-**NomaPhone** is a browser-based calling service built for people who live and work internationally. Three cents per minute to the US. No app to download. No contracts. Credits that never expire. Open your browser and make your first call in 30 seconds at [NomaPhone.com](https://nomaphone.com).
+**NomaPhone** is a browser-based calling service for people who live and work internationally: [[rate:US:landline]] to the US, landlines and mobiles in [[countries]] countries, no app, no account, no contract. Credit never expires. [Make a call](https://app.nomaphone.com)

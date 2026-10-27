@@ -2,6 +2,7 @@
 title: "How to Call US Toll-Free Numbers from Anywhere in the World"
 description: "Need to call an 800, 888, or 877 number from outside the US? Here's why they don't work internationally and exactly how to reach them in 2025."
 pubDate: 2025-11-26
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "how-to-call-us-toll-free-numbers-from-anywhere"
 tags: ["toll-free numbers", "800 numbers", "international calling", "customer service"]
@@ -116,11 +117,11 @@ Some browser calling services can reach US toll-free numbers even when regular p
 - You pay service's rates (not toll-free for you, but it works)
 
 **Services that support this:**
-- NomaPhone
+- NomaPhone: US and Canada toll-free numbers (800, 888, 877, 866, 855, 844, 833) are callable at the normal US rate, [[rate:US:landline]]
 - Some other browser-based services
 - Check if they specifically mention toll-free number support
 
-**Cost:** Your usual per-minute rate (e.g., $0.03/min to US)
+**Cost:** Your usual per-minute rate to the US ([[rate:US:landline]] on NomaPhone, billed per second)
 
 **Why it works:** The calling service is making the call from US infrastructure, so toll-free system accepts it.
 
@@ -289,11 +290,11 @@ You enter 1-800-NUMBER in browser service → Service dials from US servers → 
 ### Cost
 
 You pay the browser calling service's rates:
-- Typically $0.02-0.03/minute to US
+- Typically a few cents a minute to the US ([[rate:US:landline]] on NomaPhone)
 - Much cheaper than international carrier rates
 - Not free (it's not toll-free for you), but affordable
 
-**30-minute call:** About $0.90
+**30-minute call:** 30 × [[rate:US:landline]] on NomaPhone
 
 Compare to:
 - Carrier international: $60-90
@@ -308,7 +309,7 @@ Not all browser calling services support toll-free numbers. Some block them.
 - Specifically mentions "toll-free number support"
 - Or try it: Enter a toll-free number and see if it works
 
-**NomaPhone:** Supports toll-free numbers (when we launch)
+**NomaPhone:** Yes. You can call US and Canada toll-free numbers (800, 888, 877, 866, 855, 844, 833) from your browser at the same rate as any other US number, [[rate:US:landline]]. No app, no account: buy credit, enter the 1-800 number, and dial. Calls run up to 30 minutes each (you can dial again), and premium-rate numbers like 1-900 are blocked.
 
 ### Limitations
 
@@ -426,7 +427,7 @@ Most companies now have:
 3. Or use browser calling with toll-free
 4. Worst case: Wait until back in US (if they force it)
 
-**Result:** Either canceled via chat, or called successfully for $2-3
+**Result:** Either canceled via chat, or called successfully for a dollar or two
 
 ## Tips for Success
 
@@ -537,10 +538,10 @@ US toll-free numbers don't work from outside North America because they're desig
 
 **Alternative:** Use company's app, chat, email, or social media
 
-**Cost:** About $1-3 for typical call vs impossible to complete at any price
+**Cost:** About a dollar or two for a typical call vs impossible to complete at any price
 
 **Pro tip:** Save international numbers for companies you might need to call (banks, credit cards, airlines) before you travel.
 
 ---
 
-Need to call US toll-free numbers from abroad? NomaPhone supports calling US toll-free numbers from anywhere in the world. Just enter the 1-800 number and we'll connect you. Works from any country, any browser. [Join the waitlist](https://nomaphone.com) to get access when we launch.
+Need to call a US toll-free number from abroad? With NomaPhone you can call 800, 888, 877, 866, 855, 844 and 833 numbers from any browser, anywhere, at [[rate:US:landline]]. No app, no account. [Make a call](https://app.nomaphone.com).

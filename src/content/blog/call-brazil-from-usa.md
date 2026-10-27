@@ -2,6 +2,7 @@
 title: "How to Call Brazil From the US: Rates, Tips and Best Methods"
 description: "Need to call Brazil from the United States? Compare carrier, VoIP, and browser calling rates. Real methods, honest costs, and practical tips for 2026."
 pubDate: 2026-05-15
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-brazil-from-usa"
 heroImage: "../../assets/call-brazil-from-usa.jpg"
@@ -80,7 +81,7 @@ Here's an honest look at the main ways to call Brazil from the United States.
 | Carrier international plan | Monthly add-on | $5 - $15/month + per-min rate | Predictable billing | Still costs more than VoIP, locked into plan |
 | Calling card | Prepaid PIN-based | $2 - $10 | Works from any phone | Hidden fees, poor quality, declining availability |
 | App-based VoIP (Viber, etc.) | Requires app download | $1 - $5 | Low cost | App required, quality varies |
-| Browser-based VoIP (NomaPhone) | Call from any browser | Varies — check nomaphone.com | No app, works on any device | Needs internet connection |
+| Browser-based VoIP (NomaPhone) | Call from any browser | [[rate:BR]], billed per second | No app or account, works on any device | Needs internet connection |
 | WhatsApp / free VoIP | Internet call, both sides need app | Free | No cost | Both parties need app + internet, unreliable audio |
 
 Each method has trade-offs. Let's dig deeper.
@@ -130,7 +131,7 @@ The rates are generally much lower than carrier rates. But you need to download 
 
 This is where services like NomaPhone come in. You open a browser — any browser, on any device — and place a call. No app to download. No account to set up beyond buying credits.
 
-For current Brazil calling rates on NomaPhone, check [nomaphone.com](https://nomaphone.com). Rates differ for landlines and mobiles, so look up both if you call a mix of number types.
+NomaPhone charges [[rate:BR:both]] in Brazil, billed per second, and shows the rate on screen as you dial. Rates differ for landlines and mobiles, so keep both in mind if you call a mix of number types.
 
 The main advantage here is simplicity. You're on your laptop, you need to call Brazil, you open a browser tab and call. Done in 30 seconds.
 
@@ -253,9 +254,9 @@ Everything in this guide still applies for the Brazil side. The difference is yo
 
 ## A Note on Rates
 
-Brazil calling rates vary between providers and change over time. Rather than publishing a rate that might be outdated by the time you read this, here's what to do:
+Brazil calling rates vary between providers and change over time. Here's what to do:
 
-- Check [nomaphone.com](https://nomaphone.com) for current NomaPhone rates to Brazil (landline and mobile)
+- Check NomaPhone's current Brazil rates ([[rate:BR:both]]) or the full list on the [rates page](/rates/)
 - Compare with at least one other VoIP provider
 - Always check whether the quoted rate is for landlines, mobiles, or both
 - Factor in connection fees and rounding — some providers charge per-minute, others round up to the nearest 3 or 5 minutes
@@ -264,4 +265,4 @@ The gap between carrier rates and VoIP rates to Brazil is substantial. Even if y
 
 ---
 
-**NomaPhone** lets you call Brazil right from your browser. No app download, no setup hassle. Just open a tab, enter the number, and connect. Pay-as-you-go credits, no contracts, and your balance never expires. Check current Brazil rates at [nomaphone.com](https://nomaphone.com) and see for yourself.
+Try NomaPhone: call Brazilian landlines and mobiles from your browser with prepaid credit that never expires. No app, no account. [Make a call](https://app.nomaphone.com)

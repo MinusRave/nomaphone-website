@@ -2,6 +2,7 @@
 title: "International Calling from Turkey: Istanbul Digital Nomad Guide"
 description: "Complete guide to international calling from Turkey. Navigate carriers, VPN considerations, costs, and time zones for digital nomads in Istanbul."
 pubDate: 2026-02-06
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-turkey"
 tags: ["Turkey", "Istanbul", "digital nomad", "VPN"]
@@ -110,11 +111,10 @@ Turkey's unique economic situation.
 - Annual: ~$135
 
 **NomaPhone:**
-- $0.03/min × 30 = $0.90/month
-- Annual: $10.80
-- Always same price in USD
+- [[rate:US:landline]] × 30 per month
+- Priced in USD, so the lira doesn't move it
 
-**Savings: $124/year**
+**Savings: over $100/year**
 
 ### Calling Europe (25 minutes monthly)
 
@@ -124,10 +124,10 @@ Turkey's unique economic situation.
 - Annual: ~$94
 
 **NomaPhone:**
-- $0.03-0.06/min = €0.70-1.40/month
-- Annual: $8.40-16.80
+- Rates vary by country and by landline vs mobile, e.g. UK [[rate:GB:both]], Germany [[rate:DE:both]]
+- To landlines in most of Western Europe, a few cents per minute
 
-**Savings: $77-85 annually**
+**Savings: most of the carrier cost for landline calls; check mobile rates on the [rates page](/rates/), since some are higher**
 
 ## Internet Quality in Istanbul
 
@@ -334,16 +334,15 @@ Turkey uses TRT (UTC+3) year-round.
 - Challenging for West Coast
 
 **Turkcell cost:**
-- Daily 30-min standup
+- Daily 30-min call with a US colleague (one-to-one; group standups belong on a meeting tool)
 - 22 days × 30 min = 660 min/month
 - 660 × 12 TL = 7,920 TL (~$240/month)
 - Annual: ~$2,880
 
 **NomaPhone:**
-- 660 min × $0.03 = $19.80/month
-- Annual: $237.60
+- 660 min × [[rate:US:landline]] per month
 
-**Savings: $2,642/year**
+**Savings: well over $2,000/year**
 
 ### Calling European Clients
 
@@ -354,8 +353,8 @@ Turkey uses TRT (UTC+3) year-round.
 - Expensive for frequent calls
 
 **NomaPhone:**
-- $0.03/min
-- Massive savings
+- From a few cents per minute to landlines in much of Europe (e.g. Germany [[rate:DE:landline]], UK [[rate:GB:landline]])
+- Mobile rates vary, so check the [rates page](/rates/)
 
 ## Cost Comparisons
 
@@ -366,10 +365,9 @@ Turkey uses TRT (UTC+3) year-round.
 - Annual: ~$225
 
 **NomaPhone:**
-- $1.50/month
-- Annual: $18
+- 50 × [[rate:US:landline]] per month
 
-**Savings: $207/year**
+**Savings: around $200/year**
 
 ### Regular User (240 min/month mixed)
 
@@ -378,10 +376,9 @@ Turkey uses TRT (UTC+3) year-round.
 - Annual: ~$990
 
 **NomaPhone:**
-- $9.60/month
-- Annual: $115.20
+- 240 min × each destination's rate (a few cents per minute to the US and most European landlines)
 
-**Savings: $875/year**
+**Savings: several hundred dollars a year**
 
 ## Common Problems
 
@@ -431,7 +428,7 @@ Turkey uses TRT (UTC+3) year-round.
 
 **Browser calling:**
 - Pay in USD
-- $0.03/min USA
+- [[rate:US:landline]] to the USA with NomaPhone
 - Protects from currency volatility
 
 **VPN:**
@@ -477,10 +474,10 @@ Turkey uses TRT (UTC+3) year-round.
 - Europe: 7-13 TL/min (~$0.22-0.41)
 - Expensive and variable
 
-**Browser calling:**
-- USA: $0.03/min stable
-- Europe: $0.03-0.06/min
-- 90%+ savings
+**Browser calling (NomaPhone):**
+- USA: [[rate:US:landline]], priced in USD
+- Europe: varies by country and landline vs mobile
+- 90%+ savings on US calls
 
 **Currency:**
 - ~30-35 TL per USD (2026)
@@ -517,4 +514,4 @@ Turkey uses TRT (UTC+3) year-round.
 
 ---
 
-**Working from Istanbul?** NomaPhone offers browser-based calling at $0.03/minute to USA, charged in stable USD. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Istanbul?** NomaPhone lets you call the US for [[rate:US:landline]], charged in USD, straight from your browser with no app and no account. Credit never expires. [Make a call](https://app.nomaphone.com)

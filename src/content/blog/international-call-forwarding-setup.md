@@ -2,6 +2,7 @@
 title: "How to Set Up International Call Forwarding: Complete Guide"
 description: "Master international call forwarding setup. Learn methods, costs, carrier limitations, and use cases for staying reachable worldwide."
 pubDate: 2026-01-28
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-call-forwarding-setup"
 tags: ["call forwarding", "international forwarding", "phone setup"]
@@ -144,7 +145,7 @@ Much better solution for most people.
 4. Calls forward to you anywhere
 
 **Example:**
-- Virtual US number: +1-415-555-9999 ($2.19/month)
+- Virtual US number: +1-415-555-9999 (typically $2-4/month)
 - Forward to Portugal mobile: +351-91-XXX-XXXX
 - Family calls "US number" (local for them)
 - Reaches you in Portugal
@@ -161,23 +162,17 @@ Much better solution for most people.
 - UK virtual → Thailand mobile: $0.05-0.15/min
 - Much cheaper than carrier forwarding
 
-**Example calculation:**
-- Virtual US number: $2.19/month
+**Example calculation (illustrative prices):**
+- Virtual US number: $3/month
 - 100 minutes received: × $0.03 = $3
-- Total: $5.19/month
+- Total: $6/month
 
 **vs. Carrier forwarding:**
 - 100 minutes × $1.50 = $150/month
 
-**Savings: $145/month**
+**Savings: $144/month**
 
 ### Popular Virtual Number Providers
-
-**NomaPhone:**
-- USA: $2.19/month
-- UK: $1.90/month
-- Forwarding: $0.03/min typical
-- Easy setup
 
 **Twilio:**
 - Developer-focused
@@ -191,17 +186,21 @@ Much better solution for most people.
 - Free forwarding within US
 - International forwarding limited
 
-**Skype:**
-- Multiple countries
-- $3-6/month
-- Easy for non-technical users
-- Limited forwarding options
+**Skype Number:**
+- Was a popular option, but Microsoft shut down Skype in May 2025
+- If you still rely on an old Skype Number, move to another provider
+
+**Other VoIP and number-parking services:**
+- Many providers sell numbers in multiple countries with forwarding
+- Compare the monthly fee, the per-minute forwarding rate and SMS support before choosing
+
+Note: NomaPhone isn't a forwarding provider. It makes outgoing calls from your browser only, so it can't give you a number, receive calls or forward them. Where it fits is the "voicemail + callback" approach further down.
 
 ### Setting Up Virtual Number Forwarding
 
 **Step-by-step:**
 
-1. **Choose provider** (NomaPhone, Twilio, etc.)
+1. **Choose provider** (Twilio, Google Voice, another VoIP provider)
 
 2. **Select number:**
    - Choose country
@@ -280,7 +279,7 @@ When call forwarding makes sense.
 **Example:**
 - You're in Mexico
 - Parents in UK
-- UK virtual number: £1.60/month
+- UK virtual number: around £2/month
 - They call local, you receive in Mexico
 - They pay nothing extra, you pay pennies/minute
 
@@ -318,9 +317,9 @@ For complex situations.
 - One physical number receives both
 
 **Cost:**
-- US: $2.19/month
-- UK: $1.90/month
-- Total: $4.09/month
+- US: $2-4/month
+- UK: $2-4/month
+- Total: $4-8/month
 - Forwarding: Pay per use
 
 ### Time-Based Routing
@@ -419,13 +418,13 @@ Real scenarios with actual costs.
 - Monthly: $200
 - Annual: $2,400
 
-**Virtual number:**
-- US number: $2.19/month
+**Virtual number (illustrative prices):**
+- US number: $3/month
 - Forwarding: 200 × $0.05 = $10/month
-- Monthly total: $12.19
-- Annual: $146.28
+- Monthly total: $13
+- Annual: $156
 
-**Savings: $2,253.72 annually**
+**Savings: about $2,244 annually**
 
 ### Scenario 2: Digital Nomad (Moving Frequently)
 
@@ -452,12 +451,12 @@ Real scenarios with actual costs.
 - 180 days = $1,800
 
 **Virtual number + local SIM:**
-- Virtual: $2.19/month × 6 = $13.14
+- Virtual: $3/month × 6 = $18
 - Local SIMs: $20/month × 6 = $120
 - Forwarding: ~$30 over 6 months
-- Total: $163.14
+- Total: $168
 
-**Savings: $1,636.86**
+**Savings: about $1,632**
 
 ## Setting Up Voicemail with Forwarding
 
@@ -575,7 +574,7 @@ Other ways to stay reachable.
 **Low-tech solution:**
 - Let calls go to voicemail
 - Listen to voicemail via email/app
-- Call back using cheap method
+- Call back using a cheap method, such as a browser-based calling service like NomaPhone (no app, no account, pay per second)
 - Avoids forwarding costs
 
 **Good for:**
@@ -626,12 +625,12 @@ Other ways to stay reachable.
 - Virtual number: $12-20/month
 - Savings: $180-280/month
 
-**Recommended providers:**
-- NomaPhone: $2-4/month numbers
+**Provider options:**
 - Twilio: Flexible, technical
 - Google Voice: Free US only
-- Skype: Easy, multiple countries
+- Other VoIP/number-parking services: compare fees and SMS support
+- Skype: shut down in May 2025
 
 ---
 
-**Need a virtual number with call forwarding?** NomaPhone offers virtual numbers in USA ($2.19/month), UK ($1.90/month), and more, with affordable international forwarding. Join the waitlist at nomaphone.com.
+NomaPhone doesn't provide numbers or forward calls, but it covers the callback side: when you need to return a call to a landline or mobile from wherever you are, open your browser and dial, with no app and no account. [Make a call](https://app.nomaphone.com)

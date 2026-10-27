@@ -2,6 +2,7 @@
 title: "Viber Out Review 2026: Is It Worth It for International Calls?"
 description: "Honest Viber Out review for international calls in 2026. Real rates, pros, cons, and how it compares to browser-based VoIP alternatives for expats and nomads."
 pubDate: 2026-06-17
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "viber-out-review-2026"
 tags: ["Viber Out", "VoIP", "international calling", "Skype alternative", "digital nomads", "service comparison"]
@@ -89,7 +90,7 @@ This is the biggest friction point. Viber Out only works inside the Viber app. T
 
 For a quick call — like phoning your bank about a fraud alert — downloading and setting up a messaging app you might not otherwise use is a real barrier. Especially if you're in a hurry or on a device that isn't yours.
 
-Browser-based calling services let you make a call in under a minute from any device with a web browser. No download, no account verification tied to a phone number. That's a meaningful difference when you just need to make one call right now.
+Browser-based calling services let you make a call within a couple of minutes from any device with a web browser. No download, no account verification tied to a phone number. That's a meaningful difference when you just need to make one call right now.
 
 ### Inconsistent Rate Transparency
 
@@ -128,11 +129,11 @@ Here's how they stack up:
 | Feature | Viber Out | Browser-Based VoIP (e.g., NomaPhone) |
 |---|---|---|
 | App required | Yes (full Viber app) | No (works in any browser) |
-| Setup time | 5-10 min (download, verify phone) | Under 60 seconds |
-| Phone number needed to sign up | Yes | No |
+| Setup time | 5-10 min (download, verify phone) | A minute or two (pay and dial) |
+| Phone number needed to sign up | Yes | No (NomaPhone: no account at all) |
 | Works on shared/borrowed devices | Awkward (needs your Viber login) | Yes (just open a browser) |
-| Caller ID | Yes | Yes |
-| SMS/2FA receiving | No | Yes (select services) |
+| Set your own caller ID | Yes | Varies (NomaPhone: no, calls show a NomaPhone caller ID) |
+| SMS/2FA receiving | No | Rarely (NomaPhone: no, outgoing calls only) |
 | Credit expiration | Yes (with inactivity) | Varies (NomaPhone: never) |
 | Connection fees | Sometimes | Typically none |
 | Desktop calling without phone | No (needs phone pairing) | Yes |
@@ -144,9 +145,9 @@ Let's put real numbers on a common scenario — a 30-minute call to a US mobile 
 | Service | Cost for 30-Min US Call | Notes |
 |---|---|---|
 | Viber Out | ~$0.57 | Plus possible connection fee |
-| NomaPhone | $0.90 | No connection fee, credits never expire |
+| NomaPhone | 30 × [[rate:US:landline]] | No connection fee, credit never expires |
 | DialAnyone | $0.15 | Cheapest option available |
-| YadaPhone | $0.60 | Browser-based, no SMS/2FA |
+| YadaPhone | $0.60 | Browser-based (Chromium) |
 | Google Voice | Free | US residents only, quality issues abroad |
 | AT&T Roaming | $60.00 - $90.00 | Carrier international rates |
 | T-Mobile (Magenta) | $7.50 | With international plan |
@@ -187,9 +188,9 @@ Since the Skype shutdown pushed everyone to find alternatives, here's how Viber 
 | Service | Type | Best For | Biggest Limitation |
 |---|---|---|---|
 | Viber Out | App-based, credit system | Eastern Europe callers, existing Viber users | Requires full app, no browser option |
-| NomaPhone | Browser-based, pay-as-you-go | Nomads, expats, emergency bank calls | Higher rates than some competitors |
+| NomaPhone | Browser-based, pay-as-you-go, no account | Nomads, expats, emergency bank calls | Higher rates than some competitors; outgoing calls only |
 | DialAnyone | Browser + app, pay-as-you-go | Budget-conscious callers | No call recording |
-| YadaPhone | Browser-based, pay-as-you-go | Teams and businesses | No SMS/2FA |
+| YadaPhone | Browser-based, pay-as-you-go | Teams and businesses | Chromium browsers only |
 | Google Voice | Web + app, free for US | US residents calling domestically | US-only, poor quality from abroad |
 
 No single service is perfect. Viber Out occupies a specific niche — it's good for people already in the Viber ecosystem who want occasional calling. But it's not the best general-purpose Skype replacement for someone whose primary need is calling phone numbers internationally.
@@ -220,4 +221,4 @@ The best Skype replacement depends on what you actually need. For casual calls t
 
 ---
 
-**Need to make an international call right now?** NomaPhone lets you call 210+ countries directly from your browser. No app to download, no phone number needed to sign up. Just open the site, add credits, and dial. Rates start at three cents per minute to the US, and your credits never expire. Try it at [nomaphone.com](https://nomaphone.com).
+**Need to make an international call right now?** NomaPhone lets you call [[countries]] countries directly from your browser. No app, no account: buy credit, dial, and see the rate on screen. US calls cost [[rate:US:landline]], and credit never expires. [Make a call](https://app.nomaphone.com)

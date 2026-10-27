@@ -2,6 +2,7 @@
 title: "Digital Nomad Tax Season: Phone Numbers You'll Need to Call"
 description: "Every phone number digital nomads need during tax season. IRS, state agencies, CPA firms, SSA — with hours, hold times, and the cheapest way to call."
 pubDate: 2026-08-07
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "digital-nomad-tax-season-phone-calls"
 tags: ["digital nomads", "tax season", "IRS", "government calls", "international calling"]
@@ -45,7 +46,7 @@ During tax season (March through April 15), expect 30 to 60 minutes on hold. Dur
 
 A 45-minute IRS hold-plus-call on AT&T roaming from Bali: roughly $90 to $135.
 
-The same call using browser-based VoIP at $0.03/min: $1.35.
+The same call using browser-based VoIP like NomaPhone at [[rate:US:landline]]: 45 × [[rate:US:landline]], well under two dollars.
 
 That's not a typo.
 
@@ -94,11 +95,11 @@ Most CPA firms are slammed from February through April 15. If your preparer is w
 
 CPA office lines are US landlines. From abroad on roaming, that's the same $2 to $3 per minute you'd pay calling any US number. A quick 15-minute call costs $30 to $45 on carrier roaming.
 
-With VoIP at $0.03/min, that same call is $0.45.
+With VoIP at [[rate:US:landline]], that same call costs well under a dollar.
 
 ### Pro Tip
 
-Give your CPA your VoIP number at the start of tax season. If you have a US virtual number through a browser calling service, your CPA can call you back on it — and it looks like a regular US number on their end.
+Agree on a callback plan with your CPA at the start of tax season. If you want them to be able to call you, a US virtual number from a provider like Google Voice gives them a regular US number to dial. NomaPhone is outgoing-only (it doesn't give you a number), so with it the simplest approach is to schedule calls and dial the CPA yourself.
 
 ## Social Security Administration
 
@@ -110,7 +111,7 @@ Wait — that's a toll-free number. It won't work from abroad, right? Correct. B
 
 **TTY line that works internationally**: +1 800-325-0778
 
-For most nomads, the practical solution is to use a browser-based calling service that routes through US infrastructure. When your call originates from a US number, toll-free numbers work normally. NomaPhone and similar services handle this automatically.
+For most nomads, the practical solution is to use a calling service that can reach US toll-free numbers from abroad. NomaPhone calls 800, 888, 877, 866, 855, 844 and 833 numbers from your browser at the normal US rate ([[rate:US:landline]]).
 
 ### SSA Hours
 
@@ -184,8 +185,8 @@ You have a few options. Here's an honest comparison of what each costs for a typ
 | Google Voice | Free | No cost for US residents | Requires US setup, quality issues from Asia |
 | Skype (discontinued) | N/A | Was popular | Shut down in 2025 |
 | DialAnyone | $0.23 | Very cheap rates | |
-| YadaPhone | $0.90 | Good quality | No SMS/2FA support |
-| NomaPhone | $1.35 | Reliable quality, browser-based | Not the cheapest option |
+| YadaPhone | $0.90 | Good quality | Chromium browsers only |
+| NomaPhone | 45 × [[rate:US:landline]] | Any browser, no account, toll-free numbers work | Not the cheapest option; 30-min cap per call |
 | Callback apps | Varies | | Hidden fees, inconsistent quality |
 
 The carrier roaming numbers speak for themselves. Even one IRS call on roaming costs more than an entire year of VoIP tax calls.
@@ -207,7 +208,7 @@ Let's map out a realistic tax season for a self-employed digital nomad. You'll p
 | AT&T roaming | $280.00 - $420.00 |
 | T-Mobile Magenta | $35.00 |
 | Google Voice | Free (if it works for you) |
-| NomaPhone | $4.20 |
+| NomaPhone | 140 × [[rate:US:landline]] |
 | YadaPhone | $2.80 |
 | DialAnyone | $0.70 |
 
@@ -229,7 +230,7 @@ If you're using VoIP, don't make your IRS call from a beach bar with spotty wifi
 
 ### 4. Record Your Call (Where Legal)
 
-Many VoIP services let you record calls. This is genuinely useful for tax calls where an agent gives you a case number, a deadline, or specific instructions. Check recording laws in your jurisdiction first.
+Some VoIP services let you record calls (NomaPhone doesn't). This is genuinely useful for tax calls where an agent gives you a case number, a deadline, or specific instructions. Check recording laws in your jurisdiction first — and either way, write down the agent's name and reference number as you go.
 
 ### 5. Know the Phone Tree Shortcuts
 
@@ -247,11 +248,11 @@ Yes. Every US citizen and green card holder must file regardless of where they l
 
 ### Do I need a US phone number to call the IRS?
 
-No. The +1 267-941-1000 international line accepts calls from any number worldwide. However, for toll-free numbers like the SSA, you'll need a service that routes through US infrastructure.
+No. The +1 267-941-1000 international line accepts calls from any number worldwide. However, for toll-free numbers like the SSA, you'll need a service that can reach US toll-free numbers from abroad, such as NomaPhone.
 
 ### What if my CPA won't take international calls?
 
-Some office phone systems block international numbers. A browser calling service with a US virtual number solves this — your call shows up as a domestic US number on their caller ID.
+Some office phone systems block international numbers. A US virtual number from a provider like Google Voice can help, since your call then comes from a domestic US number. Alternatively, ask the CPA's office to schedule a call through their own conferencing tool.
 
 ### Is the October 15 deadline automatic for nomads?
 
@@ -278,4 +279,4 @@ Quick reference — screenshot this or save it to your notes.
 
 ---
 
-NomaPhone lets you call any of these US numbers from your browser, anywhere in the world. Three cents per minute. No app to download, no contract, no monthly fee. Your credits never expire. When your CPA calls at 4 PM Eastern and you're in a cafe in Lisbon, you pick up from your laptop in 30 seconds. Tax season is stressful enough — your phone calls don't need to be. Try NomaPhone at [nomaphone.com](https://nomaphone.com).
+Try NomaPhone: call any of these US numbers, toll-free included, from your browser at [[rate:US:landline]]. No app, no account, no monthly fee, and credit never expires. [Make a call](https://app.nomaphone.com).

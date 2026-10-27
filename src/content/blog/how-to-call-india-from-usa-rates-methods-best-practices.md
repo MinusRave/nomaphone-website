@@ -2,6 +2,7 @@
 title: "How to Call India from USA: Rates, Methods & Best Practices"
 description: "Need to call India from the United States? Here's everything you need to know about rates, quality, and the best methods for calling landlines and mobiles in 2025."
 pubDate: 2025-11-21
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "how-to-call-india-from-usa-rates-methods-best-practices"
 heroImage : "../../assets/how-to-call-india-from-usa-rates-methods-best-practices.jpg"
@@ -136,9 +137,10 @@ Free calls over internet to other WhatsApp/FaceTime users.
 Open website, make calls from browser, pay per minute.
 
 **Typical rates:**
-- $0.08-0.09/minute
+- Around $0.08-0.15/minute, depending on the service and whether you call a landline or a mobile
+- NomaPhone, for example, charges [[rate:IN:both]], billed per second
 
-**Cost for 100 minutes:** $8-9
+**Cost for 100 minutes:** roughly $8-15
 
 **Quality:** Generally very good, consistent
 
@@ -611,4 +613,4 @@ You save $2,000-3,000 per year by setting it up right.
 
 ---
 
-Need to call India reliably from the USA? NomaPhone offers crystal-clear calls at $0.08/minute to both Indian landlines and mobiles. No monthly fees, no apps required, works from your browser. [Join the waitlist](https://nomaphone.com) to get access when we launch.
+Need to call India from the USA? NomaPhone calls Indian numbers at [[rate:IN:both]], billed per second. No monthly fees, no app, no account: it works from your browser. [Make a call](https://app.nomaphone.com)

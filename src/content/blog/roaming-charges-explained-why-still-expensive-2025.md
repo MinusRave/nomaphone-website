@@ -2,6 +2,7 @@
 title: "Roaming Charges Explained: Why They're Still Expensive in 2025"
 description: "International roaming still costs a fortune in 2025. Here's exactly why carriers charge so much, what you're actually paying for, and how to avoid it."
 pubDate: 2025-11-25
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "roaming-charges-explained-why-still-expensive-2025"
 tags: ["roaming charges", "international travel", "mobile carriers", "travel tips"]
@@ -529,4 +530,4 @@ With proper setup, international connectivity should cost you under $20/week, no
 
 ---
 
-Tired of expensive roaming charges? NomaPhone lets you make international calls over any WiFi connection for $0.03/minute. No day passes, no surprises, no $30 phone calls. Just affordable international calling from your browser. [Join the waitlist](https://nomaphone.com) to get access when we launch.
+Tired of expensive roaming charges? NomaPhone lets you call landlines and mobiles in [[countries]] countries from your browser over any WiFi connection, from [[rate:US:landline]] to the US. No day passes, no app, no account, and the rate is shown before you call. [Make a call](https://app.nomaphone.com)

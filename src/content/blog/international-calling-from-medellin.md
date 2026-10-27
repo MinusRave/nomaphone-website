@@ -2,6 +2,7 @@
 title: "International Calling From Medellin: What Works in Colombia"
 description: "Need to call the US from Medellin? Compare VoIP, local SIMs, and browser calling from El Poblado and Laureles. Real rates and practical tips for 2026."
 pubDate: 2026-07-29
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-medellin"
 tags: ["Colombia", "Medellin", "digital nomad", "international calling", "Latin America"]
@@ -82,9 +83,9 @@ This makes Medellin an excellent city for browser-based and app-based internatio
 
 Browser-based services let you make calls directly from Chrome, Firefox, or Edge — no app download required. You open the website, dial the number, and talk. The call routes through the internet to the phone network on the other end.
 
-NomaPhone works this way. You open it in your browser, enter credits, and call any phone number worldwide. Three cents per minute to the US. No app to install, no subscription. Your credits never expire.
+NomaPhone works this way. You open it in your browser, buy prepaid credit, and call landlines and mobiles in [[countries]] countries. [[rate:US:landline]] to the US, billed per second. No app to install, no account, no subscription. Your credit never expires.
 
-For a 30-minute call to a US bank, that's $0.90 total. Compare that to the $30-37 your Claro SIM would charge for the same call.
+For a 30-minute call to a US bank, that's 30 × [[rate:US:landline]]. Compare that to the $30-37 your Claro SIM would charge for the same call.
 
 ### App-Based VoIP
 
@@ -108,17 +109,17 @@ Here's what each method actually costs for common call scenarios from Medellin.
 | AT&T roaming (US SIM) | $60.00-90.00 | If you kept your US carrier active |
 | T-Mobile Magenta roaming | $7.50 | $0.25/min in 200+ countries |
 | Google Voice | Free | US residents only, needs stable WiFi |
-| YadaPhone | $0.60 | Browser-based, no SMS/2FA |
-| NomaPhone | $0.90 | Browser-based, credits never expire |
-| DialAnyone | $0.15 | Browser + app, lowest rate |
+| YadaPhone | ~$0.60 | Browser-based (advertised rate) |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no account, credit never expires |
+| DialAnyone | ~$0.15 | Browser + app, lowest rate (advertised) |
 
 ### 30-Minute Call to UK Landline
 
 | Method | Cost | Notes |
 |---|---|---|
 | Claro SIM (direct dial) | ~$40.00+ | Even more expensive than US calls |
-| NomaPhone | $1.50 | $0.05/min to UK landlines |
-| NomaPhone (UK mobile) | $3.60 | $0.12/min to UK mobiles |
+| NomaPhone | 30 × [[rate:GB:landline]] | [[rate:GB:landline]] to UK landlines |
+| NomaPhone (UK mobile) | 30 × [[rate:GB:mobile]] | [[rate:GB:mobile]] to UK mobiles |
 
 ### Monthly Estimate: Typical Nomad (15 Calls, Avg 15 Min Each)
 
@@ -126,8 +127,8 @@ Here's what each method actually costs for common call scenarios from Medellin.
 |---|---|
 | Colombian SIM (international) | $250-375 |
 | US carrier roaming | $30-80+ |
-| NomaPhone (mostly US calls) | $6.75-9.00 |
-| YadaPhone (mostly US calls) | $4.50-6.00 |
+| NomaPhone (mostly US calls) | 225 × [[rate:US:landline]], plus a bit more for non-US calls |
+| YadaPhone (mostly US calls) | ~$4.50-6.00 (advertised rates) |
 
 The math is clear. Using a Colombian SIM for regular international calls is a nonstarter. VoIP or browser calling is the practical choice.
 
@@ -155,7 +156,7 @@ For frequent calls, you might want both a browser service and Google Voice (if e
 
 ### Step 4: Save Key Numbers
 
-Store the direct-dial numbers for your bank, credit card company, insurance, and any other critical US or UK contacts. Many toll-free numbers (800, 888, etc.) don't work from international services. Look up the direct international numbers instead. Your bank's website usually lists these on the "Contact Us" page under "Calling from outside the US."
+Store the direct-dial numbers for your bank, credit card company, insurance, and any other critical US or UK contacts. Many toll-free numbers (800, 888, etc.) don't work from a Colombian SIM or from many international services. NomaPhone can dial US and Canadian toll-free numbers at its normal US rate, but it's still worth having the direct international numbers as a backup. Your bank's website usually lists these on the "Contact Us" page under "Calling from outside the US."
 
 ## Practical Tips for International Calling From Medellin
 
@@ -190,31 +191,32 @@ US banks are the most common international calling need for Americans in Medelli
 
 - Call early. 9 AM Eastern (which is 9 AM or 8 AM in Medellin depending on DST) means shorter hold times.
 - Have your account info ready. You'll verify identity faster.
-- Use a stable WiFi connection, not mobile data. Bank fraud calls can run 30-60 minutes with holds.
-- If your bank requires a callback to a US number, a virtual US number through a VoIP service handles this. Some browser calling services let you receive callbacks on a US number.
+- Use a stable WiFi connection, not mobile data. Bank fraud calls can run 30-60 minutes with holds. (NomaPhone calls are capped at 30 minutes, so on a long hold you may need to dial again.)
+- If your bank requires a callback to a US number, you need a number that can receive calls, such as your US SIM or a virtual US number from a provider that offers them. Outgoing-only browser services like NomaPhone can't receive callbacks.
 
 ### Dealing With 2FA and Verification Codes
 
 Two-factor authentication can be tricky abroad. If your US bank sends SMS verification codes to your US number, you need a way to receive those texts.
 
-Options: keep your US SIM active on a cheap plan, use a service that forwards SMS, or switch to app-based 2FA (Google Authenticator, Authy) before you leave the US. Some VoIP services — including NomaPhone — support receiving SMS and 2FA codes on a US number.
+Options: keep your US SIM active on a cheap plan, use a service that forwards SMS, or switch to app-based 2FA (Google Authenticator, Authy) before you leave the US. NomaPhone doesn't receive SMS or 2FA codes, but it's a useful fallback when codes don't arrive: you can call your bank's support line, including its US toll-free number, to verify by voice.
 
 ## Costs at a Glance: Medellin to Major Destinations
 
 Quick reference for common calls from Medellin using browser-based VoIP.
 
-| Destination | NomaPhone Rate | 30-Min Call Cost |
-|---|---|---|
-| USA / Canada | $0.03/min | $0.90 |
-| UK Landline | $0.05/min | $1.50 |
-| UK Mobile | $0.12/min | $3.60 |
-| Mexico Landline | $0.05/min | $1.50 |
-| Mexico Mobile | $0.10/min | $3.00 |
-| Germany | $0.05/min | $1.50 |
-| Australia Landline | $0.05/min | $1.50 |
-| Australia Mobile | $0.12/min | $3.60 |
+| Destination | NomaPhone Rate |
+|---|---|
+| USA / Canada | [[rate:US:landline]] |
+| UK Landline | [[rate:GB:landline]] |
+| UK Mobile | [[rate:GB:mobile]] |
+| Mexico Landline | [[rate:MX:landline]] |
+| Mexico Mobile | [[rate:MX:mobile]] |
+| Germany Landline | [[rate:DE:landline]] |
+| Germany Mobile | [[rate:DE:mobile]] |
+| Australia Landline | [[rate:AU:landline]] |
+| Australia Mobile | [[rate:AU:mobile]] |
 
-These are NomaPhone's current rates. Other services may be cheaper — DialAnyone charges $0.005/min to the US, YadaPhone charges $0.02/min. NomaPhone's $0.03/min sits in the middle, with the trade-off being call reliability and SMS/2FA support.
+These are NomaPhone's current rates; the full list is on the [rates page](/rates/). Other services may be cheaper — at the time of writing DialAnyone advertises around $0.005/min to the US and YadaPhone around $0.02/min. NomaPhone's trade-off is simplicity: no app, no account, per-second billing, refundable credit that never expires, and US toll-free numbers included.
 
 ## Frequently Asked Questions
 
@@ -224,7 +226,7 @@ Yes. Colombia doesn't block or throttle VoIP. With a decent internet connection 
 
 ### Can I keep my US phone number while living in Medellin?
 
-You have options. Google Voice (for US residents) lets you maintain a US number. Some VoIP services offer virtual US numbers. You can also keep your US carrier active on a minimal plan and forward calls. The key is having a way to receive US calls and texts — especially for 2FA codes from banks.
+You have options. Google Voice (for US residents) lets you maintain a US number. Some VoIP services offer virtual US numbers (NomaPhone doesn't; it makes outgoing calls only). You can also keep your US carrier active on a minimal plan and forward calls. The key is having a way to receive US calls and texts — especially for 2FA codes from banks.
 
 ### Is Medellin safe for digital nomads in 2026?
 
@@ -248,4 +250,4 @@ The infrastructure is here. The time zone works in your favor. The only thing yo
 
 ---
 
-NomaPhone lets you call any phone number worldwide from your browser. Three cents per minute to the US, no app to install, no subscription, and credits that never expire. Whether you're in El Poblado, Laureles, or a cafe in Envigado, open your browser and call in 30 seconds. Try NomaPhone today.
+NomaPhone lets you call landlines and mobiles in [[countries]] countries from your browser: [[rate:US:landline]] to the US, no app, no account, no subscription, and credit that never expires. Whether you're in El Poblado, Laureles, or a cafe in Envigado, [make a call](https://app.nomaphone.com).

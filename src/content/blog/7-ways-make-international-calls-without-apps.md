@@ -2,6 +2,7 @@
 title: "7 Ways to Make International Calls Without Apps"
 description: "Don't want to download another app? Here are seven proven methods to make international calls without installing anything on your phone in 2025."
 pubDate: 2025-11-20
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "7-ways-make-international-calls-without-apps"
 heroImage : "../../assets/7-ways-make-international-calls-without-apps.jpg"
@@ -650,4 +651,4 @@ This covers 99.9% of situations without ever needing to install an app.
 
 ---
 
-Need to make international calls without apps? NomaPhone works directly from your browser - no download, no installation, no storage used. Just open your browser and call. Starting at $0.03/minute to the US. [Join the waitlist](https://nomaphone.com) to get access when we launch.
+Need to make international calls without apps? NomaPhone works directly from your browser - no download, no account, no storage used. Calls to the US are [[rate:US:landline]], billed per second. [Make a call](https://app.nomaphone.com)

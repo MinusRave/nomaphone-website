@@ -2,6 +2,7 @@
 title: "How to Call 1-800 Numbers from Outside the US: Complete Guide"
 description: "Learn why 1-800 toll-free numbers don't work internationally and discover workarounds, alternative numbers, and VoIP solutions."
 pubDate: 2026-02-09
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-800-numbers-from-outside-us"
 tags: ["800 numbers", "toll-free", "USA", "workarounds"]
@@ -41,7 +42,7 @@ This guide shows you how to actually reach those 1-800 numbers.
 - 1-844
 - 1-833
 
-**None of these work from abroad.**
+**None of these work when dialed from a foreign phone line.** Some internet calling services can still reach them, though (more on that below).
 
 ## Finding Alternative Numbers
 
@@ -111,15 +112,15 @@ This guide shows you how to actually reach those 1-800 numbers.
 
 ### Some VoIP Services Can Dial Toll-Free
 
-**Occasionally works:**
-- Some browser calling services
+**Works with:**
+- NomaPhone, which dials US and Canada toll-free numbers (800, 888, 877, 866, 855, 844, 833) from your browser at the normal US rate of [[rate:US:landline]]
+- Some other browser calling services
 - Certain VoIP apps
 - Virtual US phone numbers
 
-**Unreliable though:**
-- Not all toll-free numbers supported
+**Check before relying on it:**
+- Not every service supports toll-free numbers
 - Depends on provider routing
-- No guarantee
 - Test before relying on it
 
 ### Virtual US Number Strategy
@@ -228,13 +229,13 @@ This guide shows you how to actually reach those 1-800 numbers.
 
 **From Europe:**
 - Carrier: €1-2/min
-- Browser calling: $0.03/min
-- 30-minute call: €30-60 vs $0.90
+- Browser calling (NomaPhone): [[rate:US:landline]]
+- 30-minute call: €30-60 by carrier vs. a small fraction of that in the browser
 
 **From Asia:**
 - Carrier: $0.80-1.50/min
-- Browser calling: $0.03/min
-- 30-minute call: $24-45 vs $0.90
+- Browser calling (NomaPhone): [[rate:US:landline]]
+- 30-minute call: $24-45 by carrier vs. a small fraction of that in the browser
 
 **Hold times matter:**
 - US companies often have 15-30 min holds
@@ -252,9 +253,9 @@ This guide shows you how to actually reach those 1-800 numbers.
 - 30 minutes × $2.50/min = $75
 
 **NomaPhone:**
-- 30 minutes × $0.03/min = $0.90
+- 30 minutes × [[rate:US:landline]], billed per second
 
-**Savings: $21-74 per call**
+**Savings: most of the carrier or roaming cost**
 
 ## Alternative Contact Methods
 
@@ -334,16 +335,16 @@ This guide shows you how to actually reach those 1-800 numbers.
 - Uses internet, not phone network
 - Connects to US gateway
 - Dials out from there
-- Geographic number works
+- Geographic numbers work, and with NomaPhone so do US and Canada toll-free numbers
 
-**Setup:**
-1. Sign up for browser calling service
-2. Add credits
-3. Call geographic number
+**Setup with NomaPhone:**
+1. Open app.nomaphone.com in your browser (no app, no account)
+2. Buy $5, $10 or $20 of prepaid credit
+3. Dial the toll-free or geographic number
 4. Works from anywhere with internet
 
 **Cost:**
-- NomaPhone: $0.03/min to any US number
+- NomaPhone: [[rate:US:landline]] to any US number, toll-free included, billed per second
 - Much cheaper than carrier rates
 - No roaming charges
 
@@ -410,9 +411,9 @@ InsureCo | 800-555-1234 | +1-404-555-6789 | M-F 9-5 EST
 - Reduce actual talk time
 
 **During hold:**
-- Browser calling costs $0.03/min
-- 30-min hold = $0.90
-- vs. $75 on roaming
+- NomaPhone costs [[rate:US:landline]], billed per second
+- A 30-minute hold costs a small fraction of the roughly $75 it would cost on roaming
+- NomaPhone calls are capped at 30 minutes; if you get cut off, dial again
 
 **Callback option:**
 - Request if available
@@ -443,10 +444,10 @@ InsureCo | 800-555-1234 | +1-404-555-6789 | M-F 9-5 EST
 **Cost comparison (30-min call):**
 - Roaming: $75
 - Carrier: $30-45
-- Browser calling: $0.90
-- Savings: 95-98%
+- Browser calling (NomaPhone): 30 × [[rate:US:landline]]
 
 **Best alternatives:**
+- Dial the toll-free number with NomaPhone
 - Find geographic number
 - Use browser calling
 - Try live chat
@@ -473,4 +474,4 @@ InsureCo | 800-555-1234 | +1-404-555-6789 | M-F 9-5 EST
 
 ---
 
-**Need to call US toll-free numbers from abroad?** NomaPhone offers browser-based calling at $0.03/minute to any US geographic number. Find the alternative number, call via browser, save 95%+. Join the waitlist at nomaphone.com.
+**Need to call US toll-free numbers from abroad?** NomaPhone dials 800, 888, 877, 866, 855, 844 and 833 numbers straight from your browser at the normal US rate, with no app and no account. [Make a call](https://app.nomaphone.com)

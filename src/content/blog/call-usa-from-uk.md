@@ -2,6 +2,7 @@
 title: "How to Call the US From the UK (Cheapest Options 2026)"
 description: "Need to call USA from UK cheap? Compare EE, Vodafone, and Three roaming rates against VoIP and browser calling. Real 2026 prices, honest comparison."
 pubDate: 2026-06-05
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-usa-from-uk"
 tags: ["UK", "USA calling", "international calling", "expats", "VoIP", "roaming"]
@@ -99,13 +100,13 @@ This is where things get interesting. Browser-based calling services let you dia
 
 Open your laptop or phone browser, enter the number, and call. The call routes over the internet to the US phone network.
 
-**NomaPhone** charges $0.03 per minute to US numbers. That's roughly 2.4p at current exchange rates. Pay-as-you-go. No subscription. No monthly minimum. Credits never expire.
+**NomaPhone** charges [[rate:US:landline]] to US numbers, landline or mobile, billed per second. Prepaid credit, no account, no subscription, no monthly minimum. Credit never expires, and unused credit can be refunded.
 
-A 30-minute call to a US number through NomaPhone: $0.90 (about 72p).
+A 30-minute call to a US number through NomaPhone costs 30 × [[rate:US:landline]], which works out to well under a pound.
 
 Compare that to £30-60 on EE. Not a typo.
 
-Other browser-based services are available too. **YadaPhone** charges $0.02 per minute — one penny less per minute than NomaPhone. **DialAnyone** charges $0.005 per minute, making it the lowest-cost option by a wide margin. NomaPhone isn't the cheapest. It focuses on call quality and reliability — three cents a minute for a call that actually connects when you need to sort out a frozen bank card or reach the IRS during tax season.
+Other browser-based services are available too. At the time of writing, **YadaPhone** advertises around $0.02 per minute to the US, and **DialAnyone** around $0.005 per minute, making it the lowest-cost option by a wide margin. NomaPhone isn't the cheapest. Its angle is simplicity: no app, no account, pay per second, and US toll-free numbers included, for when you need to sort out a frozen bank card or reach the IRS during tax season.
 
 ## Cost Comparison: 30-Minute Call to a US Number
 
@@ -121,9 +122,9 @@ Here's what a 30-minute call to a US phone number actually costs with each metho
 | WhatsApp / FaceTime | Free | App-to-app only, can't reach real numbers |
 | Viber Out | £1 - £3 | App required, variable quality |
 | Calling card | £1 - £5 | Hidden fees common |
-| DialAnyone | $0.15 (~12p) | Browser-based, lowest cost |
-| YadaPhone | $0.60 (~48p) | Browser-based, no SMS/2FA |
-| NomaPhone | $0.90 (~72p) | Browser-based, reliable quality |
+| DialAnyone | ~$0.15 (~12p) | Browser-based, lowest cost (advertised) |
+| YadaPhone | ~$0.60 (~48p) | Browser-based (advertised) |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no app or account |
 | Microsoft Teams | Varies | Requires Microsoft 365 subscription |
 
 The gap is staggering. Even the most expensive browser VoIP option costs less than 2% of carrier rates. An hour on hold costs under £2 with browser calling. That same hour on a carrier: £60 to £120.
@@ -134,19 +135,19 @@ The gap is staggering. Even the most expensive browser VoIP option costs less th
 
 You need to call US banks, the IRS, your accountant, your insurance company, and family. Many of these calls involve brutal hold times. Some are time-sensitive — fraud alerts, tax deadlines, insurance claims.
 
-Browser-based VoIP is the obvious choice. NomaPhone works in any browser on any device. Open the site, add credit, dial. For personal calls to family with smartphones, keep using WhatsApp or FaceTime. For anything with a real phone number — 1-800 lines, government agencies, banks — use VoIP.
+Browser-based VoIP is the obvious choice. NomaPhone works in any browser on any device. Open the site, buy credit, dial. For personal calls to family with smartphones, keep using WhatsApp or FaceTime. For anything with a real phone number — 1-800 lines, government agencies, banks — use VoIP.
 
-A typical expat month: three calls to banks and services (20 minutes each) plus two calls to family landlines (15 minutes each). On NomaPhone, that's about $2.70. On EE, that same month costs £90 to £180.
+A typical expat month: three calls to banks and services (20 minutes each) plus two calls to family landlines (15 minutes each). That's 90 minutes, so on NomaPhone it costs 90 × [[rate:US:landline]]. On EE, that same month costs £90 to £180.
 
 ### British Person Calling US Numbers Regularly
 
 Maybe you work with American clients, your company has a US office, or you married someone from Texas and their parents only have a landline.
 
-If you have a BT landline, their international add-on is reasonable. Otherwise, browser-based calling wins. Load $5 in NomaPhone credit and you've got over 160 minutes of US calling — nearly three hours for less than the price of a flat white. Credits never expire.
+If you have a BT landline, their international add-on is reasonable. Otherwise, browser-based calling wins. At [[rate:US:landline]], the smallest $5 NomaPhone top-up covers a lot of US calling for less than the price of a flat white. Credit never expires.
 
 ### Occasional Caller
 
-You call the US once or twice a year — a visa application, a company with only a US number. Don't bother with subscriptions. Use a browser-based service when you need it. Add $5 in credit and forget about it. NomaPhone credits sit in your account indefinitely — no monthly drain, no expiration.
+You call the US once or twice a year — a visa application, a company with only a US number. Don't bother with subscriptions. Use a browser-based service when you need it. Add $5 in credit and forget about it. NomaPhone credit sits on your phone card code indefinitely — no monthly drain, no expiration — and you can ask for a refund of what you don't use.
 
 ## Feature Comparison: Browser-Based Services
 
@@ -154,19 +155,20 @@ Since browser calling offers the best value by far, here's how the main options 
 
 | Feature | NomaPhone | YadaPhone | DialAnyone |
 |---|---|---|---|
-| Per-minute rate (US) | $0.03 | $0.02 | $0.005 |
+| Per-minute rate (US) | [[rate:US:landline]] | ~$0.02 | ~$0.005 |
 | Browser-based | Yes | Yes (Chromium only) | Yes + mobile apps |
-| SMS/2FA receiving | Yes | No | Yes |
-| Credits expire | Never | Never | N/A (free credits on signup) |
-| Virtual US numbers | Yes | US/Canada only | 50+ countries |
+| Account required | No | Yes | Yes |
+| SMS/2FA receiving | No | No | Yes |
+| Credits expire | Never (refundable) | Never | N/A (free credits on signup) |
+| Virtual US numbers | No | US/Canada only | 50+ countries |
 | No app required | Yes | Yes | Optional |
 | Pay-as-you-go | Yes | Yes | Yes |
 | Call recording | No | Yes (with AI transcripts) | No |
 | eSIM data bundle | No | No | Yes ($4.99/mo) |
 
-YadaPhone doesn't support receiving SMS or 2FA verification codes — matters if US banks text you a code. DialAnyone is significantly cheaper per minute and includes eSIM data and a REST API that NomaPhone doesn't offer.
+Competitor details are based on their published information at the time of writing and may change, so check their sites before you sign up. NomaPhone is outgoing calls only: it doesn't give you a number and can't receive SMS or 2FA codes. If US banks text you codes, you need a service that provides a number. DialAnyone is significantly cheaper per minute and advertises virtual numbers, eSIM data and a REST API that NomaPhone doesn't offer.
 
-NomaPhone's angle is reliability and simplicity. Three cents a minute for a call that connects cleanly when your card is frozen and you're on the phone with Chase at 11pm London time. Pick based on what matters to you. Price priority: DialAnyone. SMS/2FA plus simple browser calling: NomaPhone. Call recording and team features: YadaPhone.
+NomaPhone's angle is simplicity. No app, no account, no subscription: buy credit, dial, pay per second, when your card is frozen and you need Chase at 11pm London time. Pick based on what matters to you. Price priority: DialAnyone. A number to receive codes: a service that provides one. Call recording and team features: YadaPhone. Quick calls with no signup: NomaPhone.
 
 ## Tips for Better Call Quality From the UK
 
@@ -196,7 +198,7 @@ Format: +1 followed by the 10-digit number. For example, +1 555 123 4567. Most V
 
 ### Can I call US toll-free numbers (1-800, 1-888) from the UK?
 
-Toll-free numbers are only free within the US. From the UK, your carrier charges full international rates. Browser-based VoIP services reach toll-free numbers at the same per-minute rate as any US number. On NomaPhone, a 1-800 call costs $0.03/min.
+Toll-free numbers are only free within the US. From the UK, your carrier charges full international rates. Browser-based VoIP services reach toll-free numbers at the same per-minute rate as any US number. On NomaPhone, a 1-800 call costs the normal US rate, [[rate:US:landline]].
 
 ### Do I need to dial a country code?
 
@@ -204,15 +206,15 @@ Yes. The US country code is +1. If the number is (555) 123-4567, dial +1 555 123
 
 ### Will the person I'm calling see a UK number?
 
-With NomaPhone, your call displays a US-based caller ID. The person on the other end sees a normal US number. This matters for businesses that screen or reject international numbers.
+Not with NomaPhone. Calls go out under a NomaPhone caller ID rather than your own number, and the person can't call you back on it. Exactly what the recipient's screen shows can vary by carrier, so if a callback matters, give them a number where you can be reached.
 
 ### Can I receive calls from the US?
 
-With a virtual US number, yes. NomaPhone and other services offer virtual numbers that let US callers reach you as if dialing a local number.
+Only with a number of your own, such as a virtual US number from a provider that offers them. NomaPhone doesn't: it makes outgoing calls only and doesn't provide numbers.
 
 ### What about US mobile numbers versus landlines?
 
-Most services charge the same rate for both. NomaPhone is $0.03/min to US mobiles and landlines alike. Some other countries have different rates for mobile versus landline, but the US does not.
+Most services charge the same rate for both. NomaPhone is [[rate:US:landline]] to US mobiles and landlines alike. Some other countries have different rates for mobile versus landline, but the US does not.
 
 ### Is browser calling reliable enough for important calls?
 
@@ -224,7 +226,7 @@ If you're in the UK and need to call the US, here's the summary.
 
 **For calls to people who have smartphones:** WhatsApp or FaceTime. Free, easy, no setup.
 
-**For calls to real phone numbers — banks, businesses, government, customer service, landlines:** Browser-based VoIP. NomaPhone at $0.03/min, YadaPhone at $0.02/min, or DialAnyone at $0.005/min. All are a fraction of UK carrier rates.
+**For calls to real phone numbers — banks, businesses, government, customer service, landlines:** Browser-based VoIP. NomaPhone at [[rate:US:landline]], or YadaPhone and DialAnyone at their advertised rates. All are a fraction of UK carrier rates.
 
 **For regular weekly calls and you have a landline:** BT or Virgin Media international add-ons are reasonable at £7-8.50/month.
 
@@ -232,4 +234,4 @@ Skip carrier international rates. At £1-3 per minute, they're built for a world
 
 ---
 
-NomaPhone lets you call any US number from your browser for $0.03 per minute. No app to download. No contract. No monthly fee. Credits never expire. Open the site, add credit, and dial — takes about 30 seconds to get started at [NomaPhone.com](https://nomaphone.com).
+NomaPhone lets you call US numbers, including toll-free lines, from your browser for [[rate:US:landline]]. No app, no account, no contract, no monthly fee. Credit never expires. [Make a call](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "How to Call the US From Costa Rica (Expat Calling Guide)"
 description: "Need to call USA from Costa Rica? Compare local SIMs, carrier roaming, and browser-based VoIP with real 2026 rates. Expat guide for SSA, Medicare, and banks."
 pubDate: 2026-05-30
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-usa-from-costa-rica"
 tags: ["Costa Rica", "USA", "expats", "international calling", "VoIP"]
@@ -74,9 +75,9 @@ Here's what each option actually costs for a typical 30-minute call to a US numb
 | Kolbi SIM (local) | $7.50-$9.00 | Works anywhere in CR | Moderate cost, no US number |
 | WhatsApp/FaceTime | Free | No cost | Both parties need the app, no landlines/businesses |
 | Google Voice | Free | Good for US residents | Needs US number to set up, quality varies |
-| YadaPhone | $0.60 | Low cost | No SMS/2FA support |
+| YadaPhone | $0.60 | Low cost | Chromium browsers only |
 | DialAnyone | $0.15 | Very low cost | No call recording |
-| NomaPhone | $0.90 | Reliable, browser-based, SMS/2FA | Needs internet connection |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no account, toll-free numbers work | Needs internet connection, 30-min cap per call |
 
 The free options work great for calling friends and family who have smartphones. But they fall apart when you need to call a US bank's 1-800 number, sit on hold with Medicare, or reach your accountant's office landline. That's where paid options become necessary.
 
@@ -88,17 +89,17 @@ This matters in Costa Rica because the WiFi infrastructure is actually quite goo
 
 ### How It Works
 
-You load the calling service in Chrome, Safari, or Firefox. You dial the US number. The service routes your call over the internet to the US phone network. The person on the other end sees a real phone number on their caller ID. They have no idea you're calling from Guanacaste.
+You load the calling service in Chrome, Safari, or Firefox. You dial the US number. The service routes your call over the internet to the US phone network. To the bank or agency on the other end, it's an ordinary incoming phone call. Nobody needs to know you're calling from Guanacaste.
 
 ### NomaPhone
 
-NomaPhone charges $0.03 per minute to call the US. That's three cents. A 30-minute call costs $0.90. A two-hour hold with Social Security costs $3.60.
+NomaPhone charges [[rate:US:landline]] to call the US, billed per second. A 30-minute call costs 30 × [[rate:US:landline]]. Even two hours on hold with Social Security stays in the low single digits of dollars (calls are capped at 30 minutes each, so a marathon hold means redialing).
 
 Compare that to the $60-$90 you'd pay on AT&T roaming for the same call.
 
-NomaPhone is browser-based, so there's nothing to install. You buy credits (starting at $5, no expiration), open the site, and call. It also supports SMS and 2FA verification -- which is critical if your US bank sends security codes to a phone number.
+NomaPhone is browser-based, so there's nothing to install and no account to create. You buy credit ($5, $10 or $20 by card, Apple Pay or Google Pay), get a phone card code that never expires, and call. It's outgoing calls only: NomaPhone doesn't give you a US number and can't receive SMS or 2FA codes, so keep a separate solution for those (see the FAQ below).
 
-NomaPhone isn't the cheapest VoIP option available. DialAnyone charges $0.005/min, and YadaPhone charges $0.02/min. But NomaPhone focuses on call reliability for the moments that matter -- when your bank card is frozen, when Medicare needs to verify your enrollment, when you're on hold for an hour and can't afford a dropped call.
+NomaPhone isn't the cheapest VoIP option available. DialAnyone charges $0.005/min, and YadaPhone charges $0.02/min. NomaPhone's angle is simplicity for the moments that matter -- when your bank card is frozen or Medicare needs to verify your enrollment: open a browser, dial the 1-800 number, pay per second, and get a refund on unused credit if you don't need it anymore.
 
 ### Google Voice
 
@@ -144,7 +145,7 @@ The SSA's main number is 1-800-772-1213. Hold times average 45 minutes to over t
 - AT&T roaming: $180-$270
 - T-Mobile Magenta: $22.50
 - Kolbi SIM: $22.50-$27.00
-- NomaPhone: $2.70
+- NomaPhone: 90 × [[rate:US:landline]] (across several calls, given the 30-minute cap)
 
 The SSA also has the Federal Benefits Unit at the US Embassy in San Jose. You can sometimes handle issues in person, but phone verification is still required for many tasks.
 
@@ -158,7 +159,7 @@ Important note: Medicare generally does not cover healthcare received outside th
 
 Chase, Bank of America, Wells Fargo, Schwab -- they all have fraud detection systems that flag international transactions. When your card gets frozen in Costa Rica, you need to call the number on the back of your card. These calls typically involve 15-30 minutes of hold time plus identity verification.
 
-Some banks require you to call from a recognized phone number. If you've updated your account to a Costa Rican number, the bank may not recognize it. A VoIP service with SMS/2FA support lets you receive verification texts during the call, which solves this problem.
+Some banks send a verification text to the phone number on file. If that's a US number you no longer have active, the code won't reach you. Keeping your US number alive (Google Voice or a cheap US plan, see the FAQ) is the fix for receiving texts; NomaPhone doesn't receive SMS, but it's a cheap way to call the bank by voice and verify another way.
 
 Charles Schwab is particularly popular among expats for its fee-free international ATM withdrawals. Their customer service line averages 10-20 minutes of hold time.
 
@@ -170,7 +171,7 @@ CPAs and tax preparers who specialize in expat taxes are usually US-based. Tax s
 
 ### US Insurance, Utilities, and Subscriptions
 
-Canceling a US account, updating insurance policies, dealing with property management back home. These calls are sporadic but unavoidable. Each one is 15-30 minutes on average. At roaming rates, they add up fast. At three cents a minute, they're barely noticeable.
+Canceling a US account, updating insurance policies, dealing with property management back home. These calls are sporadic but unavoidable. Each one is 15-30 minutes on average. At roaming rates, they add up fast. At [[rate:US:landline]] on NomaPhone, they're barely noticeable.
 
 ## Setting Up Your Calling System in Costa Rica
 
@@ -180,7 +181,7 @@ Here's a practical setup that covers every scenario.
 
 **Step 2: Set up home internet.** Fiber from Kolbi or Liberty in the Central Valley runs 15,000-25,000 colones/month ($28-$48). This is your primary connection for browser-based calling.
 
-**Step 3: Choose a browser-based calling service.** NomaPhone works at $0.03/min with no app required. Buy $5 in credits (over 160 minutes of US calling) and they never expire.
+**Step 3: Choose a browser-based calling service.** NomaPhone works at [[rate:US:landline]] to US numbers with no app or account required. A $5 card covers well over an hour of US calling, and the credit never expires.
 
 **Step 4: Keep WhatsApp for personal calls.** Friends and family with smartphones get WhatsApp calls. Free and easy.
 
@@ -190,7 +191,7 @@ Here's a practical setup that covers every scenario.
 |---|---|
 | Kolbi SIM (5GB data) | $11.40 |
 | Home internet (fiber) | $28-$48 |
-| VoIP calling (est. 60 min/month to US) | $1.80 |
+| VoIP calling (est. 60 min/month to US) | Under $2 |
 | **Total** | **$41-$61** |
 
 Compare that to keeping a US carrier plan with roaming: $80-$300/month depending on usage. Or an international day pass at $10/day adding up to $300/month.
@@ -226,7 +227,7 @@ Yes, but not through your US carrier's roaming plan long-term. Port your US numb
 
 ### Do US toll-free numbers (1-800, 1-888) work from Costa Rica?
 
-Toll-free numbers are free only within the US. From Costa Rica, they connect but you pay the international rate -- whether that's your carrier's per-minute charge or your VoIP rate. On NomaPhone, calling a US toll-free number costs the same $0.03/min as any other US number.
+Toll-free numbers are free only within the US. From Costa Rica, they connect but you pay the international rate -- whether that's your carrier's per-minute charge or your VoIP rate. On NomaPhone, calling a US toll-free number costs the same [[rate:US:landline]] as any other US number.
 
 ### Is WhatsApp enough for all my US calling needs?
 
@@ -242,4 +243,4 @@ With a decent internet connection (10+ Mbps), very reliable. The Central Valley 
 
 ---
 
-**Living in Costa Rica and need to call the US?** NomaPhone offers browser-based calling at $0.03/minute to any US number -- landlines, mobiles, and toll-free. No app to download, no contract, and credits never expire. Join the waitlist at nomaphone.com.
+**Living in Costa Rica and need to call the US?** NomaPhone calls any US number -- landlines, mobiles, and toll-free -- from your browser at [[rate:US:landline]]. No app, no account, no contract, and credit never expires. [Make a call](https://app.nomaphone.com).

@@ -2,6 +2,7 @@
 title: "Calling US Businesses from Abroad: What Works and What Doesn't"
 description: "Master calling US businesses from anywhere in the world. Learn about toll-free limitations, verification issues, and professional calling solutions."
 pubDate: 2026-01-22
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "calling-us-businesses-from-abroad"
 tags: ["USA", "business calls", "toll-free", "international calling"]
@@ -48,12 +49,12 @@ Understanding the technical limitation.
 
 ### Exceptions That Sometimes Work
 
-**Rare cases:**
-- Some VoIP services can dial US toll-free
+**Cases that do work:**
+- Some VoIP services can dial US toll-free, because they hand the call to the US network directly
 - Virtual US phone numbers may work
 - Specific calling apps sometimes route them
 
-**But unreliable.** Don't count on it.
+**Check before you rely on one.** NomaPhone, for example, calls US and Canadian toll-free numbers (800, 888, 877, 866, 855, 844, 833) from your browser at its normal US rate of [[rate:US:landline]], so the 1-800 number on the website is reachable after all. Many other services and every foreign SIM will fail, so it's still worth knowing the alternatives below.
 
 ## Finding Alternative Numbers
 
@@ -132,19 +133,19 @@ What you'll actually pay to call US businesses.
 **From Europe to US number:**
 - Roaming: €2-3/min
 - Local carrier: €1-2/min
-- Browser calling: $0.03/min
-- Hold time 30 min: €30-90 roaming vs $0.90 browser
+- Browser calling: a few cents/min (NomaPhone: [[rate:US:landline]])
+- Hold time 30 min: €30-90 roaming vs about a dollar browser
 
 **From Asia to US number:**
 - Roaming: $2-4/min
 - Local carrier: $0.80-1.50/min
-- Browser calling: $0.03/min
-- Hold time 30 min: $24-120 roaming vs $0.90 browser
+- Browser calling: a few cents/min
+- Hold time 30 min: $24-120 roaming vs about a dollar browser
 
 **From Latin America to US:**
 - Local carrier: $0.70-1.20/min
-- Browser calling: $0.03/min
-- Hold time 30 min: $21-36 carrier vs $0.90 browser
+- Browser calling: a few cents/min
+- Hold time 30 min: $21-36 carrier vs about a dollar browser
 
 ### The Hold Time Problem
 
@@ -156,8 +157,8 @@ What you'll actually pay to call US businesses.
 **Example calculation (from Europe):**
 - 45-minute call (30 min hold, 15 min talking)
 - Roaming: €90-135
-- Browser calling: $1.35
-- Savings: €88-133 per call
+- Browser calling: a dollar or two
+- Savings: almost the entire roaming cost
 
 ### When Cost Doesn't Matter
 
@@ -196,10 +197,12 @@ Making US businesses recognize and trust your call.
 - Professional appearance
 
 **Setup:**
-- Get virtual US number: $2-4/month
-- Use browser calling from it
+- Get virtual US number from a provider that offers them: $2-4/month
+- Make calls through that provider's app so the number shows
 - They see normal US number
 - Smooth interaction
+
+Note that this needs a number provider. NomaPhone doesn't provide numbers and doesn't show your own number when you call; it's for placing outgoing calls only.
 
 **Worth it if:**
 - Regular business with US companies
@@ -478,15 +481,15 @@ Making US business calls affordable.
 ### Use Browser Calling
 
 **Instead of roaming/carrier:**
-- NomaPhone: $0.03/min to US
+- NomaPhone: [[rate:US:landline]] to US numbers, toll-free included, billed per second
 - Savings: 95-98%
-- 60-minute call: $1.80 vs $120+ roaming
+- 60 minutes of calls: a couple of dollars vs $120+ roaming (NomaPhone calls run up to 30 minutes each, so a long hold may mean dialing again)
 
 **Setup:**
-- Sign up once
-- Add credits
+- No sign-up or account
+- Buy prepaid credit ($5, $10 or $20)
 - Call from browser
-- Works worldwide
+- Works from anywhere with internet
 
 ### Call During Off-Peak Hours
 
@@ -614,9 +617,9 @@ Making business calls easier.
 
 ## Quick Reference Guide
 
-**Toll-free won't work:**
+**Toll-free won't work from foreign phones:**
 - 1-800, 1-888, 1-877, 1-866, 1-855, 1-844, 1-833
-- Find alternatives before calling
+- Use a service that can dial them (NomaPhone can) or find alternatives before calling
 
 **Finding alternative numbers:**
 - Corporate headquarters
@@ -628,7 +631,7 @@ Making business calls easier.
 **Cost comparison (60-min call to US):**
 - Roaming: $120-180
 - Carrier international: $60-90
-- Browser calling: $1.80
+- Browser calling: a couple of dollars
 - Video/chat: Free
 
 **Best practices:**
@@ -659,7 +662,7 @@ Making business calls easier.
 - One-time critical calls
 
 **Cost saving:**
-- Browser calling: $0.03/min
+- Browser calling: a few cents/min
 - Call off-peak hours
 - Use callback options
 - Batch multiple issues
@@ -674,4 +677,4 @@ Making business calls easier.
 
 ---
 
-**Need to call US businesses regularly from abroad?** NomaPhone offers browser-based calling at $0.03/minute to any US number, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+Need to call a US business from abroad, including 1-800 numbers? Try NomaPhone: no app, no account, credit that never expires. [Make a call](https://app.nomaphone.com)

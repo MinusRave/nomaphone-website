@@ -2,6 +2,7 @@
 title: "Google Voice Alternatives for Non-US Residents (2026)"
 description: "Can't sign up for Google Voice outside the US? Here are 5 real alternatives for non-US residents, with actual 2026 pricing and honest feature comparisons."
 pubDate: 2026-06-11
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "google-voice-alternatives-non-us"
 tags: ["Google Voice", "international calling", "VoIP", "expats", "digital nomads", "browser calling"]
@@ -36,13 +37,13 @@ Google Voice is a domestic US product. Here's where it falls apart for non-US re
 
 **No geographic restrictions.** The service should work from Lisbon, Bangkok, Nairobi, or Berlin without IP blocks.
 
-**SMS for 2FA.** US banks send verification codes via text. If your calling service can receive those, that's a major advantage.
+**SMS for 2FA (maybe).** US banks send verification codes via text. Some services offer numbers that can receive those; others, like NomaPhone, are outgoing calls only. Decide whether you need a number or just a cheap way to call.
 
 **Browser-based access.** No app to download means any device with a browser and internet works.
 
 **Pay-as-you-go.** Monthly subscriptions waste money if you only call a few times per month.
 
-**Reliability for important calls.** When you're on hold with your bank's fraud department for 40 minutes, the call needs to stay connected.
+**Reliability for important calls.** When you're on hold with your bank's fraud department, the call needs to stay connected.
 
 ## The 5 Best Google Voice Alternatives for Non-US Residents
 
@@ -50,21 +51,21 @@ Google Voice is a domestic US product. Here's where it falls apart for non-US re
 
 NomaPhone is a browser-based calling service designed for expats and digital nomads calling US numbers from abroad.
 
-**How it works.** Open your browser, enter the number, and you're connected in about 30 seconds. No app download. No US phone number for sign-up. Runs on WebRTC — the same technology behind Google Meet and Zoom audio.
+**How it works.** Open your browser, buy prepaid credit with Apple Pay, Google Pay or a card, and dial. No app download, no account, no US phone number needed. You get a phone card code that holds your credit and is also emailed to you. Runs on WebRTC — the same technology behind Google Meet and Zoom audio.
 
-**Pricing.** $0.03 per minute to US and Canadian numbers. A 30-minute bank call costs $0.90. Credits never expire, no monthly minimum, no connection fees. Minimum purchase is $5.
+**Pricing.** [[rate:US:landline]] to US and Canadian numbers, billed per second, including US toll-free numbers. Credit never expires, no monthly minimum, no connection fees, and unused credit can be refunded. Credit comes in $5, $10 or $20.
 
-**SMS/2FA.** Yes. Receives verification codes from US banks and financial institutions.
+**SMS/2FA.** No. NomaPhone doesn't provide a phone number and can't receive calls or SMS. When a code doesn't arrive, it's a way to call your bank by voice instead.
 
-**Where it works.** 210+ countries. Any device with a browser and internet.
+**Where it works.** Calls [[countries]] countries. Any device with a browser and internet.
 
-**Best for:** Expats who need reliable US calling with SMS/2FA and want browser-only simplicity. When your card gets frozen at midnight abroad, opening a browser tab is faster than downloading an app.
+**Best for:** Expats who need simple US calling (banks, IRS, airlines, toll-free lines) and want browser-only simplicity. When your card gets frozen at midnight abroad, opening a browser tab is faster than downloading an app.
 
-**Limitations:** Not the cheapest — DialAnyone charges $0.005/min, six times less. No call recording yet. No eSIM data bundle.
+**Limitations:** Not the cheapest — DialAnyone charges $0.005/min. Outgoing calls only: no number, no SMS, no call recording. Calls are capped at 30 minutes each.
 
 ### 2. YadaPhone — Penny-Cheaper Browser Calling Without SMS
 
-YadaPhone offers browser-based VoIP at slightly lower rates than NomaPhone.
+YadaPhone offers browser-based VoIP at slightly lower US rates than NomaPhone.
 
 **How it works.** Call from a Chromium-based browser (Chrome, Edge, Brave). One free call with no credit card required.
 
@@ -138,13 +139,13 @@ Here's how these five Google Voice alternatives compare on features that matter 
 |---|---|---|---|---|---|
 | Browser-based (no app) | Yes | Yes (Chromium) | Yes + apps | No (app required) | Partial |
 | Works reliably outside US | Yes | Yes | Yes | Yes | Limited |
-| SMS/2FA receive | Yes | No | Yes | No | Partial |
+| SMS/2FA receive | No | No | Yes | No | Partial |
 | Pay-as-you-go | Yes | Yes | Yes | Yes | Free (ads) |
-| Virtual US number | Yes | Yes ($1.95/mo) | Yes | No | Yes (free) |
-| Countries covered | 210+ | 150+ | 210+ | 100+ | US/Canada |
+| Virtual US number | No | Yes ($1.95/mo) | Yes | No | Yes (free) |
+| Countries covered | [[countries]] | 150+ | 210+ | 100+ | US/Canada |
 | Credits expire | Never | Never | Never | 180 days | N/A |
 | Call recording | No | Yes (AI transcripts) | No | No | No |
-| Free trial | No | 1 free call | 10 free credits | No | Free service |
+| Free trial | No (unused credit refundable) | 1 free call | 10 free credits | No | Free service |
 
 Now the pricing. What you'll actually pay for a 30-minute call to a US number:
 
@@ -153,27 +154,27 @@ Now the pricing. What you'll actually pay for a 30-minute call to a US number:
 | TextNow | Free | $0.00 | $0.00 |
 | DialAnyone | $0.005/min | $0.15 | $1.13 |
 | YadaPhone | $0.02/min | $0.60 | $4.50 |
-| NomaPhone | $0.03/min | $0.90 | $6.75 |
+| NomaPhone | [[rate:US:landline]] | 30 × [[rate:US:landline]] | 225 × [[rate:US:landline]] |
 | Viber Out | ~$0.05/min | ~$1.50 | ~$11.25 |
 | Carrier roaming (AT&T) | $2.00-3.00/min | $60-90 | $450-675 |
 
-DialAnyone is the clear price winner among paid services. TextNow is free but comes with serious caveats for international users. NomaPhone costs about six times more per minute than DialAnyone.
+DialAnyone is the clear price winner among paid services. TextNow is free but comes with serious caveats for international users. NomaPhone costs several times more per minute than DialAnyone.
 
 So why would anyone pay more?
 
 ## When Price Isn't the Only Factor
 
-**Call quality on important calls.** Three cents a minute gets you carrier-grade audio on NomaPhone. When you finally reach a human at Chase after 40 minutes on hold, you need that call to stay clear and connected.
+**No account at all.** NomaPhone doesn't ask for a sign-up, email verification or phone number. You pay, you get a phone card code, you call. Unused credit can be refunded.
 
 **Browser-only simplicity.** No app, no multi-step setup. Open browser, type number, call. That simplicity matters when you're stressed about a frozen bank card at midnight in a foreign country.
 
-**SMS/2FA that banks recognize.** Both NomaPhone and DialAnyone support SMS. TextNow technically does too, but banks frequently reject their numbers. Test with your specific bank.
+**SMS/2FA that banks recognize.** If you need to receive codes, look at services that offer numbers, such as DialAnyone. TextNow technically does too, but banks frequently reject their numbers. Test with your specific bank. NomaPhone doesn't receive SMS.
 
 The honest answer: there's no single "best" option. It depends on what you prioritize.
 
 ## How to Choose
 
-**Choose NomaPhone if:** You need SMS/2FA for US banks, want browser-only calling, and value reliability over the lowest price. Three cents a minute for a call that connects without dropping is a fair trade.
+**Choose NomaPhone if:** You only need to make calls (banks, IRS, airlines, toll-free numbers), want browser-only calling with no account, and don't need a phone number of your own.
 
 **Choose YadaPhone if:** You make frequent US calls, don't need SMS/2FA, and want call recording. A penny saved per minute adds up.
 
@@ -191,11 +192,11 @@ Sometimes. Some people keep Google Voice working abroad with a US-based VPN. But
 
 ### Do I need a US phone number to sign up for these alternatives?
 
-No. All five let you create an account without a US phone number. That's their core advantage over Google Voice.
+No. None of the five requires a US phone number to sign up, and NomaPhone doesn't require an account at all. That's their core advantage over Google Voice.
 
 ### Which alternative is best for receiving bank 2FA codes?
 
-NomaPhone and DialAnyone both receive SMS verification codes from US banks. TextNow numbers often get flagged as VoIP and rejected by financial institutions. YadaPhone and Viber Out don't support SMS at all.
+DialAnyone offers numbers that receive SMS verification codes. TextNow numbers often get flagged as VoIP and rejected by financial institutions. NomaPhone, YadaPhone and Viber Out don't receive SMS at all. For banks, an authenticator app or keeping your US number active on a cheap plan is often the most reliable route.
 
 ### Are these services legal outside the US?
 
@@ -205,10 +206,10 @@ Yes. VoIP calling is legal in the vast majority of countries. A few places restr
 
 Google Voice is a good product for Americans in America. For the rest of us, it's a locked door.
 
-In 2026, you have real alternatives. Whether you want rock-bottom pricing (DialAnyone at half a cent per minute), browser simplicity with SMS/2FA (NomaPhone at three cents), budget calling with recording (YadaPhone at two cents), an app you already use (Viber Out), or a free stopgap before leaving the country (TextNow) — something fits.
+In 2026, you have real alternatives. Whether you want rock-bottom pricing (DialAnyone at half a cent per minute), browser simplicity with no account (NomaPhone), budget calling with recording (YadaPhone at two cents), an app you already use (Viber Out), or a free stopgap before leaving the country (TextNow) — something fits.
 
 Most offer free trials or low minimums. Spend $5 on two or three, make real calls, and let your experience decide.
 
 ---
 
-NomaPhone lets you call US numbers from your browser at $0.03 per minute. No app, no US number required, no geographic restrictions. Credits never expire. If you need a reliable way to call the US from abroad — especially for bank calls and SMS verification codes — give it a try.
+NomaPhone lets you call US numbers, including toll-free lines, from your browser at [[rate:US:landline]]. No app, no account, and credit never expires. [Make a call](https://app.nomaphone.com)

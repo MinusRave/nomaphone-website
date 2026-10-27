@@ -2,6 +2,7 @@
 title: "International Calling from Vietnam: Ho Chi Minh City & Hanoi Digital Nomad Guide"
 description: "Complete guide to international calling from Vietnam. Navigate carriers, VPN requirements, internet quality, and costs for digital nomads."
 pubDate: 2026-01-19
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-vietnam"
 tags: ["Vietnam", "Ho Chi Minh City", "Hanoi", "digital nomad"]
@@ -100,11 +101,10 @@ Comparing actual expenses.
 - Annual: 7,920,000 VND (~$323)
 
 **NomaPhone:**
-- Rate: $0.03/min
-- Monthly: $0.90
-- Annual: $10.80
+- Rate: [[rate:US:landline]]
+- Monthly: 30 × [[rate:US:landline]], about a dollar
 
-**Savings: $312-356 annually**
+**Savings: over $300 annually**
 
 ### Calling Australia (25 minutes monthly)
 
@@ -114,11 +114,10 @@ Comparing actual expenses.
 - Annual: 6,000,000 VND (~$245)
 
 **NomaPhone:**
-- Australia: $0.03-0.06/min
-- Monthly: $0.75-1.50
-- Annual: $9-18
+- Australia: [[rate:AU:both]]
+- Monthly: a dollar or two to landlines, a few dollars to mobiles
 
-**Savings: $227-236 annually**
+**Savings: roughly $200 or more annually**
 
 ### Calling Within Asia
 
@@ -127,10 +126,10 @@ Comparing actual expenses.
 - Monthly (20 min): 200,000-300,000 VND (~$8-12)
 
 **NomaPhone:**
-- Singapore: $0.05/min
-- Monthly: $1.00
+- Singapore: [[rate:SG:both]]
+- Monthly (20 min): a few dollars at most
 
-**Savings: 85-90% cheaper**
+**Savings: around 80-90% cheaper**
 
 ## Internet Quality in Vietnamese Cities
 
@@ -509,9 +508,9 @@ Real situations nomads face.
 **Example - Bank of America:**
 - Vietnamese carrier: 25,000 VND/min (~$1)
 - 30-minute call: 750,000 VND (~$30)
-- NomaPhone: $0.90 for same call
+- NomaPhone: 30 × [[rate:US:landline]] for same call (toll-free numbers work too)
 
-**Solution:** Browser calling saves 97%.
+**Solution:** Browser calling saves over 95%.
 
 ### Calling Australian Clients
 
@@ -526,19 +525,19 @@ Real situations nomads face.
 - Monthly: 3,600,000 VND (~$147)
 
 **NomaPhone:**
-- $0.03/min
-- 45 min weekly: $1.35/week
-- Monthly: $5.40
+- [[rate:AU:landline]] to landlines, [[rate:AU:mobile]] to mobiles
+- 45 min weekly: a few dollars a week at most
+- Monthly: a fraction of the carrier cost
 
-**Savings: $141.60/month**
+**Savings: well over $100/month**
 
 ### Calling Within ASEAN
 
 **Common for regional work:**
 - Thailand, Singapore, Malaysia
 - Vietnamese carriers: 8,000-15,000 VND/min
-- NomaPhone: $0.05/min typical
-- 70-85% savings
+- NomaPhone: e.g. [[rate:TH]] to Thailand, [[rate:SG]] to Singapore, [[rate:MY]] to Malaysia
+- Often 50-85% savings, depending on destination
 
 ### Family Calls Home
 
@@ -549,11 +548,10 @@ Real situations nomads face.
 - Annual: 72,000,000 VND (~$2,938)
 
 **NomaPhone:**
-- 60 min weekly: $1.80/week
-- Monthly: $7.20
-- Annual: $86.40
+- 60 min weekly × [[rate:US:landline]]
+- A few dollars a month
 
-**Savings: $2,851.60 annually**
+**Savings: well over $2,500 annually**
 
 ## Cost Comparisons: Monthly Examples
 
@@ -568,10 +566,9 @@ Viettel:
 - Annual: 15,000,000 VND (~$612)
 
 NomaPhone:
-- 50 min × $0.03 = $1.50/month
-- Annual: $18
+- 50 min × [[rate:US:landline]], a couple of dollars a month
 
-**Savings: $594 annually**
+**Savings: over $550 annually**
 
 ### Regular User (12 calls, 20 min each)
 
@@ -582,10 +579,10 @@ Vietnamese carrier average:
 - Annual: 57,600,000 VND (~$2,351)
 
 NomaPhone:
-- 240 min × $0.04 avg = $9.60/month
-- Annual: $115.20
+- 240 min at each destination's rate, e.g. [[rate:US:landline]] to the USA, [[rate:AU:landline]] to Australian landlines
+- Typically ten to twenty dollars a month for this mix
 
-**Savings: $2,236 annually**
+**Savings: around $2,000 annually**
 
 ### Heavy User (Business, daily calls)
 
@@ -596,10 +593,9 @@ Vietnamese carrier:
 - Annual: 216,000,000 VND (~$8,816)
 
 NomaPhone:
-- 1,000 min × $0.04 = $40/month
-- Annual: $480
+- 1,000 min at a few cents a minute for US, UK and Australian landlines
 
-**Savings: $8,336 annually**
+**Savings: thousands of dollars annually**
 
 ## Common Problems and Solutions
 
@@ -668,7 +664,7 @@ Recommended setup for nomads.
 
 **Browser calling:**
 - Purpose: International calls
-- Cost: Pay per use, from $0.03/min
+- Cost: Pay per use, e.g. [[rate:US:landline]] to the USA
 - Use for: Overseas calls
 
 **VPN:**
@@ -687,8 +683,8 @@ Recommended setup for nomads.
 
 **Virtual number (home country):**
 - If family calls frequently
-- USA: $2.19/month
-- Australia: $3-6/month
+- From a dedicated virtual-number provider (NomaPhone doesn't provide numbers)
+- Typically a few dollars a month
 
 **Backup SIM:**
 - Keep home country SIM active
@@ -734,11 +730,11 @@ Beyond calling considerations.
 - Europe: 17,000-25,000 VND/min (~$0.70-1.00)
 - Very expensive
 
-**Browser calling:**
-- USA/Canada: $0.03/min
-- Europe: $0.03-0.06/min
-- Australia: $0.03-0.06/min
-- 90-95% savings
+**Browser calling (NomaPhone):**
+- USA/Canada: [[rate:US:landline]]
+- Europe: varies by country, e.g. [[rate:GB:landline]] to UK landlines, [[rate:FR:landline]] to French landlines
+- Australia: [[rate:AU:both]]
+- 90-95% savings on most routes
 
 **Best coworking (HCMC):**
 - The Hive, Dreamplex, Toong
@@ -782,4 +778,4 @@ Beyond calling considerations.
 
 ---
 
-**Working from Ho Chi Minh City or Hanoi and need affordable international calling?** NomaPhone offers browser-based calling at $0.03/minute to USA, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Ho Chi Minh City or Hanoi and need affordable international calling?** NomaPhone calls the USA at [[rate:US:landline]] straight from your browser. No app, no account, and credit never expires. [Make a call](https://app.nomaphone.com)

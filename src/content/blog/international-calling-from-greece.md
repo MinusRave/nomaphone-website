@@ -2,6 +2,7 @@
 title: "International Calling from Greece: Athens & Islands Digital Nomad Guide"
 description: "Complete guide to international calling from Greece. Navigate carriers, island connectivity, costs, and solutions for digital nomads in Athens and Greek islands."
 pubDate: 2026-01-31
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-greece"
 tags: ["Greece", "Athens", "Greek islands", "digital nomad"]
@@ -80,10 +81,10 @@ Budget carrier, adequate coverage.
 - Annual: €396
 
 **NomaPhone:**
-- $0.03/min × 30 = $0.90 (€0.84)
-- Annual: €10
+- 30 min × [[rate:US:landline]] per month
+- About a dollar a month
 
-**Savings: €386-458 annually**
+**Savings: roughly €380-450 annually**
 
 ### Calling UK (25 minutes monthly)
 
@@ -92,10 +93,10 @@ Budget carrier, adequate coverage.
 - Annual: €300
 
 **NomaPhone:**
-- $0.03-0.06/min = €0.70-1.40/month
-- Annual: €8.40-16.80
+- 25 min × [[rate:GB:landline]] to landlines ([[rate:GB:mobile]] to mobiles)
+- A dollar or two a month
 
-**Savings: €283-292 annually**
+**Savings: roughly €280 annually**
 
 ## Internet Quality in Greece
 
@@ -343,16 +344,16 @@ Major advantage of Greek SIM.
 **Example - Chase:**
 - Greek carrier: €1.30/min
 - 30-minute call: €39
-- NomaPhone: $0.90
+- NomaPhone: 30 × [[rate:US:landline]], and US toll-free numbers work too
 
-**Solution:** Browser calling saves 97%.
+**Solution:** Browser calling saves over 95%.
 
 ### Calling UK Clients
 
 **Post-Brexit:**
 - No longer free from Greek SIM
 - €1.00-1.30/min typical
-- NomaPhone: $0.03-0.06/min
+- NomaPhone: [[rate:GB:both]]
 
 ### Island-to-Mainland Calls
 
@@ -369,9 +370,9 @@ Major advantage of Greek SIM.
 - €65/month, €780/year
 
 **NomaPhone:**
-- $1.50/month, $18/year (€16.80)
+- 50 × [[rate:US:landline]] per month, a couple of dollars
 
-**Savings: €763/year**
+**Savings: over €700/year**
 
 ### Regular User (240 min/month mixed)
 
@@ -379,9 +380,9 @@ Major advantage of Greek SIM.
 - €264/month, €3,168/year
 
 **NomaPhone:**
-- $9.60/month, $115/year (€107)
+- Depends on the mix of destinations; at [[rate:US:landline]] to the US or [[rate:GB:landline]] to UK landlines, a few dollars a month
 
-**Savings: €3,061/year**
+**Savings: thousands of euros a year**
 
 ## Common Problems
 
@@ -421,7 +422,7 @@ Major advantage of Greek SIM.
 
 **Browser calling:**
 - For: Non-EU international
-- $0.03/min USA
+- [[rate:US:landline]] to the USA
 - Pay per use
 
 **WhatsApp:**
@@ -463,9 +464,9 @@ Major advantage of Greek SIM.
 - UK: €0.90-1.30/min
 - Very expensive
 
-**Browser calling:**
-- USA: $0.03/min
-- UK: $0.03-0.06/min
+**Browser calling (NomaPhone):**
+- USA: [[rate:US:landline]]
+- UK: [[rate:GB:both]]
 - 95%+ savings
 
 **Best connectivity:**
@@ -496,4 +497,4 @@ Major advantage of Greek SIM.
 
 ---
 
-**Working from Athens or the Greek islands?** NomaPhone offers browser-based calling at $0.03/minute to USA/Canada, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Athens or the Greek islands?** NomaPhone calls the USA and Canada at [[rate:US:landline]] straight from your browser. No app, no account, and credit never expires. [Make a call](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "International Calling from Colombia: Medellín & Bogotá Digital Nomad Guide"
 description: "Complete guide to international calling from Colombia. Compare carriers, costs, internet quality, and safety for digital nomads in Medellín and Bogotá."
 pubDate: 2026-01-13
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-colombia"
 tags: ["Colombia", "Medellín", "Bogotá", "digital nomad"]
@@ -100,11 +101,11 @@ Comparing actual expenses.
 - Annual: 1,260,000 COP (~$315)
 
 **NomaPhone:**
-- Rate: $0.03/min
-- Monthly: $0.90
-- Annual: $10.80
+- Rate: [[rate:US:landline]] (landlines and mobiles)
+- Monthly: 30 × [[rate:US:landline]]
+- Annual: 360 × [[rate:US:landline]]
 
-**Savings: $304-367 annually**
+**Savings: over $300 annually**
 
 ### Calling Europe (25 minutes monthly)
 
@@ -114,12 +115,11 @@ Comparing actual expenses.
 - Annual: 1,050,000 COP (~$262.50)
 
 **NomaPhone:**
-- UK: $0.03-0.06/min
-- Spain: $0.03/min
-- Monthly: $0.75-1.50
-- Annual: $9-18
+- UK: [[rate:GB:both]]
+- Spain: [[rate:ES:both]]
+- Monthly: 25 × the per-minute rate, a dollar or two to UK numbers and Spanish landlines (Spanish mobiles cost more)
 
-**Savings: $244-253 annually**
+**Savings: most of the carrier cost**
 
 ### Calling Within Latin America
 
@@ -128,10 +128,10 @@ Comparing actual expenses.
 - Monthly (20 min): 50,000-60,000 COP (~$12.50-15)
 
 **NomaPhone:**
-- Mexico: $0.03-0.09/min
-- Monthly: $0.60-1.80
+- Mexico: [[rate:MX:both]]
+- Monthly: 20 × the per-minute rate
 
-**Savings: 90%+ cheaper**
+**Savings: roughly 85% or more**
 
 ## Internet Quality in Colombian Cities
 
@@ -492,9 +492,9 @@ Real situations nomads face.
 **Example - Chase:**
 - Colombian carrier: 4,200 COP/min (~$1.05)
 - 30-minute call: 126,000 COP (~$31.50)
-- NomaPhone: $0.90 for same call
+- NomaPhone: 30 × [[rate:US:landline]] for the same call (and NomaPhone can also dial Chase's US toll-free numbers)
 
-**Solution:** Use browser calling, save 97%.
+**Solution:** Use browser calling, save over 90%.
 
 ### Calling Family Home
 
@@ -506,10 +506,9 @@ Real situations nomads face.
 - Annual: 8,640,000 COP (~$2,160)
 
 **NomaPhone:**
-- 180 min × $0.03 = $5.40/month
-- Annual: $64.80
+- 180 min × [[rate:US:landline]] per month
 
-**Savings: $2,095/year**
+**Savings: over $2,000/year**
 
 ### Calling Within Latin America
 
@@ -523,8 +522,10 @@ Real situations nomads face.
 - Expensive for region
 
 **NomaPhone:**
-- $0.03-0.09/min most countries
-- Much more affordable
+- Mexico: [[rate:MX:both]]
+- Argentina: [[rate:AR:both]]
+- Chile: [[rate:CL:both]]
+- Venezuela: not covered by NomaPhone yet, so WhatsApp or a carrier plan is your option there
 
 ### Client Calls
 
@@ -538,8 +539,8 @@ Real situations nomads face.
 3. Use video calls when possible
 
 **Virtual numbers:**
-- USA: $2.19/month
-- UK: $1.90/month
+- Available from third-party providers, typically a few dollars a month
+- NomaPhone doesn't provide phone numbers (it makes outgoing calls only)
 - Professional credibility
 
 ## Cultural and Language Notes
@@ -593,10 +594,9 @@ Claro:
 - Annual: 2,400,000 COP (~$600)
 
 NomaPhone:
-- 50 min × $0.03 = $1.50/month
-- Annual: $18
+- 50 min × [[rate:US:landline]] per month
 
-**Savings: $582 annually**
+**Savings: over $550 annually**
 
 ### Regular User (15 calls, 20 min each)
 
@@ -607,10 +607,9 @@ Colombian carrier average:
 - Annual: 12,600,000 COP (~$3,150)
 
 NomaPhone:
-- 300 min × $0.04 avg = $12/month
-- Annual: $144
+- 300 min × each destination's rate: a few cents per minute to the US, UK and Mexican landlines, more to some mobiles (see the [rates page](/rates/))
 
-**Savings: $3,006 annually**
+**Savings: thousands of dollars annually**
 
 ### Heavy User (Business, daily calls)
 
@@ -621,10 +620,9 @@ Colombian carrier:
 - Annual: 38,400,000 COP (~$9,600)
 
 NomaPhone:
-- 1,000 min × $0.04 = $40/month
-- Annual: $480
+- 1,000 min × each destination's rate (to the US: 1,000 × [[rate:US:landline]])
 
-**Savings: $9,120 annually**
+**Savings: thousands of dollars annually**
 
 ## Common Problems and Solutions
 
@@ -690,7 +688,7 @@ Recommended setup for nomads.
 
 **Browser calling:**
 - Purpose: International calls
-- Cost: Pay per use, from $0.03/min
+- Cost: Pay per use (NomaPhone: [[rate:US:landline]] to the US)
 - Use for: USA, Europe, home country
 
 **WhatsApp:**
@@ -704,7 +702,7 @@ Recommended setup for nomads.
 
 **Virtual number (home country):**
 - If family calls frequently
-- USA: $2.19/month
+- From a third-party provider (NomaPhone doesn't offer numbers), typically a few dollars a month
 - Cheaper than them calling Colombia
 
 **VPN:**
@@ -746,11 +744,11 @@ Beyond just calling considerations.
 - Europe: 3,000-4,000 COP/min (~$0.75-1.00)
 - Very expensive
 
-**Browser calling:**
-- USA/Canada: $0.03/min
-- Europe: $0.03-0.06/min
-- Latin America: $0.03-0.09/min
-- 90-95% savings
+**Browser calling (NomaPhone):**
+- USA/Canada: [[rate:US:landline]]
+- UK: [[rate:GB:both]]
+- Mexico: [[rate:MX:both]]
+- Often 90%+ savings vs carriers
 
 **Best coworking (Medellín):**
 - Selina, Atom House, WeWork
@@ -786,4 +784,4 @@ Beyond just calling considerations.
 
 ---
 
-**Working from Medellín or Bogotá and need affordable international calling?** NomaPhone offers browser-based calling at $0.03/minute to USA/Canada, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Medellín or Bogotá and need affordable international calling?** NomaPhone lets you call landlines and mobiles in [[countries]] countries, including the US and Canada, from your browser, with no app and no account. Credit never expires. [Make a call](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "Calling Landlines vs Mobile Numbers: Why Mobile Costs More Internationally"
 description: "Understand why calling mobile numbers costs more than landlines internationally. Learn to identify number types and save money on international calls."
 pubDate: 2025-12-26
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "calling-landlines-vs-mobile-numbers-cost"
 tags: ["costs", "mobile", "landline", "international calling"]
@@ -78,31 +79,31 @@ Different countries regulate landline and mobile rates differently.
 
 ## Cost Differences by Country
 
-Real pricing examples for major destinations.
+Real pricing examples for major destinations. NomaPhone rates are current (see the [rates page](/rates/)); carrier and calling-card ranges are typical market figures.
 
 ### United Kingdom
 
 **Landline (01/02 prefix):**
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:GB:landline]]
 - Typical carrier: $0.40-0.60/min
 - Calling card: $0.10-0.15/min
 
 **Mobile (07 prefix):**
-- NomaPhone: $0.06/min (2x landline)
+- NomaPhone: [[rate:GB:mobile]]
 - Typical carrier: $0.80-1.20/min
 - Calling card: $0.20-0.30/min
 
-**Cost multiplier:** Mobile is 2x landline rate consistently.
+**Cost multiplier:** Mobile typically costs 1.5-2x the landline rate.
 
 ### United States and Canada
 
 **Landline:**
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:US:landline]]
 - Typical carrier: $0.50-1.00/min
 - Calling card: $0.08-0.12/min
 
 **Mobile:**
-- NomaPhone: $0.03/min (same as landline)
+- NomaPhone: [[rate:US:landline]] (same as landline)
 - Typical carrier: $0.50-1.00/min
 - Calling card: $0.08-0.12/min
 
@@ -111,12 +112,12 @@ Real pricing examples for major destinations.
 ### India
 
 **Landline:**
-- NomaPhone: $0.09/min
+- NomaPhone: [[rate:IN:landline]]
 - Typical carrier: $0.80-1.20/min
 - Calling card: $0.15-0.25/min
 
 **Mobile:**
-- NomaPhone: $0.08/min (actually cheaper)
+- NomaPhone: [[rate:IN:mobile]] (actually cheaper)
 - Typical carrier: $0.70-1.00/min
 - Calling card: $0.12-0.20/min
 
@@ -125,12 +126,12 @@ Real pricing examples for major destinations.
 ### Australia
 
 **Landline:**
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:AU:landline]]
 - Typical carrier: $0.60-1.00/min
 - Calling card: $0.15-0.25/min
 
 **Mobile:**
-- NomaPhone: $0.06/min (2x landline)
+- NomaPhone: [[rate:AU:mobile]] (about 3x landline)
 - Typical carrier: $1.20-1.80/min
 - Calling card: $0.30-0.40/min
 
@@ -139,30 +140,30 @@ Real pricing examples for major destinations.
 ### Germany
 
 **Landline:**
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:DE:landline]]
 - Typical carrier: $0.40-0.70/min
 - Calling card: $0.10-0.15/min
 
 **Mobile:**
-- NomaPhone: $0.10/min (3x landline)
+- NomaPhone: [[rate:DE:mobile]] (many times the landline rate)
 - Typical carrier: $0.90-1.40/min
 - Calling card: $0.25-0.35/min
 
-**Cost multiplier:** Mobile is 3x+ landline.
+**Cost multiplier:** Mobile is 3x+ landline, and with some providers (NomaPhone included) far more. Germany is one of the countries where finding a landline really pays.
 
 ### France
 
 **Landline:**
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:FR:landline]]
 - Typical carrier: $0.40-0.70/min
 - Calling card: $0.10-0.15/min
 
 **Mobile:**
-- NomaPhone: $0.08/min (2.5x landline)
+- NomaPhone: [[rate:FR:mobile]] (several times the landline rate)
 - Typical carrier: $0.80-1.30/min
 - Calling card: $0.20-0.30/min
 
-**Cost multiplier:** Mobile is 2-3x landline.
+**Cost multiplier:** Mobile is 2-3x landline with carriers, and more with some VoIP providers.
 
 ## How to Identify Number Types
 
@@ -267,10 +268,10 @@ Scenarios where the price difference adds up.
 
 **Scenario:** You call a UK client's mobile weekly for 30 minutes.
 
-**Monthly cost comparison:**
-- Landline (if they had one): $0.03/min × 30 min × 4 weeks = $3.60
-- Mobile: $0.06/min × 30 min × 4 weeks = $7.20
-- Extra cost: $3.60/month = $43.20/year
+**Monthly cost comparison (120 minutes a month, NomaPhone rates):**
+- Landline (if they had one): 120 min at [[rate:GB:landline]]
+- Mobile: 120 min at [[rate:GB:mobile]]
+- Extra cost: the per-minute gap times 120 minutes, every month, all year
 
 **Solution:** Ask if they have an office landline for regular check-ins.
 
@@ -278,10 +279,10 @@ Scenarios where the price difference adds up.
 
 **Scenario:** Parents in Germany, you call their mobile 3x weekly, 20 minutes each.
 
-**Monthly cost comparison:**
-- Landline: $0.03/min × 20 min × 12 calls = $7.20
-- Mobile: $0.10/min × 20 min × 12 calls = $24.00
-- Extra cost: $16.80/month = $201.60/year
+**Monthly cost comparison (240 minutes a month, NomaPhone rates):**
+- Landline: 240 min at [[rate:DE:landline]]
+- Mobile: 240 min at [[rate:DE:mobile]]
+- Extra cost: German mobile termination is expensive, so this gap adds up to a large sum over a year
 
 **Solution:** Ask parents to answer landline when you call at scheduled times.
 
@@ -289,10 +290,10 @@ Scenarios where the price difference adds up.
 
 **Scenario:** You need help from your UK bank, they list mobile support line.
 
-**30-minute call cost:**
-- Landline support: $0.03/min × 30 = $0.90
-- Mobile support: $0.06/min × 30 = $1.80
-- Extra cost: $0.90 per call
+**30-minute call cost (NomaPhone rates):**
+- Landline support: 30 min at [[rate:GB:landline]]
+- Mobile support: 30 min at [[rate:GB:mobile]]
+- Extra cost: well under a dollar per call
 
 **Solution:** Search for landline support numbers on bank website (often listed for "international callers").
 
@@ -316,12 +317,12 @@ Situations where paying extra makes sense.
 
 **Scenario:** 2-minute call to confirm appointment.
 
-**Cost difference:**
-- Landline: $0.03/min × 2 = $0.06
-- Mobile: $0.06/min × 2 = $0.12
-- Extra cost: $0.06
+**Cost difference (UK, NomaPhone rates):**
+- Landline: 2 min at [[rate:GB:landline]]
+- Mobile: 2 min at [[rate:GB:mobile]]
+- Extra cost: a few cents
 
-**Six cents isn't worth the hassle** of tracking down alternative numbers.
+**A few cents isn't worth the hassle** of tracking down alternative numbers.
 
 ### Person Only Has Mobile
 
@@ -450,10 +451,12 @@ Real scenarios with actual costs.
 - Duration: 45 minutes
 - Number type: They only use mobile
 
-**Annual cost:**
-- Landline rate: $0.03 × 45 × 52 = $70.20
-- Mobile rate: $0.06 × 45 × 52 = $140.40
-- Extra cost: $70.20/year
+**Annual minutes:** 45 × 52 = 2,340 minutes
+
+**Annual cost (NomaPhone rates):**
+- Landline rate: 2,340 min at [[rate:GB:landline]]
+- Mobile rate: 2,340 min at [[rate:GB:mobile]]
+- Extra cost: the per-minute gap times 2,340 minutes
 
 **Solution:** Ask them to get a landline or use WiFi calling for scheduled calls.
 
@@ -465,13 +468,15 @@ Real scenarios with actual costs.
 - Duration: 20 minutes average
 - They have both office landline and mobile
 
+**Annual minutes:** 20 × 36 calls = 720 minutes
+
 **Annual cost if calling mobile:**
-- $0.10 × 20 × 36 calls = $72/year
+- 720 min at [[rate:DE:mobile]]
 
 **Annual cost if calling landline:**
-- $0.03 × 20 × 36 calls = $21.60/year
+- 720 min at [[rate:DE:landline]]
 
-**Savings: $50.40/year** just by calling office line instead.
+**Savings: the bulk of the bill**, just by calling the office line instead.
 
 ### Scenario 3: Support Hotlines
 
@@ -480,13 +485,15 @@ Real scenarios with actual costs.
 - Mixed landline/mobile numbers
 - Average 3 calls monthly, 15 minutes each
 
+**Annual minutes:** 15 × 36 = 540 minutes (UK numbers, NomaPhone rates)
+
 **If all mobile:**
-- $0.06 × 15 × 36 = $32.40/year
+- 540 min at [[rate:GB:mobile]]
 
 **If all landline:**
-- $0.03 × 15 × 36 = $16.20/year
+- 540 min at [[rate:GB:landline]]
 
-**Savings: $16.20/year** by finding landline alternatives.
+**Savings: modest for the UK**, but much bigger in countries with a wide landline/mobile gap like Germany or France.
 
 ## Provider Rate Cards: What to Check
 
@@ -609,12 +616,12 @@ How costs may change.
 
 ## Quick Reference Guide
 
-**Countries where mobile costs significantly more:**
-- UK: 2x landline rate
-- Germany: 3x landline rate
-- France: 2.5x landline rate
-- Australia: 2x landline rate
-- Spain: 2-3x landline rate
+**Countries where mobile costs significantly more (NomaPhone rates):**
+- Germany: [[rate:DE:both]]
+- France: [[rate:FR:both]]
+- Spain: [[rate:ES:both]]
+- Australia: [[rate:AU:both]]
+- UK: [[rate:GB:both]] (a small gap)
 
 **Countries where it doesn't matter:**
 - USA: Same rate
@@ -644,8 +651,8 @@ How costs may change.
 - Ask contacts for office landlines
 - Schedule calls when they're home (landline)
 - Use callback options
-- Consider virtual numbers for frequent contacts
+- Consider virtual numbers (from a third-party provider) for frequent contacts
 
 ---
 
-**Making regular international calls to mobile numbers?** NomaPhone charges competitive rates: $0.03/min for USA landlines, $0.06/min for UK mobiles. Browser-based calling means no app required. Join the waitlist at nomaphone.com.
+**Making regular international calls?** NomaPhone shows the landline or mobile rate on screen before you dial, billed per second: for example [[rate:US:landline]] to US numbers and [[rate:GB:mobile]] to UK mobiles. No app, no account. [Make a call](https://app.nomaphone.com).

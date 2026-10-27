@@ -2,6 +2,7 @@
 title: "How to Call Chase Bank From Overseas (Without Paying $3/min)"
 description: "Need to call Chase bank from abroad? Here's every method compared — roaming, VoIP, browser calling — with real 2026 rates. Stop overpaying for hold time."
 pubDate: 2026-04-15
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-chase-bank-from-overseas"
 tags: ["banking abroad", "call Chase from abroad", "international calling", "digital nomads", "VoIP"]
@@ -24,7 +25,7 @@ Chase doesn't make this easy to find on their website, so here's what you need t
 
 **Chase's international collect-call number is 1-713-262-3300.** This is the number Chase tells overseas customers to use. It's not toll-free — it's a regular US number based in Houston, Texas.
 
-Their standard US customer service number is 1-800-935-9935, but here's the catch: toll-free numbers starting with 800, 888, 877, or 866 generally don't work from outside the United States. If you try calling that 800 number from your Portuguese SIM card, you'll either get a "number not reachable" error or dead silence.
+Their standard US customer service number is 1-800-935-9935, but here's the catch: toll-free numbers starting with 800, 888, 877, or 866 generally don't work from outside the United States. If you try calling that 800 number from your Portuguese SIM card, you'll either get a "number not reachable" error or dead silence. (Some internet calling services are an exception: NomaPhone, for example, dials US toll-free numbers from abroad at its normal US rate.)
 
 Some other useful Chase numbers:
 
@@ -55,7 +56,7 @@ Here's what actually works, with real costs for a 30-minute call (because that's
 | T-Mobile (Magenta) | $7.50 | None | Decent | No |
 | Google Voice | Free | 10-15 min | Variable | Yes (needs WiFi) |
 | YadaPhone | $0.60 | 2-3 min | Good | Yes (needs WiFi) |
-| NomaPhone | $0.90 | 30 sec | Reliable | Yes (needs WiFi) |
+| NomaPhone | 30 × [[rate:US:landline]] | 30 sec | Depends on connection | Yes (needs WiFi) |
 | DialAnyone | $0.15 | 2-3 min | Good | Yes (needs WiFi) |
 | Local calling card | $3.00 - $8.00 | 5-10 min | Poor | No |
 
@@ -80,11 +81,11 @@ Let's use 30 minutes as our baseline — that's a realistic "you called at a rea
 | AT&T roaming ($2.50/min) | $75.00 | $25.00 | $100.00 |
 | Verizon roaming ($2.99/min) | $89.70 | $29.90 | $119.60 |
 | T-Mobile Magenta ($0.25/min) | $7.50 | $2.50 | $10.00 |
-| NomaPhone ($0.03/min) | $0.90 | $0.30 | $1.20 |
+| NomaPhone ([[rate:US:landline]]) | 30 × [[rate:US:landline]] | 10 × [[rate:US:landline]] | 40 × [[rate:US:landline]] |
 
-Read that again. $119.60 versus $1.20 for the exact same phone call. Same Chase agent, same hold music, same resolution. The only difference is how you connected.
+Read that again. $119.60 versus pocket change for the exact same phone call. Same Chase agent, same hold music, same resolution. The only difference is how you connected.
 
-And this assumes you get through on the first call. If Chase transfers you to another department (which they love to do for fraud cases), add another 15-20 minutes of hold time. On AT&T roaming, you're now looking at $150+. On NomaPhone, you're at $1.80.
+And this assumes you get through on the first call. If Chase transfers you to another department (which they love to do for fraud cases), add another 15-20 minutes of hold time. On AT&T roaming, you're now looking at $150+. On NomaPhone, it's still pocket change.
 
 ## How to Actually Make the Call
 
@@ -92,15 +93,15 @@ And this assumes you get through on the first call. If Chase transfers you to an
 
 This is what most experienced nomads use. Here's the process with NomaPhone:
 
-1. Go to NomaPhone.com from any browser (phone, laptop, tablet)
-2. Add credits (minimum $5, credits never expire)
-3. Dial 1-713-262-3300
-4. Navigate Chase's phone menu (press 0 for fraud, or follow the prompts)
-5. Wait on hold — at three cents per minute, hold time barely matters
+1. Go to app.nomaphone.com from any browser (phone, laptop, tablet)
+2. Buy $5, $10 or $20 of prepaid credit with Apple Pay, Google Pay or card (credit never expires)
+3. Dial 1-713-262-3300 (the 1-800 number works too, at the same rate)
+4. Navigate Chase's phone menu with the on-screen keypad (press 0 for fraud, or follow the prompts)
+5. Wait on hold — at [[rate:US:landline]], billed per second, hold time barely matters
 
-The whole setup takes about 30 seconds. No app to download, no account verification dance. You can be on hold with Chase within a minute of deciding to call.
+The whole setup takes about 30 seconds. No app to download, no account to create. You can be on hold with Chase within a minute of deciding to call. One thing to know: NomaPhone calls are capped at 30 minutes, so if the hold drags on and the call ends, dial again (and ask the agent for a direct callback number or extension early on).
 
-YadaPhone works similarly at $0.02/min (a penny cheaper per minute), though they don't currently support SMS or 2FA — which matters for banking calls, and we'll get to that in a minute.
+YadaPhone works similarly at around $0.02/min.
 
 DialAnyone is the cheapest at $0.005/min but is a different product with different tradeoffs.
 
@@ -130,7 +131,7 @@ If your US SIM card doesn't have international service, you won't receive that t
 
 **Keep your US SIM active.** Even a minimal plan that receives texts is enough. Some people carry a dual-SIM phone — local SIM for data, US SIM for bank texts. This is the most reliable approach.
 
-**Use a VoIP number that receives SMS.** NomaPhone and Google Voice can receive SMS from US numbers. If Chase has your VoIP number on file, you'll get the 2FA code there. Note: some banks are picky about VoIP numbers for security codes, so test this before you're in an emergency.
+**Use a VoIP number that receives SMS.** Google Voice can receive SMS from US numbers. (NomaPhone can't: it only makes outgoing calls and doesn't give you a number.) If Chase has your VoIP number on file, you'll get the 2FA code there. Note: some banks are picky about VoIP numbers for security codes, so test this before you're in an emergency.
 
 **Set up Chase's authenticator app.** Chase supports app-based authentication through their mobile app. If you set this up before traveling, you won't need SMS codes at all. This is the ideal solution if you plan ahead.
 
@@ -166,7 +167,7 @@ Chase's customer service operates 24/7 for fraud issues, but hold times vary dra
 
 If you're in Europe, Chase's early morning sweet spot (7 AM ET) is midday for you — convenient. If you're in Asia, the late evening window (9-11 PM ET) is morning for you. Either way, a well-timed call can cut your hold time from 45 minutes down to 15-20.
 
-At $0.03/min, the cost difference between a 15-minute hold and a 45-minute hold is $0.90. At roaming rates, it's the difference between $37 and $112. Timing matters a lot more when you're paying $2.50 per minute.
+At [[rate:US:landline]], the cost difference between a 15-minute hold and a 45-minute hold is pocket change. At roaming rates, it's the difference between $37 and $112. Timing matters a lot more when you're paying $2.50 per minute.
 
 ## Setting Yourself Up Before You Travel
 
@@ -192,7 +193,7 @@ No. Chase's phone system requires a traditional phone call. Messaging apps that 
 
 ### Will Chase call me back internationally?
 
-Chase does offer callbacks in some cases, but they typically call US phone numbers. If you have a US VoIP number that rings to your browser, this can work. Otherwise, don't count on an international callback.
+Chase does offer callbacks in some cases, but they typically call US phone numbers. If you have a US VoIP number that rings to your browser, this can work (NomaPhone only makes outgoing calls, so it can't take a callback). Otherwise, don't count on an international callback.
 
 ### Is the 713 number safe? I found it online and I'm worried it's a scam.
 
@@ -208,4 +209,4 @@ Chase's secure messaging (available through the app or website) works from anywh
 
 ---
 
-**Calling Chase from abroad doesn't have to cost a fortune.** NomaPhone lets you dial 1-713-262-3300 from any browser at three cents per minute. No app download, no contracts, and credits that never expire. A 40-minute fraud call costs $1.20 instead of $100+. Your card is already compromised — your phone bill doesn't have to be. Try NomaPhone for your next international bank call.
+**Calling Chase from abroad doesn't have to cost a fortune.** NomaPhone lets you dial 1-713-262-3300 or Chase's 1-800 number from any browser at [[rate:US:landline]], billed per second. No app, no account, and credit that never expires. [Make a call](https://app.nomaphone.com)

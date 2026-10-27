@@ -2,6 +2,7 @@
 title: "International Calling from South Africa: Cape Town & Johannesburg Guide"
 description: "Complete guide to international calling from South Africa. Navigate carriers, load shedding impact, costs, and solutions for digital nomads."
 pubDate: 2026-02-12
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-south-africa"
 tags: ["South Africa", "Cape Town", "Johannesburg", "load shedding"]
@@ -98,10 +99,10 @@ Fourth carrier, improving network.
 - Annual: ~$264
 
 **NomaPhone:**
-- $0.03/min × 30 = $0.90/month
-- Annual: $10.80
+- 30 min × [[rate:US:landline]] per month
+- About a dollar a month
 
-**Savings: $253/year**
+**Savings: roughly $250/year**
 
 ### Calling UK (25 minutes monthly)
 
@@ -111,10 +112,10 @@ Fourth carrier, improving network.
 - Annual: ~$192
 
 **NomaPhone:**
-- $0.03-0.06/min = $0.75-1.50/month
-- Annual: $9-18
+- 25 min at [[rate:GB:both]]
+- A dollar or two a month
 
-**Savings: $174-183/year**
+**Savings: roughly $170+/year**
 
 ## Load Shedding Impact
 
@@ -368,10 +369,10 @@ South Africa requires awareness.
 - Annual: ~$1,824
 
 **NomaPhone:**
-- $0.03/min × 240 = $7.20/month
-- Annual: $86.40
+- 240 min × [[rate:GB:landline]] per month (UK landlines; mobiles [[rate:GB:mobile]])
+- Around $10/month
 
-**Savings: $1,738/year**
+**Savings: roughly $1,700/year**
 
 ### Calling US Remote Team
 
@@ -383,7 +384,7 @@ South Africa requires awareness.
 - Expensive quickly
 
 **NomaPhone:**
-- $0.03/min
+- [[rate:US:landline]] to US numbers, billed per second
 - Affordable for daily use
 
 ## Cost Comparisons
@@ -395,10 +396,10 @@ South Africa requires awareness.
 - Annual: ~$444
 
 **NomaPhone:**
-- $1.50/month
-- Annual: $18
+- 50 min × [[rate:US:landline]] per month
+- Under $2/month
 
-**Savings: $426/year**
+**Savings: roughly $420/year**
 
 ### Regular User (240 min/month mixed)
 
@@ -407,10 +408,10 @@ South Africa requires awareness.
 - Annual: ~$1,968
 
 **NomaPhone:**
-- $9.60/month
-- Annual: $115.20
+- 240 min at US/UK rates ([[rate:US:landline]] to the US, [[rate:GB:both]])
+- Roughly $10-15/month
 
-**Savings: $1,853/year**
+**Savings: roughly $1,800/year**
 
 ## Common Problems
 
@@ -455,7 +456,7 @@ South Africa requires awareness.
 
 **Browser calling:**
 - For: International calls
-- $0.03/min USA/UK
+- NomaPhone: [[rate:US:landline]] to the US, [[rate:GB]] to the UK
 - Pay per use
 
 **Power backup:**
@@ -502,9 +503,10 @@ South Africa requires awareness.
 - UK: R10-14/min (~$0.53-0.74)
 - Expensive
 
-**Browser calling:**
-- USA/UK: $0.03/min
-- 95%+ savings
+**Browser calling (NomaPhone):**
+- USA: [[rate:US:landline]]
+- UK: [[rate:GB:both]]
+- 90%+ savings
 
 **Load shedding:**
 - Daily reality
@@ -536,4 +538,4 @@ South Africa requires awareness.
 
 ---
 
-**Working from Cape Town or Johannesburg?** NomaPhone offers browser-based calling at $0.03/minute to USA/UK, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Cape Town or Johannesburg?** NomaPhone calls US numbers at [[rate:US:landline]] and UK numbers [[rate:GB]] straight from your browser, no app or account required. Credit never expires. [Make a call](https://app.nomaphone.com).

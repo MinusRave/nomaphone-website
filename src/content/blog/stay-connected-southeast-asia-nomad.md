@@ -2,6 +2,7 @@
 title: "How to Stay Connected in Southeast Asia as a Digital Nomad"
 description: "Planning to stay connected in Southeast Asia as a nomad? Country-by-country SIM guide, WiFi quality, VoIP tips, and the real cost of calling home from SEA."
 pubDate: 2026-07-14
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "stay-connected-southeast-asia-nomad"
 tags: ["digital nomads", "Southeast Asia", "international calling", "remote workers", "Thailand", "Indonesia"]
@@ -44,7 +45,7 @@ Thailand doesn't block VoIP services. WhatsApp calls, FaceTime, Zoom, and browse
 
 Calling home from Thailand via carrier roaming is expensive. AT&T charges $2.00-$3.00 per minute. Even T-Mobile's "free" international roaming limits you to 2G speeds for data unless you pay extra.
 
-NomaPhone's rate for calls to Thailand is $0.19/min. For calls from Thailand back to the US, you're looking at $0.03/min — so a 30-minute call to your bank costs $0.90 instead of $75 on AT&T roaming.
+NomaPhone's rate for calls to Thailand is [[rate:TH]]. For calls from Thailand back to the US, you're looking at [[rate:US:landline]] — so a 30-minute call to your bank costs 30 × [[rate:US:landline]] instead of $75 on AT&T roaming.
 
 ## Indonesia: Bali and Beyond
 
@@ -96,7 +97,7 @@ Coworking spaces like Dreamplex in HCMC and Toong in Hanoi offer reliable 50-100
 
 Here's where Vietnam gets tricky. The government has been known to block or throttle certain VoIP services periodically. Facebook Messenger calls and FaceTime have experienced disruptions in the past.
 
-WhatsApp calling generally works, but quality can be inconsistent. Browser-based calling (like NomaPhone) typically works because it uses standard web protocols that are harder to selectively block.
+WhatsApp calling generally works, but quality can be inconsistent. Browser-based calling (like NomaPhone) often works because it uses standard web protocols that are harder to selectively block, though nothing is guaranteed during a crackdown.
 
 If you rely on voice calls for work, have a backup plan. A local SIM with a decent data package plus browser-based calling gives you the most reliable setup.
 
@@ -182,9 +183,9 @@ Here's what a 30-minute call to the US actually costs from Southeast Asia in 202
 | T-Mobile Magenta roaming | $7.50 | Included in plan | 2G data speeds, voice quality varies |
 | WhatsApp/FaceTime | Free | No cost | Both parties need the app and internet |
 | Google Voice | Free | Reliable to US numbers | US residents only, lag from Asia |
-| Skype Credit | ~$0.70 | Cheap | Skype is winding down, quality declining |
-| YadaPhone | $0.60 | Browser-based, cheap | No SMS/2FA support |
-| NomaPhone | $0.90 | Browser-based, SMS/2FA, no app needed | Needs stable internet |
+| Skype Credit | n/a | — | Discontinued (Skype shut down in May 2025) |
+| YadaPhone | ~$0.60 | Browser-based, cheap | Chromium browsers only (as advertised) |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no app or account, US toll-free included | Needs stable internet; no SMS/2FA receiving |
 | Local SIM + direct dial | $0.50 - $3.00 | Simple | Unpredictable pricing, uses local minutes |
 
 A few things to note about this table.
@@ -193,7 +194,7 @@ A few things to note about this table.
 
 **Google Voice works great — if you're American.** It requires a US phone number for setup and technically isn't available outside the US. Many nomads use it anyway with workarounds, but it's not officially supported and call quality from Asia can include noticeable lag.
 
-**Browser-based VoIP is the sweet spot for most nomads.** No app to download, works on any device with a browser, and you can call real phone numbers — landlines, mobiles, 1-800 numbers. NomaPhone isn't the cheapest option in this category (YadaPhone charges $0.02/min to the US, DialAnyone charges $0.005/min), but it supports SMS and 2FA verification, which matters when your bank needs to text you a code.
+**Browser-based VoIP is the sweet spot for most nomads.** No app to download, works on any device with a browser, and you can call real phone numbers — landlines, mobiles, 1-800 numbers. NomaPhone isn't the cheapest option in this category (at the time of writing YadaPhone advertises around $0.02/min to the US and DialAnyone around $0.005/min). Its angle is simplicity: no app, no account, and refundable credit that never expires. Note that none of these is a fix for receiving your bank's text codes; NomaPhone makes outgoing calls only (see the eSIM tip below for keeping your home number).
 
 ## Coworking WiFi: What to Actually Expect
 
@@ -229,7 +230,7 @@ A few practical things that apply everywhere in the region:
 
 Many nomads run a VPN for security or to access home-country services. One thing to know: VPNs can slow your connection by 20-40%, which affects call quality. If you're on a VoIP call, disconnect your VPN for the duration unless you specifically need it.
 
-Vietnam and Cambodia occasionally throttle VPN traffic. WireGuard tends to perform better than OpenVPN in the region. Browser-based calling services work without a VPN in every Southeast Asian country.
+Vietnam and Cambodia occasionally throttle VPN traffic. WireGuard tends to perform better than OpenVPN in the region. Browser-based calling services generally work without a VPN across Southeast Asia.
 
 ## The Bottom Line
 
@@ -239,4 +240,4 @@ The playbook is simple: grab a local SIM when you land, find a coworking space w
 
 ---
 
-NomaPhone lets you call home from anywhere in Southeast Asia using just your browser. No app to download, no setup headaches. Calls to the US cost $0.03/min, and your credits never expire. Whether you're in a Bangkok coworking space or a Bali beach cafe, you're 30 seconds from your first call. Check out [NomaPhone](https://nomaphone.com) and see how it works.
+NomaPhone lets you call home from anywhere in Southeast Asia using just your browser. No app to download, no account. Calls to the US cost [[rate:US:landline]], and your credit never expires. [Make a call](https://app.nomaphone.com)

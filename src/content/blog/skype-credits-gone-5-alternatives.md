@@ -2,6 +2,7 @@
 title: "Skype Credits Gone? Here Are 5 Pay-As-You-Go Alternatives That Actually Work"
 description: "Skype credits are dead. Compare 5 pay-as-you-go alternatives for international calls — with real 2026 rates, honest pros and cons, no subscription needed."
 pubDate: 2026-04-06
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "skype-credits-gone-5-alternatives"
 tags: ["Skype alternative", "pay-as-you-go", "international calling", "VoIP", "digital nomads"]
@@ -30,37 +31,34 @@ Let's see how five services stack up.
 
 ## 1. NomaPhone — Browser Calling Built for Nomads
 
-NomaPhone is a browser-based international calling service designed specifically for people living and working abroad. No app to download. You open your browser, buy credits, and start calling within 30 seconds.
+NomaPhone is a browser-based international calling service designed specifically for people living and working abroad. No app to download and no account to create. You open your browser, buy credit, and start calling.
 
 ### What it costs
 
-- USA/Canada: $0.03/min
-- UK landline: $0.05/min
-- UK mobile: $0.12/min
-- India landline: $0.08/min
-- India mobile: $0.05/min
-- Germany: $0.05/min
+- USA/Canada: [[rate:US:landline]] (toll-free numbers included)
+- UK: [[rate:GB:both]]
+- India: [[rate:IN:both]]
+- Germany: [[rate:DE:both]]
 
-Credits never expire. No connection fees, no monthly minimums, no contracts. Minimum purchase is $5.
+Full list on the [rates page](/rates/). Credit comes in $5, $10 or $20 cards (card, Apple Pay or Google Pay), never expires, and unused credit is refundable. Billed per second, no monthly minimums, no contracts.
 
 ### What's good
 
 - Runs entirely in your browser — any device, any OS
-- SMS and 2FA verification support (your bank can text you back)
-- Dead simple. No account setup wizardry
-- Credits genuinely never expire
-- Built by a telecom engineer with 10+ years of experience
+- Dead simple. No account at all: your credit lives on a phone card code
+- Credits genuinely never expire, and unused credit can be refunded
+- US toll-free numbers work at the normal US rate
 
 ### What's not
 
 - Not the cheapest option per minute (DialAnyone charges significantly less)
-- No eSIM or data bundle
-- No call recording yet
-- Still in pre-launch as of early 2026 — available via waitlist
+- Outgoing calls only: no phone number, no inbound calls, no SMS or 2FA receiving
+- Covers [[countries]] countries, fewer than some alternatives
+- No call recording
 
 ### Who it's for
 
-People who need reliable calls that actually connect. If you're calling your bank about a frozen card from a cafe in Lisbon, you want the call to work on the first try with clear audio. That's where NomaPhone focuses — quality over rock-bottom pricing.
+People who want the simplest possible way to make an important call. If you're calling your bank about a frozen card from a cafe in Lisbon, you want to open a tab, dial, and be connected without installing or signing up for anything. That's where NomaPhone focuses — simplicity over rock-bottom pricing.
 
 ## 2. YadaPhone — The Budget-Friendly Browser Option
 
@@ -84,7 +82,7 @@ YadaPhone is another browser-based calling service, and it's the closest direct 
 
 - No SMS or 2FA support — this is a big gap if you need to receive verification codes
 - Browser support limited to Chromium (no Safari, no Firefox)
-- Smaller coverage footprint than some alternatives (150 vs 210+ countries)
+- Smaller coverage footprint than some alternatives (150 vs 210+ countries for DialAnyone)
 
 ### Who it's for
 
@@ -185,14 +183,14 @@ Here's the full picture with real pricing as of early 2026:
 
 | Feature | NomaPhone | YadaPhone | DialAnyone | Google Voice | Viber Out |
 |---|---|---|---|---|---|
-| US rate (per min) | $0.03 | $0.02 | $0.005 | Free (US residents) | Varies |
-| 30-min US call cost | $0.90 | $0.60 | $0.15 | Free | Varies |
+| US rate (per min) | [[rate:US:landline]] | $0.02 | $0.005 | Free (US residents) | Varies |
+| 30-min US call cost | 30 × [[rate:US:landline]] | $0.60 | $0.15 | Free | Varies |
 | Browser-based | Yes (all browsers) | Yes (Chromium only) | Yes + mobile apps | Yes | No (app only) |
-| SMS/2FA support | Yes | No | Yes | Yes (US only) | No |
-| Countries covered | 210+ | 150+ | 210+ | Limited | Wide |
+| SMS/2FA support | No | No | Yes | Yes (US only) | No |
+| Countries covered | [[countries]] | 150+ | 210+ | Limited | Wide |
 | Credits expire | Never | Never | N/A (free credits on signup) | N/A | Varies |
 | Monthly fee required | No | No | No (optional eSIM $4.99) | No | No |
-| Virtual numbers | Coming soon | US/Canada ($1.95/mo) | 50+ countries | US only | No |
+| Virtual numbers | No | US/Canada ($1.95/mo) | 50+ countries | US only | No |
 | Call recording | No | Yes (with AI transcripts) | No | No | No |
 
 ## How to Pick the Right One
@@ -201,7 +199,7 @@ Forget "which is the best." The better question is "which is best for your situa
 
 ### Pick NomaPhone if...
 
-You need reliable calls for things that matter — banking, government offices, business calls — and you want SMS/2FA support. You value simplicity and call quality over saving an extra penny per minute. Three cents a minute for a call that connects cleanly to your bank is worth more than half a cent for one that drops mid-hold.
+You need to make calls that matter — banking, government offices, US toll-free lines — and you want zero setup: no app, no account, works in any browser. You value simplicity over saving an extra penny per minute. You don't need to receive calls or SMS (NomaPhone is outgoing only).
 
 ### Pick YadaPhone if...
 
@@ -227,12 +225,12 @@ Numbers per minute are useful, but what does a typical month actually cost? Here
 |---|---|---|
 | Carrier roaming (AT&T) | $450 - $675 | $2.00-3.00/min, no hold music patience allowed |
 | T-Mobile (Magenta plan) | $56.25 | $0.25/min across 200+ countries |
-| NomaPhone | $6.75 | $0.03/min, pay-as-you-go |
+| NomaPhone | 225 min × [[rate:US:landline]] | Pay-as-you-go, billed per second |
 | YadaPhone | $4.50 | $0.02/min, pay-as-you-go |
 | DialAnyone | $1.13 | $0.005/min, pay-as-you-go |
 | Google Voice | Free | Only if you're a US resident |
 
-The gap between carrier roaming and any VoIP option is enormous. Whether you pick the $1.13 option or the $6.75 option, you're saving hundreds compared to roaming. The differences between VoIP services are real, but they're measured in dollars — the difference between VoIP and roaming is measured in hundreds.
+The gap between carrier roaming and any VoIP option is enormous. Whether you pick the cheapest option or one costing a few dollars more, you're saving hundreds compared to roaming. The differences between VoIP services are real, but they're measured in dollars — the difference between VoIP and roaming is measured in hundreds.
 
 ## What About Call Quality?
 
@@ -254,15 +252,15 @@ No. Skype credits are gone. Microsoft offered refund options during the transiti
 
 ### Do I need a phone number to sign up?
 
-It depends on the service. Google Voice requires a US phone number for verification. Most browser-based VoIP services like NomaPhone just need an email address to get started.
+It depends on the service. Google Voice requires a US phone number for verification. Most browser-based VoIP services just need an email address to get started; NomaPhone doesn't need an account at all (your receipt and phone card code go to the email you pay with).
 
 ### Will my bank's caller ID show a real number?
 
-This matters for callbacks. Services with virtual number support (NomaPhone, DialAnyone, YadaPhone) can display a real number that your bank can call back. Google Voice gives you a US number by default. Viber Out's outbound caller ID varies.
+This matters for callbacks. Services with virtual number support (DialAnyone, YadaPhone) can display a real number that your bank can call back. Google Voice gives you a US number by default. Viber Out's outbound caller ID varies. NomaPhone calls arrive from a NomaPhone caller ID, not a number the bank can call you back on.
 
 ### Can I receive calls, or just make them?
 
-Most of these services focus on outbound calling. Virtual number add-ons from NomaPhone, YadaPhone, and DialAnyone allow inbound calls too, but that's typically a separate feature or cost.
+Most of these services focus on outbound calling. Virtual number add-ons from YadaPhone and DialAnyone allow inbound calls too, but that's typically a separate feature or cost. NomaPhone is outbound only.
 
 ### Are these services legal to use abroad?
 
@@ -272,10 +270,10 @@ Yes. Browser-based calling is legal in virtually every country. You're using you
 
 Skype credits were great while they lasted. Simple, cheap, no commitment. The good news is that the alternatives available in 2026 are genuinely better in most ways — more reliable, more features, and competitive pricing.
 
-There's no single "best" Skype credit alternative. DialAnyone wins on price. Google Voice wins on "free." YadaPhone wins on call recording. NomaPhone wins on reliability and SMS/2FA support for the calls that actually matter.
+There's no single "best" Skype credit alternative. DialAnyone wins on price. Google Voice wins on "free." YadaPhone wins on call recording. NomaPhone wins on simplicity — no app, no account, any browser — for the calls that actually matter.
 
 Pick the one that matches what you need. Try it with a small credit purchase. If it works, great. If not, try another — none of them lock you into a contract.
 
 ---
 
-**Ready to try NomaPhone?** Load $5 in credits, call any number in 210+ countries from your browser, and see how three cents per minute sounds when the call actually connects. No app, no subscription, no commitment. Your credits never expire.
+**Ready to try NomaPhone?** Load $5 of credit and call landlines and mobiles in [[countries]] countries from your browser. No app, no account, no subscription, and credit never expires. [Make a call](https://app.nomaphone.com).

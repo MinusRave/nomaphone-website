@@ -1,13 +1,14 @@
 ---
 title: "Why Skype Discontinued Service: What It Means for International Callers"
-description: "Skype shut down its consumer calling service in 2024. Here's what happened, why it matters, and what to use instead for international calls in 2025."
+description: "Skype shut down for good in May 2025. Here's what happened, why it matters, and what to use instead for international calls in 2025."
 pubDate: 2025-11-16
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "skype-discontinued-what-it-means-for-international-callers"
 tags: ["Skype", "alternatives", "VoIP history", "migration guide"]
 ---
 
-On July 1, 2024, Microsoft officially discontinued Skype's consumer calling service. If you're still looking for "Skype alternatives" in 2025, you're not alone. Millions of people relied on Skype for international calls, and the shutdown left a gap.
+On May 5, 2025, Microsoft shut Skype down and moved users to Microsoft Teams (free). If you're still looking for "Skype alternatives", you're not alone. Millions of people relied on Skype for international calls, and the shutdown left a gap.
 
 This guide explains what happened, why Microsoft made this decision, and most importantly - what you should use instead.
 
@@ -18,15 +19,15 @@ This guide explains what happened, why Microsoft made this decision, and most im
 - **2011:** Microsoft acquires Skype for $8.5 billion
 - **2017:** Microsoft launches Teams, begins shifting focus
 - **2021:** Skype usage declining, Microsoft reduces investment
-- **June 2024:** Microsoft announces Skype consumer service shutdown
-- **July 2024:** Skype calling to phone numbers officially ends
-- **2025:** Skype app still exists for chat/video between users, but no PSTN calling
+- **February 2025:** Microsoft announces Skype will be retired
+- **May 5, 2025:** Skype shuts down; users are invited to move chats and contacts to Teams Free
+- **After May 2025:** Teams Free handles app-to-app chat and calls, but doesn't offer Skype-style pay-as-you-go calling to phone numbers
 
 ### What Still Works
-- Skype-to-Skype calls (free between users)
-- Video calls between Skype users
-- Chat/messaging between users
-- Business accounts (migrated to Teams)
+- Chats and contacts, if you moved them to Teams Free
+- Free app-to-app calls and video in Teams Free
+- Business users on Microsoft Teams (a separate product)
+- Nothing for pay-as-you-go calls to phone numbers: that part is gone
 
 ### What Doesn't Work Anymore
 - Calling landlines and mobile numbers
@@ -57,7 +58,7 @@ Skype had:
 The business case for Skype disappeared.
 
 ### Reason 2: Consumer Market Changed
-In 2003-2013, Skype was revolutionary. By 2024:
+In 2003-2013, Skype was revolutionary. By the 2020s:
 
 **Free alternatives emerged:**
 - WhatsApp (2 billion users)
@@ -80,7 +81,7 @@ Skype's business model was tough:
 Microsoft couldn't justify the investment for declining returns.
 
 ### Reason 4: Security and Moderation Challenges
-Running a global calling platform in 2024 meant:
+Running a global calling platform in the 2020s meant:
 - Regulatory compliance in 180+ countries
 - Spam and fraud prevention
 - Content moderation
@@ -88,30 +89,30 @@ Running a global calling platform in 2024 meant:
 
 The headaches outweighed the benefits for Microsoft.
 
-## Who Was Actually Using Skype in 2024?
+## Who Was Actually Using Skype Before the Shutdown?
 
-Based on user data before shutdown:
+The people who felt the shutdown most fell into a few groups (no official breakdown was published):
 
 ### Primary User Groups
 
-**Expats and immigrants (40%)**
+**Expats and immigrants**
 - Calling family in home countries
 - Usually older users (45+)
 - Valued low international rates
 - Many didn't know alternatives existed
 
-**Small business users (25%)**
+**Small business users**
 - International client calls
 - Had been using Skype for years
 - Comfortable with familiar interface
 - Often purchased monthly plans
 
-**Remote workers (20%)**
+**Remote workers**
 - Calling clients/vendors internationally
 - Mix of voice and video usage
 - Some used Skype credit, others had subscriptions
 
-**Occasional international callers (15%)**
+**Occasional international callers**
 - Kept Skype credit for emergencies
 - Called overseas maybe once a month
 - Usually had $5-10 sitting unused
@@ -156,9 +157,9 @@ Most consumer users ignored Teams and found other alternatives.
 
 ## What Former Skype Users Actually Switched To
 
-Based on 2024-2025 migration patterns:
+There are no official numbers on where Skype users went, but these are the common destinations:
 
-### WhatsApp (35% of former users)
+### WhatsApp
 **Why they chose it:**
 - Already had it installed
 - Free for calling other WhatsApp users
@@ -169,7 +170,7 @@ Based on 2024-2025 migration patterns:
 - Both parties need the app
 - Not professional for business calls
 
-### Google Voice (20%)
+### Google Voice
 **Why they chose it:**
 - Free calls to US/Canada
 - Google integration
@@ -180,7 +181,7 @@ Based on 2024-2025 migration patterns:
 - International rates higher than Skype was
 - Quality issues from some countries
 
-### Traditional Carriers (15%)
+### Traditional Carriers
 **Why they chose it:**
 - Didn't know better alternatives
 - "Safe" familiar option
@@ -191,7 +192,7 @@ Based on 2024-2025 migration patterns:
 - International plans still pricey
 - Overage charges add up
 
-### Browser Calling Services (15%)
+### Browser Calling Services
 **Why they chose it:**
 - No app required
 - Similar rates to old Skype
@@ -202,7 +203,7 @@ Based on 2024-2025 migration patterns:
 - Trust issues with smaller brands
 - Unfamiliar technology
 
-### Nothing/Still Searching (15%)
+### Nothing/Still Searching
 Some users just... stopped calling internationally or are still looking for solutions.
 
 ## Skype vs Modern Alternatives: Real Comparison
@@ -341,7 +342,7 @@ In one app. Now you often need separate services for different needs.
 ## Common Questions from Former Skype Users
 
 ### "Can I still use my Skype credit?"
-No. Credits expired when service shut down. Microsoft offered refunds through December 2024. After that, the money's gone.
+Not in Skype itself. After the May 2025 shutdown, Microsoft let paid users keep using remaining Skype Credit and subscriptions for a limited time through the Skype web portal or Teams Free. Check Microsoft's Skype support pages for your account's current status.
 
 ### "Can I export my Skype contacts?"
 Not easily. Before shutdown, you could export to CSV. Now, if you didn't export then, the contacts are stuck in the chat-only version of Skype.
@@ -462,7 +463,7 @@ Real-time translation, transcription, summaries - features Skype never offered.
 
 ## The Bottom Line
 
-Skype's shutdown in 2024 was inevitable. The market moved on. Free alternatives won for app-to-app. Browser calling is winning for PSTN.
+Skype's shutdown in 2025 was a long time coming. The market moved on. Free alternatives won for app-to-app. Browser calling is winning for PSTN.
 
 If you're still mourning Skype:
 - For calling app users: You already have better (WhatsApp)
@@ -473,4 +474,4 @@ The nostalgia is real. The need to move on is realer.
 
 ---
 
-Miss the simplicity of Skype but need to call actual phone numbers? NomaPhone brings back the straightforward pay-as-you-go model Skype had, but in your browser. No downloads, transparent rates starting at $0.03/minute, and it actually works in 2025. [Join the waitlist](https://nomaphone.com) to try it when we launch.
+Miss the simplicity of Skype credit? Try NomaPhone: prepaid credit that never expires, calls to landlines and mobiles in [[countries]] countries, right in your browser. No downloads, no account. [Make a call](https://app.nomaphone.com)

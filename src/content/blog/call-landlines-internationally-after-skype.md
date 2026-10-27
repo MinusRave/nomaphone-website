@@ -2,6 +2,7 @@
 title: "How to Call Landlines Internationally After Skype (2026 Guide)"
 description: "Skype is gone but landlines aren't. Compare every method to call landlines internationally after Skype — browser VoIP, apps, roaming, and cards with 2026 rates."
 pubDate: 2026-04-30
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-landlines-internationally-after-skype"
 tags: ["Skype alternative", "international calling", "landlines", "VoIP", "digital nomads", "browser calling"]
@@ -42,9 +43,9 @@ This is the closest replacement to what Skype offered. You open a website in you
 
 The big advantage here is simplicity. You're on your laptop already. You open a tab, dial a number, and you're connected. No SIM card swaps, no app installations, no carrier plans.
 
-NomaPhone charges $0.03/min to US/Canada landlines, $0.05/min to UK landlines, and $0.08/min to India landlines. Credits never expire, there are no connection fees, and no monthly minimums. A 30-minute call to a US bank costs $0.90.
+NomaPhone charges [[rate:US:landline]] to US/Canada numbers, [[rate:GB:landline]] to UK landlines, and [[rate:IN:landline]] to India landlines, billed per second. There's no account to create, credit never expires, and there are no monthly minimums. A 30-minute call to a US bank costs 30 × [[rate:US:landline]].
 
-DialAnyone is cheaper — $0.005/min to the US — but doesn't offer call recording. YadaPhone sits in between at $0.02/min to the US and includes AI transcripts, though it doesn't support SMS or 2FA verification.
+DialAnyone is cheaper — $0.005/min to the US — but doesn't offer call recording. YadaPhone sits in between at $0.02/min to the US and includes AI transcripts, though it only runs in Chromium-based browsers.
 
 All three work from any country with decent internet.
 
@@ -80,7 +81,7 @@ Here's the reality check on roaming costs:
 
 A 30-minute call to a US landline on AT&T roaming costs $60-$90. The same call on a browser-based service costs under a dollar. That's not a typo.
 
-T-Mobile is the exception. Their Magenta plan includes $0.25/min international calling, which is workable for short calls. But if you're sitting on hold with your bank for 45 minutes, that's still $11.25 — compared to $1.35 on NomaPhone.
+T-Mobile is the exception. Their Magenta plan includes $0.25/min international calling, which is workable for short calls. But if you're sitting on hold with your bank for 45 minutes, that's still $11.25 — compared to 45 × [[rate:US:landline]] on NomaPhone.
 
 ### 4. International Calling Cards (Prepaid)
 
@@ -108,8 +109,8 @@ Here's what a 30-minute call to a landline actually costs with each method, usin
 | Verizon roaming | $89.70 | $2.99/min standard rate |
 | T-Mobile Magenta | $7.50 | $0.25/min included rate |
 | Calling card (typical) | $1.50 - $3.00 | Hidden fees may apply |
-| YadaPhone | $0.60 | No SMS/2FA support |
-| NomaPhone | $0.90 | Browser-based, no app needed |
+| YadaPhone | $0.60 | Chromium browsers only |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no app or account needed |
 | DialAnyone | $0.15 | Cheapest browser option |
 | Google Voice | Free | US residents only, quality varies |
 
@@ -119,7 +120,7 @@ Here's what a 30-minute call to a landline actually costs with each method, usin
 |---|---|---|
 | AT&T roaming | $60.00 - $90.00 | Standard roaming rates |
 | Vodafone roaming | $45.00+ | Varies by plan and location |
-| NomaPhone | $1.50 | $0.05/min to UK landlines |
+| NomaPhone | 30 × [[rate:GB:landline]] | [[rate:GB:landline]] to UK landlines |
 | Viber Out | $2.00 - $4.00 | Rates vary, check current pricing |
 | Calling card | $2.00 - $5.00 | Connection fees usually apply |
 
@@ -128,7 +129,7 @@ Here's what a 30-minute call to a landline actually costs with each method, usin
 | Method | Cost | Notes |
 |---|---|---|
 | Carrier roaming (US) | $60.00 - $90.00 | Standard international rates |
-| NomaPhone | $2.40 | $0.08/min to India landlines |
+| NomaPhone | 30 × [[rate:IN:landline]] | [[rate:IN:landline]] to India landlines ([[rate:IN:mobile]] to mobiles) |
 | Calling card | $1.50 - $4.00 | Quality often poor on India routes |
 | Viber Out | $3.00 - $6.00 | Rates vary by state |
 
@@ -140,23 +141,23 @@ There's no single best answer. It depends on your situation.
 
 ### You need to call a US bank from abroad
 
-Use browser-based VoIP. You'll be on hold for a long time, and every minute on carrier roaming is money burning. At $0.03/min with NomaPhone, a 45-minute hold costs $1.35. On AT&T roaming, that same hold costs $90-$135.
+Use browser-based VoIP. You'll be on hold for a long time, and every minute on carrier roaming is money burning. At [[rate:US:landline]] with NomaPhone, a 45-minute hold costs well under two dollars. On AT&T roaming, that same hold costs $90-$135.
 
 If you're a US resident with Google Voice set up, that works too — but test the quality from your current location first. Lag and echo from Southeast Asia are common complaints.
 
 ### You need to call a parent's landline regularly
 
-Set up a browser VoIP account with credits. A weekly 30-minute call to a US landline costs about $3.60/month on NomaPhone. That's less than a single cup of coffee in most airports.
+Set up a browser VoIP account with credits. A weekly 30-minute call to a US landline is roughly 120 minutes a month at [[rate:US:landline]] on NomaPhone. That's less than a single cup of coffee in most airports.
 
 ### You need to call a UK government office
 
-Browser VoIP at $0.05/min is the practical choice. Government hold times are unpredictable. HMRC alone has average wait times over 20 minutes. You want the cheapest per-minute rate you can get for an unknown call duration.
+Browser VoIP at a few cents a minute ([[rate:GB:landline]] to UK landlines on NomaPhone) is the practical choice. Government hold times are unpredictable. HMRC alone has average wait times over 20 minutes. You want the cheapest per-minute rate you can get for an unknown call duration.
 
 ### You're on a short trip and only need one call
 
 If you already have T-Mobile Magenta, just use your roaming. At $0.25/min, a quick 5-minute call costs $1.25. Not worth setting up a new account for that.
 
-If you're on AT&T or Verizon, the math changes fast. Even one 10-minute call at $2.50/min costs $25. Opening a browser VoIP account takes 30 seconds and saves you $24.
+If you're on AT&T or Verizon, the math changes fast. Even one 10-minute call at $2.50/min costs $25. Buying browser VoIP credit takes a minute and saves you most of that $25.
 
 ### You have no internet access
 
@@ -196,7 +197,7 @@ That's exactly the gap Skype used to fill, and it's exactly the gap browser-base
 
 ### Can I call any landline in the world with browser VoIP?
 
-Most browser VoIP services cover 150-210+ countries. The major corridors — US, UK, Canada, India, Australia, Germany, Mexico — are available on every service. Obscure destinations may have limited coverage or higher rates. Check your provider's rate page before calling.
+Most browser VoIP services cover 150-210+ countries. The major corridors — US, UK, Canada, India, Australia, Germany, Mexico — are available on every service. Obscure destinations may have limited coverage or higher rates. NomaPhone currently covers [[countries]] countries — check the [rates page](/rates/) (or your provider's) before calling.
 
 ### Do I need a special headset or microphone?
 
@@ -204,7 +205,7 @@ No. Your laptop's built-in microphone and speakers work fine. If you want better
 
 ### Will the person I'm calling see my number?
 
-It depends on the service. Some VoIP providers show a generic number or "Unknown Caller." Others let you display a virtual number you've purchased. If caller ID matters (for example, so your mom recognizes your call), check whether your service supports number display.
+It depends on the service. Some VoIP providers show a generic number or "Unknown Caller." Others let you display a virtual number you've purchased. NomaPhone calls arrive from a NomaPhone caller ID, not your personal number. If caller ID matters (for example, so your mom recognizes your call), tell the person to expect the call, or check whether your service supports number display.
 
 ### Is call quality good enough for important calls?
 
@@ -216,7 +217,7 @@ Google Voice is free for US/Canada calls but restricted to US residents. Beyond 
 
 ## The Bottom Line
 
-Skype is gone, but calling landlines internationally is still straightforward. Browser-based VoIP services have picked up exactly where Skype left off — pay-as-you-go credits, per-minute rates, calls to real phone numbers in 200+ countries.
+Skype is gone, but calling landlines internationally is still straightforward. Browser-based VoIP services have picked up exactly where Skype left off — pay-as-you-go credits, per-minute rates, calls to real phone numbers around the world.
 
 The rates are comparable to or better than what Skype used to charge. The experience is similar: open your browser, dial a number, talk. No apps, no contracts, no subscriptions required.
 
@@ -224,4 +225,4 @@ If you're a digital nomad, expat, or remote worker who needs to reach landlines 
 
 ---
 
-**NomaPhone** is a browser-based international calling service built for digital nomads and expats. Call landlines and mobiles in 210+ countries at rates starting from $0.03/min. No app download. No subscription. Credits never expire. [Try NomaPhone](https://nomaphone.com) and make your first call in 30 seconds.
+Try NomaPhone: call landlines and mobiles in [[countries]] countries from your browser. No app, no account, no subscription, and credit never expires. [Make a call](https://app.nomaphone.com).

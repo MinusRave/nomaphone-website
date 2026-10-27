@@ -2,6 +2,7 @@
 title: "Remote Work Phone Setup: Complete International Calling Stack for 2026"
 description: "Build the perfect remote work phone setup. Complete guide to local SIMs, virtual numbers, browser calling, 2FA, and international communication."
 pubDate: 2026-02-15
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "remote-work-phone-setup-international"
 tags: ["remote work", "phone setup", "digital nomad", "international communication"]
@@ -47,10 +48,10 @@ The foundation of effective remote work communication.
 - Maintain home presence
 
 **Example - US virtual:**
-- NomaPhone: $2.19/month
+- From a virtual number provider (or Google Voice, if you're eligible): typically $2-4/month
 - Shows US caller ID
 - Forwards to Portugal
-- Receives SMS for 2FA
+- Often receives SMS for 2FA (check your bank accepts it)
 
 **Use for:**
 - Banking 2FA codes
@@ -66,10 +67,10 @@ The foundation of effective remote work communication.
 - Cost-effective outbound
 
 **Example:**
-- NomaPhone: $0.03/min USA
-- Call from browser/app
-- Works worldwide
-- Pay per use
+- NomaPhone: [[rate:US:landline]] to the US, toll-free numbers included
+- Call from your browser, no app or account
+- Works from anywhere with internet
+- Pay per use (outgoing calls only; it doesn't provide a number)
 
 **Use for:**
 - Calling US banks
@@ -96,14 +97,14 @@ The foundation of effective remote work communication.
 - Purpose: Daily life + EU roaming
 
 **2. US virtual number:**
-- Provider: NomaPhone
-- Cost: $2.19/month
+- Provider: a virtual number provider or Google Voice
+- Cost: $2-4/month
 - Number: US local (your city)
 - Purpose: Banking, family, professional
 
 **3. Browser calling:**
-- Provider: NomaPhone
-- Cost: $0.03/min to USA
+- Provider: e.g. NomaPhone
+- Cost: [[rate:US:landline]] to USA
 - Purpose: Outbound US calls
 
 **4. Dual SIM phone (optional):**
@@ -137,15 +138,15 @@ The foundation of effective remote work communication.
 - Purpose: Current location needs
 
 **2. Stable virtual number:**
-- Provider: NomaPhone
+- Provider: a virtual number provider
 - Cost: $2-4/month
 - Never changes
 - Purpose: Permanent contact
 
 **3. Browser calling:**
-- Provider: NomaPhone
+- Provider: e.g. NomaPhone
 - Cost: Pay per use
-- Works globally
+- Works from anywhere with internet
 - Purpose: All international
 
 **4. WhatsApp/Telegram:**
@@ -178,7 +179,7 @@ The foundation of effective remote work communication.
 - Purpose: Daily life
 
 **2. Home country virtual:**
-- Provider: NomaPhone
+- Provider: a virtual number provider
 - Local number in home city
 - Cost: $2-4/month
 - Purpose: Property manager, banks
@@ -190,7 +191,7 @@ The foundation of effective remote work communication.
 
 **4. Browser calling:**
 - For all international
-- $0.03-0.10/min typical
+- A few cents to a few tens of cents per minute, depending on destination
 - Purpose: Calling both countries
 
 **Total monthly: ~$30-50**
@@ -217,17 +218,16 @@ The foundation of effective remote work communication.
 - WhatsApp for team chat
 
 **Team shared:**
-- Shared virtual numbers by market
-- US number: $2.19/month
-- UK number: $1.90/month
-- EU number: $3/month
-- Total: ~$7/month
+- Shared virtual numbers by market, from a VoIP provider
+- US number: ~$2-4/month
+- UK number: ~$2-4/month
+- EU number: ~$2-4/month
+- Total: ~$6-12/month
 
-**Shared calling credits:**
-- Team wallet
+**Calling credit:**
 - Each member calls via browser
-- Shared costs
-- Transparent tracking
+- With NomaPhone there are no team accounts; the team lead can buy prepaid credit and share the phone card code, which works like cash
+- Track spend from your payment receipts
 
 **Total per person: ~$15-25/month**
 
@@ -257,11 +257,11 @@ Critical for remote workers.
 - $15-20/month
 - Works with everything
 
-**Tier 2 - Usually works:**
+**Tier 2 - Often works:**
 - Premium virtual numbers
-- NomaPhone, Google Voice
+- Google Voice, some paid VoIP number providers
 - $2-5/month
-- Most banks accept
+- Many banks accept; check yours
 
 **Tier 3 - Hit or miss:**
 - Budget virtual services
@@ -389,9 +389,9 @@ Critical for remote workers.
 
 **Example optimized:**
 - Local SIM: $15/month
-- One virtual: $2.19/month
+- One virtual: ~$3/month
 - Browser calling: $5/month average
-- Total: ~$22/month
+- Total: ~$23/month
 
 **vs. Unoptimized:**
 - Roaming plan: $50/month
@@ -399,7 +399,7 @@ Critical for remote workers.
 - Inefficient calling: $100/month
 - Total: $180/month
 
-**Savings: $158/month = $1,896/year**
+**Savings: ~$157/month = ~$1,880/year**
 
 ### Batch Communications
 
@@ -419,7 +419,7 @@ Critical for remote workers.
 **Priority order:**
 1. Free: WhatsApp, Telegram, Signal
 2. Included: Local/EU calls on plan
-3. Cheap: Browser calling at $0.03/min
+3. Cheap: Browser calling at a few cents/min
 4. Expensive: Carrier international as last resort
 
 ## Troubleshooting Common Issues
@@ -474,7 +474,7 @@ Critical for remote workers.
 **Week 4 before departure:**
 - [ ] Research local carriers in destination
 - [ ] Choose virtual number provider
-- [ ] Set up browser calling account
+- [ ] Pick a browser calling service (NomaPhone needs no account)
 - [ ] Check phone is unlocked/dual SIM
 
 **Week 2 before:**
@@ -487,7 +487,7 @@ Critical for remote workers.
 **Week 1 before:**
 - [ ] Get virtual number active
 - [ ] Test forwarding
-- [ ] Add credits to calling account
+- [ ] Buy calling credit
 - [ ] Backup all contacts
 - [ ] Download essential apps
 
@@ -554,7 +554,7 @@ Critical for remote workers.
 
 **US Remote Worker in EU:**
 - EU local SIM: €20/month
-- US virtual: $2.19/month
+- US virtual: $2-4/month
 - Browser calling: Pay per use
 - Total: ~$25/month
 
@@ -594,4 +594,4 @@ Critical for remote workers.
 
 ---
 
-**Ready to build your remote work calling stack?** NomaPhone offers virtual numbers ($2-4/month) plus browser-based calling ($0.03/min USA). Complete solution for international remote work. Join the waitlist at nomaphone.com.
+NomaPhone covers the outbound layer of this stack: call any landline or mobile in [[countries]] countries from your browser, no app, no account. (For numbers and SMS, you'll need a separate provider.) [Make a call](https://app.nomaphone.com)

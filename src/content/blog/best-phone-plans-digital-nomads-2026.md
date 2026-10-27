@@ -2,6 +2,7 @@
 title: "Best Phone Plans for Digital Nomads in 2026 (Compared)"
 description: "Choosing a phone plan that works across countries? Compare Google Fi, T-Mobile, eSIM providers, and VoIP options with real 2026 prices and honest trade-offs."
 pubDate: 2026-07-08
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "best-phone-plans-digital-nomads-2026"
 tags: ["digital nomads", "international calling", "eSIM", "roaming", "VoIP", "remote workers"]
@@ -153,7 +154,7 @@ Your data plan handles internet. Your VoIP handles calls. Each does what it's be
 | Service | US Call Rate | Browser-Based | Needs App | Countries | SMS/2FA |
 |---|---|---|---|---|---|
 | Google Voice | Free | Yes | No | Limited (US residents) | Yes (US) |
-| NomaPhone | $0.03/min | Yes | No | 210+ | Yes |
+| NomaPhone | [[rate:US:landline]] | Yes | No | [[countries]] | No (outgoing calls only) |
 | YadaPhone | $0.02/min | Yes (Chromium) | No | 150+ | No |
 | DialAnyone | $0.005/min | Yes | Optional | 210+ | Yes |
 | Viber Out | Varies | No | Yes (app required) | 100+ | No |
@@ -180,14 +181,14 @@ Here's what you're actually deciding between:
 | Holafly (unlimited eSIM) | Unlimited | No calling | 80+ | No | $34-47 | No |
 | Local SIM (varies) | 5-15 GB | $1-2/min international | 1 country | No | $8-15 | Yes (local) |
 | Google Voice (VoIP) | N/A (needs data) | Free (US only) | Limited | No | Free | Yes (US) |
-| NomaPhone (VoIP) | N/A (needs data) | $0.03/min | 210+ | No | Pay-as-you-go | Yes (virtual) |
+| NomaPhone (VoIP) | N/A (needs data) | [[rate:US:landline]] | [[countries]] | No | Prepaid, pay-as-you-go | No |
 | DialAnyone (VoIP) | $4.99/mo bundle | $0.005/min | 210+ | No | Pay-as-you-go | Yes (virtual) |
 
 A few things jump out from this table.
 
 First, every option that provides data abroad either charges a lot for calls (Google Fi, T-Mobile) or doesn't offer calls at all (Airalo, Holafly). There's no single plan that gives you cheap data and cheap calling in one package.
 
-Second, the cost difference between carrier calling and VoIP calling is staggering. A 30-minute call to the US costs $6.00-$7.50 on Google Fi or T-Mobile. The same call costs $0.90 on NomaPhone or $0.15 on DialAnyone.
+Second, the cost difference between carrier calling and VoIP calling is staggering. A 30-minute call to the US costs $6.00-$7.50 on Google Fi or T-Mobile. Over a pay-as-you-go VoIP service, the same call typically costs under a dollar: NomaPhone charges [[rate:US:landline]] to US numbers, billed per second, and DialAnyone advertises even lower per-minute rates.
 
 Third, pay-as-you-go VoIP services have no monthly cost when you're not calling. Credits sit there until you need them. That's fundamentally different from paying $75-$90/month for a carrier plan whether you use it or not.
 
@@ -217,7 +218,7 @@ Say you spend a month in Portugal. You need data and you need to make five calls
 |---|---|---|---|
 | T-Mobile Magenta (all-in-one) | Included | $18.75 (75 min x $0.25) | $93.75/month |
 | Google Fi Flexible (5 GB) | $70.00 | $15.00 (75 min x $0.20) | $85.00/month |
-| Airalo eSIM + NomaPhone | $8.00 | $2.25 (75 min x $0.03) | $10.25/month |
+| Airalo eSIM + NomaPhone | $8.00 | 75 min x [[rate:US:landline]] | About $10/month |
 | Airalo eSIM + DialAnyone | $8.00 | $0.38 (75 min x $0.005) | $8.38/month |
 
 The difference is dramatic. The eSIM-plus-VoIP combo costs roughly one-tenth of what a carrier plan costs for the same usage.
@@ -230,7 +231,7 @@ Yes. Most phones made after 2020 support dual SIM (one physical, one eSIM). You 
 
 ### What if I need to receive calls, not just make them?
 
-Most VoIP services offer virtual phone numbers. NomaPhone and DialAnyone both provide numbers that can receive calls. Google Voice gives you a US number for free. This means you can give people a permanent number that works regardless of which country you're in.
+Then you need a phone number, not just a calling tool. Google Voice gives you a US number for free (if you can sign up), and several VoIP providers sell virtual numbers that can receive calls. NomaPhone doesn't: it's for outgoing calls only and doesn't give you a number, receive calls, or receive SMS. Many nomads pair a number for receiving (their home carrier SIM on a cheap plan, Google Voice, or a virtual number provider) with a pay-as-you-go service for outbound calls.
 
 ### Does VoIP quality hold up for important calls?
 
@@ -242,7 +243,7 @@ WhatsApp calling is free and great — when both people have WhatsApp. The probl
 
 ### I'm leaving the US permanently. Which VoIP should I pick?
 
-If you're cutting ties with a US carrier entirely, you need a VoIP service that doesn't require US residency. NomaPhone works from anywhere with a browser — no US address needed, no app to install. DialAnyone is similar. Google Voice, on the other hand, requires a US phone number for initial setup and has been known to deactivate accounts that don't use the US network periodically.
+If you're cutting ties with a US carrier entirely, you need a VoIP service that doesn't require US residency. NomaPhone works from anywhere with a browser — no US address, no account, no app to install — but it only makes outgoing calls, so you'll still want a separate way to keep a number for SMS codes. DialAnyone is another option without a US-residency requirement. Google Voice, on the other hand, requires a US phone number for initial setup and has been known to deactivate accounts that don't use the US network periodically.
 
 ## Your Next Step
 
@@ -252,4 +253,4 @@ The best phone plan for digital nomads in 2026 isn't a plan at all. It's a strat
 
 ---
 
-NomaPhone is the calling layer for nomads who need to reach real phone numbers from anywhere. Three cents per minute to the US. Works in your browser — no app, no contract, no expired credits. Just open the site and call. Check it out at nomaphone.com.
+Try NomaPhone: call any landline or mobile in [[countries]] countries from your browser, with prepaid credit that never expires. No app, no account. [Make a call](https://app.nomaphone.com)

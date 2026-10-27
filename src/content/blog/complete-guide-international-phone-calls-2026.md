@@ -2,6 +2,7 @@
 title: "The Complete Guide to Making International Phone Calls in 2026"
 description: "Every method for making international phone calls in 2026 compared — carrier roaming, VoIP, browser calling, Google Voice. Real rates and honest trade-offs."
 pubDate: 2026-04-09
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "complete-guide-international-phone-calls-2026"
 tags: ["international calling", "VoIP", "roaming", "digital nomads", "browser calling", "Skype alternative"]
@@ -18,7 +19,7 @@ This guide breaks down every way to make international calls, with real prices, 
 
 ## The International Calling Landscape in 2026
 
-The way people make international calls has shifted dramatically. Skype's consumer calling service shut down in 2024. Traditional carriers still charge outrageous roaming fees. And a wave of browser-based and VoIP options have filled the gap with wildly different price points.
+The way people make international calls has shifted dramatically. Skype shut down in May 2025. Traditional carriers still charge outrageous roaming fees. And a wave of browser-based and VoIP options have filled the gap with wildly different price points.
 
 Here's the quick overview before we dig into each method:
 
@@ -168,7 +169,7 @@ Browser-based calling services let you make international calls directly from yo
 
 ### How It Works
 
-These services use WebRTC — the same technology that powers video calls in Google Meet and Zoom. Your browser connects to the calling service's servers, which connect to the regular phone network. The result: you can call any phone number in the world from any device with a browser.
+These services use WebRTC — the same technology that powers video calls in Google Meet and Zoom. Your browser connects to the calling service's servers, which connect to the regular phone network. The result: you can call regular phone numbers abroad from any device with a browser.
 
 ### The Key Players in 2026
 
@@ -176,21 +177,21 @@ Several services offer browser-based international calling. Here's how they comp
 
 | Feature | NomaPhone | DialAnyone | YadaPhone |
 |---|---|---|---|
-| US/Canada rate | $0.03/min | $0.005/min | $0.02/min |
-| UK landline rate | $0.05/min | Varies | Varies |
-| UK mobile rate | $0.12/min | Varies | Varies |
-| India mobile rate | $0.05/min | Varies | Varies |
+| US/Canada rate | [[rate:US:landline]] | $0.005/min | $0.02/min |
+| UK landline rate | [[rate:GB:landline]] | Varies | Varies |
+| UK mobile rate | [[rate:GB:mobile]] | Varies | Varies |
+| India mobile rate | [[rate:IN:mobile]] | Varies | Varies |
 | Browser-based | Yes | Yes (plus apps) | Yes (Chromium) |
-| SMS/2FA receive | Yes | Yes | No |
+| SMS/2FA receive | No (outgoing calls only) | Yes | No |
 | Mobile apps | No | Yes | No |
-| Credits expire | Never | Varies | Never |
-| Countries | 210+ | 210+ | 150+ |
+| Credits expire | Never (refundable) | Varies | Never |
+| Countries | [[countries]] | 210+ | 150+ |
 
 **DialAnyone** is the cheapest option at $0.005/min to the US — that's half a cent per minute. They also offer mobile apps, eSIM data bundles, and a full API. If price is your top priority, they're hard to beat.
 
 **YadaPhone** sits in the middle at $0.02/min to the US. They offer call recording with AI transcripts and team features like shared wallets — useful for businesses.
 
-**NomaPhone** charges $0.03/min to the US — three cents per minute. Not the cheapest, but focused on reliability for calls that matter. Think bank calls, government offices, and business calls where a dropped connection means starting the hold queue over again. NomaPhone also supports SMS and 2FA codes, which matters when your bank sends a verification text to complete a transaction.
+**NomaPhone** charges [[rate:US:landline]] to the US. Not the cheapest, but built to be the simplest for one-off calls that matter, like banks and government offices: no app, no account, billed per second, and US and Canada toll-free numbers can be dialed at the normal US rate. Credit never expires and unused credit can be refunded. It's calling only, though: NomaPhone doesn't give you a phone number and can't receive calls, SMS or 2FA codes.
 
 ### Cost Comparison: 30-Minute Call to US
 
@@ -198,7 +199,7 @@ Several services offer browser-based international calling. Here's how they comp
 |---|---|
 | DialAnyone | $0.15 |
 | YadaPhone | $0.60 |
-| NomaPhone | $0.90 |
+| NomaPhone | 30 × [[rate:US:landline]] |
 | AT&T roaming | $60.00 - $90.00 |
 | Verizon roaming | $89.70 |
 
@@ -227,7 +228,7 @@ Here's the full picture for a 30-minute call to a US phone number from abroad:
 | Viber Out | $1 - $5 | Medium | Medium (needs app) | No |
 | DialAnyone | $0.15 | Medium-High | High | No |
 | YadaPhone | $0.60 | Medium-High | High | No |
-| NomaPhone | $0.90 | High | High | No |
+| NomaPhone | 30 × [[rate:US:landline]] | Medium-High | High | No |
 
 ## How to Choose the Right Method
 
@@ -241,7 +242,7 @@ The best option depends on your situation. Here's a quick decision framework.
 
 **Browser-based calling is your best bet.** You'll be making calls from different countries, different devices, and different WiFi networks. Having a reliable service that works from any browser, anywhere, without downloading anything, simplifies your life.
 
-For mostly US calls at three cents per minute, NomaPhone keeps things simple with pay-as-you-go credits that never expire. No subscription, no monthly minimum. You buy credits when you need them.
+For mostly US calls at [[rate:US:landline]], NomaPhone keeps things simple with pay-as-you-go credit that never expires. No subscription, no monthly minimum. You buy credits when you need them.
 
 ### You call family regularly (and they have smartphones)
 
@@ -277,13 +278,13 @@ Airport WiFi, hotel WiFi, and public WiFi are often too slow or unstable for voi
 
 ### Not Checking Mobile vs. Landline Rates
 
-Many services charge different rates for calling mobile phones versus landlines. A call to a UK landline might cost $0.05/min, while the same call to a UK mobile costs $0.12/min. Always check both rates for your destination.
+Many services charge different rates for calling mobile phones versus landlines. On NomaPhone, for example, a UK landline is [[rate:GB:landline]] while a UK mobile is [[rate:GB:mobile]]. Always check both rates for your destination.
 
 ## Frequently Asked Questions
 
 ### Can I call toll-free numbers from abroad?
 
-Usually not for free. Toll-free numbers (1-800, 1-888, etc.) are only free from within the country. From abroad, they're either blocked or billed as regular international calls. Some VoIP and browser-based services let you connect to them at their standard per-minute rates.
+Usually not for free. Toll-free numbers (1-800, 1-888, etc.) are only free from within the country. From abroad, they're either blocked or billed as regular international calls. Some VoIP and browser-based services let you connect to them at their standard per-minute rates. NomaPhone, for example, dials US and Canada toll-free numbers (800, 888, 877, 866, 855, 844, 833) at its normal US rate.
 
 ### Do I need a local SIM card to make international calls?
 
@@ -299,7 +300,7 @@ It depends on the service and your internet connection. Budget VoIP can sound te
 
 ### Can I receive calls with these services?
 
-Some. Google Voice gives you a US number that can receive calls. NomaPhone and some browser-based services support receiving SMS and 2FA codes. Most VoIP apps can receive calls if someone calls your VoIP number. But not all services offer incoming call support.
+Some. Google Voice gives you a US number that can receive calls and texts. Most VoIP apps can receive calls if someone calls your VoIP number. But not all services offer incoming call support: NomaPhone, for example, is for outgoing calls only and doesn't give you a number.
 
 ## The Bottom Line
 
@@ -311,4 +312,4 @@ Whatever you choose, set it up and test it before you need it. The worst time to
 
 ---
 
-**NomaPhone** is browser-based international calling built for digital nomads and expats. Three cents per minute to the US, no app to download, credits that never expire. Open your browser, enter a number, and you're connected in 30 seconds. [Try NomaPhone](https://nomaphone.com)
+**NomaPhone** is browser-based international calling: [[rate:US:landline]] to the US, no app to download, no account, credit that never expires. [Try NomaPhone](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "International Calling for Remote Teams: The 2025 Guide"
 description: "Complete guide to international calling for remote teams. Compare costs, features, and solutions for distributed teams calling clients globally in 2025."
 pubDate: 2025-11-27
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-remote-teams-guide"
 tags: ["remote teams", "business calling", "international calls", "team communication"]
@@ -41,7 +42,7 @@ Sound familiar? You're not alone.
 
 ## What Remote Teams Actually Need
 
-After talking to dozens of remote team founders, here's what matters:
+Here's what usually matters:
 
 ### 1. Pay for what you use
 If your team makes 50 calls this month and 150 next month, you should pay accordingly. Monthly per-user fees make no sense when usage varies.
@@ -107,16 +108,22 @@ Still per-user pricing when usage varies. International rates can be expensive. 
 
 **Best for:** Small remote teams with variable calling needs
 
-**Pricing:** Pay-per-use, typically $0.03-0.05 per minute for most destinations
+**Pricing:** Pay-per-use. A few cents per minute to the US, UK and many Western European landlines (NomaPhone: [[rate:US:landline]] to the US, [[rate:GB:landline]] to UK landlines); mobiles and some destinations cost more, so check the [rates page](/rates/) for your mix.
 
 **What you get:**
 - No per-user fees, pay for actual usage
 - Works in browser (no app downloads)
-- Shared team wallet and contacts
-- Virtual numbers for professional caller ID
-- Call history and exports for accounting
+- With NomaPhone, no accounts at all: credit lives on a prepaid phone card code that works like cash, so a manager can buy credit and hand the code to whoever needs to make a call
+- Billed per second, credit never expires
 
-**Real cost example:**
+**What you don't get (with NomaPhone):**
+- No virtual numbers or caller ID of your own
+- No shared contacts, call history exports or team dashboard
+- No incoming calls, SMS or call recording
+
+Other browser-based services vary, and some sell numbers or team features separately.
+
+**Example cost (US/UK landlines):**
 - 200 minutes to US/UK/EU: $6-10
 - 500 minutes: $15-25
 - 1,000 minutes: $30-50
@@ -124,7 +131,7 @@ Still per-user pricing when usage varies. International rates can be expensive. 
 **For a team making 500 minutes of calls per month:** $15-25 vs $240-420 with traditional systems
 
 **The problem:**
-Fewer enterprise features. No IVR menus or call center capabilities. You're trading advanced features for simplicity and cost savings.
+Few or no team features. No IVR menus, call center capabilities or shared numbers. You're trading features for simplicity and cost savings.
 
 **When it makes sense:** Your team needs straightforward international calling without enterprise overhead. You value transparency and paying for what you use.
 
@@ -174,14 +181,14 @@ Even heavy users save money with pay-per-use. The difference is dramatic for tea
 |---------|-----------------|-----------------|--------------|
 | **Setup time** | 1-3 days | 5 minutes | 30 minutes |
 | **Monthly minimum** | $100-350 | $0 | $0 |
-| **International rates** | Included or add-on | $0.03-0.10/min | $0.01-0.20/min |
-| **Team features** | Advanced | Basic-Moderate | Limited |
-| **Virtual numbers** | Included | $1.90-4/month | Free (US only) |
-| **Call recording** | Usually included | Add-on or coming | Basic |
+| **International rates** | Included or add-on | From a few cents/min, varies by destination | $0.01-0.20/min |
+| **Team features** | Advanced | None to basic (varies by service) | Limited |
+| **Virtual numbers** | Included | Some services, extra cost (not NomaPhone) | Free (US only) |
+| **Call recording** | Usually included | Varies (not NomaPhone) | Basic |
 | **IVR/Auto-attendant** | Yes | No | No |
 | **CRM integration** | Yes | Limited | Yes (Google) |
 | **Geographic restrictions** | None | None | US residents only |
-| **Mobile apps** | Required | Optional (PWA) | Required |
+| **Mobile apps** | Required | Not needed (works in mobile browser) | Required |
 
 ## How to Choose the Right Solution
 
@@ -226,10 +233,10 @@ Most services offer trials. Test with 2-3 team members:
 - Customer support responsiveness
 
 ### Week 4: Roll Out to Full Team
-1. Set up shared team account
-2. Add credits to team wallet
-3. Create shared contact list with key clients/vendors
-4. Set up virtual numbers if using them
+1. Set up the team account (if your provider has one) or buy prepaid credit for each person who calls
+2. Decide who manages the calling budget
+3. Create shared contact list with key clients/vendors (a shared doc works fine)
+4. Set up virtual numbers if using them (from a provider that offers them)
 5. Brief training session (should take under 15 minutes)
 
 ## Best Practices for Remote Team Calling
@@ -310,12 +317,14 @@ How long does your provider keep call logs? This matters for both security and c
 ### Access Control
 Set up proper permissions. Not everyone needs admin access to billing or the ability to add virtual numbers.
 
-## Real Team Examples
+## Example Team Setups
+
+These are illustrative setups, not customer case studies.
 
 ### Design Agency (8 people, UK/Portugal/Spain)
 **Challenge:** Calling UK clients from various EU locations looked unprofessional
 
-**Solution:** Shared browser-based calling with UK virtual number
+**Solution:** UK virtual number from a VoIP provider, plus pay-per-use calling
 
 **Usage:** 300 minutes/month
 
@@ -380,8 +389,8 @@ The market has shifted dramatically in the past few years. You no longer need to
 
 Start with the simplest solution that meets your needs. You can always add complexity later if you actually need it.
 
-Most teams discover they need far less than they thought. A shared wallet, decent call quality, and transparent costs cover 90% of use cases.
+Most teams discover they need far less than they thought. A clear budget, decent call quality, and transparent costs cover 90% of use cases.
 
 ---
 
-**Need affordable international calling for your remote team?** NomaPhone offers browser-based calling with shared team features, transparent pay-per-use pricing, and virtual numbers in 40+ countries. No per-user fees, no contracts. Join the waitlist at nomaphone.com.
+NomaPhone isn't a team phone system, but it's a simple way for anyone on your team to make an outgoing call to [[countries]] countries from a browser: no app, no account, no per-user fees. [Try NomaPhone](https://app.nomaphone.com)

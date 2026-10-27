@@ -2,6 +2,7 @@
 title: "International Calling from Spain: Complete Guide for Barcelona & Madrid"
 description: "Everything you need to know about calling internationally from Spain. Compare carriers, costs, and solutions for digital nomads in Barcelona, Madrid, and beyond."
 pubDate: 2026-01-01
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-spain"
 tags: ["Spain", "Barcelona", "Madrid", "digital nomad"]
@@ -79,9 +80,9 @@ Comparing Spanish carriers to browser-based calling.
 - Annual: €360-540
 
 **NomaPhone:**
-- Rate: $0.03/min (€0.028)
-- Monthly: €0.84
-- Annual: €10
+- Rate: [[rate:US:landline]], billed per second
+- Monthly: about a euro
+- Annual: around €10
 
 **Savings: 97% cheaper**
 
@@ -93,10 +94,9 @@ Comparing Spanish carriers to browser-based calling.
 - Annual: €192-288
 
 **NomaPhone:**
-- UK landline: $0.03/min
-- UK mobile: $0.06/min
-- Monthly: €0.56-1.12
-- Annual: €6.70-13.40
+- UK landline: [[rate:GB:landline]]
+- UK mobile: [[rate:GB:mobile]]
+- Monthly: roughly a euro
 
 **Savings: 95%+ cheaper**
 
@@ -107,9 +107,9 @@ Comparing Spanish carriers to browser-based calling.
 - Monthly (30 min): €18-30
 
 **NomaPhone:**
-- Mexico landline: $0.03/min
-- Mexico mobile: $0.09/min
-- Monthly: €0.84-2.50
+- Mexico landline: [[rate:MX:landline]]
+- Mexico mobile: [[rate:MX:mobile]]
+- Monthly (30 min): a few euros at most
 
 **Savings: 90%+ cheaper**
 
@@ -330,7 +330,7 @@ Real situations digital nomads face in Spain.
 **Example - Chase:**
 - Main: 1-800-935-9935 (doesn't connect)
 - International: +1-713-262-3300 (works, but €1.30/min on Movistar)
-- Browser calling: $0.03/min for either
+- Browser calling (NomaPhone): [[rate:US:landline]] for either, since NomaPhone can dial US toll-free numbers
 
 **Solution:** Save international numbers, use browser calling.
 
@@ -342,8 +342,8 @@ Real situations digital nomads face in Spain.
 - €0.80-1.20/min typical
 
 **NomaPhone rates:**
-- UK landline: $0.03/min
-- UK mobile: $0.06/min
+- UK landline: [[rate:GB:landline]]
+- UK mobile: [[rate:GB:mobile]]
 
 **Much cheaper than Spanish carriers.**
 
@@ -358,9 +358,11 @@ Real situations digital nomads face in Spain.
 - €0.60-1.00/min typical
 
 **NomaPhone:**
-- Mexico: $0.03-0.09/min
-- Colombia: $0.08/min
-- Argentina: $0.09/min
+- Mexico: [[rate:MX:both]]
+- Colombia: [[rate:CO:both]]
+- Argentina: [[rate:AR:both]]
+
+Note that mobile rates to some Latin American countries, Argentina in particular, are much higher than landline rates, so check before a long call.
 
 ### Client Calls
 
@@ -389,10 +391,10 @@ What different usage patterns actually cost.
 Spanish carrier:
 - 50 min × €1.30/min = €65/month
 
-Browser calling:
-- 50 min × $0.03/min = $1.50 (€1.40)
+Browser calling (NomaPhone):
+- 50 min × [[rate:US:landline]] = a dollar or two
 
-**Savings: €63.60/month, €763/year**
+**Savings: over €60/month, more than €700/year**
 
 ### Regular User (15 calls, 20 min each)
 
@@ -402,7 +404,7 @@ Spanish carrier:
 - 300 min × €1.00/min avg = €300/month
 
 Browser calling:
-- 300 min × $0.04/min avg = $12 (€11)
+- 300 min × around $0.04/min avg = roughly $12 (€11), depending on the mix of landlines and mobiles
 
 **Savings: €289/month, €3,468/year**
 
@@ -414,7 +416,7 @@ Spanish carrier:
 - 1,200 min × €0.90/min = €1,080/month
 
 Browser calling:
-- 1,200 min × $0.04/min = $48 (€45)
+- 1,200 min × around $0.04/min avg = roughly $48 (€45)
 
 **Savings: €1,035/month, €12,420/year**
 
@@ -431,7 +433,7 @@ Issues nomads face calling from Spain.
 **Solutions:**
 - Search "company name international number"
 - Look for geographic alternatives
-- Use browser calling (often works)
+- Use a browser calling service that can dial US toll-free numbers (NomaPhone calls US/Canada 800, 888, 877, 866, 855, 844 and 833 numbers)
 - Company websites list alternatives
 
 ### Problem: Call Quality Issues
@@ -462,10 +464,8 @@ Issues nomads face calling from Spain.
 **They pay expensive international rates.**
 
 **Solution:**
-- Get virtual number in their country
-- USA: $2.19/month
-- UK: $1.90/month
-- They call "local," you pay per-minute rate
+- Get a virtual number in their country from a virtual number provider (typically $2-4/month; NomaPhone doesn't provide numbers)
+- They call "local," you pay per-minute forwarding
 
 ## Spanish Digital Nomad Visa
 
@@ -509,7 +509,7 @@ Recommended setup for nomads.
 
 **Browser calling:**
 - Purpose: Non-EU international calls
-- Cost: Pay per use, $0.03/min USA
+- Cost: Pay per use ([[rate:US:landline]] to the US with NomaPhone)
 - Use for: Banks, family, clients outside EU
 
 **WhatsApp:**
@@ -523,8 +523,7 @@ Recommended setup for nomads.
 
 **Virtual number (home country):**
 - If family/clients call frequently
-- USA: $2.19/month
-- UK: $1.90/month
+- From a virtual number provider, typically $2-4/month
 
 **EU roaming:**
 - Included free with Spanish SIM
@@ -538,11 +537,11 @@ Recommended setup for nomads.
 - Latin America: €0.60-1.00/min
 - Too expensive for regular use
 
-**Browser calling:**
-- USA/Canada: $0.03/min
-- UK: $0.03-0.06/min
-- Latin America: $0.03-0.09/min
-- 90-97% savings
+**Browser calling (NomaPhone):**
+- USA/Canada: [[rate:US:landline]]
+- UK: [[rate:GB:both]]
+- Mexico: [[rate:MX:both]]
+- Large savings vs Spanish carriers
 
 **Best coworking (Barcelona):**
 - MOB, Betahaus, OneCowork, Cloud Coworking
@@ -574,4 +573,4 @@ Recommended setup for nomads.
 
 ---
 
-**Working from Barcelona or Madrid and need affordable international calling?** NomaPhone offers browser-based calling at $0.03/minute to USA/Canada, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+Working from Barcelona or Madrid? Try NomaPhone: call US and Canadian numbers at [[rate:US:landline]] from your browser, with no app, no account, and credit that never expires. [Make a call](https://app.nomaphone.com)

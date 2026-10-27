@@ -2,6 +2,7 @@
 title: "Best International Calling Services Compared (2026 Pricing Table)"
 description: "Skype is gone. Compare 8 international calling services side by side — real 2026 rates, features, pros, cons, and which one fits your situation."
 pubDate: 2026-06-26
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "best-international-calling-services-2026"
 tags: ["international calling", "VoIP", "Skype alternative", "digital nomads", "browser calling", "expats"]
@@ -35,14 +36,14 @@ This is the table you came here for. Every service, every feature that matters, 
 
 | Feature | NomaPhone | YadaPhone | DialAnyone | Google Voice | Viber Out | Rebtel | Talk360 | Vonage |
 |---|---|---|---|---|---|---|---|---|
-| US rate (per min) | $0.03 | $0.02 | $0.005 | Free | ~$0.05 | Plan-based | Varies | Plan-based |
+| US rate (per min) | [[rate:US:landline]] | $0.02 | $0.005 | Free | ~$0.05 | Plan-based | Varies | Plan-based |
 | Browser-based | Yes | Yes (Chromium) | Yes + apps | Yes | No | No | No | Yes + apps |
 | App available | No | No | Yes | Yes | Required | Required | Required | Yes |
-| SMS/2FA receive | Yes | No | Yes | Yes (US only) | No | No | No | Yes |
-| Countries covered | 210+ | 150+ | 210+ | Limited | 100+ | 50+ | 60+ | 200+ |
+| SMS/2FA receive | No | No | Yes | Yes (US only) | No | No | No | Yes |
+| Countries covered | [[countries]] | 150+ | 210+ | Limited | 100+ | 50+ | 60+ | 200+ |
 | Credits expire | Never | Never | Never | N/A | 180 days | Varies | No | Plan-based |
 | Pay-as-you-go | Yes | Yes | Yes | N/A | Yes | Yes | Yes | Limited |
-| Virtual number | Yes | Yes ($1.95/mo) | Yes | Yes (US) | No | No | No | Yes |
+| Virtual number | No | Yes ($1.95/mo) | Yes | Yes (US) | No | No | No | Yes |
 | Call recording | No | Yes | No | No | No | No | No | Yes |
 | Free trial | No | 1 free call | 10 free credits | N/A | No | Varies | No | 14-day trial |
 
@@ -50,26 +51,27 @@ Now let's break each one down.
 
 ## NomaPhone
 
-**What it is.** Browser-based international calling built for digital nomads and expats. Open your browser, dial, talk. No app needed.
+**What it is.** Browser-based calling to landlines and mobiles, built for digital nomads and expats. Open your browser, dial, talk. No app, no account, no SIM. Outgoing calls only -- NomaPhone doesn't give you a phone number and doesn't receive calls or SMS.
 
-**Pricing model.** Pay-as-you-go. Credits never expire. No connection fees, no monthly minimums, no contracts. Minimum purchase: $5.
+**Pricing model.** Pay-as-you-go. Buy $5, $10 or $20 of credit by card, Apple Pay or Google Pay. Credit never expires and unused credit is refundable. Billed per second, no monthly minimums, no contracts.
 
-**Key rates.** US/Canada: $0.03/min. UK landline: $0.05/min. UK mobile: $0.12/min. India landline: $0.08/min. India mobile: $0.05/min. Mexico landline: $0.05/min. Mexico mobile: $0.10/min.
+**Key rates.** US/Canada: [[rate:US:landline]] (toll-free numbers included). UK: [[rate:GB:both]]. India: [[rate:IN:both]]. Mexico: [[rate:MX:both]]. Full list on the [rates page](/rates/).
 
 **Pros:**
 - Works in any browser on any device -- no app to install
-- SMS/2FA support for receiving bank verification codes
-- Credits never expire
-- 30 seconds from landing page to first call
-- 210+ countries
+- No account to create -- your credit lives on a phone card code
+- Credits never expire, and unused credit is refundable
+- US toll-free numbers (800, 888, 877...) callable at the normal US rate
+- Billed per second
 
 **Cons:**
 - Not the cheapest per-minute rate (DialAnyone is 6x cheaper to the US)
-- No call recording yet
-- No eSIM data bundle
+- Outgoing calls only: no phone number, no SMS, can't receive 2FA codes
+- Covers [[countries]] countries, fewer than most services here
+- No call recording
 - No mobile app (browser only)
 
-**Honest take.** NomaPhone is not the cheapest option on this list. DialAnyone and YadaPhone both cost less per minute. What NomaPhone is built for is reliability on the calls that matter -- the bank fraud call, the government office, the client meeting. Three cents a minute for a call that actually connects and stays connected.
+**Honest take.** NomaPhone is not the cheapest option on this list. DialAnyone and YadaPhone both cost less per minute. What NomaPhone is built for is simplicity on the calls that matter -- the bank fraud call, the government office, the client meeting. Open a browser, dial, pay per second, no account to set up.
 
 ## YadaPhone
 
@@ -89,7 +91,7 @@ Now let's break each one down.
 **Cons:**
 - Chromium browsers only -- no Firefox or Safari support
 - No SMS/2FA receiving
-- 150+ countries (vs 210+ for NomaPhone and DialAnyone)
+- 150+ countries (vs 210+ for DialAnyone)
 - No mobile app
 
 **Honest take.** YadaPhone is a solid budget pick if you use Chrome and don't need to receive SMS verification codes. The AI transcription feature is genuinely useful for business calls. But the Chromium-only limitation is a real constraint if you're a Safari or Firefox user, and the lack of SMS/2FA is a dealbreaker for expats who need bank verification codes.
@@ -228,17 +230,17 @@ Now let's break each one down.
 
 ## Pricing Table: Common Corridors
 
-Here's what each service actually costs for the routes most international callers care about. Rates are per minute, verified as of early 2026.
+Here's what each service actually costs for the routes most international callers care about. Competitor rates are per minute as of early 2026; NomaPhone rates are current.
 
 | Destination | NomaPhone | YadaPhone | DialAnyone | Google Voice | Viber Out | Rebtel | Talk360 | Vonage |
 |---|---|---|---|---|---|---|---|---|
-| US/Canada | $0.03 | $0.02 | $0.005 | Free (US only) | ~$0.05 | Plan-based | Varies | Plan-based |
-| UK landline | $0.05 | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
-| UK mobile | $0.12 | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
-| India landline | $0.08 | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
-| India mobile | $0.05 | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
-| Mexico landline | $0.05 | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
-| Mexico mobile | $0.10 | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
+| US/Canada | [[rate:US:landline]] | $0.02 | $0.005 | Free (US only) | ~$0.05 | Plan-based | Varies | Plan-based |
+| UK landline | [[rate:GB:landline]] | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
+| UK mobile | [[rate:GB:mobile]] | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
+| India landline | [[rate:IN:landline]] | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
+| India mobile | [[rate:IN:mobile]] | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
+| Mexico landline | [[rate:MX:landline]] | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
+| Mexico mobile | [[rate:MX:mobile]] | Varies | Varies | Varies | Varies | Plan-based | Varies | Plan-based |
 
 A few things jump out. For US calls, DialAnyone is 6x cheaper than NomaPhone and 4x cheaper than YadaPhone. Google Voice is free but only for US residents. The plan-based services (Rebtel, Vonage) can be cheaper per minute if you call enough to justify the monthly fee, but for light-to-moderate callers, pay-as-you-go wins.
 
@@ -250,7 +252,7 @@ Let's say you make 15 calls per month averaging 15 minutes each -- a mix of bank
 |---|---|---|
 | DialAnyone | ~$1.13 | Cheapest by a wide margin |
 | YadaPhone | ~$4.50 | Budget browser-based pick |
-| NomaPhone | ~$6.75 | Mid-range, includes SMS/2FA |
+| NomaPhone | 225 min × [[rate:US:landline]] | Mid-range, no account needed |
 | Rebtel | $5-10/mo | Depends on plan and destination |
 | Viber Out | ~$11.25 | Higher rates add up |
 | Vonage | $13.99+/mo | Plan-based minimum |
@@ -264,15 +266,15 @@ Not everyone needs the same thing. Here's a quick guide based on common use case
 
 ### Best for Expats Who Need Bank Access
 
-**NomaPhone** or **DialAnyone.**
+**DialAnyone** or **NomaPhone.**
 
-If you're living abroad and need to call US banks, receive SMS verification codes, and stay connected to financial institutions, you need SMS/2FA support. Only three services on this list offer it: NomaPhone, DialAnyone, and Google Voice (US only). Between NomaPhone and DialAnyone, it comes down to whether you prioritize reliability and simplicity (NomaPhone) or lowest price and maximum features (DialAnyone).
+If you're living abroad and need to receive SMS verification codes from banks, you need a service with SMS/2FA support: on this list that's DialAnyone, Vonage, and Google Voice (US only). NomaPhone doesn't receive SMS. Where it fits is the other half of the problem: when the code doesn't arrive and you need to call the bank's US toll-free line from abroad, NomaPhone dials 800/888/877 numbers from your browser at the normal US rate, with no account to set up.
 
 ### Best for Digital Nomads
 
 **NomaPhone** or **YadaPhone.**
 
-Nomads need something that works in any country, on any device, without installing anything. Browser-based services win here. NomaPhone covers 210+ countries with SMS/2FA. YadaPhone is cheaper per minute but limited to Chromium browsers and lacks SMS support. If you switch between devices and browsers often, NomaPhone's universal browser support matters.
+Nomads need something that works in any country, on any device, without installing anything. Browser-based services win here. NomaPhone works in any browser and needs no account, but it's outgoing calls only and covers [[countries]] countries. YadaPhone is cheaper per minute but limited to Chromium browsers. If you switch between devices and browsers often, NomaPhone's universal browser support matters.
 
 ### Cheapest Overall
 
@@ -320,7 +322,7 @@ There is no single "best international calling service." There's the best one fo
 
 If you want the cheapest possible rate and don't mind a newer platform, **DialAnyone** wins on price.
 
-If you want browser-based simplicity with SMS/2FA support for bank calls, **NomaPhone** is built for exactly that.
+If you want browser-based simplicity for bank and government calls -- no app, no account, US toll-free numbers included -- **NomaPhone** is built for exactly that.
 
 If you want the cheapest browser-based option and use Chrome, **YadaPhone** is a strong budget pick.
 
@@ -338,4 +340,4 @@ The best advice: pick two. One primary service for everyday calls, and one backu
 
 ---
 
-NomaPhone is browser-based international calling built for people who live and work abroad. Pay-as-you-go, credits that never expire, 210+ countries. Your next bank call costs $0.90 instead of $75. Try it at [NomaPhone.com](https://www.nomaphone.com).
+Try NomaPhone: call any landline or mobile in [[countries]] countries from your browser, no app, no account, credit that never expires. [Make a call](https://app.nomaphone.com).

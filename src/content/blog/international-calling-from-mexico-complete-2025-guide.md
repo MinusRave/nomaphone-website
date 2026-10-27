@@ -2,6 +2,7 @@
 title: "International Calling from Mexico: Complete 2025 Guide"
 description: "Living or working in Mexico and need to make international calls? Here's what actually works, what's affordable, and what to avoid in 2025."
 pubDate: 2025-11-20
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-mexico-complete-2025-guide"
 tags: ["Mexico", "international calling", "expats", "digital nomads"]
@@ -186,22 +187,20 @@ Use WhatsApp or FaceTime over WiFi or Mexican data.
 **How it works:**
 Use browser-based VoIP service over WiFi or Mexican data.
 
-**Cost examples:**
-- US/Canada: $0.02-0.03/minute
-- UK: $0.03-0.06/minute
-- Europe: $0.03-0.08/minute
-- India: $0.08-0.09/minute
+**Cost examples (NomaPhone):**
+- US/Canada: [[rate:US:landline]]
+- UK: [[rate:GB:both]]
+- Spain: [[rate:ES:both]]
+- Germany: [[rate:DE:both]]
+- India: [[rate:IN:both]]
 
-**30-minute call costs:**
-- US: $0.60-0.90
-- UK: $0.90-1.80
-- Europe: $0.90-2.40
+Rates vary a lot by country and by landline vs. mobile, so check the rate shown on screen before you dial.
 
 **Pros:**
-- Very affordable
+- Very affordable for most destinations
 - Works from any device
 - No app installation
-- Call any number worldwide
+- Calls landlines and mobiles in many countries
 - Professional for business
 
 **Cons:**
@@ -308,8 +307,8 @@ Usually 2-3x the advertised rate when you factor in fees.
 - Total: $15/month
 
 **Option B - Browser calling:**
-- 580 minutes × $0.03 = $17.40
-- Total: $17.40/month
+- 580 minutes × [[rate:US:landline]] (NomaPhone's US rate)
+- Pay only for what you use, billed per second
 
 **Option C - US T-Mobile (roaming):**
 - If plan includes Mexico: $0 extra
@@ -339,8 +338,8 @@ Usually 2-3x the advertised rate when you factor in fees.
 - Free for maybe 180 minutes, need alternative for 50 minutes
 
 **Option C - Browser calling:**
-- 230 minutes × $0.05 average = $11.50
-- Total: $11.50/month
+- Depends on the numbers you call: with NomaPhone, UK landlines are [[rate:GB:landline]], German landlines [[rate:DE:landline]] and German mobiles [[rate:DE:mobile]]
+- Far cheaper than the Mexican carrier either way, especially for landlines
 
 **Best choice:** WhatsApp for parents, browser calling for banks and business
 
@@ -360,8 +359,8 @@ Usually 2-3x the advertised rate when you factor in fees.
 - Total: $15/month
 
 **Option B - Browser calling:**
-- 720 minutes × $0.03 = $21.60
-- Total: $21.60/month
+- 720 minutes × [[rate:CA:landline]] (NomaPhone's Canada rate)
+- Pay only for what you use
 
 **Option C - Keep Canadian plan:**
 - Depends on plan, but likely $40-80/month for calls from Mexico
@@ -481,7 +480,7 @@ WiFi drops, calls fail mid-conversation.
 
 **Solution:**
 - Find the regular number (Google "[company] international number")
-- Use browser calling service (these often can reach toll-free)
+- Use a browser calling service that supports toll-free (NomaPhone dials US and Canada toll-free numbers at the normal US rate)
 - Check company website for Mexico-specific number
 
 ### Problem: Quality Issues During Peak Times
@@ -504,11 +503,11 @@ Check bank websites for "calling from Mexico" numbers. Many major US banks have 
 **Using browser calling:**
 Works perfectly for reaching US bank customer service at ~$1 per call vs $10-30 with other methods.
 
-**See our detailed guide:** [Calling Banks from Abroad](https://nomaphone.com/blog/calling-banks-from-abroad-complete-guide-expats)
+**See our detailed guide:** [Calling Banks from Abroad](/blog/calling-banks-from-abroad-complete-guide-expats/)
 
 ## Recommended Setup for Mexico
 
-Based on thousands of expats' experience:
+Based on what works for most expats:
 
 **For US/Canada calling:**
 - Primary: Telcel/AT&T plan with unlimited US/Canada ($15/month)
@@ -559,12 +558,12 @@ Based on thousands of expats' experience:
 - Mexican carrier (no plan): $150-300 pesos (~$7.50-15 USD) ❌
 - Telcel unlimited plan: Included in $300 pesos/month (~$15) ✓
 - US T-Mobile (if included): Free ✓
-- Browser calling: $0.90 ✓
+- Browser calling (NomaPhone): 30 × [[rate:US:landline]] ✓
 - WhatsApp: Free (if they have it) ✓
 
 **30-minute call to Europe from Mexico:**
 - Mexican carrier: $300-600 pesos (~$15-30 USD) ❌
-- Browser calling: $1.50-2.40 ✓
+- Browser calling: depends on country and number type, see the [rates page](/rates/) ✓
 - WhatsApp: Free (if they have it) ✓
 
 ## The Bottom Line for Mexico
@@ -591,4 +590,4 @@ That's very reasonable for staying connected globally while living in paradise.
 
 ---
 
-Living in Mexico and need reliable international calling? NomaPhone works perfectly from anywhere in Mexico - CDMX, Playa, Tulum, Oaxaca, or anywhere else. Call the US for $0.03/minute, Europe for $0.05/minute. No app required, works in your browser. [Join the waitlist](https://nomaphone.com) for access when we launch.
+Living in Mexico and need to make international calls? NomaPhone works from anywhere in Mexico with an internet connection - CDMX, Playa, Tulum, Oaxaca, or anywhere else. Calls to the US are [[rate:US:landline]], billed per second. No app, no account, works in your browser. [Make a call](https://app.nomaphone.com)

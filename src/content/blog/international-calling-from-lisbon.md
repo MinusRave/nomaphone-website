@@ -2,6 +2,7 @@
 title: "International Calling From Lisbon: Digital Nomad Edition"
 description: "How to make international calls from Lisbon as a digital nomad. Compare local SIMs, VoIP, WiFi calling, coworking call rooms, and costs with real 2026 rates."
 pubDate: 2026-07-26
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-lisbon"
 tags: ["Portugal", "Lisbon", "digital nomad", "international calling", "VoIP", "Europe"]
@@ -117,10 +118,10 @@ The US is the most common destination for nomads in Lisbon. Bank calls, tax prep
 | T-Mobile roaming (Magenta) | $7.50 | Better, but adds up monthly |
 | Google Voice | Free | US residents only, needs setup |
 | YadaPhone | $0.60 | Browser-based, pay-as-you-go |
-| NomaPhone | $0.90 | Browser-based, $0.03/min |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no app or account |
 | DialAnyone | $0.15 | Browser-based, $0.005/min |
 
-The difference is dramatic. Roaming at $2.50/minute versus browser-based VoIP at $0.03/minute. For a single 30-minute bank call, you're looking at $75 versus $0.90.
+The difference is dramatic. Roaming at $2.50/minute versus browser-based VoIP at a few cents a minute (NomaPhone charges [[rate:US:landline]] to US numbers). For a single 30-minute bank call, you're looking at $75 versus about a dollar.
 
 ### Calling the UK From Lisbon
 
@@ -134,8 +135,8 @@ UK calls are common for nomads with British bank accounts, solicitors, or family
 |---|---|---|
 | Portuguese SIM | $20-29 | Still expensive |
 | UK carrier roaming (EE) | $39-78 | Varies by plan |
-| Browser VoIP (NomaPhone) | $1.50 | UK landline at $0.05/min |
-| Browser VoIP (UK mobile) | $3.60 | UK mobile at $0.12/min |
+| Browser VoIP (NomaPhone, UK landline) | 30 × [[rate:GB:landline]] | Billed per second |
+| Browser VoIP (NomaPhone, UK mobile) | 30 × [[rate:GB:mobile]] | Billed per second |
 
 Note the difference between UK landline and mobile rates. If you're calling a bank's main number (landline), it's significantly cheaper than calling someone's mobile.
 
@@ -145,7 +146,7 @@ Lisbon has a large Brazilian community, and many nomads have business or persona
 
 **Time zone:** Brazil spans multiple time zones. Brasilia time (BRT) is UTC-3, putting it 3 hours behind Lisbon in winter and 4 hours behind in summer. Manageable for business calls.
 
-**Rates:** VoIP rates to Brazil vary more than US/UK rates. Browser-based services typically charge $0.05-0.15/minute to Brazilian landlines and $0.10-0.25/minute to mobiles. Portuguese carrier rates to Brazil are 0.40-0.70 EUR/minute. VoIP saves you roughly 80-90% on Brazil calls.
+**Rates:** VoIP rates to Brazil vary more than US/UK rates. Browser-based services typically charge $0.05-0.15/minute to Brazilian landlines and $0.10-0.25/minute to mobiles; NomaPhone charges [[rate:BR:both]]. Portuguese carrier rates to Brazil are 0.40-0.70 EUR/minute. VoIP saves you roughly 80-90% on Brazil calls.
 
 ## The Complete Methods Comparison
 
@@ -204,7 +205,7 @@ Test calls from your apartment, your coworking space, and a couple of cafes. Fig
 
 ### Can I Keep My US Number Active While in Lisbon?
 
-Yes. Keep your US SIM active (or port your number to Google Voice before you leave). Having a US number matters for 2FA codes and bank verification. Some browser-based calling services also offer US virtual numbers for receiving calls.
+Yes. Keep your US SIM active (or port your number to Google Voice before you leave). Having a US number matters for 2FA codes and bank verification. Some VoIP services also offer US virtual numbers for receiving calls (NomaPhone doesn't: it's for outgoing calls only).
 
 ### Is WhatsApp Enough for International Calls?
 
@@ -243,4 +244,4 @@ Lisbon nomads don't have a calling problem. They have an information problem. No
 
 ---
 
-**Making international calls from Lisbon?** NomaPhone lets you call the US at three cents per minute, UK landlines at five cents, and 200+ other countries -- all from your browser. No app download, no roaming fees, credits that never expire. Join the waitlist at nomaphone.com.
+Making international calls from Lisbon? Try NomaPhone: call US numbers at [[rate:US:landline]] and UK landlines at [[rate:GB:landline]], plus landlines and mobiles in [[countries]] countries, all from your browser. No app, no account, credit that never expires. [Make a call](https://app.nomaphone.com)

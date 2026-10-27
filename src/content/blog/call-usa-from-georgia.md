@@ -2,6 +2,7 @@
 title: "How to Call the US From Georgia (Tbilisi Nomad Guide)"
 description: "Need to call USA from Georgia Tbilisi? Compare Magti, Geocell, VoIP, and browser calling costs side by side. Real 2026 rates for nomads and expats."
 pubDate: 2026-06-08
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-usa-from-georgia"
 tags: ["Georgia", "Tbilisi", "digital nomad", "international calling", "remote workers", "VoIP"]
@@ -114,7 +115,7 @@ Here's the full breakdown. Every realistic option, with real costs for a 30-minu
 | Viber Out | $3.00-6.00 | Yes | Yes | App required, rates vary |
 | YadaPhone | $0.60 | Yes | No (browser) | No SMS/2FA support |
 | DialAnyone | $0.15 | Yes | No (browser) | Very cheap, no call recording |
-| NomaPhone | $0.90 | Yes | No (browser) | Browser-based, SMS/2FA support |
+| NomaPhone | 30 × [[rate:US:landline]] | Yes | No (browser) | No app or account, outgoing calls only |
 
 A few things jump out from this table.
 
@@ -122,7 +123,7 @@ A few things jump out from this table.
 
 **Free options have catches.** Google Voice is free but requires a US phone number for verification and only works reliably for US residents. WhatsApp and FaceTime are free but only work if the other person also has the app. Your bank doesn't have WhatsApp.
 
-**Browser-based VoIP is the sweet spot.** Three cents per minute with NomaPhone. Sixty cents for the same call with YadaPhone. Both work from any browser, no app download, no setup drama.
+**Browser-based VoIP is the sweet spot.** NomaPhone charges [[rate:US:landline]] to US numbers, billed per second; YadaPhone and DialAnyone advertise even lower rates. All of them work from a browser, no app download, no setup drama.
 
 ## Browser Calling From Tbilisi: Why It Works So Well
 
@@ -180,11 +181,11 @@ Your card gets flagged. You need to call the fraud department, sit on hold, veri
 | Magti (standard) | $20.25 |
 | Magti (intl package) | $6.75-10.35 |
 | T-Mobile Magenta | $11.25 |
-| NomaPhone | $1.35 |
+| NomaPhone | 45 × [[rate:US:landline]] |
 | YadaPhone | $0.90 |
 | DialAnyone | $0.23 |
 
-That $1.35 with NomaPhone versus $90 on AT&T roaming. Same call. Same hold music. Same result. Ninety-eight percent less money.
+A dollar or two with a browser-based service versus $90 on AT&T roaming. Same call. Same hold music. Same result. A tiny fraction of the cost. (One practical note: NomaPhone calls run up to 30 minutes each, so on a very long hold you may need to dial again.)
 
 ### Scenario 2: Monthly IRS / Government Calls During Tax Season
 
@@ -194,10 +195,10 @@ April hits. You need to call your CPA twice (30 min each), the IRS once (90 minu
 |---|---|
 | Georgian carrier (standard) | $63.75-76.50 |
 | US carrier roaming | $340.00-510.00 |
-| NomaPhone | $5.10 |
+| NomaPhone | 170 × [[rate:US:landline]] |
 | YadaPhone | $3.40 |
 
-Five dollars and ten cents. That's less than a plate of khinkali at most Tbilisi restaurants.
+A few dollars for a whole month of tax calls. That's about what a plate of khinkali costs in Tbilisi. And many US government and business lines are toll-free 800/888/877 numbers, which NomaPhone can call at the normal US rate (they're normally unreachable from a foreign SIM).
 
 ### Scenario 3: Regular Nomad Who Calls US Monthly
 
@@ -207,7 +208,7 @@ You call family, your doctor's office, your insurance company, and occasionally 
 |---|---|
 | Magti (standard) | $54.00 |
 | Magti (intl package) | $18.00-27.60 |
-| NomaPhone | $3.60 |
+| NomaPhone | 120 × [[rate:US:landline]] |
 | YadaPhone | $2.40 |
 | DialAnyone | $0.60 |
 
@@ -215,19 +216,21 @@ You call family, your doctor's office, your insurance company, and occasionally 
 
 NomaPhone isn't the cheapest option. That's worth saying plainly.
 
-DialAnyone charges $0.005 per minute to the US. That's six times cheaper than NomaPhone's $0.03 per minute. YadaPhone charges $0.02 per minute, about a third less.
+DialAnyone advertises $0.005 per minute to the US, a fraction of NomaPhone's [[rate:US:landline]]. YadaPhone advertises $0.02 per minute.
 
 So why would you consider NomaPhone?
 
-**SMS and 2FA support.** If you need to receive verification codes from US banks and services, NomaPhone supports SMS/2FA. YadaPhone does not offer this as of mid-2026. DialAnyone does, so that's a point for them.
+**No account at all.** No app to download, no sign-up, no password. Open a browser, buy $5, $10 or $20 of credit with Apple Pay, Google Pay or card, and call. Your credit lives on a phone card code that's also emailed to you.
 
-**Browser-only simplicity.** No app to download. No account creation marathon. Open a browser, buy credits, make a call. Thirty seconds from landing page to first dial tone.
+**US toll-free numbers included.** 800, 888, 877, 866, 855, 844 and 833 numbers are callable at the normal US rate, which matters for banks, airlines and government offices.
 
-**Call quality for calls that matter.** Three cents per minute for a carrier-grade connection to your bank. When you're trying to unfreeze a credit card or sort out a tax issue, you want the call to be clear and stable. Not "cheap VoIP that drops every two minutes" clear.
+**Per-second billing, refundable credit.** You pay for the seconds you talk, and unused credit can be refunded to your original payment method at any time.
 
 **Credits never expire.** Buy $5 in credits. Use them over six months. They're still there. No monthly fees, no subscriptions, no "use it or lose it" pressure.
 
-The honest math: if you make 30 minutes of US calls per month, the difference between NomaPhone ($0.90) and DialAnyone ($0.15) is seventy-five cents. If call quality and SMS matter to you, that's an easy trade.
+What NomaPhone doesn't do: it makes outgoing calls only. It doesn't give you a number, receive calls, or receive SMS/2FA codes.
+
+The honest math: if you make 30 minutes of US calls per month, the difference between NomaPhone and DialAnyone is under a dollar at current rates. If not installing an app or creating an account matters to you, that's an easy trade.
 
 If you're making hours of calls daily and pure cost is everything, DialAnyone or YadaPhone might make more sense. No hard feelings.
 
@@ -271,13 +274,13 @@ Usually a WiFi issue, not a Georgia infrastructure issue.
 
 Banks sometimes flag calls or SMS from foreign numbers.
 
-**Solution:** Use a browser-based service that provides a US caller ID. NomaPhone calls show a US number to the recipient. This matters for banks that screen incoming calls.
+**Solution:** Don't rely on the bank recognizing your number. Call the number on the back of your card (or the bank's international collect line) and have your account details and security answers ready — banks verify you by those, not by the number you're calling from. If the bank needs a callback number, give one you can actually answer; NomaPhone only makes outgoing calls and doesn't give you a number to be called back on.
 
 ### Problem: Need to Receive SMS Verification Codes
 
 Two-factor authentication is the bane of every expat's existence. Your US bank sends a code to your US number, but your US SIM is sitting in a drawer.
 
-**Solution:** Keep a service that supports US SMS/2FA. NomaPhone and DialAnyone both handle this. Google Voice works too if you already have it set up. This is one area where YadaPhone falls short -- no SMS support.
+**Solution:** Keep a way to receive texts on a US number. Options include keeping your US SIM on a cheap plan with free international texting (T-Mobile includes it), Google Voice if you already have it set up, or a virtual number provider (DialAnyone advertises SMS support). NomaPhone doesn't receive SMS, but it's a useful fallback when a code doesn't arrive: you can call your bank by voice and verify your identity with a person.
 
 ## Setting Up Your Georgia Calling Stack
 
@@ -294,7 +297,7 @@ Here's the recommended setup for a digital nomad in Tbilisi who needs to call th
 - Ask your landlord -- many apartments include it
 
 **Browser-based calling (NomaPhone):**
-- $0.03/min to US
+- [[rate:US:landline]] to US numbers, including toll-free
 - For: bank calls, government calls, any US landline or mobile
 - Credits never expire, buy $5 to start
 
@@ -305,7 +308,7 @@ Here's the recommended setup for a digital nomad in Tbilisi who needs to call th
 
 **Total monthly cost: $20-35 for complete communications coverage.**
 
-That's less than one month of AT&T's cheapest international plan. And you get a Georgian number, unlimited home internet, and US calling at three cents per minute.
+That's less than one month of AT&T's cheapest international plan. And you get a Georgian number, unlimited home internet, and US calling at [[rate:US:landline]].
 
 ## Quick Reference
 
@@ -316,9 +319,9 @@ That's less than one month of AT&T's cheapest international plan. And you get a 
 - All expensive for regular use
 
 **Browser calling:**
-- NomaPhone: $0.03/min (with SMS/2FA)
-- YadaPhone: $0.02/min (no SMS/2FA)
-- DialAnyone: $0.005/min (with SMS/2FA)
+- NomaPhone: [[rate:US:landline]] (outgoing calls only, US toll-free included)
+- YadaPhone: $0.02/min (advertised, no SMS/2FA)
+- DialAnyone: $0.005/min (advertised, with SMS/2FA)
 
 **Currency:**
 - 1 USD = ~2.67 GEL (2026)
@@ -344,4 +347,4 @@ That's less than one month of AT&T's cheapest international plan. And you get a 
 
 ---
 
-**Calling the US from Tbilisi?** NomaPhone gives you browser-based calling at $0.03/minute with SMS/2FA support. No app, no contract, credits that never expire. Join the waitlist at nomaphone.com.
+Calling the US from Tbilisi? Try NomaPhone: browser-based calls to any US landline or mobile, credit that never expires, no app, no account. [Make a call](https://app.nomaphone.com)

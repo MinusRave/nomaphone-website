@@ -2,6 +2,7 @@
 title: "Google Fi vs eSIM vs VoIP: What Digital Nomads Actually Need"
 description: "Every nomad group debates Fi vs eSIM vs VoIP. Here's what each actually solves, real cost comparisons, and the stack most digital nomads should use in 2026."
 pubDate: 2026-07-11
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "google-fi-vs-esim-vs-voip"
 tags: ["Google Fi", "eSIM", "VoIP", "digital nomads", "international calling", "remote workers"]
@@ -40,7 +41,7 @@ What it doesn't solve: Most eSIM plans are data-only. No phone number. No abilit
 
 VoIP (Voice over Internet Protocol) lets you make and receive phone calls over the internet. Services like NomaPhone, Google Voice, YadaPhone, and DialAnyone let you call real phone numbers — landlines, mobiles, toll-free numbers — from your browser or an app.
 
-What it solves: Cheap calls to any phone number in any country. A 30-minute call to a US bank costs under a dollar with most VoIP services instead of $75 with carrier roaming. Some VoIP providers also give you a virtual phone number so you can receive calls and SMS.
+What it solves: Cheap calls to phone numbers in most countries. A 30-minute call to a US bank costs under a dollar with most VoIP services instead of $75 with carrier roaming. Some VoIP providers (Google Voice, for example) also give you a virtual phone number so you can receive calls and SMS. Others, like NomaPhone, are for outgoing calls only.
 
 What it doesn't solve: VoIP needs internet. No Wi-Fi or data connection means no calls. VoIP also doesn't provide mobile data — you still need a way to get online.
 
@@ -77,13 +78,13 @@ The catch: This is data only. You can't make phone calls, receive SMS, or keep a
 
 | Item | Cost |
 |---|---|
-| 10 calls to US, 15 min each (NomaPhone at $0.03/min) | $4.50 |
-| Virtual US number (optional, varies by provider) | $0-5/month |
-| **Total** | **$4.50-9.50/month** |
+| 10 calls to US, 15 min each (NomaPhone at [[rate:US:landline]]) | 150 × [[rate:US:landline]] |
+| Virtual US number (optional, from a provider that offers numbers) | $0-5/month |
+| **Total** | **Roughly $5-10/month** |
 
-VoIP calling is the cheapest piece of the puzzle by far. With NomaPhone, 150 minutes of US calls costs $4.50. YadaPhone would be $3.00 for the same minutes at $0.02/min. DialAnyone would be $0.75 at $0.005/min.
+VoIP calling is the cheapest piece of the puzzle by far. With NomaPhone at [[rate:US:landline]], 150 minutes of US calls costs a few dollars. YadaPhone ($0.02/min) and DialAnyone ($0.005/min) would be cheaper still for the same minutes.
 
-The catch: You need internet to make calls. VoIP doesn't include data. Some providers don't offer virtual numbers or SMS capability.
+The catch: You need internet to make calls. VoIP doesn't include data. Some providers don't offer virtual numbers or SMS capability: NomaPhone, for instance, makes outgoing calls only.
 
 ### Side-by-Side Monthly Cost
 
@@ -91,11 +92,11 @@ The catch: You need internet to make calls. VoIP doesn't include data. Some prov
 |---|---|---|---|---|
 | Google Fi (Simply Unlimited) | Yes (35 GB) | Yes | Yes | $50 |
 | eSIM only (10 GB regional) | Yes | No | No | $12-18 |
-| VoIP only (NomaPhone) | No | Yes | Yes | $4.50-9.50 |
-| eSIM + VoIP (combined) | Yes | Yes | Yes | $16.50-27.50 |
-| Local SIM + VoIP (combined) | Yes | Yes | Yes | $8-20 |
+| VoIP only (NomaPhone) | No | Yes | No (calls only) | $5-10 |
+| eSIM + VoIP (combined) | Yes | Yes | Only with a VoIP number | $16.50-27.50 |
+| Local SIM + VoIP (combined) | Yes | Yes | Local number only | $8-20 |
 
-The numbers tell a clear story. Google Fi costs the most but requires the least thinking. An eSIM plus VoIP combo gives you everything Fi does for roughly half the price. And a local SIM plus VoIP is the cheapest option of all.
+The numbers tell a clear story. Google Fi costs the most but requires the least thinking. An eSIM plus VoIP combo covers data and calls for roughly half the price, though for US SMS codes you'll still need a US number from somewhere. And a local SIM plus VoIP is the cheapest option of all.
 
 ## Pros and Cons at a Glance
 
@@ -113,9 +114,9 @@ The numbers tell a clear story. Google Fi costs the most but requires the least 
 
 ### VoIP (Browser or App Calling)
 
-**Pros:** Dramatically cheaper than carrier calling ($0.03/min vs $2-3/min). Works from any device with internet. Browser-based options need no app. Pay only for minutes you use.
+**Pros:** Dramatically cheaper than carrier calling (a few cents per minute vs $2-3/min). Works from any device with internet. Browser-based options need no app. Pay only for minutes you use.
 
-**Cons:** Requires internet connection. Call quality depends on connection speed. Not all providers support SMS/2FA (YadaPhone does not, for example). Emergency calls don't work through VoIP.
+**Cons:** Requires internet connection. Call quality depends on connection speed. Not all providers support SMS/2FA (calling-only services like NomaPhone and YadaPhone don't receive texts). Emergency calls don't work through VoIP.
 
 ## Why Most Nomads Need Two Out of Three
 
@@ -140,7 +141,7 @@ If you pick Google Fi for both, you're covered but paying $50/month. If you pick
 
 **Best for:** Long-stay nomads who spend 1-3 months per country.
 
-Buy a local prepaid SIM when you arrive. In Thailand, a TrueMove 10 GB plan costs around $6. In Portugal, a Vodafone tourist SIM with 10 GB runs about $10. In Mexico, Telcel offers 6 GB for about $8. For US calls, use browser-based VoIP — NomaPhone at $0.03/min means a 30-minute bank call costs $0.90.
+Buy a local prepaid SIM when you arrive. In Thailand, a TrueMove 10 GB plan costs around $6. In Portugal, a Vodafone tourist SIM with 10 GB runs about $10. In Mexico, Telcel offers 6 GB for about $8. For US calls, use browser-based VoIP — NomaPhone at [[rate:US:landline]], billed per second, turns a 30-minute bank call into pocket change.
 
 **Monthly cost:** $6-12 for local data + $4-8 for VoIP = roughly $10-20/month.
 
@@ -150,7 +151,7 @@ Buy a local prepaid SIM when you arrive. In Thailand, a TrueMove 10 GB plan cost
 
 **Best for:** Nomads who move between countries frequently and want zero friction.
 
-Buy eSIM data plans through Airalo, Holafly, or similar. A Southeast Asia regional plan runs $15-18 for 5 GB. Activate before landing — no SIM shop needed. For calls, NomaPhone gives you browser-based calling at $0.03/min to the US, plus SMS receiving with a virtual US number.
+Buy eSIM data plans through Airalo, Holafly, or similar. A Southeast Asia regional plan runs $15-18 for 5 GB. Activate before landing — no SIM shop needed. For calls, NomaPhone gives you browser-based calling at [[rate:US:landline]] to the US. It doesn't provide a phone number or receive SMS, so if you need US verification codes, keep your US number alive with a cheap plan or number-parking service.
 
 **Monthly cost:** $12-18 for eSIM data + $4.50-10 for VoIP = roughly $16-28/month.
 
@@ -160,7 +161,7 @@ Buy eSIM data plans through Airalo, Holafly, or similar. A Southeast Asia region
 
 **Best for:** Short-term travelers (under three months), people who return to the US periodically, and anyone who values one-number simplicity.
 
-Keep Google Fi as your primary carrier for data, US number, and SMS. Add VoIP for long calls. If you need to sit on hold with your bank for 45 minutes, open NomaPhone in your browser and call for $1.35 instead of burning Fi minutes.
+Keep Google Fi as your primary carrier for data, US number, and SMS. Add VoIP for long calls. If you need to sit on hold with your bank for a long time, open NomaPhone in your browser and call at [[rate:US:landline]] instead of burning Fi minutes (calls are capped at 30 minutes, so redial if the hold drags on).
 
 **Monthly cost:** $50 for Google Fi + $2-5 for occasional VoIP = roughly $52-55/month.
 
@@ -174,7 +175,7 @@ The right answer depends on three things:
 
 **How many calls do you make to US numbers?** If you call banks, family, or clients regularly, VoIP is non-negotiable regardless of your data solution. Even Google Fi users benefit from VoIP for long calls.
 
-**Do you need to receive SMS verification codes?** If your bank sends 2FA codes via text, you need a service that supports SMS. Google Fi handles this natively. For eSIM users, you'll need a VoIP provider with virtual numbers and SMS capability — not all of them do.
+**Do you need to receive SMS verification codes?** If your bank sends 2FA codes via text, you need a service that supports SMS. Google Fi handles this natively. For eSIM users, you'll need a VoIP provider with virtual numbers and SMS capability — not all of them do (NomaPhone doesn't).
 
 Here's a quick decision matrix:
 
@@ -192,7 +193,7 @@ Here's a quick decision matrix:
 
 **Assuming eSIM covers everything.** First-time nomads often buy an eSIM and think they're set. Then their credit card gets flagged, the bank calls their old number, and they realize they have no way to receive the call or make one back. Always pair eSIM with a calling solution.
 
-**Ignoring VoIP quality differences.** The cheapest VoIP provider isn't always the best choice for calls that matter. If you're calling your bank to unfreeze a card, you need a connection that doesn't drop or lag. A VoIP service that costs $0.005/min but drops the call halfway through your identity verification isn't saving you anything. NomaPhone charges $0.03/min — not the cheapest option — but prioritizes reliability for exactly these kinds of calls.
+**Ignoring VoIP quality differences.** The cheapest VoIP provider isn't always the best choice for calls that matter. If you're calling your bank to unfreeze a card, you need a connection that doesn't drop or lag. A VoIP service that costs $0.005/min but drops the call halfway through your identity verification isn't saving you anything. NomaPhone charges [[rate:US:landline]] to the US — not the cheapest option — and whichever service you pick, test it on your own connection before the call really matters.
 
 **Not testing before you travel.** Whatever stack you choose, test it before you leave. Make a VoIP call from your laptop. Activate an eSIM to confirm it works. Troubleshooting at home is a lot easier than doing it at a bus station in rural Vietnam.
 
@@ -206,4 +207,4 @@ The important thing is having a plan before you need it. Don't wait until your c
 
 ---
 
-**NomaPhone** is a browser-based calling service built for digital nomads and expats. Call any phone number in 210+ countries at $0.03/min to the US — no app download, no subscription, no expired credits. Open your browser, dial, and you're connected in 30 seconds. [Try NomaPhone today.](https://nomaphone.com)
+**NomaPhone** is a browser-based calling service: call landlines and mobiles in [[countries]] countries, [[rate:US:landline]] to the US — no app, no account, no subscription, and credit that never expires. [Try NomaPhone](https://app.nomaphone.com)

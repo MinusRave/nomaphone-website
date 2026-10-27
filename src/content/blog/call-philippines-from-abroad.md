@@ -2,6 +2,7 @@
 title: "How to Call the Philippines From Abroad (OFW and Expat Guide)"
 description: "Need to call the Philippines from abroad? Compare rates and methods for calling family, SSS, PhilHealth, and Pag-IBIG. Real costs, honest 2026 comparison."
 pubDate: 2026-05-12
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-philippines-from-abroad"
 heroImage: "../../assets/call-philippines-from-abroad.jpg"
@@ -75,7 +76,7 @@ There are several ways to make this call. Each has different costs, requirements
 |---|---|---|---|---|
 | Carrier roaming | $20 - $30 | No | Yes | Good |
 | Carrier international add-on | $3 - $10 | No | From home country | Good |
-| Browser-based VoIP (NomaPhone) | Varies by destination | No | Yes | Good (needs internet) |
+| Browser-based VoIP (NomaPhone) | 10 × [[rate:PH:mobile]] | No | Yes | Good (needs internet) |
 | App-based VoIP (Viber Out, etc.) | $1 - $3 | Yes | Yes | Variable |
 | Calling card / prepaid | $1 - $5 | No | Yes | Variable |
 | Free apps (Messenger, WhatsApp) | Free | Yes | Yes | Variable (both need app) |
@@ -115,7 +116,7 @@ Services like NomaPhone, YadaPhone, and DialAnyone let you call Philippine numbe
 
 **How it works:** Open the website, enter the Philippine number, and call. No app installation. Works on any device with a browser and internet connection.
 
-Rates to the Philippines vary by provider and whether you're calling a landline or mobile. Check nomaphone.com for current rates to Philippine numbers.
+Rates to the Philippines vary by provider and whether you're calling a landline or mobile. NomaPhone charges [[rate:PH:both]], billed per second, and shows the rate on screen as you dial.
 
 **Advantages:**
 - Works from any country where you have internet
@@ -123,9 +124,9 @@ Rates to the Philippines vary by provider and whether you're calling a landline 
 - Pay-as-you-go credits that don't expire (with NomaPhone)
 - Much cheaper than carrier roaming
 
-**YadaPhone** charges $0.02/min to the US and offers browser-based calling to 150+ countries, but lacks SMS/2FA support. **DialAnyone** is often the cheapest option at $0.005/min to the US with apps and browser calling to 210+ countries. Philippines rates differ — check each provider's rate page for current pricing.
+**YadaPhone** advertises $0.02/min to the US and browser-based calling to 150+ countries. **DialAnyone** advertises rates as low as $0.005/min to the US, with apps and browser calling. Philippines rates differ — check each provider's rate page for current pricing.
 
-NomaPhone isn't the cheapest VoIP option. It's built for reliability. When you're on hold with PhilHealth for 45 minutes, you need a call that doesn't drop.
+NomaPhone isn't the cheapest option for the Philippines, and app-based services can undercut it on mobile rates. What it offers instead is simplicity: no app, no account, per-second billing, and credit that never expires.
 
 ### App-Based VoIP (Viber Out, Skype Replacement Services)
 
@@ -253,15 +254,13 @@ NomaPhone is built for exactly this kind of situation. You're abroad, you need t
 Here's what you get:
 
 - **Browser-based calling.** Open the website, enter the number, call. Works on your laptop, tablet, or phone browser. No app download.
-- **Pay-as-you-go.** Buy credits starting at $5. Use them for calls to the Philippines or any of 210+ countries. No monthly subscription.
+- **Pay-as-you-go.** Buy $5, $10 or $20 of credit with Apple Pay, Google Pay or card. Use it for calls to the Philippines or any of the [[countries]] countries NomaPhone covers. No monthly subscription.
 - **Credits never expire.** Buy once, use whenever. No "use it or lose it" pressure.
 - **Works from anywhere.** Whether you're in Riyadh, Toronto, Singapore, Rome, or anywhere else with internet, the experience is the same.
-- **Reliable connections.** When you're on hold with SSS or PhilHealth, you need a call that stays connected. That's what NomaPhone is built for.
+- **Billed per second, refundable.** You pay only for the seconds you talk, and unused credit can be refunded to your original payment method. Calls run up to 30 minutes each; if an SSS or PhilHealth hold runs long, you can dial again.
 
-NomaPhone isn't the cheapest VoIP service available. DialAnyone and YadaPhone both offer lower per-minute rates for some destinations. But NomaPhone is designed for calls that matter — the ones where a dropped connection means starting the whole process over again.
-
-For current rates to Philippine landlines and mobiles, check nomaphone.com.
+NomaPhone isn't the cheapest VoIP service available. DialAnyone, YadaPhone and app-based services may offer lower per-minute rates for some destinations, including the Philippines. NomaPhone's rates to the Philippines are currently [[rate:PH:both]]; the full list is on the [rates page](/rates/).
 
 ---
 
-**Ready to call the Philippines without worrying about roaming charges?** Try NomaPhone. Open your browser, buy $5 in credits, and make your first call in under 30 seconds. No app, no contract, no expiring credits. Just a reliable connection to the number you need to reach. Visit nomaphone.com to get started.
+Try NomaPhone: call Philippine landlines and mobiles from your browser, with no app and no account. [Make a call](https://app.nomaphone.com)

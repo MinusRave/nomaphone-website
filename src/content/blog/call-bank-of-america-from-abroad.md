@@ -2,6 +2,7 @@
 title: "How to Call Bank of America From Abroad (International Numbers Guide)"
 description: "Need to call Bank of America from overseas? Here's BofA's international collect-call number, every cheap calling method compared, and real hold-time costs."
 pubDate: 2026-04-18
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-bank-of-america-from-abroad"
 tags: ["banking abroad", "Bank of America", "international calling", "digital nomads", "VoIP"]
@@ -64,9 +65,9 @@ Let's break down every realistic way to make this call, with real costs for a 30
 | Carrier day pass (Verizon TravelPass) | $10.00/day | Simple flat rate | Still pricey for one call |
 | Google Voice | Free | No cost | US residents only, quality issues from Asia, needs US number to verify |
 | Skype (discontinued) | N/A | — | Shut down in 2025 |
-| YadaPhone | $0.60 | Slightly cheaper per minute | No SMS/2FA support |
+| YadaPhone | $0.60 | Slightly cheaper per minute | Chromium browsers only |
 | DialAnyone | $0.15 | Very low cost | Newer service |
-| NomaPhone | $0.90 | Browser-based, no app needed, SMS/2FA support | Needs internet connection |
+| NomaPhone | 30 × [[rate:US:landline]] | Browser-based, no app or account, toll-free numbers work | Needs internet connection; max 30 min per call |
 | Calling card | $3.00 - $8.00 | Works without internet | Hidden fees, connection charges, annoying to use |
 | WhatsApp/FaceTime | N/A | Free | Banks don't accept VoIP messaging app calls |
 
@@ -88,13 +89,13 @@ A realistic total call time: 30-45 minutes.
 - 30-minute call: $7.50
 - 45-minute call: $11.25
 
-**At NomaPhone rates ($0.03/min to US):**
-- 30-minute call: $0.90
-- 45-minute call: $1.35
+**At NomaPhone rates ([[rate:US:landline]] to US numbers, billed per second):**
+- 30-minute call: 30 × [[rate:US:landline]]
+- 45-minute call: 45 × [[rate:US:landline]]
 
-Read that again. The same call costs $75 or $0.90. For the exact same outcome — talking to a BofA rep and unfreezing your card.
+Read that again. The same call costs $75 on roaming, or about a dollar over a browser-based service. For the exact same outcome — talking to a BofA rep and unfreezing your card.
 
-Even if the hold time stretches to a full hour (it happens), you're looking at $1.80 with browser-based calling versus $150 with AT&T roaming. That's not a rounding error. That's a plane ticket in Southeast Asia.
+Even if the hold time stretches to a full hour (it happens), you're looking at a couple of dollars with browser-based calling versus $150 with AT&T roaming. That's not a rounding error. That's a plane ticket in Southeast Asia.
 
 ## How to Actually Make the Call
 
@@ -105,9 +106,11 @@ This is the approach most digital nomads and expats use. You open a browser, ent
 **Steps:**
 1. Connect to WiFi (cafe, hotel, coworking space — any stable connection works)
 2. Open a browser-based calling service like NomaPhone
-3. Dial 1-315-724-4022 (BofA's international line) or even 1-800-432-1000 (browser VoIP services can reach US toll-free numbers)
+3. Dial 1-315-724-4022 (BofA's international line) or even 1-800-432-1000 (NomaPhone can reach US toll-free numbers at the normal US rate)
 4. Wait on hold, handle your business, hang up
-5. Total cost: around $0.90 for a 30-minute call at three cents per minute
+5. Total cost: 30 × [[rate:US:landline]] for a 30-minute call, billed per second
+
+One practical note: NomaPhone calls are capped at 30 minutes. If the hold drags on past that, dial again — and ask the agent for a case number early so you don't start from scratch.
 
 The big advantage here: since the call routes through US infrastructure, toll-free numbers work too. You're not limited to the international collect-call number.
 
@@ -144,7 +147,7 @@ If you're abroad with a foreign SIM, you might not receive that SMS.
 
 If you're already abroad and locked out, explain to the BofA agent that you can't receive SMS. They have alternative verification methods — security questions, email codes, or verifying recent transactions. Be patient. It takes longer, but they can work around it.
 
-Some browser-based calling services like NomaPhone also support SMS, which means you can receive 2FA codes through the same service you're using to call. That solves both problems at once.
+Note that NomaPhone doesn't receive SMS or 2FA codes — it's outgoing voice calls only. What it does solve is the other half: when the code never arrives, you can call BofA's US lines from your browser and sort out verification with an agent by voice.
 
 ## Tips for a Smoother BofA Call From Abroad
 
@@ -183,7 +186,7 @@ Some browser-based calling services like NomaPhone also support SMS, which means
 
 | Method | Cost per minute | 30-min call cost |
 |---|---|---|
-| NomaPhone (browser) | $0.03 | $0.90 |
+| NomaPhone (browser) | [[rate:US:landline]] | 30 × [[rate:US:landline]] |
 | YadaPhone (browser) | $0.02 | $0.60 |
 | DialAnyone (browser/app) | $0.005 | $0.15 |
 | Google Voice | Free | Free (US residents only) |
@@ -199,17 +202,17 @@ Some browser-based calling services like NomaPhone also support SMS, which means
 If you're reading this because your BofA card is already locked and you're abroad — here's the fastest path:
 
 1. Connect to WiFi
-2. Open a browser-based calling service (NomaPhone works in 30 seconds, no app download needed)
+2. Open a browser-based calling service (NomaPhone needs no app download and no account)
 3. Call 1-315-724-4022
 4. Tell the automated system you're calling about a fraud alert or locked account
 5. When you reach an agent, explain you're traveling internationally and need your card unlocked
 6. Verify your identity (have your account number and SSN ready)
 7. Ask them to note your travel dates so it doesn't happen again
 
-The whole process takes 20-45 minutes depending on hold time. At three cents per minute, that's under $1.35 even in the worst case.
+The whole process takes 20-45 minutes depending on hold time. At [[rate:US:landline]], that's still under a couple of dollars even in the worst case (NomaPhone calls max out at 30 minutes, so a very long one may mean redialing once).
 
 Compare that to panicking in a foreign country, walking to an ATM that won't work, or trying to wire money from a friend. A 30-minute phone call is the simplest fix.
 
 ---
 
-**NomaPhone** lets you call Bank of America (or any US number) straight from your browser. No app to install, no SIM to swap. Just open, dial, and talk. Three cents per minute to the US, and your credits never expire. The next time your bank locks your card at the worst possible moment, you'll be glad you have it bookmarked.
+Try NomaPhone: call Bank of America (or any US number, toll-free included) straight from your browser at [[rate:US:landline]], no app, no account, credit that never expires. [Make a call](https://app.nomaphone.com).

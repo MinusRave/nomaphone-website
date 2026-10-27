@@ -177,4 +177,4 @@ The best deal in international calling isn't the one that costs $0.00 with an as
 
 ---
 
-**NomaPhone** is a browser-based international calling service built for digital nomads. Calls to the US cost three cents per minute. No app to download, no subscription, no connection fees, and credits that never expire. You pay for what you use, and that's it. [Try NomaPhone](https://nomaphone.com)
+**NomaPhone** lets you call any landline or mobile in [[countries]] countries from your browser. Calls to the US cost [[rate:US:landline]], billed per second. No app, no account, no subscription, and credit that never expires. [Try NomaPhone](https://app.nomaphone.com)

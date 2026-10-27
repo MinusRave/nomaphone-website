@@ -2,6 +2,7 @@
 title: "International Calling from Germany: Complete Guide for Berlin Digital Nomads"
 description: "Complete guide to international calling from Germany. Compare carriers, costs, and solutions for digital nomads in Berlin, Munich, and beyond."
 pubDate: 2026-01-07
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-germany"
 tags: ["Germany", "Berlin", "digital nomad", "German SIM"]
@@ -101,11 +102,10 @@ Comparing actual expenses for international calls.
 - Annual: €360
 
 **NomaPhone:**
-- Rate: $0.03/min (€0.028)
-- Monthly: €0.84
-- Annual: €10
+- Rate: [[rate:US:landline]], billed per second
+- Monthly: 30 × [[rate:US:landline]]
 
-**Savings: €350-494 annually**
+**Savings: over 95% of the carrier cost**
 
 ### Calling UK Post-Brexit (20 minutes monthly)
 
@@ -115,12 +115,11 @@ Comparing actual expenses for international calls.
 - Annual: €216-288
 
 **NomaPhone:**
-- UK landline: $0.03/min
-- UK mobile: $0.06/min
-- Monthly: €0.56-1.12
-- Annual: €6.70-13.40
+- UK landline: [[rate:GB:landline]]
+- UK mobile: [[rate:GB:mobile]]
+- Monthly: 20 minutes at those rates
 
-**Savings: €203-281 annually**
+**Savings: over 90% of the carrier cost**
 
 ### Calling India (25 minutes monthly)
 
@@ -130,11 +129,10 @@ Comparing actual expenses for international calls.
 - Annual: €300-420
 
 **NomaPhone:**
-- India: $0.08-0.09/min
-- Monthly: €1.87-2.10
-- Annual: €22.40-25.20
+- India: [[rate:IN:both]]
+- Monthly: 25 minutes at those rates
 
-**Savings: €277-397 annually**
+**Savings: most of the carrier cost (roughly 85-90%)**
 
 ## Internet Quality in German Cities
 
@@ -375,13 +373,13 @@ Real situations digital nomads face in Germany.
 
 ### Calling US Banks
 
-**Challenge:** Toll-free numbers don't work from Germany.
+**Challenge:** Toll-free numbers don't work from German carriers.
 
 **Example - Bank of America:**
-- Main: 1-800-432-1000 (doesn't connect)
+- Main: 1-800-432-1000 (doesn't connect from a German SIM)
 - International: +1-315-724-4022
 - German carrier: €1.30/min
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:US:landline]] to either number (US toll-free numbers are charged at the normal US rate)
 
 **Solution:** Save international numbers before issues arise.
 
@@ -393,8 +391,8 @@ Real situations digital nomads face in Germany.
 - €0.90-1.20/min typical now
 
 **NomaPhone rates:**
-- UK landline: $0.03/min (€0.028)
-- UK mobile: $0.06/min (€0.056)
+- UK landline: [[rate:GB:landline]]
+- UK mobile: [[rate:GB:mobile]]
 - Massive savings vs German carriers
 
 ### Calling Home Country (Non-EU)
@@ -402,14 +400,14 @@ Real situations digital nomads face in Germany.
 **Indian expats in Germany:**
 - Very common scenario
 - German carriers: €1.00-1.40/min
-- NomaPhone: $0.08-0.09/min
-- Annual savings: €300-400
+- NomaPhone: [[rate:IN:both]]
+- Annual savings: roughly 85-90%
 
 **US expats in Germany:**
 - Calling family, banks, government
 - German carriers: €1.20-1.60/min
-- NomaPhone: $0.03/min
-- Annual savings: €350-500
+- NomaPhone: [[rate:US:landline]]
+- Annual savings: over 95%
 
 ### Professional Client Calls
 
@@ -423,8 +421,8 @@ Real situations digital nomads face in Germany.
 3. Use scheduled video calls when appropriate
 
 **Virtual numbers useful for:**
-- USA: $2.19/month for local presence
-- UK: $1.90/month for British credibility
+- USA or UK local presence (from third-party virtual number providers; NomaPhone doesn't offer numbers)
+- Typically a few dollars a month
 - Outbound: Pay per minute
 
 ## German Language Considerations
@@ -472,10 +470,10 @@ Deutsche Telekom:
 - Annual: €840
 
 NomaPhone:
-- 50 min × $0.03/min = $1.50 (€1.40)
-- Annual: €16.80
+- 50 min × [[rate:US:landline]]
+- Annual: 600 min × [[rate:US:landline]]
 
-**Savings: €823.20 annually**
+**Savings: over 95% annually**
 
 ### Regular User (12 calls, 20 min each)
 
@@ -485,11 +483,10 @@ German carrier average:
 - 240 min × €1.10/min = €264/month
 - Annual: €3,168
 
-NomaPhone average:
-- 240 min × $0.05/min = $12 (€11.20)
-- Annual: €134.40
+NomaPhone:
+- 240 min at [[rate:US:landline]] (USA), [[rate:GB:both]] (UK) and [[rate:IN:both]] (India)
 
-**Savings: €3,033.60 annually**
+**Savings: roughly 90% annually**
 
 ### Heavy User (Business, daily calls)
 
@@ -500,10 +497,10 @@ German carrier:
 - Annual: €12,000
 
 NomaPhone:
-- 1,000 min × $0.04/min = $40 (€37.30)
-- Annual: €447.60
+- 1,000 min at the per-minute rate for each destination (see the [rates page](/rates/))
+- Billed per second, no monthly fee
 
-**Savings: €11,552.40 annually**
+**Savings: typically over 90% for calls to the US, UK or India**
 
 ## Common Problems and Solutions
 
@@ -564,7 +561,7 @@ Recommended setup for digital nomads.
 
 **Browser calling:**
 - Purpose: Non-EU international calls
-- Cost: Pay per use, from $0.03/min
+- Cost: Pay per use ([[rate:US:landline]] to the US)
 - Use for: USA, UK, India, etc.
 
 **WhatsApp:**
@@ -578,9 +575,8 @@ Recommended setup for digital nomads.
 
 **Virtual number (home country):**
 - If family/clients call frequently
-- USA: $2.19/month
-- UK: $1.90/month
-- India: $4-6/month
+- From a third-party provider (NomaPhone doesn't offer numbers)
+- Typically a few dollars a month
 
 **EU roaming benefit:**
 - Included free with German SIM
@@ -631,11 +627,11 @@ The advantage of a German SIM.
 - India: €0.90-1.50/min
 - Way too expensive
 
-**Browser calling:**
-- USA/Canada: $0.03/min
-- UK: $0.03-0.06/min
-- India: $0.08-0.09/min
-- 95%+ savings
+**Browser calling (NomaPhone):**
+- USA/Canada: [[rate:US:landline]]
+- UK: [[rate:GB:both]]
+- India: [[rate:IN:both]]
+- 90%+ savings
 
 **Best coworking (Berlin):**
 - Factory Berlin, betahaus, Ahoy!
@@ -673,4 +669,4 @@ The advantage of a German SIM.
 
 ---
 
-**Working from Berlin or Munich and need affordable international calling?** NomaPhone offers browser-based calling at $0.03/minute to USA/Canada, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Berlin or Munich and need affordable international calling?** NomaPhone offers browser-based calling at [[rate:US:landline]] to the USA and Canada, with no app and no account. Credit never expires. [Make a call](https://app.nomaphone.com)

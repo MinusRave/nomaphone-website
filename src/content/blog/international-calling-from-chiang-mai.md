@@ -2,6 +2,7 @@
 title: "International Calling From Chiang Mai: Everything You Need to Know"
 description: "Need to call the US from Chiang Mai? Compare local SIMs, VoIP, and browser calling with real 2026 rates. A complete guide for digital nomads."
 pubDate: 2026-07-20
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-chiang-mai"
 tags: ["Thailand", "Chiang Mai", "digital nomads", "international calling", "VoIP"]
@@ -87,7 +88,7 @@ Here's what it actually costs to make a 30-minute call to a US number from Chian
 | WhatsApp/FaceTime | Free | Already installed | Both parties need the app, no real phone numbers |
 | YadaPhone | $0.60 | Cheap | No SMS/2FA support |
 | DialAnyone | $0.15 | Very cheap | No call recording |
-| NomaPhone | $0.90 | Reliable, SMS/2FA, no app needed | Not the cheapest VoIP option |
+| NomaPhone | 30 × [[rate:US:landline]] | No app or account, US toll-free included | Not the cheapest VoIP option |
 
 Free options like WhatsApp and FaceTime work great for calling friends who also use those apps. They fall apart when you need to call a bank or government office -- any traditional phone number.
 
@@ -99,19 +100,19 @@ Carrier roaming is the worst deal on the list. Browser-based VoIP services -- No
 
 NomaPhone uses browser-based calling. No app to download. You open the website, dial, and talk. Here are the relevant rates.
 
-**Calling from Chiang Mai to the US/Canada:** $0.03 per minute. A 30-minute call costs $0.90. That bank fraud call that would cost $75 on AT&T roaming costs less than a dollar.
+**Calling from Chiang Mai to the US/Canada:** [[rate:US:landline]], billed per second, including US toll-free numbers. That bank fraud call that would cost $75 on AT&T roaming costs about a dollar.
 
-**Calling local Thai numbers from NomaPhone:** $0.19 per minute. This is a higher-cost corridor, so for local Thai calls, your Thai SIM is the better choice. Use NomaPhone for international calls and your SIM for local ones.
+**Calling Thai numbers from NomaPhone:** [[rate:TH]]. This is a higher-cost corridor, so for local Thai calls, your Thai SIM is the better choice. Use NomaPhone for international calls and your SIM for local ones.
 
 **How it works:**
 - Go to the NomaPhone website from any browser
-- Buy credits starting at $5 (pay-as-you-go, credits never expire)
-- Dial the number you need to reach
-- You're connected in about 30 seconds
+- Buy $5, $10 or $20 of credit with Apple Pay, Google Pay or card (pay-as-you-go, credit never expires)
+- Dial the number you need to reach; the rate is shown on screen as you dial
+- No app, no account
 
 No contracts. No monthly minimums. No app cluttering your phone. If you make one international call a month or twenty, you only pay for what you use.
 
-NomaPhone isn't the cheapest VoIP option. DialAnyone charges $0.005 per minute, and YadaPhone charges $0.02 per minute. The tradeoff is reliability and features. NomaPhone supports SMS and 2FA verification, which matters when your bank texts a confirmation code during the call. Three cents a minute for a call that actually connects and stays connected to your bank is worth the penny-per-minute difference.
+NomaPhone isn't the cheapest VoIP option. DialAnyone advertises $0.005 per minute, and YadaPhone $0.02 per minute. What NomaPhone offers instead is simplicity: no app, no account, per-second billing, credit that never expires and can be refunded, and US toll-free numbers at the normal rate. Keep in mind it's for outgoing calls only: it doesn't give you a number or receive SMS/2FA codes, so if your bank texts a code, it goes to whatever number the bank has on file.
 
 ## Time Zone Math: The Part Everyone Gets Wrong
 
@@ -200,7 +201,7 @@ Store your bank's international number, your embassy's number, and any other cri
 
 ### Consider a US Virtual Number
 
-If you receive calls from US businesses, having a US virtual number can be valuable. Some banks and services will only call US numbers. NomaPhone and Google Voice both offer virtual US numbers that ring to your browser or device anywhere in the world.
+If you receive calls from US businesses, having a US virtual number can be valuable. Some banks and services will only call US numbers. Google Voice (if you set it up before leaving) and various VoIP providers offer US numbers that ring to your device anywhere in the world. NomaPhone doesn't provide numbers; it's for placing outgoing calls.
 
 ### Mind the Rainy Season
 
@@ -213,7 +214,7 @@ Chiang Mai's rainy season runs roughly June through October. Heavy storms can oc
 | Does VoIP work in Thailand? | Yes, no restrictions whatsoever |
 | Best carrier for a local SIM | AIS (best coverage) or True Move H |
 | Cost to call US via Thai SIM | $0.25 - $0.35/min |
-| Cost to call US via NomaPhone | $0.03/min ($0.90 for 30 minutes) |
+| Cost to call US via NomaPhone | [[rate:US:landline]], billed per second |
 | Internet speed at coworking | 100 - 500 Mbps typically |
 | Time difference to US East | 12 hours ahead (EDT) |
 | Best time for US business calls | 7:00am - 10:00am Chiang Mai time |
@@ -231,4 +232,4 @@ Whether you use a browser-based VoIP service, Google Voice, or your local SIM, t
 
 ---
 
-**Need to make an international call from Chiang Mai right now?** NomaPhone lets you call any phone number in 210+ countries directly from your browser. No app to download, no account setup hassles. Just open the site, add credits starting at $5, and dial. Your first call connects in about 30 seconds. Try NomaPhone today and see why thousands of digital nomads trust it for the calls that matter.
+Need to make an international call from Chiang Mai right now? Try NomaPhone: call landlines and mobiles in [[countries]] countries from your browser, no app, no account. [Make a call](https://app.nomaphone.com)

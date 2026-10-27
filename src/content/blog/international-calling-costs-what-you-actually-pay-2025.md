@@ -2,6 +2,7 @@
 title: "International Calling Costs: What You Actually Pay in 2025"
 description: "Transparent breakdown of real international calling rates. No marketing fluff, just the actual math behind per-minute pricing and what makes sense for your usage."
 pubDate: 2025-11-15
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-costs-what-you-actually-pay-2025"
 tags: ["pricing", "international rates", "cost comparison", "transparency"]
@@ -310,33 +311,21 @@ When it makes sense: Mission-critical business communications
 
 ## The Honest NomaPhone Pricing Breakdown
 
-Since we're being transparent, here's our pricing structure:
+Since we're being transparent, here's how our pricing works:
 
-### USA/Canada Calling
-- Our rate: $0.03/minute
-- Wholesale cost: ~$0.014/minute
-- Our markup: ~114%
-- Why: Covers infrastructure, support, payment processing (Stripe fees 3%), margins
+### Rates
+- USA/Canada: [[rate:US:landline]] to landlines and mobiles, including US and Canadian toll-free numbers
+- UK: [[rate:GB:both]]
+- India: [[rate:IN:both]]
+- Every other destination: see the [rates page](/rates/) for all [[countries]] countries we call
 
-### UK Calling
-- Our rate: $0.03-0.06/minute (landline vs mobile)
-- Wholesale cost: ~$0.016-0.032/minute
-- Our markup: ~88-94%
-- Why: Same overhead, slightly higher carrier costs
+### How You Pay
+- Prepaid credit in $5, $10 or $20 amounts, paid by card, Apple Pay or Google Pay
+- No account and no subscription: your credit lives on a phone card code that's also emailed to you
+- The per-minute rate is shown on screen as you dial, and calls are billed per second
+- Credit never expires, and unused credit can be refunded to your original payment method at any time
 
-### India Calling
-- Our rate: $0.08-0.09/minute
-- Wholesale cost: ~$0.042-0.048/minute
-- Our markup: ~88-90%
-- Why: Higher carrier costs, similar overhead
-
-We choose ~90-115% markup because:
-1. It covers our actual costs
-2. Allows sustainable business
-3. Keeps prices honest
-4. No hidden fees needed
-
-We're not the cheapest. We're also not expensive. We're transparent about what you're paying for.
+We're not the cheapest everywhere. To some destinations (China, the Philippines, and mobiles in several European countries, for example) our rates are higher than other services. We publish every rate so you can compare before you call.
 
 ## How to Compare Services Honestly
 
@@ -412,4 +401,4 @@ If a service doesn't meet these standards, keep looking.
 
 ---
 
-NomaPhone pricing: $0.03/minute to USA, $0.08/minute to India. No connection fees, no monthly minimums, credits never expire. Just honest rates for international calling. [Join the waitlist](https://nomaphone.com) to get early access and transparent pricing.
+NomaPhone pricing: [[rate:US:landline]] to the USA, [[rate:IN]] to India, no monthly minimums, credit that never expires. [Make a call](https://app.nomaphone.com)

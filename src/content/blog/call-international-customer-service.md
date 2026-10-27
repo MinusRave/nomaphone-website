@@ -2,6 +2,7 @@
 title: "How to Call International Customer Service: Banks, Airlines, Hotels from Abroad"
 description: "Master calling international customer service from anywhere. Learn about toll-free access, hold times, callback options, and cost-effective solutions."
 pubDate: 2026-01-04
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-international-customer-service"
 tags: ["customer service", "banks", "airlines", "support"]
@@ -50,6 +51,8 @@ Understanding the technical limitations.
 - Uses same 1-800 range as US
 - Same limitations
 
+**The exception for US and Canadian numbers:** these toll-free numbers fail because your foreign carrier can't route them. A browser calling service that connects the call from North America can. NomaPhone dials US and Canadian toll-free numbers (800, 888, 877, 866, 855, 844, 833) at its normal US rate ([[rate:US:landline]]), so for US banks and airlines you can often use the number printed on your card or the website. Some companies restrict their toll-free lines by region, so the international numbers below are still worth saving as a backup.
+
 ## Finding International Alternative Numbers
 
 How to reach companies from abroad.
@@ -59,46 +62,46 @@ How to reach companies from abroad.
 **Major US Banks:**
 
 **Chase:**
-- Toll-free (doesn't work): 1-800-935-9935
+- Toll-free (doesn't work from a foreign phone): 1-800-935-9935
 - International: +1-713-262-3300
-- Cost on NomaPhone: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Bank of America:**
-- Toll-free (doesn't work): 1-800-432-1000
+- Toll-free (doesn't work from a foreign phone): 1-800-432-1000
 - International: +1-315-724-4022
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Wells Fargo:**
-- Toll-free (doesn't work): 1-800-869-3557
+- Toll-free (doesn't work from a foreign phone): 1-800-869-3557
 - International: +1-800-869-3557 (same but try +1-415-477-4343 for headquarters)
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Citi:**
-- Toll-free (doesn't work): 1-800-374-9700
+- Toll-free (doesn't work from a foreign phone): 1-800-374-9700
 - International: +1-210-677-0088
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Capital One:**
-- Toll-free (doesn't work): 1-877-383-4802
+- Toll-free (doesn't work from a foreign phone): 1-877-383-4802
 - International: +1-804-934-2001
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **UK Banks:**
 
 **Barclays:**
 - UK toll-free (doesn't work abroad): 0800-400-100
 - International: +44-1624-684-444
-- Cost: $0.03/min (landline)
+- Cost on NomaPhone: [[rate:GB:landline]]
 
 **HSBC:**
 - UK toll-free: 0345-740-4404
 - International: +44-2476-849-301
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:GB:landline]]
 
 **Lloyds:**
 - UK toll-free: 0345-300-0000
 - International: +44-1702-278-270
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:GB:landline]]
 
 ### Credit Card Companies
 
@@ -122,53 +125,53 @@ How to reach companies from abroad.
 **Major US Airlines:**
 
 **Delta:**
-- Toll-free (doesn't work): 1-800-221-1212
+- Toll-free (doesn't work from a foreign phone): 1-800-221-1212
 - International: +1-404-715-2600 (Atlanta HQ)
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **United:**
-- Toll-free (doesn't work): 1-800-864-8331
+- Toll-free (doesn't work from a foreign phone): 1-800-864-8331
 - International: +1-713-324-5000
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **American:**
-- Toll-free (doesn't work): 1-800-433-7300
+- Toll-free (doesn't work from a foreign phone): 1-800-433-7300
 - International: +1-817-963-1234
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **European Airlines:**
 
 **British Airways:**
 - UK: 0344-493-0787
 - International: +44-203-250-0145
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:GB:landline]]
 
 **Lufthansa:**
 - Germany: 069-86-799-799
 - International: +49-69-86-799-799
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:DE:landline]]
 
 **Air France:**
 - France: 09-69-39-02-15
 - International: +33-9-69-39-02-15
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:FR:landline]]
 
 ### Hotels and Travel
 
 **Marriott:**
 - Toll-free: 1-800-627-7468
 - International: +1-801-468-4000
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Hilton:**
 - Toll-free: 1-800-445-8667
 - International: +1-703-883-1000
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Expedia:**
 - Toll-free: 1-877-227-7481
 - International: +1-404-728-8787
-- Cost: $0.03/min
+- Cost on NomaPhone: [[rate:US:landline]]
 
 **Booking.com:**
 - Multiple international numbers by country
@@ -186,9 +189,11 @@ Reducing expenses while waiting.
 45-minute hold time comparison:
 - Roaming: $2.50/min × 45 = $112.50
 - Carrier international: $1.50/min × 45 = $67.50
-- NomaPhone: $0.03/min × 45 = $1.35
+- NomaPhone (US number): 45 × [[rate:US:landline]], billed per second
 
-**Savings: $111.15 vs roaming**
+**Savings: over $100 vs roaming**
+
+One caveat: NomaPhone calls are capped at 30 minutes each, so on a very long hold you'll need to dial again. That's another reason to request a callback or call early in the day.
 
 ### Call During Off-Peak Hours
 
@@ -272,7 +277,7 @@ Real situations and how to handle them.
 4. $5-10 call worth preventing theft
 
 **Average call:** 15-20 minutes
-**Cost on NomaPhone:** $0.45-0.60
+**Cost on NomaPhone (US bank):** 15-20 × [[rate:US:landline]]
 **Worth it:** Absolutely
 
 ### Flight Cancellation
@@ -286,7 +291,7 @@ Real situations and how to handle them.
 4. Be prepared for long hold
 
 **Average call:** 30-60 minutes
-**Cost on NomaPhone:** $0.90-1.80
+**Cost on NomaPhone (US airline):** 30-60 × [[rate:US:landline]] (calls are capped at 30 minutes, so you may need to redial)
 **Alternative:** Twitter @AirlineName often faster
 
 ### Account Locked
@@ -300,7 +305,7 @@ Real situations and how to handle them.
 4. Have account details ready
 
 **Average call:** 10-15 minutes
-**Cost:** $0.30-0.45
+**Cost on NomaPhone (US bank):** 10-15 × [[rate:US:landline]]
 
 ### Billing Dispute
 
@@ -313,7 +318,7 @@ Real situations and how to handle them.
 4. Document everything
 
 **Average call:** 20-30 minutes
-**Cost:** $0.60-0.90
+**Cost on NomaPhone (US bank):** 20-30 × [[rate:US:landline]]
 
 ## Special Services and Costs
 
@@ -335,6 +340,8 @@ Understanding premium rate numbers.
 - 1-900: Premium rate
 - Rare for customer service
 - Usually entertainment/info lines
+
+NomaPhone blocks premium-rate numbers entirely, so you can't run up a surprise bill on one.
 
 ### International Collect Calls
 
@@ -381,9 +388,9 @@ Actual costs for common situations.
 - Hotel phone: $10-15 (if even possible)
 - Roaming: $50 ($2.50/min)
 - Carrier international: $30 ($1.50/min)
-- NomaPhone: $0.60 ($0.03/min)
+- NomaPhone: 20 × [[rate:US:landline]]
 
-**Best option:** NomaPhone saves $49.40
+**Best option:** Browser calling, by a wide margin
 
 ### Scenario 2: Flight Rebooking
 
@@ -394,9 +401,9 @@ Actual costs for common situations.
 
 **Costs:**
 - Spanish carrier: €67.50 (€1.50/min)
-- NomaPhone: $1.35 ($0.03/min = €1.26)
+- NomaPhone: 45 × [[rate:US:landline]] (split over two calls, since calls are capped at 30 minutes)
 
-**Savings:** €66.24
+**Savings:** well over €60
 
 ### Scenario 3: Hotel Reservation Issue
 
@@ -407,9 +414,9 @@ Actual costs for common situations.
 
 **Costs:**
 - Roaming: $25
-- NomaPhone: $0.30
+- NomaPhone (US hotel HQ): 10 × [[rate:US:landline]]
 
-**Savings:** $24.70
+**Savings:** nearly all of the roaming cost
 
 ### Scenario 4: Multiple Support Calls
 
@@ -422,9 +429,9 @@ Actual costs for common situations.
 **Annual costs:**
 - Roaming: $3,000
 - Carrier international: $1,800
-- NomaPhone: $36
+- NomaPhone (US numbers): 1,200 × [[rate:US:landline]]
 
-**Savings: $2,964/year** vs roaming
+**Savings: thousands of dollars a year** vs roaming
 
 ## Quality and Clarity Tips
 
@@ -514,6 +521,7 @@ Who offers callback and how to use it.
 - Some systems only call domestic numbers
 - May not work with foreign numbers
 - Virtual numbers might not receive
+- Browser calling services like NomaPhone are outgoing-only, so they can't receive the callback: give the company a number you can actually answer
 
 **Test it:**
 - Try callback option first
@@ -544,10 +552,10 @@ Who offers callback and how to use it.
 - Mastercard: +1-636-722-7111
 - Amex: +1-336-393-1111
 
-**Cost on NomaPhone:** $0.03/min for all US numbers
+**Cost on NomaPhone:** [[rate:US:landline]] for US numbers (toll-free included), [[rate:GB:landline]] for UK landlines
 
 **Pro tip:** Save these in your phone contacts before traveling.
 
 ---
 
-**Need to call customer service from abroad?** NomaPhone offers browser-based international calling at $0.03/minute to the US, with no app required. Credits never expire. Join the waitlist at nomaphone.com.
+**Need to call customer service from abroad?** NomaPhone lets you call banks, airlines and hotels from your browser, including US toll-free numbers, with no app and no account. Prepaid credit never expires. [Make a call](https://app.nomaphone.com)

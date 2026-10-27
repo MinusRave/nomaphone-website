@@ -2,6 +2,7 @@
 title: "How I Saved $500/Year on International Calls as a Digital Nomad"
 description: "Phone bills as a nomad were brutal. Here's exactly how we cut international calling costs from $50+/month to under $10 — with a full cost breakdown."
 pubDate: 2026-08-01
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "saved-500-year-international-calls-nomad"
 tags: ["digital nomads", "international calling", "save money", "roaming", "VoIP", "remote workers"]
@@ -142,9 +143,9 @@ Monthly cost: $5-20, depending on the country.
 
 This is where the real savings happen. Browser VoIP rates to the US typically range from $0.005 to $0.03 per minute, depending on the provider.
 
-Let's use a realistic middle-ground rate of $0.03 per minute (which is what NomaPhone charges for US/Canada calls). At 300 minutes per month:
+Let's use NomaPhone's US/Canada rate of [[rate:US:landline]] as a realistic middle ground. At 300 minutes per month:
 
-300 minutes x $0.03 = **$9.00 per month**
+300 minutes x [[rate:US:landline]] = **about $9 per month** (at the time of writing)
 
 Compare that to $75/month on T-Mobile roaming or $600+/month on AT&T roaming.
 
@@ -155,7 +156,7 @@ Here's what our monthly calling costs look like now:
 | Expense | Monthly Cost |
 |---|---|
 | Local data SIM | $5 - $20 |
-| Browser VoIP credits (300 min to US at $0.03/min) | $9.00 |
+| Browser VoIP credits (300 min to US at [[rate:US:landline]]) | About $9 |
 | Google Voice (receiving texts/2FA) | Free |
 | Total | **$14 - $29/month** |
 
@@ -199,15 +200,15 @@ This matters more than price. A dropped call with your bank while they're verify
 
 The cheapest VoIP options (some as low as $0.005/min) sometimes cut corners on call quality. Audio compression gets aggressive. Connections drop. Hold music turns into static.
 
-For calls that matter — banks, government offices, business clients — you want carrier-grade reliability. That might cost $0.03/min instead of $0.005/min. The difference on a 30-minute call is $0.75 versus $0.15. Both are negligible compared to roaming rates.
+For calls that matter — banks, government offices, business clients — test the service on your own connection first. A good option might cost a few cents per minute instead of half a cent. On a 30-minute call, both are negligible compared to roaming rates.
 
-NomaPhone charges $0.03/min to the US and focuses specifically on call quality and reliability. YadaPhone offers $0.02/min. DialAnyone goes as low as $0.005/min. All are browser-based. The right choice depends on whether you prioritize rock-bottom cost or consistent quality for important calls.
+NomaPhone charges [[rate:US:landline]] to the US, billed per second, with no app and no account. YadaPhone offers $0.02/min. DialAnyone goes as low as $0.005/min. All are browser-based. The right choice depends on whether you prioritize rock-bottom cost or convenience for important calls.
 
 ### SMS and 2FA Support
 
 This is the hidden gotcha. Many VoIP services let you make calls but can't receive SMS messages — especially the short-code verification texts that banks send.
 
-If you need to receive 2FA codes via SMS (and you probably do), check whether your VoIP provider supports it before committing. Not all of them do.
+If you need to receive 2FA codes via SMS (and you probably do), check whether your VoIP provider supports it before committing. Not all of them do: NomaPhone, for example, is for outgoing calls only. That's why our stack keeps Google Voice for receiving texts.
 
 ### Country Coverage
 
@@ -287,11 +288,11 @@ In most countries, yes. Browser calling uses the same protocols as video confere
 
 ### What if I need to receive incoming calls on a US number?
 
-You have a few options. Google Voice can forward calls to a VoIP number. Some browser VoIP services offer virtual US numbers that can receive incoming calls. NomaPhone, for example, provides US virtual numbers with SMS/2FA support.
+You have a few options. Google Voice can forward calls to a VoIP number. Some VoIP services offer virtual US numbers that can receive incoming calls. NomaPhone doesn't: it only makes outgoing calls and doesn't provide numbers.
 
 ### Is the call quality actually good enough for business calls?
 
-On a decent internet connection (5+ Mbps), browser-based calling sounds indistinguishable from a regular phone call. We've done client calls, bank calls, and even podcast recordings over browser VoIP without issues. The key variable is your internet connection, not the calling technology.
+On a decent internet connection (5+ Mbps), browser-based calling sounds close to a regular phone call, and client or bank calls are perfectly workable. The key variable is your internet connection, not the calling technology.
 
 ### How do I handle calls if my internet is down?
 
@@ -299,4 +300,4 @@ This is the one genuine limitation. If you have zero internet access, browser-ba
 
 ---
 
-**NomaPhone** is built for exactly this setup. Browser-based calling to 210+ countries, starting at $0.03/min to the US. Pay-as-you-go credits that never expire. No app to install — just open your browser and dial. If you're tired of overpaying for international calls, give it a try at [NomaPhone.com](https://nomaphone.com).
+**NomaPhone** fits this setup: browser-based calling to [[countries]] countries, [[rate:US:landline]] to the US. Pay-as-you-go credit that never expires. No app, no account — just open your browser and dial. [Make a call](https://app.nomaphone.com)

@@ -2,6 +2,7 @@
 title: "How to Call Government Offices from Abroad: IRS, USCIS, and Embassies"
 description: "Complete guide to calling US government offices from abroad. Navigate IRS, USCIS, and embassy phone systems without expensive roaming or dropped calls."
 pubDate: 2025-12-05
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "call-government-offices-from-abroad"
 tags: ["government calls", "expat", "IRS", "USCIS"]
@@ -71,12 +72,12 @@ Here are the methods that work for calling US government offices from abroad, ra
 
 **How it works:** Use services like NomaPhone or similar that let you call from your browser using internet connection.
 
-**Cost:** $0.03/minute for US numbers
+**Cost:** [[rate:US:landline]] for US numbers with NomaPhone, billed per second (toll-free numbers included)
 
 **Real cost example:**
-- 60-minute IRS call: $1.80
-- 80-minute USCIS call: $2.40
-- Savings vs roaming: 97-98%
+- 60-minute IRS call: 60 × [[rate:US:landline]]
+- 80-minute USCIS call: 80 × [[rate:US:landline]]
+- Savings vs roaming: well over 90%
 
 **Pros:**
 - Works from any country with internet
@@ -86,7 +87,8 @@ Here are the methods that work for calling US government offices from abroad, ra
 
 **Cons:**
 - Requires decent internet connection
-- You need to set up account beforehand (don't wait until emergency)
+- Some services cap call length (NomaPhone: 30 minutes per call, then you dial again)
+- Outgoing calls only: these services can't receive a government callback
 
 **Best for:** Anyone who needs to call government offices regularly while abroad. The cost savings are massive.
 
@@ -333,7 +335,7 @@ Let's look at actual costs for common situations:
 
 - Carrier roaming: $120-150
 - Carrier international plan: $33-51
-- Browser calling: $1.80
+- Browser calling (NomaPhone): 60 × [[rate:US:landline]]
 - Google Voice: Free
 - Skype: $1.20
 
@@ -345,7 +347,7 @@ Let's look at actual costs for common situations:
 
 - Carrier roaming: $160-200
 - Carrier international plan: $39-66
-- Browser calling: $2.40
+- Browser calling (NomaPhone): 80 × [[rate:US:landline]]
 - Google Voice: Free
 - Skype: $1.60
 
@@ -357,7 +359,7 @@ Let's look at actual costs for common situations:
 
 - Carrier roaming: $130-160
 - Carrier international plan: $30-45
-- Browser calling: $2.00
+- Browser calling: a few dollars at most, depending on the embassy's country
 - Google Voice: Free (if calling from US embassy country with local line)
 
 **Winner:** Depends on where you're calling from
@@ -416,7 +418,7 @@ Calling US government offices from abroad doesn't have to cost $100+ per call. H
 Use Google Voice. Free calls to US, including government offices.
 
 **If you didn't set up Google Voice:**
-Use browser-based calling services. $0.03/minute means 60-minute calls cost under $2 instead of $150.
+Use browser-based calling services. At [[rate:US:landline]] with NomaPhone, an hour on hold costs a couple of dollars instead of $150.
 
 **If you need to receive callbacks:**
 Get a virtual US number ($2-4/month) that can receive calls. Worth it if you're calling government offices regularly.
@@ -443,4 +445,4 @@ The key is setting up and testing your method before you actually need it. Gover
 
 ---
 
-**Need to call US government offices from abroad without expensive roaming?** NomaPhone offers browser-based calling to US numbers at $0.03/minute. Works from anywhere, calls toll-free numbers, no monthly fees. Join the waitlist at nomaphone.com.
+**Need to call US government offices from abroad without expensive roaming?** NomaPhone calls US numbers, toll-free included, from your browser at [[rate:US:landline]]. No app, no account, no monthly fees. [Make a call](https://app.nomaphone.com).

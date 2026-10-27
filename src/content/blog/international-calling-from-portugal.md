@@ -2,6 +2,7 @@
 title: "International Calling from Portugal: Complete Guide for Digital Nomads"
 description: "Everything digital nomads need to know about calling internationally from Portugal. Compare carriers, costs, and solutions for Lisbon, Porto, and beyond."
 pubDate: 2025-12-23
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-portugal"
 tags: ["Portugal", "digital nomad", "Lisbon", "international calling"]
@@ -104,20 +105,19 @@ Some nomads try calling cards from FNAC or tobacco shops.
 
 ### Using Browser-Based Calling
 
-Modern solution preferred by Lisbon's remote work community.
+The modern option: call from a browser tab, pay in small prepaid amounts.
 
 **NomaPhone rates:**
-- USA/Canada: $0.03 per minute (€0.028)
-- UK landline: $0.03 per minute
-- UK mobile: $0.06 per minute
-- Brazil: $0.08 per minute
+- USA/Canada: [[rate:US:landline]]
+- UK landline: [[rate:GB:landline]]
+- UK mobile: [[rate:GB:mobile]]
+- Brazil: [[rate:BR:both]]
 
 **Same 30-minute USA example:**
-- Cost: $0.90 (€0.84)
-- Monthly: Under €1
-- Annual: €10
+- Cost: 30 × [[rate:US:landline]]
+- Monthly: About a dollar
 
-**Savings vs MEO:** 97% cheaper for USA calls.
+**Savings vs MEO:** over 95% cheaper for USA calls.
 
 ## Internet Quality in Portugal's Nomad Hubs
 
@@ -283,20 +283,20 @@ Real situations digital nomads face.
 **Chase:**
 - Main: 1-800-935-9935 (doesn't work)
 - International: +1-713-262-3300 (works)
-- NomaPhone: $0.03/min for either
+- NomaPhone: [[rate:US:landline]] for either, toll-free included
 
-**Solution:** Use browser calling with international numbers. Save both versions in contacts.
+**Solution:** Use browser calling with either number. Save both versions in contacts.
 
 ### Calling UK Businesses
 
 **Landlines (01/02 numbers):**
 - Work fine from Portugal
 - EU roaming: Free on mobile
-- Browser calling: $0.03/min as backup
+- Browser calling: [[rate:GB:landline]] as backup
 
 **Mobiles (07 numbers):**
 - EU roaming: Free
-- Browser calling if needed: $0.06/min
+- Browser calling if needed: [[rate:GB:mobile]]
 
 **0800 toll-free:**
 - Often don't work from abroad
@@ -307,14 +307,13 @@ Real situations digital nomads face.
 
 **USA landlines:**
 - MEO/NOS: €0.80-1.20/min
-- NomaPhone: $0.03/min
+- NomaPhone: [[rate:US:landline]]
 - Savings: 95%+ on regular calls
 
 **Parents not tech-savvy:**
 - They call your Portuguese mobile: Expensive for them
-- Get virtual number: They call "local" number that forwards
-- USA virtual: $2.19/month
-- They pay normal rates, you pay nothing to receive
+- Simplest fix: you call them (it's cheap from a browser)
+- If they need to reach you, a virtual number from a dedicated provider gives them a "local" number that forwards to you (NomaPhone doesn't provide numbers)
 
 ### Client Calls
 
@@ -323,15 +322,15 @@ Real situations digital nomads face.
 **Problem:** Calling from +351 (Portugal) number confuses US/UK clients.
 
 **Solutions:**
-1. Virtual number in their country ($2-4/month)
+1. Virtual number in their country from a dedicated provider (typically a few dollars a month)
 2. Schedule Zoom instead (but some prefer phone)
-3. Email before calling: "I'm calling from Portugal, number will show +351"
+3. Email before calling: "I'm calling from Portugal, the number may look unfamiliar"
 
 **Virtual numbers:**
-- USA local: $2.19/month
-- UK local: $1.90/month
-- Outbound: Pay per minute
-- Professional caller ID
+- Offered by third-party providers in the US, UK and many other countries
+- Usually a monthly fee plus per-minute charges
+- Useful if you need a consistent local caller ID
+- NomaPhone is outgoing calls only and doesn't provide numbers
 
 ## Setting Up Your Portugal Calling Stack
 
@@ -346,7 +345,7 @@ Recommended setup for digital nomads.
 
 **Browser calling (NomaPhone):**
 - Purpose: International calls
-- Cost: Pay per use, $0.03/min USA
+- Cost: Pay per use, [[rate:US:landline]] to the USA
 - Use for: Banks, family, clients abroad
 
 **WhatsApp:**
@@ -358,11 +357,10 @@ Recommended setup for digital nomads.
 
 ### Optional Additions
 
-**Virtual number:**
+**Virtual number (third-party provider):**
 - If family/clients call you frequently
-- USA: $2.19/month
-- UK: $1.90/month
-- They call local number, you receive in Portugal
+- Typically a few dollars a month
+- They call a local number, you receive in Portugal
 
 **Backup SIM:**
 - Some nomads keep home country SIM
@@ -417,10 +415,10 @@ What different calling patterns actually cost.
 MEO mobile:
 - 50 minutes × €1.00/min = €50/month
 
-Browser calling:
-- 50 minutes × $0.03/min = $1.50 (€1.40)
+Browser calling (NomaPhone):
+- 50 minutes × [[rate:US:landline]], a couple of dollars
 
-**Savings: €48.60 monthly, €583 annually**
+**Savings: over €45 monthly, over €550 annually**
 
 ### Regular User (15 calls monthly, 20 min each)
 
@@ -429,10 +427,11 @@ Browser calling:
 MEO mobile:
 - 300 minutes × €0.90/min avg = €270/month
 
-Browser calling:
-- 300 minutes × $0.04/min avg = $12 (€11)
+Browser calling (NomaPhone):
+- 300 minutes at the destination's rate, e.g. [[rate:US:landline]] to the USA and [[rate:GB:landline]] to UK landlines
+- Typically around ten to fifteen dollars for a US/UK mix
 
-**Savings: €259 monthly, €3,108 annually**
+**Savings: roughly €250 monthly, about €3,000 annually**
 
 ### Heavy User (Daily calls, business)
 
@@ -441,10 +440,10 @@ Browser calling:
 MEO mobile:
 - 1,200 minutes × €0.85/min = €1,020/month
 
-Browser calling:
-- 1,200 minutes × $0.04/min = $48 (€45)
+Browser calling (NomaPhone):
+- 1,200 minutes at a few cents a minute for US/UK destinations
 
-**Savings: €975 monthly, €11,700 annually**
+**Savings: hundreds of euros monthly, thousands annually**
 
 ## Common Problems and Solutions
 
@@ -487,7 +486,7 @@ Issues digital nomads face calling from Portugal.
 **Solutions:**
 - Search "company name international number"
 - Look for "outside USA" numbers on website
-- Try browser calling (often works with toll-free)
+- Try browser calling (NomaPhone can dial US and Canada toll-free numbers)
 - Use company website chat to ask for alternative number
 
 ### Problem: Family Wants to Call You
@@ -498,11 +497,10 @@ Issues digital nomads face calling from Portugal.
 - Communication suffers
 
 **Solutions:**
-- Get virtual number in their country ($2-4/month)
-- They call "local" number
-- Forwards to you in Portugal
-- Cost: Your per-minute rate only
-- Example: Parents call USA number, you pay $0.03/min
+- Call them instead from your browser, at a few cents a minute
+- Or get a virtual number in their country from a dedicated provider (typically a few dollars a month)
+- They call a "local" number that forwards to you in Portugal
+- Cost: the provider's monthly fee plus its per-minute rate
 
 ## Quick Reference: Calling from Portugal
 
@@ -511,10 +509,10 @@ Issues digital nomads face calling from Portugal.
 - UK: €0.60-0.90/min
 - Too expensive for regular use
 
-**Browser calling:**
-- USA/Canada: $0.03/min
-- UK landline: $0.03/min
-- UK mobile: $0.06/min
+**Browser calling (NomaPhone):**
+- USA/Canada: [[rate:US:landline]]
+- UK landline: [[rate:GB:landline]]
+- UK mobile: [[rate:GB:mobile]]
 - 95%+ savings
 
 **Best coworking spots:**
@@ -531,7 +529,7 @@ Issues digital nomads face calling from Portugal.
 **Setup recommendations:**
 - Local SIM: €15-25/month (MEO/NOS/Vodafone)
 - Browser calling: Pay per use
-- Virtual number: Optional, $2-4/month
+- Virtual number: Optional, from a third-party provider
 - Total: Under €30/month complete setup
 
 ## Why Digital Nomads Choose Portugal
@@ -565,4 +563,4 @@ The combination makes Portugal ideal for location-independent professionals who 
 
 ---
 
-**Working from Portugal and need affordable international calling?** NomaPhone offers browser-based calling at $0.03/minute to USA/Canada, with no app required and no roaming fees. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Portugal and need affordable international calling?** NomaPhone calls the USA and Canada at [[rate:US:landline]] from your browser. No app, no account, no roaming fees, and credit never expires. [Make a call](https://app.nomaphone.com)

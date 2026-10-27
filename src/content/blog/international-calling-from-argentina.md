@@ -2,6 +2,7 @@
 title: "International Calling from Argentina: Buenos Aires Digital Nomad Guide"
 description: "Complete guide to international calling from Argentina. Navigate carriers, economic challenges, internet quality, and costs for digital nomads in Buenos Aires."
 pubDate: 2026-01-25
+updatedDate: 2026-10-27
 author: "The NomaPhone Team"
 slug: "international-calling-from-argentina"
 tags: ["Argentina", "Buenos Aires", "digital nomad", "Latin America"]
@@ -135,16 +136,16 @@ Comparing with Argentina's complexity.
 - You actually pay based on how you got pesos
 
 **NomaPhone:**
-- $0.03/min × 30 min = $0.90
+- 30 min × [[rate:US:landline]], billed per second
 - Pays in USD directly
 - No exchange rate confusion
-- Stable pricing
+- Priced in dollars, not pesos
 
-**Savings: $39+ depending on exchange rate**
+**Savings: most of the $40+ carrier cost, whatever the exchange rate**
 
 ### The Exchange Rate Makes Everything Complicated
 
-**Example: 45-minute call to Europe**
+**Example: 45-minute call to a landline in Spain**
 
 **Movistar:**
 - 1,100 ARS/min × 45 min = 49,500 ARS
@@ -155,11 +156,11 @@ Comparing with Argentina's complexity.
 - Difference: $69 based on payment method alone
 
 **NomaPhone:**
-- $0.03/min × 45 min = $1.35
-- Always same price
+- 45 min × [[rate:ES:landline]]
+- Same dollar price however you got your pesos
 - No currency risk
 
-**Savings: $53-122 depending on how you pay**
+**Savings: $50-120 depending on how you pay**
 
 ## Internet Quality in Buenos Aires
 
@@ -472,10 +473,10 @@ Real situations for nomads.
 
 **NomaPhone:**
 - 30 min × 22 days = 660 min/month
-- 660 × $0.03 = $19.80/month
-- Annual: $237.60
+- 660 × [[rate:US:landline]] per month
+- A small fraction of the carrier cost
 
-**Savings: $9,434 annually**
+**Savings: thousands of dollars annually**
 
 ### Calling Family in USA
 
@@ -489,10 +490,10 @@ Real situations for nomads.
 - Annual: ~$3,516
 
 **NomaPhone:**
-- 240 min × $0.03 = $7.20/month
-- Annual: $86.40
+- 240 min × [[rate:US:landline]] per month
+- A few dollars a month
 
-**Savings: $3,430 annually**
+**Savings: thousands of dollars annually**
 
 ### Calling European Clients
 
@@ -504,8 +505,8 @@ Real situations for nomads.
 - ~1,000 ARS/min
 
 **NomaPhone:**
-- $0.03/min
-- Stable USD pricing
+- [[rate:ES:both]]
+- Priced in USD
 - No currency risk
 
 ## Cost Comparisons with Currency Reality
@@ -520,10 +521,10 @@ Accounting for exchange rate complexity.
 - Annual: ~$800
 
 **NomaPhone:**
-- 50 min × $0.03 = $1.50/month
-- Annual: $18
+- 50 min × [[rate:US:landline]] per month
+- Less than the price of a coffee
 
-**Savings: $782 annually**
+**Savings: hundreds of dollars annually**
 
 ### Regular User (240 min/month mixed)
 
@@ -533,10 +534,10 @@ Accounting for exchange rate complexity.
 - Annual: ~$3,200
 
 **NomaPhone:**
-- 240 min × $0.04 avg = $9.60/month
-- Annual: $115.20
+- 240 min at the destination's per-minute rate (for example [[rate:US:landline]] to the US, [[rate:GB:landline]] to UK landlines)
+- Typically a few dollars to a few tens of dollars a month, depending on where you call
 
-**Savings: $3,085 annually**
+**Savings: thousands of dollars annually for most mixes**
 
 ## Common Problems and Solutions
 
@@ -595,7 +596,7 @@ Recommended setup for nomads.
 
 **Browser calling:**
 - Purpose: International calls
-- Cost: Pay in USD, from $0.03/min
+- Cost: Pay in USD, per minute (for example [[rate:US:landline]] to the US)
 - Use for: All overseas calls
 - Protects from currency volatility
 
@@ -656,11 +657,11 @@ The trade-offs are worth it.
 - Europe: 800-1,300 ARS/min (~$0.90-1.40)
 - Very expensive and prices change
 
-**Browser calling:**
-- USA/Canada: $0.03/min
-- Europe: $0.03-0.06/min
-- Stable USD pricing
-- 95%+ savings
+**Browser calling (NomaPhone):**
+- USA/Canada: [[rate:US:landline]]
+- Europe: varies by country, e.g. [[rate:ES:landline]] to Spanish landlines, [[rate:GB:landline]] to UK landlines
+- USD pricing
+- 95%+ savings on most routes
 
 **Currency situation:**
 - Official: ~400-500 ARS/USD
@@ -701,4 +702,4 @@ The trade-offs are worth it.
 
 ---
 
-**Working from Buenos Aires and need stable international calling prices?** NomaPhone offers browser-based calling at $0.03/minute to USA, charged in USD to avoid Argentina's currency volatility. Credits never expire. Join the waitlist at nomaphone.com.
+**Working from Buenos Aires and need predictable international calling prices?** NomaPhone calls the US at [[rate:US:landline]] from your browser, charged in USD so peso swings don't matter. No app, no account, and credit never expires. [Make a call](https://app.nomaphone.com)
