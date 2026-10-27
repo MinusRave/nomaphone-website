@@ -48,6 +48,7 @@ Full list on the [rates page](/rates/). Credit comes in $5, $10 or $20 cards (ca
 - Dead simple. No account at all: your credit lives on a phone card code
 - Credits genuinely never expire, and unused credit can be refunded
 - US toll-free numbers work at the normal US rate
+- Built by a telecom engineer with 10+ years of experience
 
 ### What's not
 

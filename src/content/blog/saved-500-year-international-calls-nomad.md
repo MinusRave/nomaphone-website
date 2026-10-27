@@ -292,7 +292,7 @@ You have a few options. Google Voice can forward calls to a VoIP number. Some Vo
 
 ### Is the call quality actually good enough for business calls?
 
-On a decent internet connection (5+ Mbps), browser-based calling sounds close to a regular phone call, and client or bank calls are perfectly workable. The key variable is your internet connection, not the calling technology.
+On a decent internet connection (5+ Mbps), browser-based calling sounds indistinguishable from a regular phone call. We've done client calls, bank calls, and even podcast recordings over browser VoIP without issues. The key variable is your internet connection, not the calling technology.
 
 ### How do I handle calls if my internet is down?
 

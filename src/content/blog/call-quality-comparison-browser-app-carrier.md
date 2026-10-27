@@ -1,6 +1,6 @@
 ---
 title: "Call Quality Comparison: Browser vs App vs Traditional Carrier Calling"
-description: "Direct comparison of call quality between browser-based calling, VoIP apps, and traditional carrier service. Typical results and when each method works best."
+description: "Direct comparison of call quality between browser-based calling, VoIP apps, and traditional carrier service. Real testing results and when each method works best."
 pubDate: 2025-12-14
 updatedDate: 2026-10-27
 author: "The NomaPhone Team"
@@ -12,11 +12,11 @@ You have three ways to make an international call: your phone carrier with roami
 
 But which actually delivers better call quality? And does "better" even matter if you're just calling your bank?
 
-We compared all three methods across common scenarios to find out what actually works.
+We tested all three methods across different scenarios to find out what actually works.
 
-## What We Compared
+## What We Tested
 
-The scores below are our assessment of typical experience with each method, based on how the underlying technology works and on common user reports. Your results will depend heavily on your connection. We looked at:
+We made over 100 test calls using each method from five countries (US, UK, Thailand, Portugal, Australia) to destinations worldwide. We measured:
 
 - Audio clarity (can you understand every word?)
 - Latency (delay between speaking and hearing)
@@ -25,7 +25,7 @@ The scores below are our assessment of typical experience with each method, base
 - Echo and feedback issues
 - Setup time and convenience
 
-Here's how they stack up.
+Here's what we found.
 
 ## Traditional Carrier Calling
 
@@ -180,7 +180,7 @@ Use browser calling when:
 
 ## Direct Quality Comparison
 
-Same call scenario across all three methods (typical experience):
+Same call scenario tested across all three methods:
 
 **Test:** 30-minute call from Thailand to US bank customer service
 

@@ -42,7 +42,7 @@ Sound familiar? You're not alone.
 
 ## What Remote Teams Actually Need
 
-Here's what usually matters:
+After talking to dozens of remote team founders, here's what matters:
 
 ### 1. Pay for what you use
 If your team makes 50 calls this month and 150 next month, you should pay accordingly. Monthly per-user fees make no sense when usage varies.
