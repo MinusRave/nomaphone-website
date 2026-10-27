@@ -57,6 +57,8 @@ Understanding the technical limitations.
 
 How to reach companies from abroad.
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ### Bank Customer Service
 
 **Major US Banks:**
@@ -73,12 +75,12 @@ How to reach companies from abroad.
 
 **Wells Fargo:**
 - Toll-free (doesn't work from a foreign phone): 1-800-869-3557
-- International: +1-800-869-3557 (same but try +1-415-477-4343 for headquarters)
+- International: +1-925-825-7600 (international collect line)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **Citi:**
 - Toll-free (doesn't work from a foreign phone): 1-800-374-9700
-- International: +1-210-677-0088
+- International: +1-605-335-2222 (credit cards, collect calls accepted)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **Capital One:**
@@ -89,18 +91,18 @@ How to reach companies from abroad.
 **UK Banks:**
 
 **Barclays:**
-- UK toll-free (doesn't work abroad): 0800-400-100
+- UK number: see [Barclays' help page](https://www.barclays.co.uk/help/)
 - International: +44-1624-684-444
 - Cost on NomaPhone: [[rate:GB:landline]]
 
 **HSBC:**
-- UK toll-free: 0345-740-4404
-- International: +44-2476-849-301
+- UK (local rate, not toll-free): 0345-740-4404
+- International: +44-1226-261-010
 - Cost on NomaPhone: [[rate:GB:landline]]
 
 **Lloyds:**
-- UK toll-free: 0345-300-0000
-- International: +44-1702-278-270
+- UK (local rate, not toll-free): 0345-300-0000
+- International: +44-1733-347-007 (lost or stolen cards abroad: +44-1702-278-270)
 - Cost on NomaPhone: [[rate:GB:landline]]
 
 ### Credit Card Companies
@@ -118,7 +120,7 @@ How to reach companies from abroad.
 - UK: +44-1273-696-933
 
 **Discover:**
-- International: +1-801-902-3100
+- International: +1-224-888-7777
 
 ### Airlines
 
@@ -126,17 +128,17 @@ How to reach companies from abroad.
 
 **Delta:**
 - Toll-free (doesn't work from a foreign phone): 1-800-221-1212
-- International: +1-404-715-2600 (Atlanta HQ)
+- International: use the number for your country on [Delta's help page](https://www.delta.com/us/en/need-help/overview)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **United:**
 - Toll-free (doesn't work from a foreign phone): 1-800-864-8331
-- International: +1-713-324-5000
+- International: use the number on [United's contact page](https://www.united.com/en/us/fly/contact.html)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **American:**
 - Toll-free (doesn't work from a foreign phone): 1-800-433-7300
-- International: +1-817-963-1234
+- International: use the number for your country on [American's reservations page](https://www.aa.com/web/i18n/customer-service/contact-american/reservations-and-ticket-changes.html)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **European Airlines:**
@@ -152,25 +154,24 @@ How to reach companies from abroad.
 - Cost on NomaPhone: [[rate:DE:landline]]
 
 **Air France:**
-- France: 09-69-39-02-15
-- International: +33-9-69-39-02-15
+- France: 09-69-39-36-54
+- International: +33-9-69-39-36-54
 - Cost on NomaPhone: [[rate:FR:landline]]
 
 ### Hotels and Travel
 
 **Marriott:**
-- Toll-free: 1-800-627-7468
-- International: +1-801-468-4000
+- Toll-free (reservations): 1-888-236-2427
+- International: use the number for your country on [Marriott's global reservation numbers page](https://www.marriott.com/help/global-phone-reservation-numbers.mi)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **Hilton:**
 - Toll-free: 1-800-445-8667
-- International: +1-703-883-1000
+- International: use the number for your country on [Hilton's global phone numbers page](https://www.hilton.com/en/help-center/global-phone-numbers/)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **Expedia:**
-- Toll-free: 1-877-227-7481
-- International: +1-404-728-8787
+- Phone: use only the number shown in [Expedia's Help Center](https://www.expedia.com/helpcenter/) (Expedia warns about fake support numbers)
 - Cost on NomaPhone: [[rate:US:landline]]
 
 **Booking.com:**
@@ -533,19 +534,19 @@ Who offers callback and how to use it.
 **US Banks:**
 - Chase: +1-713-262-3300
 - BofA: +1-315-724-4022
-- Citi: +1-210-677-0088
-- Wells Fargo: +1-415-477-4343
+- Citi: +1-605-335-2222
+- Wells Fargo: +1-925-825-7600
 - Capital One: +1-804-934-2001
 
 **UK Banks:**
 - Barclays: +44-1624-684-444
-- HSBC: +44-2476-849-301
-- Lloyds: +44-1702-278-270
+- HSBC: +44-1226-261-010
+- Lloyds: +44-1733-347-007
 
 **US Airlines:**
-- Delta: +1-404-715-2600
-- United: +1-713-324-5000
-- American: +1-817-963-1234
+- Delta: see [Delta's help page](https://www.delta.com/us/en/need-help/overview)
+- United: see [United's contact page](https://www.united.com/en/us/fly/contact.html)
+- American: see [American's reservations page](https://www.aa.com/web/i18n/customer-service/contact-american/reservations-and-ticket-changes.html)
 
 **Credit Cards:**
 - Visa: +1-303-967-1096

@@ -65,14 +65,16 @@ Here are the international contact numbers for major US banks and card issuers:
 
 | Bank / Issuer | International Number | What to Say |
 |---|---|---|
-| Chase | +1-713-262-3300 | "Fraud alert on my account, I'm traveling internationally" |
-| Bank of America | +1-315-724-4022 | "I need to remove a travel restriction on my card" |
-| Wells Fargo | +1-925-825-7600 | "My card was declined abroad, I need the fraud hold lifted" |
-| Citi | +1-210-677-0065 | "I'm calling about a blocked transaction while traveling" |
+| Chase | Credit cards: +1-302-594-8200; bank accounts and debit cards: +1-713-262-3300 | "Fraud alert on my account, I'm traveling internationally" |
+| Bank of America | Credit cards: +1-302-738-5719; debit cards: +1-315-724-4022 (collect) | "I need to remove a travel restriction on my card" |
+| Wells Fargo | +1-925-825-7600 (collect) | "My card was declined abroad, I need the fraud hold lifted" |
+| Citi | +1-605-335-2222 (collect) | "I'm calling about a blocked transaction while traveling" |
 | American Express | +1-336-393-1111 | "My card was declined internationally" |
 | Capital One | +1-804-934-2001 | "I need to verify a transaction flagged as fraud" |
-| Discover | +1-801-902-3100 | "Card declined while traveling, need the hold removed" |
+| Discover | +1-224-888-7777 | "Card declined while traveling, need the hold removed" |
 | US Bank | +1-503-401-9991 | "Fraud alert on my card, I'm overseas" |
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 Save these numbers in your phone before your next trip. Seriously, do it right now.
 

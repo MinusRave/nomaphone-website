@@ -191,13 +191,15 @@ Here are the direct (non-toll-free) numbers for major Canadian banks:
 
 | Bank | Direct Number (from abroad) |
 |---|---|
-| RBC Royal Bank | +1 416 974 7780 |
-| TD Canada Trust | +1 416 982 7250 |
-| Scotiabank | +1 416 701 7200 |
-| BMO Bank of Montreal | +1 514 877 1101 |
-| CIBC | +1 416 980 3300 |
+| RBC Royal Bank | +1 506 864 2275 (telephone banking, collect); credit cards: +1 416 974 7780 (collect) |
+| TD Canada Trust | +1 416 983 5393 (EasyLine, collect) |
+| Scotiabank | +1 416 701 7200 (collect) |
+| BMO Bank of Montreal | See [BMO's official contact information](https://www.bmo.com/en-ca/main/about-bmo/our-impact/colleagues/accessibility/) |
+| CIBC | +1 902 420 2422 |
 
 These are the numbers that work when you're dialing from outside Canada. The 1-800 numbers on their websites won't connect from most international phones, though a browser service that supports North American toll-free numbers (NomaPhone does) can usually reach them.
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 **Pro tip:** Call during Eastern Time business hours. Canadian bank hold times are shortest between 8-9 AM ET on weekdays. With a service like NomaPhone ([[rate:CA:landline]], billed per second), even a long hold costs very little. One thing to know: NomaPhone calls are capped at 30 minutes, so if you're stuck on hold that long, you'll need to dial again.
 
@@ -205,13 +207,13 @@ These are the numbers that work when you're dialing from outside Canada. The 1-8
 
 If you're a Canadian citizen living abroad, you'll occasionally need to reach government offices. These calls are rarely quick.
 
-**Service Canada (general):** +1 613 990 2244 (from outside Canada)
+**Service Canada (general):** use the numbers on [Canada.ca's page for calling from outside Canada](https://www.canada.ca/en/employment-social-development/corporate/contact/1-800-o-canada-international.html)
 
-**CRA (Canada Revenue Agency):** +1 613 940 8496 (individual tax inquiries from abroad)
+**CRA (Canada Revenue Agency):** +1 613 940 8495 (individual tax inquiries from abroad)
 
 **Passport Canada:** +1 819 997 8338
 
-**IRCC (Immigration):** +1 613 321 4063
+**IRCC (Immigration):** phone support is for callers in Canada only; from abroad, use [IRCC's web form](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/client-support-centre.html)
 
 Government hold times can be brutal. Budget for 30-60 minutes minimum. At carrier roaming rates, that's $30-180. With browser-based VoIP at a few cents per minute (NomaPhone: [[rate:CA:landline]]), the same time on the line costs a small fraction of that.
 

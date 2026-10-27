@@ -385,12 +385,14 @@ Example: 011-91-98XXXX-XXXX
 - Check bank website for "calling from abroad" numbers
 
 **Airlines:**
-- Air India: +1-800-223-7776 (US number)
+- Air India: +1-888-634-1407 (US toll-free)
 - IndiGo: +91-124-6173838 (from abroad)
 
 **Embassies:**
 - Indian Embassy DC: +1-202-939-7000
 - Indian Consulates in US: Save local numbers
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 ### Calling Indian Government Offices
 
@@ -578,7 +580,7 @@ Based on what works for most people:
 
 **Emergency India contacts from US:**
 - Indian Embassy DC: +1-202-939-7000
-- Consular services: +1-202-939-9806
+- Consular wing: +1-202-939-9806 (passport and visa applications now go through VFS Global)
 
 **Best times to call:**
 - Morning US (EST) = Evening India (personal calls)

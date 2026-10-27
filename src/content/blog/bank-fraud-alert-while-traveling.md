@@ -184,10 +184,10 @@ Your bank's 1-800 number usually won't work from a foreign SIM or hotel phone (b
 - **Chase:** +1-713-262-3300
 - **Bank of America:** +1-315-724-4022
 - **Wells Fargo:** +1-925-825-7600
-- **Citi:** +1-210-677-0065
+- **Citi:** +1-605-335-2222 (credit cards, collect)
 - **Capital One:** +1-804-934-2001
 
-These are non-toll-free numbers you can dial from anywhere in the world.
+These are non-toll-free numbers you can dial from anywhere in the world. Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 ## Quick Reference Checklist
 

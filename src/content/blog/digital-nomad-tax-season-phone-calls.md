@@ -16,6 +16,8 @@ If you're a US citizen or green card holder living abroad, you still owe Uncle S
 
 This guide covers every number you might need, when to call, what to expect, and how to do it without burning through your monthly budget on roaming charges.
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ## The IRS International Line: Your Most Important Number
 
 The IRS has a dedicated international number for taxpayers abroad. This is the one to save.
@@ -109,7 +111,7 @@ If you receive Social Security benefits while abroad, or need to verify your ear
 
 Wait — that's a toll-free number. It won't work from abroad, right? Correct. But there's a workaround.
 
-**TTY line that works internationally**: +1 800-325-0778
+**SSA's number for callers outside the US**: +1 410-965-0160 (not toll-free, so it connects from abroad. The 800-325-0778 number you may see is SSA's TTY line for deaf and hard-of-hearing callers, not an international line.)
 
 For most nomads, the practical solution is to use a calling service that can reach US toll-free numbers from abroad. NomaPhone calls 800, 888, 877, 866, 855, 844 and 833 numbers from your browser at the normal US rate ([[rate:US:landline]]).
 
@@ -134,13 +136,13 @@ If you have foreign bank accounts totaling more than $10,000 at any point during
 
 Again, toll-free — so you'll need a service that can connect through a US number.
 
-**FinCEN FBAR Help Line**: +1 866-270-0733
+**IRS FBAR Help Line**: +1 866-270-0733 (from outside the US: +1 313-234-6146)
 
-Same deal. Toll-free, needs a US-originating call.
+The IRS runs this one, not FinCEN. The 866 number is toll-free and US-only, so either use the +1 313 number or a service that can reach US toll-free numbers.
 
 ### Hours
 
-Monday through Friday, 8:00 AM to 6:00 PM Eastern.
+Monday through Friday, 8:00 AM to 6:00 PM Eastern (the IRS FBAR line closes at 4:30 PM Eastern).
 
 Hold times are generally shorter than IRS — typically 5 to 15 minutes.
 
@@ -155,7 +157,7 @@ Hold times are generally shorter than IRS — typically 5 to 15 minutes.
 
 If you're self-employed abroad — and most digital nomads are — you probably make quarterly estimated tax payments. When a payment doesn't process, or you need to adjust your estimates, you'll need to call.
 
-**IRS Estimated Tax Line**: +1 267-941-1000 (same international number)
+**IRS international line (for estimated tax questions too)**: +1 267-941-1000 (the same general international number; there's no separate estimated tax line)
 
 When you get through, ask to be transferred to the estimated tax department.
 
@@ -275,7 +277,7 @@ Quick reference — screenshot this or save it to your notes.
 | Colorado Revenue | +1 303-238-7378 | Mon-Fri 8 AM - 4:30 PM MT |
 | SSA | +1 800-772-1213 | Mon-Fri 8 AM - 7 PM |
 | FinCEN Help Line | +1 800-767-2825 | Mon-Fri 8 AM - 6 PM |
-| FinCEN FBAR Line | +1 866-270-0733 | Mon-Fri 8 AM - 6 PM |
+| IRS FBAR Line | +1 866-270-0733 (abroad: +1 313-234-6146) | Mon-Fri 8 AM - 4:30 PM |
 
 ---
 

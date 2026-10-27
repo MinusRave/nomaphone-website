@@ -231,27 +231,31 @@ Let's use Chase Bank as example:
 
 Here are direct numbers that work from abroad:
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ### Banks
 
 **Chase:**
 - Toll-free (US only): 1-800-935-9935
-- International: +1-713-262-3300
+- International (checking, savings, debit cards): +1-713-262-3300
+- Credit cards from abroad: +1-302-594-8200
 
 **Bank of America:**
 - Toll-free: 1-800-432-1000
-- International: +1-315-724-4022
+- International (collect calls accepted): +1-315-724-4022
 
 **Wells Fargo:**
 - Toll-free: 1-800-869-3557
-- International: +1-651-450-4064
+- International (collect calls accepted): +1-925-825-7600
 
 **Citibank:**
 - Toll-free: 1-800-374-9700
-- International: +1-210-677-3789
+- International, credit cards (collect calls accepted): +1-605-335-2222
+- Citigold clients abroad: +1-210-677-3789
 
 **Capital One:**
 - Toll-free: 1-800-227-4825
-- International: +1-804-934-2001
+- International (collect calls accepted): +1-804-934-2001
 
 ### Credit Cards
 
@@ -261,42 +265,42 @@ Here are direct numbers that work from abroad:
 
 **Visa (most issuers):**
 - Check specific bank's international number
-- Visa itself: +1-303-967-1096
+- Visa Global Customer Assistance (collect calls accepted): +1-303-967-1096
 
 **Mastercard:**
 - Toll-free: 1-800-627-8372
 - International: +1-636-722-7111
 
 **Discover:**
-- International: +1-801-902-3100
+- International: +1-224-888-7777
 
 ### Airlines
 
 **United:**
 - Toll-free: 1-800-864-8331
-- International: +1-713-324-5401
+- International: use the number for your country on [United's contact page](https://www.united.com/en/us/fly/contact.html)
 
 **American Airlines:**
 - Toll-free: 1-800-433-7300
-- International: +1-817-967-2000
+- International: American lists country-specific numbers on [its reservations contact page](https://www.aa.com/web/i18n/customer-service/contact-american/reservations-and-ticket-changes.html)
 
 **Delta:**
 - Toll-free: 1-800-221-1212
-- International: +1-404-715-2600
+- International: use the country-specific number on [Delta's contact page](https://www.delta.com/us/en/need-help/overview)
 
 **Southwest:**
 - Toll-free: 1-800-435-9792
-- International: +1-214-932-0333
+- International: see [Southwest's contact page](https://support.southwest.com/helpcenter/contact-us)
 
 ### Insurance
 
 **State Farm:**
-- Toll-free: 1-800-STATE-FARM
+- Toll-free: use the number on [State Farm's website](https://www.statefarm.com/)
 - Corporate: +1-309-766-2311
 
 **Geico:**
 - Toll-free: 1-800-861-8380
-- International: +1-301-986-3000
+- International: see [GEICO's phone contact page](https://www.geico.com/contact-us/phone/)
 
 **Progressive:**
 - Toll-free: 1-800-776-4737
@@ -306,7 +310,7 @@ Here are direct numbers that work from abroad:
 
 **IRS:**
 - Toll-free: 1-800-829-1040
-- International: +1-267-941-1000
+- International (not toll-free): +1-267-941-1000
 
 **Social Security:**
 - Toll-free: 1-800-772-1213

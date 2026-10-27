@@ -275,6 +275,8 @@ Real situations digital nomads face.
 
 **Problem:** Most US banks have toll-free numbers that don't work from abroad.
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 **Example - Bank of America:**
 - Main: 1-800-432-1000 (doesn't work)
 - International: +1-315-724-4022 (works, but expensive on MEO)

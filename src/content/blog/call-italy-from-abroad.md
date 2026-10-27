@@ -129,6 +129,8 @@ Italian institutional phone systems sometimes disconnect after extended holds. A
 
 ## How to Call Italian Institutions: Step-by-Step
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ### Calling INPS From Abroad
 
 1. Dial +39 06 164 164 (the international number, not 803 164)
@@ -140,16 +142,16 @@ Italian institutional phone systems sometimes disconnect after extended holds. A
 ### Calling an Italian Bank From Abroad
 
 1. Find the bank's international number on their website (not the 800 number)
-   - Intesa Sanpaolo: +39 011 801 9001
+   - Intesa Sanpaolo: +39 011 801 9200
    - UniCredit: +39 02 3340 8973
-   - Banco BPM: +39 02 7700 0750
+   - Banco BPM: use the number on [Banco BPM's contact page](https://www.bancobpm.it/contatti/)
 2. Navigate the phone tree — "operatore" or pressing 0 usually gets you to a person
 3. Have your account number (numero conto) and codice fiscale ready
 4. Best calling window: 9:00-11:00 CET
 
 ### Calling Agenzia delle Entrate From Abroad
 
-1. Dial +39 06 9696 (the standard contact number)
+1. Dial the number listed on [Agenzia delle Entrate's phone assistance page](https://www.agenziaentrate.gov.it/portale/web/guest/contatta/assistenza-fiscale/con-una-chiamata) (phone assistance may require booking an appointment first)
 2. The system will ask for your codice fiscale
 3. Select your inquiry type from the menu
 4. Best calling window: 8:30-9:30 CET, early in the week
@@ -174,7 +176,7 @@ Italy's phone challenges — long holds, lunch breaks, Italian-only menus — ma
 
 **Key numbers**:
 - INPS (from abroad): +39 06 164 164
-- Agenzia delle Entrate: +39 06 9696
+- Agenzia delle Entrate: see [its phone assistance page](https://www.agenziaentrate.gov.it/portale/web/guest/contatta/assistenza-fiscale/con-una-chiamata)
 - Emergency (from any phone): 112
 
 **Business hours**: 8:30-13:00, 14:30-17:00 CET (Mon-Fri)

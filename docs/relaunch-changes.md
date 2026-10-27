@@ -783,3 +783,27 @@ Legend: one section per post; "doubts" = things for a human to check.
 - waitlist CTA ($0.03) → app CTA; updatedDate set
 - generic browser-calling price ranges kept
 - doubts: none
+
+---
+
+## Round 2 (2026-10-27, after owner answers)
+
+- **Pre-sale/waitlist retired**: `/reserve-credits/` and `/thank-you-page/` deleted, 301 → `/` in `public/_redirects`; pre-sale Stripe dependency and `.env` placeholders removed; unused legacy components removed.
+- **Founder story confirmed true**: restored "Built by a telecom engineer with 10+ years of experience" (skype-credits-gone-5-alternatives), founder line and "feedback from hundreds of digital nomads" (skype-shut-down-7-best-alternatives…), "We tested… 100 test calls" framing (call-quality-comparison-browser-app-carrier), "After talking to dozens of remote team founders" (international-calling-remote-teams-guide), "We've done client calls…" (saved-500-year-international-calls-nomad).
+- **Frontmatter normalized**: author "The NomaPhone Team" on all posts, unquoted dates; duplicate in-body H1 removed from 9 .mdx posts.
+- **Legal**: `/terms` and `/privacy` now carry the app's legal text (placeholders kept) plus a note on Google Analytics on this website.
+- **Duplicate-intent posts merged** (kept URL chosen by GSC clicks/impressions, 12 months to 2026-10-27; DROP deleted and 301'd, internal links updated):
+
+| Kept (clicks / impressions) | Merged and redirected (clicks / impressions) |
+|---|---|
+| how-to-keep-us-number-while-living-abroad (25 / 2,021) | maintain-us-phone-number-abroad (2 / 690) |
+| international-sms-2fa-codes-abroad (64 / 15,336) | receive-sms-otp-abroad-no-roaming (2 / 1,196) |
+| international-calling-from-indonesia-bali (0 / 148) | international-calling-from-bali (no GSC data) |
+| how-to-call-us-toll-free-numbers-from-anywhere (1 / 198) | call-800-numbers-from-outside-us (0 / 55) |
+| mobile-vs-landline-international-costs (1 / 42) | calling-landlines-vs-mobile-numbers-cost (0 / 32) |
+| virtual-phone-numbers-international-guide (4 / 1,664) | virtual-number-for-digital-nomads-guide (0 / 1) |
+| skype-shut-down-7-best-alternatives-for-international-calling-in-2025 (7 / 4,332) | skype-alternative-for-international-calling (3 / 777) |
+| how-to-call-india-from-usa-rates-methods-best-practices (0 / 48) | call-india-from-usa-browser (1 / 14) |
+
+- **Phone numbers**: all institution numbers verified against official sites; see `docs/phone-numbers-verification.md`.
+- **Design system** rewritten for the pixel/paper direction; README rewritten; `scripts/expand-blogs.js` prompt facts fixed; `*:Zone.Identifier` files removed and ignored.

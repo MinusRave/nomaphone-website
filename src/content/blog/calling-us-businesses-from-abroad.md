@@ -95,6 +95,8 @@ How to reach companies when toll-free fails.
 - Chase: 1-800-935-9935 (domestic) / +1-713-262-3300 (international)
 - Amex: 1-800-528-4800 (domestic) / +1-336-393-1111 (international)
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ### Investor Relations Numbers
 
 **Public companies must provide:**
@@ -297,8 +299,8 @@ Different industries, different challenges.
 **Major banks international numbers:**
 - Chase: +1-713-262-3300
 - Bank of America: +1-315-724-4022
-- Wells Fargo: +1-800-869-3557 (sometimes works)
-- Citi: +1-210-677-0088
+- Wells Fargo: +1-925-825-7600 (international collect)
+- Citi: +1-605-335-2222 (credit cards, collect)
 
 ### Insurance Companies
 
@@ -314,9 +316,9 @@ Different industries, different challenges.
 - Email documentation first
 
 **Major insurers:**
-- UnitedHealth: +1-952-936-1300
-- Anthem: +1-800-331-1476 (may need alternative)
-- Aetna: +1-860-273-0123
+- UnitedHealthcare: use the member number on your insurance card (see [UnitedHealth Group's contact page](https://www.unitedhealthgroup.com/contact-us.html))
+- Anthem: +1-800-331-1476 (general line for non-members; members use the number on their ID card)
+- Aetna: use the member number on your insurance card (see [Aetna's contact page](https://www.aetna.com/about-us/contact-aetna.html))
 
 ### Credit Card Companies
 

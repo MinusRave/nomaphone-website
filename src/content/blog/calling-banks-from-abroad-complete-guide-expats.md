@@ -28,7 +28,7 @@ Calling a bank from abroad is harder than calling almost anyone else. Banks don'
 
 **The safest source for your bank's number is the back of your card, your bank's app, or its official website.** Bank phone numbers change, and fake "customer service" numbers in search ads and on scam sites are a known fraud tactic. Never call a number given in an unexpected text or email; look it up yourself.
 
-With that caveat, these are the overseas numbers major US banks have published for customers abroad. Verify against your card or the bank's site before calling.
+With that caveat, these are the overseas numbers major US banks have published for customers abroad. Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 | Bank | From abroad (check your card/app) | US toll-free also works via browser calling |
 |---|---|---|

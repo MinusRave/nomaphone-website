@@ -377,11 +377,13 @@ Real situations digital nomads face in Germany.
 
 **Example - Bank of America:**
 - Main: 1-800-432-1000 (doesn't connect from a German SIM)
-- International: +1-315-724-4022
+- International (collect calls accepted): +1-315-724-4022
 - German carrier: €1.30/min
 - NomaPhone: [[rate:US:landline]] to either number (US toll-free numbers are charged at the normal US rate)
 
 **Solution:** Save international numbers before issues arise.
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 ### Calling UK Post-Brexit
 

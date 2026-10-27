@@ -327,6 +327,8 @@ Real situations digital nomads face in Spain.
 
 **Problem:** US toll-free numbers don't work from Spain.
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 **Example - Chase:**
 - Main: 1-800-935-9935 (doesn't connect)
 - International: +1-713-262-3300 (works, but €1.30/min on Movistar)

@@ -61,11 +61,11 @@ Again, drop the leading zero. The 010 becomes 10 after the country code.
 Korea has special service numbers that can trip you up:
 
 - **1330** -- Korea Tourism Hotline (multilingual). From abroad: +82 2 1330
-- **1345** -- Immigration Contact Center. From abroad: +82 2 1345
+- **1345** -- Immigration Contact Center. From abroad: +82 1345
 - **120** -- Seoul Metropolitan Government call center
 - **1588-xxxx / 1566-xxxx / 1577-xxxx** -- Corporate service numbers
 
-Those four-digit numbers (like 1330 and 1345) need a Seoul area code prefix when calling internationally. So 1345 becomes +82 2 1345.
+Those four-digit numbers work differently from abroad. The Tourism Hotline takes the Seoul area code (+82 2 1330), while the Immigration Contact Center is dialed with no area code at all: +82 1345.
 
 The 1588/1566/1577 corporate numbers are trickier. Many of them don't accept international calls at all. If you're trying to reach KB Kookmin Bank or Samsung customer service through one of these numbers, you may need to find their direct international line instead.
 
@@ -73,10 +73,12 @@ The 1588/1566/1577 corporate numbers are trickier. Many of them don't accept int
 
 Here are the numbers you're most likely searching for:
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ### Immigration (HIKOREA)
 
 - **From Korea:** 1345
-- **From abroad:** +82 2 1345
+- **From abroad:** +82 1345
 - Multilingual support available (English, Chinese, Vietnamese, and more)
 - Hours: Monday to Friday, 9 AM - 6 PM KST
 
@@ -87,11 +89,11 @@ Here are the numbers you're most likely searching for:
 - English support available during business hours
 
 **KB Kookmin Bank:**
-- From abroad: +82 2 2073-7100
-- The 1588-9999 domestic number often won't connect from outside Korea
+- From abroad: +82 2 6300 9999 (KB Global Customer Center)
+- The domestic 1588 call-center number often won't connect from outside Korea
 
 **Hana Bank:**
-- From abroad: +82 2 2002-1111
+- From abroad: +82 42 520 2500 (overseas customer center)
 
 **Woori Bank:**
 - From abroad: +82 2 2006-5000
@@ -100,8 +102,8 @@ Pro tip: Korean banks typically have English-speaking staff during business hour
 
 ### Emergency and Government
 
-- **Police:** +82 2 112 (from abroad, add Seoul prefix)
-- **Fire/Ambulance:** +82 2 119
+- **Police:** 112 (inside Korea only; it can't be dialed from abroad)
+- **Fire/Ambulance:** 119 (inside Korea only)
 - **Korea Tourism Hotline:** +82 2 1330 (English available 24/7)
 
 Note that internet calling services, NomaPhone included, can't connect you to emergency numbers. Use a local phone for emergencies.
@@ -253,7 +255,7 @@ Take the Korean number and convert it:
 
 - **Landline (02) 1234-5678** becomes **+82 2 1234 5678**
 - **Mobile 010-1234-5678** becomes **+82 10 1234 5678**
-- **Service number 1345** becomes **+82 2 1345**
+- **Service number 1330** becomes **+82 2 1330** (but the immigration line 1345 is dialed as **+82 1345**, no area code)
 
 Drop the leading zero. Always.
 
@@ -279,7 +281,7 @@ If calling a bank or government office, be ready to wait through Korean menu opt
 | Seoul area code | 02 (dial as 2 from abroad) |
 | Mobile prefix | 010 (dial as 10 from abroad) |
 | Emergency (police) | 112 |
-| Immigration | +82 2 1345 |
+| Immigration | +82 1345 |
 | Time zone | KST (UTC+9, no daylight saving) |
 | Business hours | 9 AM - 6 PM KST, Mon-Fri |
 | Dominant messenger | KakaoTalk |
@@ -305,7 +307,7 @@ Yes, international SMS works to Korean mobile numbers. But it's expensive throug
 
 ### What if the Korean office I'm calling doesn't have English support?
 
-Try BBB Korea at +82 2 1588 5644. Their volunteers can interpret for you. Alternatively, Papago (Korea's version of Google Translate) has a conversation mode that works surprisingly well for simple interactions -- though obviously not ideal over the phone.
+Try BBB Korea, using the number on [its official site](https://www.bbbkorea.org). Their volunteers can interpret for you. Alternatively, Papago (Korea's version of Google Translate) has a conversation mode that works surprisingly well for simple interactions -- though obviously not ideal over the phone.
 
 ---
 

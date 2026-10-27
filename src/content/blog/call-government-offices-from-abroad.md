@@ -160,6 +160,8 @@ Here are the methods that work for calling US government offices from abroad, ra
 
 Each agency has its quirks. Here's what actually works:
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 ### IRS (Internal Revenue Service)
 
 **Main number:** 1-800-829-1040 (Individual taxes)

@@ -34,10 +34,12 @@ Why expats need reliable calling to home country banks.
 - Axis Bank: Address change verification
 
 **Numbers to save:**
-- ICICI: +91-22-2653-1414
-- HDFC: +91-22-6160-6161
-- SBI: +91-80-2659-8990
-- Axis: +91-80-4640-4444
+- ICICI: +91-40-3099-8025
+- HDFC: +91-22-6160-6160
+- SBI: +91-80-2659-9990
+- Axis: +91-40-6717-4100
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 **Cost reality:**
 - US carrier: $2-3/min
@@ -63,9 +65,9 @@ Why expats need reliable calling to home country banks.
 
 **Numbers to save:**
 - Barclays: +44-1624-684-444
-- HSBC: +44-2476-849-301
-- Lloyds: +44-1702-278-270
-- Nationwide: +44-1793-655-486
+- HSBC: +44-1226-261-010
+- Lloyds: +44-1733-347-007 (lost or stolen cards abroad: +44-1702-278-270)
+- Nationwide: +44-1793-656-789
 
 **Expat challenge:** Toll-free numbers (0800) don't work internationally. Always get 01/02 alternatives.
 
@@ -86,8 +88,8 @@ Why expats need reliable calling to home country banks.
 **Numbers to save:**
 - Chase: +1-713-262-3300
 - Bank of America: +1-315-724-4022
-- Citi: +1-210-677-0088
-- Wells Fargo: +1-800-869-3557
+- Citi: +1-605-335-2222 (credit cards, collect)
+- Wells Fargo: +1-925-825-7600 (international collect)
 
 **Why it matters:** Missing FATCA updates can result in account closure.
 
@@ -165,7 +167,7 @@ Official calls you cannot avoid.
 
 **Numbers needed:**
 - HMRC: +44-135-535-9022
-- Home Office: +44-300-790-6268
+- Home Office (UKVI): +44-20-3875-4669 (from outside the UK)
 
 ### Indian Government Services
 
@@ -176,8 +178,8 @@ Official calls you cannot avoid.
 - Property registration verification
 
 **Numbers needed:**
-- UIDAI (Aadhaar): +91-1947
-- Passport: +91-11-2671-8899
+- UIDAI (Aadhaar): use the number on [UIDAI's contact page](https://uidai.gov.in/en/contact-support.html)
+- Passport: use [Passport Seva's contact page](https://www.passportindia.gov.in/psp/contactUs), or the embassy or consulate that issued your passport
 - Various state offices for property
 
 **Challenge:** Government lines are perpetually busy. Multiple call attempts normal.
@@ -192,7 +194,7 @@ Official calls you cannot avoid.
 
 **Numbers needed:**
 - Australian Taxation Office: +61-2-6216-1111
-- Medicare: +61-2-6222-2222
+- Medicare: +61-2-8633-3284 (from outside Australia)
 - Department of Home Affairs: +61-2-6196-0196
 
 ## Property Management Requirements

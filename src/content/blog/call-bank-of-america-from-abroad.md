@@ -27,10 +27,12 @@ Here's the number most people don't know about. Bank of America has a dedicated 
 
 You can also try their standard customer service lines:
 
-- **1-800-432-1000** — Main customer service (toll-free, US only)
-- **1-315-724-4022** — International collect call line
-- **1-800-732-9194** — Lost/stolen debit cards
-- **1-800-236-6497** — Lost/stolen credit cards
+- **1-800-432-1000** — Main customer service, including lost/stolen debit cards (toll-free, US only)
+- **1-315-724-4022** — International collect call line (banking and debit cards)
+- **1-800-732-9194** — Credit card customer service, including lost/stolen credit cards
+- **1-302-738-5719** — Credit cards from outside the US, including lost/stolen credit cards
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 For fraud and security issues — which is the most common reason you're calling from abroad — the international number is your best bet.
 
@@ -178,9 +180,9 @@ Note that NomaPhone doesn't receive SMS or 2FA codes — it's outgoing voice cal
 **What it's for:** General customer service, fraud, account issues from outside the US
 
 **Main US numbers (work via VoIP/browser calling):**
-- Customer service: 1-800-432-1000
-- Lost/stolen debit card: 1-800-732-9194
-- Lost/stolen credit card: 1-800-236-6497
+- Customer service and lost/stolen debit card: 1-800-432-1000
+- Credit cards and lost/stolen credit card: 1-800-732-9194
+- Credit cards from abroad: 1-302-738-5719
 
 **Cheapest calling methods from abroad:**
 

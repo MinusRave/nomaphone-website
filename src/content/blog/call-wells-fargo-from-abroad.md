@@ -21,6 +21,8 @@ This guide gives you everything you need: the right number to call, what it actu
 
 Here's what you actually need. Save these before your next trip.
 
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
+
 **General Customer Service (International)**
 - Phone: **+1-925-825-7600**
 - This is Wells Fargo's international collect call number
@@ -29,7 +31,7 @@ Here's what you actually need. Save these before your next trip.
 
 **Credit Card Services**
 - Phone: **+1-925-825-7600** (same number handles credit card issues)
-- For lost/stolen cards: **+1-925-825-7600** (tell the automated system or first agent)
+- For lost/stolen cards: **+1-925-825-7600** for personal cards (tell the automated system or first agent); business cards use **+1-916-480-3190**
 
 **Online Banking / Account Lockouts**
 - Phone: **+1-925-825-7600**

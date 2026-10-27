@@ -23,15 +23,17 @@ There's a better way. Several, actually. Let's break them all down.
 
 Chase doesn't make this easy to find on their website, so here's what you need to know.
 
-**Chase's international collect-call number is 1-713-262-3300.** This is the number Chase tells overseas customers to use. It's not toll-free — it's a regular US number based in Houston, Texas.
+**Chase's number for customers calling from outside the US is 1-713-262-3300.** This is the number Chase lists for personal checking, savings and debit card customers abroad. It's not toll-free — it's a regular US number based in Houston, Texas.
 
 Their standard US customer service number is 1-800-935-9935, but here's the catch: toll-free numbers starting with 800, 888, 877, or 866 generally don't work from outside the United States. If you try calling that 800 number from your Portuguese SIM card, you'll either get a "number not reachable" error or dead silence. (Some internet calling services are an exception: NomaPhone, for example, dials US toll-free numbers from abroad at its normal US rate.)
 
 Some other useful Chase numbers:
 
-- **Credit card services**: 1-800-432-3117 (US toll-free) or use 1-713-262-3300 from abroad
-- **Fraud department**: 1-800-935-9935, option 3 (again, use the international number abroad)
+- **Credit card services**: 1-800-432-3117 (US toll-free) or 1-302-594-8200 from abroad
+- **Fraud department**: 1-800-935-9935, option 8 for personal banking fraud; credit card fraud is 1-800-955-9060, option 2 (from abroad, use 1-713-262-3300, or 1-302-594-8200 for credit cards)
 - **Private client**: Your advisor's direct line (check your statements)
+
+Numbers checked against each institution's official site in October 2026; always confirm on the back of your card or the official site.
 
 The 713 number routes you to the same customer service system. Same menus, same hold times, same agents. The only difference is how much you pay to sit through it all.
 
@@ -197,7 +199,7 @@ Chase does offer callbacks in some cases, but they typically call US phone numbe
 
 ### Is the 713 number safe? I found it online and I'm worried it's a scam.
 
-1-713-262-3300 is listed on the back of Chase credit cards and in Chase's official documentation as their international customer service number. Always verify by checking the number on your physical card or on chase.com directly. Never call a number you found in a random email or text.
+1-713-262-3300 is listed on chase.com (on Chase's fraud-reporting page) as the number for customers calling from outside the US. Always verify by checking the number on your physical card or on chase.com directly. Never call a number you found in a random email or text.
 
 ### What if my Chase card is frozen and I can't buy VoIP credits?
 
