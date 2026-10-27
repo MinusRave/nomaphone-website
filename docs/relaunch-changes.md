@@ -807,3 +807,8 @@ Legend: one section per post; "doubts" = things for a human to check.
 
 - **Phone numbers**: all institution numbers verified against official sites; see `docs/phone-numbers-verification.md`.
 - **Design system** rewritten for the pixel/paper direction; README rewritten; `scripts/expand-blogs.js` prompt facts fixed; `*:Zone.Identifier` files removed and ignored.
+
+## Round 3: China removed (2026-10-27)
+- `npm run rates:sync`: 60 countries (CN removed; carrier doesn't enable China for now).
+- call-china-from-abroad: URL/title/advice kept; NomaPhone row and section removed, states plainly NomaPhone can't call China at the moment, points to WeChat/app-based services/carrier/calling cards; closing CTA is general (other countries incl. Hong Kong and Taiwan).
+- international-calling-rates-2025-by-destination and skype-shut-down-7-best-alternatives…: China marked as not available for NomaPhone.

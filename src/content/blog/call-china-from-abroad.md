@@ -111,10 +111,9 @@ Here's how the main ways to call China from abroad compare. Third-party prices a
 | Carrier international add-on | Yes | Yes | Plan required | Varies by plan |
 | WeChat voice call | No (app-to-app only) | No (app-to-app only) | Yes, both sides | Free (uses data) |
 | Calling apps with phone-number calling (Viber Out, Rebtel, Google Voice for US users) | Yes | Yes | Yes | Often a few cents |
-| NomaPhone (browser) | Yes | Yes | No | [[rate:CN:both]] |
 | Calling card | Yes | Yes | No | A few cents, plus fees |
 
-Be clear-eyed about this table: for China, NomaPhone is **not** the cheapest way to call. App-to-app WeChat calls are free, and several app-based calling services list lower per-minute rates to Chinese numbers. Where NomaPhone fits is covered below.
+A note on our own product: **NomaPhone can't call China at the moment.** Our carrier doesn't currently enable calls to Chinese numbers, so China isn't on our [rates list](/rates/). Use one of the other methods in this table instead.
 
 ## Carrier Roaming: Reliable but Expensive
 
@@ -136,9 +135,7 @@ Internet calling services that dial real phone numbers carry your voice over the
 
 **App-based options.** Viber Out, Rebtel, Google Voice (for users with a US account) and similar services call Chinese numbers, often at a few cents a minute. If you'll be calling China regularly and for long stretches, and you're happy to install an app and create an account, one of these will usually cost less per minute.
 
-**NomaPhone.** NomaPhone calls Chinese landlines and mobiles straight from your browser, at [[rate:CN:both]], billed per second. There's no app to install and no account to create: you buy prepaid credit ($5, $10 or $20 with Apple Pay, Google Pay or card), get a phone card code that holds your balance, and dial. Credit never expires, and unused credit can be refunded to your original payment method at any time. Calls are capped at 30 minutes each; you can dial again straight away.
-
-At that rate it isn't the bargain option for a long weekly call to family. It makes sense when you need to reach someone in China who isn't on WeChat, or a business that only answers its phone, and you want to do it now from whatever device you have, without signing up for anything. You can see every destination on the [rates page](/rates/).
+**Browser-based services.** Some services let you dial a phone number straight from a browser tab, with no app to install. NomaPhone works this way, but **it can't call China at the moment**: our carrier doesn't currently enable Chinese destinations. If you need to reach a Chinese number today, use an app-based service, your carrier, or a calling card. You can see the destinations NomaPhone does cover on the [rates page](/rates/).
 
 ## WeChat: Useful but Limited
 
@@ -199,11 +196,10 @@ To make it concrete, say you need a 30-minute call with a supplier's mobile phon
 | Carrier pay-per-use | Often $30 - $90+ | Depends heavily on your carrier and plan |
 | Carrier at around $0.25/min | Around $7.50 | Only if your plan includes a rate like this |
 | App-based calling (Viber Out, Rebtel, etc.) | Often under $2 | Needs app and account |
-| NomaPhone | 30 × [[rate:CN:mobile]] | No app or account, billed per second, 30-minute cap per call |
 | Calling card | Often $1 - $5 | Watch connection and maintenance fees |
 | WeChat | Free | Only if they're on WeChat |
 
-If cost per minute is all that matters and you call China often, an app-based service or WeChat wins. If you need to reach a Chinese phone number once or occasionally, from a laptop or a borrowed device, with nothing to install, a browser service is the simpler path. Our guide to [calling landlines vs mobile numbers](/blog/mobile-vs-landline-international-costs/) explains why mobile rates are often higher across countries.
+If cost per minute is all that matters and you call China often, an app-based service or WeChat wins. If you need to reach a Chinese phone number once or occasionally, your carrier or a calling card avoids installing anything. Our guide to [calling landlines vs mobile numbers](/blog/mobile-vs-landline-international-costs/) explains why mobile rates are often higher across countries.
 
 ## Tips for Better Call Quality to China
 
@@ -257,11 +253,11 @@ No. Chinese mobile numbers are 11 digits starting with 1. Dial +86 followed by a
 
 ### Is it cheaper to call a Chinese landline or mobile?
 
-It depends on the provider. Some charge the same for both, others charge more for mobiles because mobile termination costs are often higher. Check landline and mobile rates separately. NomaPhone's China rate is [[rate:CN:both]].
+It depends on the provider. Some charge the same for both, others charge more for mobiles because mobile termination costs are often higher. Check landline and mobile rates separately before a long call.
 
 ### Can the person in China call me back?
 
-Not through NomaPhone. NomaPhone only makes outgoing calls: it doesn't give you a phone number and can't receive calls. If you need a two-way channel, agree on WeChat or email for replies, or use your regular mobile number.
+Not through NomaPhone. Besides not covering China at the moment, NomaPhone only makes outgoing calls: it doesn't give you a phone number and can't receive calls. If you need a two-way channel, agree on WeChat or email for replies, or use your regular mobile number.
 
 ### Will the call work if I'm inside China?
 
@@ -288,10 +284,10 @@ They have their own country codes: Hong Kong is +852, Macau +853 and Taiwan +886
 
 **Blocked for people in mainland China:** WhatsApp, Telegram, Signal, Google services, many foreign VoIP apps
 
-**What works:** Calls to Chinese phone numbers (carrier, calling apps, calling cards, browser calling) and WeChat app-to-app
+**What works:** Calls to Chinese phone numbers (carrier, calling apps, calling cards) and WeChat app-to-app
 
-**Choosing:** WeChat if they have it; an app-based calling service for frequent long calls; a browser service when you need to reach a Chinese phone number with nothing to install.
+**Choosing:** WeChat if they have it; an app-based calling service for frequent long calls; your carrier or a calling card for an occasional call with nothing to install.
 
 ---
 
-Need to reach a Chinese landline or mobile without installing anything? NomaPhone calls China from your browser at [[rate:CN:both]], billed per second, with refundable credit and no account. [Make a call](https://app.nomaphone.com).
+NomaPhone can't call China right now, but it calls landlines and mobiles in [[countries]] other countries from your browser, including Hong Kong and Taiwan, billed per second, with refundable credit and no account. See the [rates page](/rates/) or [make a call](https://app.nomaphone.com).

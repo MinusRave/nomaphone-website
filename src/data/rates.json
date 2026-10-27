@@ -57,12 +57,6 @@
       "mobileCents": 15
     },
     {
-      "country": "CN",
-      "name": "China",
-      "landlineCents": 59,
-      "mobileCents": 59
-    },
-    {
       "country": "CO",
       "name": "Colombia",
       "landlineCents": 15,

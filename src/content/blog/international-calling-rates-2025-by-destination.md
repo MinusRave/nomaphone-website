@@ -164,7 +164,7 @@ Wide variance by country and development level.
 - Landline: $0.01-0.02/minute (very cheap)
 - Mobile: $0.01-0.03/minute
 - Carrier roaming: $2.00-3.00/minute
-- NomaPhone: [[rate:CN:both]]
+- NomaPhone: not available (China isn't on NomaPhone's rate list at the moment)
 
 **Note:** Cheap rates but internet access issues (Great Firewall affects VoIP quality).
 
@@ -470,7 +470,7 @@ If people in one country call you frequently, get a virtual number there from a 
 | Spain Landline | $1.50 | $0.02 | [[rate:ES:landline]] | $0.01 |
 | Italy Landline | $1.50 | $0.02 | [[rate:IT:landline]] | $0.02 |
 | India | $2.00 | $0.02 | [[rate:IN]] | $0.05 |
-| China | $2.00 | $0.02 | [[rate:CN]] | $0.02 |
+| China | $2.00 | $0.02 | Not available | $0.02 |
 | Japan | $2.00 | $0.05 | [[rate:JP]] | $0.03 |
 | Australia | $1.50 | $0.02 | [[rate:AU]] | $0.02 |
 | Brazil | $2.50 | $0.02 | [[rate:BR]] | $0.04 |
@@ -479,7 +479,7 @@ If people in one country call you frequently, get a virtual number there from a 
 | Thailand | $1.50 | $0.04 | [[rate:TH]] | $0.09 |
 | South Korea | $2.00 | $0.04 | [[rate:KR]] | $0.03 |
 
-*Carrier, Skype and Google Voice rates as of 2025, subject to change. NomaPhone rates are current; see the [rates page](/rates/). NomaPhone isn't the cheapest for every destination (China and the Philippines, for example), but there's no app or account, billing is per second, and credit never expires.
+*Carrier, Skype and Google Voice rates as of 2025, subject to change. NomaPhone rates are current; see the [rates page](/rates/). NomaPhone isn't the cheapest for every destination (the Philippines, for example) and can't call China at the moment, but there's no app or account, billing is per second, and credit never expires.
 
 ## The Bottom Line by Destination
 
