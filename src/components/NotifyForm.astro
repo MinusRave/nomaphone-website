@@ -1,0 +1,92 @@
+---
+// Pre-launch email capture. Renders nothing once LAUNCHED is true.
+import { LAUNCHED, WAITLIST_URL } from "@/consts";
+
+interface Props {
+  source: string;
+  note?: string;
+}
+const { source, note = "Real calls open soon. Leave your email and we'll tell you the day you can dial for real." } = Astro.props;
+---
+{!LAUNCHED && (
+  <form class="notify not-prose" data-notify data-source={source} data-url={WAITLIST_URL}>
+    <p class="notify__note">{note}</p>
+    <div class="notify__row">
+      <label class="sr-only" for={`notify-${source}`}>Email</label>
+      <input id={`notify-${source}`} type="email" name="email" required placeholder="you@example.com" autocomplete="email" />
+      <button type="submit">Notify me</button>
+    </div>
+    <p class="notify__msg" role="status" aria-live="polite"></p>
+  </form>
+)}
+
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>("[data-notify]")) {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const input = form.querySelector("input")!;
+      const button = form.querySelector("button")!;
+      const msg = form.querySelector<HTMLElement>(".notify__msg")!;
+      const params = new URLSearchParams(location.search);
+      const utm = Object.fromEntries(
+        ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"].map((k) => [k, params.get(k)]),
+      );
+      button.disabled = true;
+      msg.textContent = "";
+      try {
+        const res = await fetch(form.dataset.url!, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: input.value.trim().toLowerCase(),
+            pageUrl: location.href,
+            path: location.pathname,
+            referrer: document.referrer || null,
+            ...utm,
+            client: {
+              language: navigator.language,
+              timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            },
+            source: form.dataset.source,
+          }),
+        });
+        if (!res.ok) throw new Error(String(res.status));
+        form.classList.add("notify--done");
+        msg.textContent = "You're on the list. We'll email you at launch.";
+      } catch {
+        msg.textContent = "Something went wrong. Please try again.";
+        button.disabled = false;
+      }
+    });
+  }
+</script>
+
+<style>
+  .notify { margin-top: 1.25rem; max-width: 30rem; }
+  .notify__note { font-size: 0.95rem; color: var(--color-text-secondary); margin: 0 0 0.5rem; }
+  .notify__row { display: flex; gap: 0.5rem; }
+  .notify input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.6rem 0.8rem;
+    border: 2px solid var(--color-ink);
+    border-radius: 8px;
+    background: var(--color-paper-2);
+    color: var(--color-ink);
+    font: inherit;
+  }
+  .notify button {
+    padding: 0.6rem 1.1rem;
+    border: 2px solid var(--color-ink);
+    border-radius: 8px;
+    background: var(--color-orange);
+    color: var(--color-ink);
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .notify button:disabled { opacity: 0.6; cursor: default; }
+  .notify__msg { font-size: 0.9rem; margin: 0.4rem 0 0; color: var(--color-green); font-weight: 700; }
+  .notify__msg:empty { display: none; }
+  .notify--done .notify__row, .notify--done .notify__note { display: none; }
+</style>

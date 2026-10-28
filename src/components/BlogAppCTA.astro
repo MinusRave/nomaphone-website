@@ -1,6 +1,7 @@
 ---
 // In-article call to action: points to the calling app.
-import { APP_URL } from "@/consts";
+import { APP_URL, APP_CTA_LABEL } from "@/consts";
+import NotifyForm from "@/components/NotifyForm.astro";
 import { rateText } from "@/lib/rates.mjs";
 
 interface Props {
@@ -21,7 +22,8 @@ const { variant = "end" } = Astro.props;
       Prepaid credit from $5, rate shown before you dial, billed per second. US numbers including toll-free {rateText("US", "landline")}.
       Outgoing calls only: NomaPhone doesn't give you a number or receive SMS.
     </p>
-    <a class="np-cta__btn" href={APP_URL}>Make a call →</a>
+    <a class="np-cta__btn" href={APP_URL}>{APP_CTA_LABEL} →</a>
+    <NotifyForm source={`blog_${variant}`} />
   </div>
 </aside>
 

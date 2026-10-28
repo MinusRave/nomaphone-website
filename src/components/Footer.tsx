@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Mail } from "lucide-react";
-import { APP_URL } from "@/consts";
+import { APP_URL, APP_CTA_LABEL } from "@/consts";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const productLinks = [
-    { href: APP_URL, label: "Make a call" },
+    { href: APP_URL, label: APP_CTA_LABEL },
     { href: "/rates/", label: "Rates" },
     { href: "/#faq", label: "FAQ" },
   ];

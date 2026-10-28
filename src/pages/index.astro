@@ -7,7 +7,8 @@ import BaseHead from "@/components/BaseHead.astro";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer.tsx";
 import RateFor from "@/components/RateFor.astro";
-import { APP_URL } from "@/consts";
+import { APP_URL, APP_CTA_LABEL } from "@/consts";
+import NotifyForm from "@/components/NotifyForm.astro";
 import phoneArt from "@/assets/nomaphone-phone.webp";
 import { getCountry, formatPerMin, COUNTRY_COUNT, RATES_GENERATED_AT } from "@/lib/rates.mjs";
 
@@ -125,9 +126,10 @@ const faqSchema = {
             Drop in prepaid credit, dial, talk.
           </p>
           <div class="hero__ctas">
-            <a class="btn btn--primary" href={APP_URL}>Make a call</a>
+            <a class="btn btn--primary" href={APP_URL}>{APP_CTA_LABEL}</a>
             <a class="btn btn--ghost" href="/rates/">See rates</a>
           </div>
+          <NotifyForm source="site_hero" />
           <ul class="ticks">
             <li>US &amp; Canada <RateFor country="US" type="landline" />, toll-free included</li>
             <li>Billed per second · credit never expires</li>
@@ -221,7 +223,8 @@ const faqSchema = {
           <div>
             <h2>Pick up the handset.</h2>
             <p>Load $5, dial a number, hear it ring. If you don't use the credit, you can get it back.</p>
-            <a class="btn btn--primary" href={APP_URL}>Make a call</a>
+            <a class="btn btn--primary" href={APP_URL}>{APP_CTA_LABEL}</a>
+            <NotifyForm source="site_final" />
           </div>
         </div>
       </section>

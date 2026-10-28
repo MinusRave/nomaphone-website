@@ -2,7 +2,8 @@
 import BaseHead from "@/components/BaseHead.astro";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer.tsx";
-import { APP_URL } from "@/consts";
+import { APP_URL, APP_CTA_LABEL } from "@/consts";
+import NotifyForm from "@/components/NotifyForm.astro";
 import phoneArt from "@/assets/nomaphone-phone.webp";
 import { COUNTRIES, COUNTRY_COUNT, RATES_GENERATED_AT, fromCents, formatPerMin } from "@/lib/rates.mjs";
 
@@ -71,7 +72,8 @@ const rows = COUNTRIES.map((c) => ({
           <li>Credit never expires. Unused credit can be refunded any time, free, to the original payment method.</li>
         </ul>
         <p class="muted">Rates updated {RATES_GENERATED_AT}.</p>
-        <a class="btn" href={APP_URL}>Make a call</a>
+        <a class="btn" href={APP_URL}>{APP_CTA_LABEL}</a>
+        <NotifyForm source="site_rates" />
       </section>
     </main>
     <Footer client:load />
